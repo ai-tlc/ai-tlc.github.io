@@ -1,6 +1,6 @@
 ---
 id: before-you-start
-title: Part 1: Before you start
+title: "Part 1: Before you start"
 sidebar_label: Before you start
 slug: /before-you-start
 ---

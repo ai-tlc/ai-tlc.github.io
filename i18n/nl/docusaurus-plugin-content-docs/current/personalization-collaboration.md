@@ -1,10 +1,9 @@
 ---
-id: personalisatie-en-samenwerking
-title: Deel 3: Personalisatie en samenwerking
+id: personalization-collaboration
+title: "Deel 3: Personalisatie en samenwerking"
 sidebar_label: Personalisatie & samenwerking
-slug: /personalisatie-en-samenwerking
+slug: /personalization-collaboration
 ---
-
 
 ## 3.1 Verdere configuratie {#3-1-configuratie}
 

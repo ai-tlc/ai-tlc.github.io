@@ -1,10 +1,9 @@
 ---
-id: voordat-je-begint
-title: Deel 1: Voordat je begint
+id: before-you-start
+title: "Deel 1: Voordat je begint"
 sidebar_label: Voordat je begint
-slug: /voordat-je-begint
+slug: /before-you-start
 ---
-
 
 > **Gebruikershandleiding voor UvA AI Chat — Versie 1.1 (Gepubliceerd op 2 oktober 2025)**
 
@@ -15,7 +14,7 @@ Deze handleiding is bedoeld als **naslagwerk** over de functies en instellingen 
 Omdat AI zich snel ontwikkelt, wordt deze handleiding **regelmatig bijgewerkt**. De meest recente versie vind je in UvA AI Chat via het **vraagteken‑icoon** linksonder.
 
 
-Vragen? Mail **ai-tlc@uva.nl**.
+Vragen? Mail [**ai-tlc@uva.nl**](mailto:ai-tlc@uva.nl).
 
 
 ---

@@ -1,8 +1,8 @@
 ---
-id: begrippenlijst
+id: glossary
 title: Begrippenlijst
 sidebar_label: Begrippenlijst
-slug: /begrippenlijst
+slug: /glossary
 ---
 
 

@@ -1,4 +1,10 @@
 ---
+id: core-features
+title: "Deel 2: De kernfunctionaliteiten in de praktijk"
+sidebar_label: Kernfunctionaliteiten
+slug: /core-features
+---
+
 ## 2.1 Effectief communiceren: de kunst van het prompten {#2-1-prompten}
 
 
@@ -67,61 +73,4 @@ Upload via de **paperclip**. Bestanden zijn daarna beschikbaar in het **huidige 
 
 
 **Werkproces**
-Geüploade documenten doen niets **zonder** instructie. Combineer upload met een **preciese prompt** (analyseren, samenvatten, vertalen, gericht ophalen).
-
-
-**Praktijkvoorbeeld**
-
-
-1. **Upload** een PDF van 50 pagina’s.
-2. **Prompt:** “Analyseer het geüploade rapport en identificeer secties over duurzaam beleid. Geef kernaanbevelingen in bullets en citeer paginanummers.”
-
-
-**Retrieval‑Augmented Generation (RAG)**
-Het systeem haalt maximaal **10** relevante fragmenten op uit je documenten ter **context**. Dit verhoogt nauwkeurigheid, maar is niet bedoeld om **zeer lange teksten** volledig te samenvatten.
-
-
----
-
-
-## 2.4 Afbeeldingen genereren en analyseren {#2-4-afbeeldingen}
-
-
-UvA AI Chat kan **afbeeldingen genereren** en **geüploade afbeeldingen analyseren** (foto‑icoon). De beeldgenerator is **nog niet betrouwbaar** voor afbeeldingen **met tekst**.
-
-
-**Promptvoorbeeld**
-
-
-- **Te algemeen:** “Genereer een tulp.”
-- **Gedetailleerd:** “Genereer een afbeelding in de stijl van een 19e‑eeuwse botanische illustratie: een tulp met fijne lijn‑details (bloemblaadjes, steel, bladeren); perkament‑achtige achtergrond.”
-
-
-Voor **analyse**: upload en geef aan **wat** geanalyseerd moet worden. Let op: tekst/grafieken/tabellen in afbeeldingen worden niet altijd correct geïnterpreteerd.
-
-
----
-
-
-## 2.5 Artefacten {#2-5-artefacten}
-
-
-**Artefacten** zijn samen bewerkbare vensters (tekst/code/visuals). Je kunt direct **bewerken**, of de AI gericht **instructies** geven; wijzigingen worden als **versies** opgeslagen. Download via het menu rechtsboven.
-
-
----
-
-
-## 2.6 Study Mode {#2-6-study-mode}
-
-
-**Study Mode** maakt van de assistent een **begeleidende tutor**. De AI stelt eerst vragen, geeft hints en wacht op jouw reactie—zo oefen je **redeneren** en voorkom je uitbesteding.
-
-
-**Gebruik**
-
-
-1. **Activeren** (schuifmenu) en **leerdoel** instellen.
-2. **Dialoog:** vraag om kleinere stappen, hints of feedback; vraag om vormen (MC‑vraag, voorbeelden, metaforen).
-3. **Tempo/niveau:** “eenvoudiger taal”, “moeilijker”, “sneller/langzamer”.
 4. **Afronden:** recap of oefenvragen; combineer met **Artefacten** om notities te bewaren.

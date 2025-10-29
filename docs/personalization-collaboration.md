@@ -1,6 +1,6 @@
 ---
 id: personalization-collaboration
-title: Part 3: Personalization and collaboration
+title: "Part 3: Personalization and collaboration"
 sidebar_label: Personalization & collaboration
 slug: /personalization-collaboration
 ---

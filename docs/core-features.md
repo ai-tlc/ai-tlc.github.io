@@ -1,5 +1,13 @@
 ---
-- **Positive:** “Write an accessible introduction of around 200 words for my essay on Italo Calvino, aimed at a first‑year student. Use clear, simple language and define the main concepts.”
+id: core-features
+title: "Part 2: Core Features in practice"
+sidebar_label: Core features
+slug: /core-features
+---
+
+## 2.1 Communicating effectively: the art of prompting {#2-1-prompting}
+
+- **Positive:** "Write an accessible introduction of around 200 words for my essay on Italo Calvino, aimed at a first‑year student. Use clear, simple language and define the main concepts."
 
 
 **Table 1: Examples of positive formulation**

@@ -1,0 +1,18 @@
+{
+  "docs": [
+    "index",
+    {
+      "type": "category",
+      "label": "Handleiding",
+      "collapsed": false,
+      "items": [
+        "before-you-start",
+        "core-features",
+        "personalization-collaboration",
+        "advanced-usage",
+        "faq",
+        "glossary"
+      ]
+    }
+  ]
+}

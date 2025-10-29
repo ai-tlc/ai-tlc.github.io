@@ -13,38 +13,33 @@ public_folder: "/img/uploads"
 
 publish_mode: editorial_workflow
 
-i18n:
-  structure: multiple_folders
-  locales: [en, nl]
-  default_locale: en
-
 collections:
   - name: "docs_en"
     label: "Docs (English)"
-    i18n: true
-    folder: "docs/en"
+    folder: "docs"
     create: false
     format: "frontmatter"
     extension: "md"
     slug: "{{slug}}"
+    filter: {field: "id", value: "index"}
     fields:
-      - { label: "Title", name: "title", widget: "string", i18n: true }
-      - { label: "ID", name: "id", widget: "string", i18n: duplicate }
-      - { label: "Sidebar Label", name: "sidebar_label", widget: "string", required: false, i18n: true }
-      - { label: "Slug", name: "slug", widget: "string", i18n: duplicate }
-      - { label: "Body", name: "body", widget: "markdown", i18n: true }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "ID", name: "id", widget: "string" }
+      - { label: "Sidebar Label", name: "sidebar_label", widget: "string", required: false }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "docs_nl"
     label: "Docs (Nederlands)"
-    i18n: true
-    folder: "docs/nl"
+    folder: "i18n/nl/docusaurus-plugin-content-docs/current"
     create: false
     format: "frontmatter"
     extension: "md"
     slug: "{{slug}}"
+    filter: {field: "id", value: "index"}
     fields:
-      - { label: "Title", name: "title", widget: "string", i18n: true }
-      - { label: "ID", name: "id", widget: "string", i18n: duplicate }
-      - { label: "Sidebar Label", name: "sidebar_label", widget: "string", required: false, i18n: true }
-      - { label: "Slug", name: "slug", widget: "string", i18n: duplicate }
-      - { label: "Body", name: "body", widget: "markdown", i18n: true }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "ID", name: "id", widget: "string" }
+      - { label: "Sidebar Label", name: "sidebar_label", widget: "string", required: false }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }

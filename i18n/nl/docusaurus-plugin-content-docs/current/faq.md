@@ -1,8 +1,8 @@
 ---
-id: veelgestelde-vragen
+id: faq
 title: Veelgestelde Vragen (FAQ)
 sidebar_label: FAQ
-slug: /veelgestelde-vragen
+slug: /faq
 ---
 
 

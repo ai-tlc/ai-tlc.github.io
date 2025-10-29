@@ -1,10 +1,9 @@
 ---
-id: geavanceerd-gebruik
-title: Deel 4: Geavanceerd gebruik en functies
+id: advanced-usage
+title: "Deel 4: Geavanceerd gebruik en functies"
 sidebar_label: Geavanceerd gebruik
-slug: /geavanceerd-gebruik
+slug: /advanced-usage
 ---
-
 
 ## 4.1 De juiste motor kiezen {#4-1-motor}
 
