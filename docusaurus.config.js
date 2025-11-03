@@ -37,8 +37,8 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          showLastUpdateTime: true,
-          showLastUpdateAuthor: true,
+          showLastUpdateTime: false,
+          showLastUpdateAuthor: false,
         },
         blog: false,
         theme: {
@@ -48,9 +48,32 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/',
+            to: '/before-you-start',
+          },
+        ],
+      },
+    ],
+  ],
+
   themeConfig: {
     navbar: {
       title: 'UvA AI Chat Manual',
+      logo: {
+        alt: 'UvA AI Chat Logo',
+        src: 'img/logo.png',
+        href: '/before-you-start',
+        style: {
+          height: '32px',
+          marginRight: '12px',
+        },
+      },
       items: [
         {
           type: 'localeDropdown',

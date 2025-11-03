@@ -2,7 +2,6 @@
 id: before-you-start
 title: "Deel 1: Voordat je begint"
 sidebar_label: Voordat je begint
-slug: /
 ---
 
 > **Gebruikershandleiding voor UvA AI Chat — Versie 1.1 (Gepubliceerd op 2 oktober 2025)**

@@ -1,26 +1,170 @@
+/* Font Face Declarations - Source Sans 3 for body text */
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url('@site/static/fonts/SourceSans3-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url('@site/static/fonts/SourceSans3-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url('@site/static/fonts/SourceSans3-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url('@site/static/fonts/SourceSans3-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url('@site/static/fonts/SourceSans3-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* CSS Variables adapted from globals.css */
 :root {
-  --ifm-color-primary: #0a7ea4;
-  --ifm-color-primary-dark: #096f8f;
-  --ifm-color-primary-darker: #086681;
-  --ifm-color-primary-darkest: #06536a;
-  --ifm-color-primary-light: #0c8db9;
-  --ifm-color-primary-lighter: #0d96c3;
-  --ifm-color-primary-lightest: #0fa9dc;
+  /* Color system using HSL values */
+  --background: 0 0% 100%;
+  --foreground: 20 5.88% 10%;
+  --card: 0 0% 100%;
+  --card-foreground: 20 5.88% 10%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 5.88% 10%;
+  --primary: 344.5 100% 25.9%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 20 5.88% 92%;
+  --secondary-foreground: 20 5.88% 10%;
+  --muted: 20 5.88% 92%;
+  --muted-foreground: 20 5.88% 25%;
+  --accent: 20 5.88% 97%;
+  --accent-foreground: 20 5.88% 10%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 20 5.88% 10%;
+  --radius: 0.5rem;
+
+  --main-menu-background: 20 5.88% 10%;
+  --main-menu-accent: 20 5.88% 20%;
+  --main-menu-active: 345 59% 69%;
+  --main-menu-foreground: 0 0% 100%;
+
+  --menu-background: 60 9.09% 95.69%;
+  --menu-accent: 60 9.09% 90%;
+  --menu-active: 60 9.09% 87.5%;
+  --menu-foreground: 20 5.88% 10%;
+
+  /* Docusaurus compatibility - map to primary color */
+  --ifm-color-primary: hsl(344.5, 100%, 25.9%);
+  --ifm-color-primary-dark: hsl(344.5, 100%, 23%);
+  --ifm-color-primary-darker: hsl(344.5, 100%, 21%);
+  --ifm-color-primary-darkest: hsl(344.5, 100%, 18%);
+  --ifm-color-primary-light: hsl(344.5, 100%, 28%);
+  --ifm-color-primary-lighter: hsl(344.5, 100%, 30%);
+  --ifm-color-primary-lightest: hsl(344.5, 100%, 33%);
+
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Font families */
+  --ifm-font-family-base: 'Source Sans 3', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-family: Georgia, serif;
+
+  /* Background and text colors */
+  --ifm-background-color: hsl(0, 0%, 100%);
+  --ifm-font-color-base: hsl(20, 5.88%, 10%);
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --background: 20 5.88% 10%;
+  --foreground: 210 40% 98%;
+  --card: 20 5.88% 10%;
+  --card-foreground: 210 40% 98%;
+  --popover: 20 5.88% 10%;
+  --popover-foreground: 210 40% 98%;
+  --primary: 345 59% 69%;
+  --primary-foreground: 20 5.88% 10%;
+  --secondary: 20 5.88% 20%;
+  --secondary-foreground: 210 40% 98%;
+  --muted: 20 5.88% 20%;
+  --muted-foreground: 0 0% 80.8%;
+  --accent: 20 5.88% 12.5%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 20 5.88% 20%;
+  --input: 20 5.88% 20%;
+  --ring: 212.7 26.8% 83.9;
+
+  --main-menu-background: 20 5.88% 10%;
+  --main-menu-accent: 20 5.88% 20%;
+  --main-menu-active: 345 59% 69%;
+  --main-menu-foreground: 0 0% 100%;
+
+  --menu-background: 20 5.88% 15%;
+  --menu-accent: 20 5.88% 20%;
+  --menu-active: 20 5.88% 25%;
+  --menu-foreground: 210 40% 98%;
+
+  /* Docusaurus dark mode compatibility */
+  --ifm-color-primary: hsl(345, 59%, 69%);
+  --ifm-color-primary-dark: hsl(345, 59%, 62%);
+  --ifm-color-primary-darker: hsl(345, 59%, 58%);
+  --ifm-color-primary-darkest: hsl(345, 59%, 50%);
+  --ifm-color-primary-light: hsl(345, 59%, 76%);
+  --ifm-color-primary-lighter: hsl(345, 59%, 80%);
+  --ifm-color-primary-lightest: hsl(345, 59%, 88%);
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+
+  --ifm-background-color: hsl(20, 5.88%, 10%);
+  --ifm-font-color-base: hsl(210, 40%, 98%);
 }
 
+/* Apply fonts to body */
+body {
+  font-family: var(--ifm-font-family-base);
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+/* h1, h2, h3 use Georgia, not bold */
+h1, h2, h3 {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: normal;
+}
+
+/* h4-h6 use the body font (Source Sans 3) */
+h4, h5, h6 {
+  font-family: var(--ifm-font-family-base);
+}
+
+/* Navbar title uses Georgia, not bold */
+.navbar__title {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: normal;
+}
+
+/* Docusaurus-specific styling */
 .table-of-contents {
   font-size: 0.875rem;
 }
@@ -31,4 +175,88 @@ article h2 {
 
 article h3 {
   margin-top: 1.5rem;
+}
+
+/* Navbar logo styling */
+.navbar__logo {
+  height: 32px;
+  margin-right: 0.75rem;
+}
+
+.navbar__brand {
+  display: flex;
+  align-items: center;
+}
+
+/* Sidebar styling with custom colors */
+.theme-doc-sidebar-container {
+  background-color: hsl(var(--menu-background));
+  border-right: 1px solid hsl(var(--border));
+}
+
+.menu__link {
+  color: hsl(var(--menu-foreground));
+}
+
+.menu__link:hover {
+  background-color: hsl(var(--menu-accent));
+}
+
+.menu__link--active {
+  background-color: hsl(var(--menu-active));
+  color: hsl(var(--menu-foreground));
+}
+
+/* Main content area */
+.main-wrapper {
+  background-color: hsl(var(--background));
+}
+
+/* Cards and content blocks */
+.card {
+  background-color: hsl(var(--card));
+  color: hsl(var(--card-foreground));
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+}
+
+/* Links */
+a {
+  color: hsl(var(--primary));
+}
+
+a:hover {
+  color: hsl(var(--primary));
+  opacity: 0.8;
+}
+
+/* Buttons */
+.button {
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  border-radius: var(--radius);
+}
+
+.button:hover {
+  background-color: hsl(var(--primary));
+  opacity: 0.9;
+}
+
+/* Footer styling - same font as body text (Source Sans 3), bold, black */
+.footer {
+  font-family: var(--ifm-font-family-base);
+  font-weight: 700;
+  color: #000000;
+  background-color: #000000;
+}
+
+.footer__copyright {
+  font-family: var(--ifm-font-family-base);
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* Hide last updated info */
+.theme-last-updated {
+  display: none;
 }
