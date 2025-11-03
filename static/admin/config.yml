@@ -21,12 +21,11 @@ collections:
     format: "frontmatter"
     extension: "md"
     slug: "{{slug}}"
-    filter: {field: "id", value: "index"}
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "ID", name: "id", widget: "string" }
       - { label: "Sidebar Label", name: "sidebar_label", widget: "string", required: false }
-      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "docs_nl"
@@ -36,10 +35,9 @@ collections:
     format: "frontmatter"
     extension: "md"
     slug: "{{slug}}"
-    filter: {field: "id", value: "index"}
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "ID", name: "id", widget: "string" }
       - { label: "Sidebar Label", name: "sidebar_label", widget: "string", required: false }
-      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
