@@ -1,10 +1,10 @@
-site_url: https://YOUR-ORG.github.io/aichat-manual
+site_url: "https://ai-tlc.github.io"
 
 backend:
   name: github
-  repo: YOUR-ORG/aichat-manual
+  repo: ai-tlc/ai-tlc.github.io
   branch: main
-  base_url: https://decap.YOUR-DOMAIN.com
+  base_url: https://decap-oauth-proxy.ai-tlc.workers.dev
 
 local_backend: true
 
