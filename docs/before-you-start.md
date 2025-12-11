@@ -13,6 +13,8 @@ Test test test.
 
 For questions about this guide and UvA AI Chat, contact **ai-tlc@uva.nl**.
 
+Hi my name is Bjarne!
+
 - - -
 
 ## 1.1 Responsible use {#1-1-responsible-use}
