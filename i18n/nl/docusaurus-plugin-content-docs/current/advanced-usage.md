@@ -5,37 +5,46 @@ sidebar_label: Geavanceerd gebruik
 slug: /advanced-usage
 ---
 
-## 4.1 De juiste motor kiezen {#4-1-motor}
+## 4.1 De juiste motor kiezen
 
+UvA AI Chat biedt toegang tot verschillende geavanceerde AI-modellen (Large Language Models). Het standaardmodel, GPT-4o, is een uitstekende allrounder en werkt goed voor veel taken, maar voor specifieke taken kan een ander model betere resultaten opleveren. Voor simpelere taken kan het beter zijn om een kleiner en efficiënter model te kiezen dat minder energie verbruikt.
 
-UvA AI Chat biedt meerdere **AI‑modellen**. **GPT‑4o** is een sterke allrounder; andere modellen kunnen beter passen (kleinere modellen besparen **energie**). Experimenteer voor terugkerende taken.
+De onderstaande tabel dient als een snelle referentie om je te helpen het meest geschikte AI-model voor jouw taak te kiezen. Om uit te vinden welk model het beste werkt voor jouw specifieke taak zul je zelf moeten experimenteren met de verschillende modellen. Dit kan belangrijk zijn als je een bepaalde specifieke taak hebt die je vaker wilt uitvoeren.
 
+### Tabel 2: Vergelijking van beschikbare AI-modellen
 
-**Tabel 2: Vergelijking van beschikbare AI‑modellen**
-
-
-| Model | General Use Cases | Knowledge Cutoff | Energy/Cost (relatief) | Type | Context Window (Input) | Context Window (Output) |
-|---|---|---:|---|---|---:|---:|
-| gpt‑5 | Complexe concepten; geavanceerde code; academische artikelen interpreteren | 2024‑09‑30 | Hoog | Advanced reasoning | 272K | 128K |
-| gpt‑5‑mini | Conceptverduidelijking; brainstorm; studieplanning | 2024‑05‑31 | Midden | Efficient reasoning | 272K | 128K |
-| gpt‑5‑nano | Snel definities; fact‑checking; basisuitleg | 2024‑05‑31 | Laag | Lightweight reasoning | 272K | 128K |
-| GPT‑4o | Diagrammen/charts analyseren; visuele interpretatie | 2024‑11‑20 | Hoog | Multimodaal | 128K | 16K |
-| GPT‑4.1 | Taal algemeen; hoge input; agentic planning | 2025‑04‑14 | Hoog | Advanced language | 1M | 100K |
-| Llama‑3.3‑70B‑Instruct‑AWQ | Open source; lokaal; lange context | 2023‑12‑01 | Midden | Open‑source model | 128K | 8K |
-
+| Model | General Use Cases | Knowledge Cutoff | Energy / Cost (relative) | Type | Context Window Input | Context Window Output |
+| :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| gpt-5 | Explaining complex concepts, advanced coding projects, interpreting academic papers | 30-09-2024 | High | Advanced reasoning model | 272 K | 128 K |
+| gpt-5-mini | moderate concept clarification, brainstorming ideas, study planning, understanding course material | 31-05-2024 | Medium | Efficient reasoning model | 272 K | 128 K |
+| gpt-5-nano | Quick definitions, fact-checking, basic explanations, vocabulary help, concept reviews | 31-05-2024 | Low | Lightweight reasoning model | 272 K | 128 K |
+| GPT-4o | Analyzing diagrams/charts visual content interpretation, presentation feedback | 20-11-2024 | High | Multimodal model | 128 K | 16 K |
+| GPT-4.1 | General, language, high input, creative tasks, agentic planning | 14-04-2025 | High | Advanced language model | 1 M | 100 K |
+| Llama-3.3-70B-Instruct-AWQ | Open source, local deployment, long context | 01-12-2023 | Medium | Open source language model | 128 K | 8 K |
 
 ---
 
+## 4.2 Functionaliteit uitbreiden met Extensies
 
-## 4.2 Functionaliteit uitbreiden met Extensies {#4-2-extensies}
+Extensies zijn bedoeld voor technisch onderlegde gebruikers die bekend zijn met API's. Ze functioneren als extra hulpmiddelen die de AI kan gebruiken om taken buiten de chatomgeving uit te voeren, zoals het ophalen van informatie uit externe databases of het uitvoeren van acties in andere software.
 
+### Hoe het werkt
 
-**Extensies** laten UvA AI Chat via **API’s** externe systemen bevragen of acties uitvoeren (voor technisch onderlegde gebruikers).
+Extensies zijn krachtige hulpmiddelen die UvA AI Chat meer mogelijkheden geven door de AI in staat te stellen API-aanroepen te doen naar interne of externe systemen. Ze fungeren als extra tools die de AI in staat stellen om taken buiten de chatomgeving uit te voeren, zoals het ophalen van informatie uit een database, het uitvoeren van acties in andere software (zoals het toevoegen van een item aan een to-do-lijst), of het verzenden en ontvangen van gegevens. Deze hulpmiddelen zijn bedoeld voor technisch onderlegde gebruikers die bekend zijn met API's, aangezien onjuist gebruik onbedoelde acties in externe systemen kan veroorzaken.
 
+Het proces omvat het definiëren van de details en functies van de extensie, en maakt gebruik van de API-structuur die wordt beschreven in de officiële OpenAI-documentatie (via openai.com). De aanmaakinterface wordt getoond in de bijgeleverde afbeelding.
 
-**Aanmaken**: naam, korte & uitgebreide beschrijving, **headers** (bv. `Content-Type: application/json`; veilig in Azure Key Vault), **functions** (GET/POST/PUT), **Submit**.
+Om je eigen extensie toe te voegen, klik je op "Add extension" (Extensie toevoegen):
 
+- **Name (Naam):** Geef je extensie een naam in het veld "Name of your Extension".
+- **Short description (Korte beschrijving):** Schrijf een korte beschrijving van de extensie.
+- **Detail description (Uitgebreide beschrijving):** Geef een meer gedetailleerde uitleg over de specialiteiten en de stappen die nodig zijn om de extensie uit te voeren.
+- **Headers:** Definieer de benodigde headers voor de API-aanroepen. Een standaard "Content-Type" header met de waarde "application/json" wordt weergegeven. Je kunt meer headers toevoegen door op "Add Header" (Header toevoegen) te klikken. Het platform ondersteunt ook het beveiligen van headerwaarden die zijn opgeslagen in Azure Key Vault.
+- **Functions (Functies):** Voeg de specifieke functies toe die de extensie zal uitvoeren door op "Add Function" (Functie toevoegen) te klikken. Deze functies kunnen verschillende API-verzoeken ondersteunen, waaronder GET, POST en PUT, waardoor de extensie zowel gegevens kan ophalen als acties kan activeren.
+- **Submit (Verzenden):** Zodra alle details zijn ingevuld, klik je op de knop "Submit" om de aanmaak van je extensie te voltooien.
 
-**Voorbeeld**
-Koppel de **UvA‑bibliotheekcatalogus API** en prompt:
-“Use the library extension to find the five most recent publications by author ‘Adriaan van Dis’. Provide APA citations and direct catalog links.”
+### Praktisch voorbeeld van het gebruik van een extensie
+
+Een onderzoeker configureert een extensie die communiceert met de UvA-bibliotheekcatalogus API. Nu kunnen ze een prompt gebruiken zoals:
+
+> "Use the library extension to find the five most recent publications by author 'Adriaan van Dis'. Provide the full APA citations for each publication and a direct link to each in the catalog."
