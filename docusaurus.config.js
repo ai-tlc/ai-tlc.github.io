@@ -83,7 +83,7 @@ const config = {
     },
     footer: {
       style: 'dark',
-      copyright: `UvA AI Chat Manual`,
+      copyright: `UvA AI Chat Manual   |   <a href="https://tlc.uva.nl/en/article-category/teaching-and-ai/?faculty=55" target="_blank" rel="noopener noreferrer">tlc.uva.nl/ai</a>`,
     },
     colorMode: {
       defaultMode: 'light',

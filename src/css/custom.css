@@ -256,6 +256,15 @@ a:hover {
   color: #ffffff;
 }
 
+.footer__copyright a {
+  color: #ffffff;
+}
+
+.footer__copyright a:hover {
+  color: #ffffff;
+  opacity: 0.8;
+}
+
 /* Hide last updated info */
 .theme-last-updated {
   display: none;
