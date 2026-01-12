@@ -1,6 +1,6 @@
 ---
-id: personalization-collaboration
 title: "Part 3: Personalization and collaboration"
+id: personalization-collaboration
 sidebar_label: Personalization & collaboration
 slug: /personalization-collaboration
 ---
@@ -76,7 +76,7 @@ To create a group, click the "Add Group" button. Fill in the following textboxes
 - **Start and End Dates:** Choose a start date and an end date for the group using the date pickers.
 - **Save:** Click the "Save" button to finalize the creation of the group.
 
-By creating a group, you can share specific chats, personas, or prompts. You control whether added members can only use the personas ('Members') or also edit them ('Owners'). As a teacher, for example, you might add students as members so they can use a specific persona you've created. You can also set a start and end date for the group if needed.
+By creating a group, you can share specific chats, personas, or prompts. You control whether added members can only use the personas ('Members') or also edit them ('Owners'). As a teacher, for example, you might add students as members so they can use a specific persona you've created. You can also set a start and end date for the group if needed. Good to know: as owner of the group, you can hide member visibility from others by toggling "hide members from each other" in the options menu
 
 ---
 
