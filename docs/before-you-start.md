@@ -4,7 +4,7 @@ id: before-you-start
 sidebar_label: Before you start
 slug: /before-you-start
 ---
-<img src="static/img/uploads/chatgpt-image-12-jan-2026-11_29_00.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+<img src="/img/uploads/chatgpt-image-12-jan-2026-11_29_00.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 ## About this manual
 
