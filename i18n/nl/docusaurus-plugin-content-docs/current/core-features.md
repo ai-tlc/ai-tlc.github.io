@@ -1,10 +1,9 @@
 ---
-id: core-features
 title: "Deel 2: De kernfunctionaliteiten in de praktijk"
+id: core-features
 sidebar_label: Kernfunctionaliteiten
 slug: /core-features
 ---
-
 ## 2.1 Effectief communiceren: de kunst van het prompten
 
 De belangrijkste vaardigheid voor het succesvol gebruiken van UvA AI Chat is het schrijven van effectieve prompts. De kwaliteit van de output die je van de AI ontvangt, is direct afhankelijk van de kwaliteit van de instructies die je geeft.
@@ -27,23 +26,23 @@ Een belangrijk aandachtspunt is om instructies positief te formuleren. Vermijd u
 
 ### Praktijkvoorbeeld van positief formuleren
 
-- **Negatief:** "Schrijf een inleiding voor mijn essay, maar gebruik geen jargon en maak het niet langer dan 200 woorden."
-- **Positief:** "Schrijf een toegankelijke inleiding van ongeveer 200 woorden voor mijn essay over Italo Calvino, gericht op een eerstejaarsstudent. Gebruik heldere, eenvoudige taal en definieer de belangrijkste concepten."
+* **Negatief:** "Schrijf een inleiding voor mijn essay, maar gebruik geen jargon en maak het niet langer dan 200 woorden."
+* **Positief:** "Schrijf een toegankelijke inleiding van ongeveer 200 woorden voor mijn essay over Italo Calvino, gericht op een eerstejaarsstudent. Gebruik heldere, eenvoudige taal en definieer de belangrijkste concepten."
 
----
+- - -
 
 ### Tabel 1: Voorbeelden van effectieve prompts
 
 De onderstaande tabel illustreert het verschil tussen een wat vage prompt en een specifieke, goed gestructureerde prompt voor diverse academische taken.
 
-| Taak | Ineffectieve Prompt | Effectieve Prompt |
-| :-- | :-- | :-- |
-| E-mail opstellen | "Schrijf een e-mail naar mijn professor." | "Context: Ik moet mijn professor, Dr. Jansen, mailen over een deadlineverlenging voor mijn paper over de Tachtigjarige Oorlog. Instructie: Stel een formele en respectvolle e-mail op waarin ik om twee dagen uitstel vraag. Criteria: Vermeld dat de reden onvoorziene persoonlijke omstandigheden zijn (zonder in detail te treden) en stel een nieuwe inleverdatum voor." |
-| Tekst samenvatten | "Vat dit document samen." | "Context: Het geüploade document is een wetenschappelijk artikel over de impact van AI op de arbeidsmarkt. Instructie: Genereer een samenvatting in bullet points. Criteria: Focus op de onderzoeksmethodologie, de belangrijkste bevindingen en de conclusies van de auteurs. De samenvatting moet in het Nederlands zijn en maximaal 250 woorden tellen." |
-| Brainstormen | "Geef me ideeën voor een betoog." | "Context: Ik ben een onderzoeker in sociologie en ik wil een betoog schrijven binnen het thema sociale ongelijkheid. Instructie: Genereer vijf concrete standpunten waar ik een betoog over kan schrijven. Criteria: Elke standpunt moet origineel zijn, empirisch gegrond zijn, en relevant zijn voor de hedendaagse Nederlandse samenleving." |
-| Feedback vragen | "Controleer mijn tekst." | "Context: Het bijgevoegde bestand is het concept voor de inleiding van mijn onderzoeksvoorstel. De doelgroep is onderzoekers in mijn onderzoeksgebied. Instructie: Geef constructieve feedback op de tekst. Criteria: Analyseer de tekst op drie punten: 1) de helderheid van de probleemstelling, 2) de logische opbouw van de argumentatie, en 3) de academische schrijfstijl. Geef concrete voorbeelden uit de tekst en doe suggesties voor verbetering." |
+| Taak              | Ineffectieve Prompt                       | Effectieve Prompt                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ----------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| E-mail opstellen  | "Schrijf een e-mail naar mijn professor." | "Context: Ik moet mijn professor, Dr. Jansen, mailen over een deadlineverlenging voor mijn paper over de Tachtigjarige Oorlog. Instructie: Stel een formele en respectvolle e-mail op waarin ik om twee dagen uitstel vraag. Criteria: Vermeld dat de reden onvoorziene persoonlijke omstandigheden zijn (zonder in detail te treden) en stel een nieuwe inleverdatum voor."                                                                                 |
+| Tekst samenvatten | "Vat dit document samen."                 | "Context: Het geüploade document is een wetenschappelijk artikel over de impact van AI op de arbeidsmarkt. Instructie: Genereer een samenvatting in bullet points. Criteria: Focus op de onderzoeksmethodologie, de belangrijkste bevindingen en de conclusies van de auteurs. De samenvatting moet in het Nederlands zijn en maximaal 250 woorden tellen."                                                                                                  |
+| Brainstormen      | "Geef me ideeën voor een betoog."         | "Context: Ik ben een onderzoeker in sociologie en ik wil een betoog schrijven binnen het thema sociale ongelijkheid. Instructie: Genereer vijf concrete standpunten waar ik een betoog over kan schrijven. Criteria: Elke standpunt moet origineel zijn, empirisch gegrond zijn, en relevant zijn voor de hedendaagse Nederlandse samenleving."                                                                                                              |
+| Feedback vragen   | "Controleer mijn tekst."                  | "Context: Het bijgevoegde bestand is het concept voor de inleiding van mijn onderzoeksvoorstel. De doelgroep is onderzoekers in mijn onderzoeksgebied. Instructie: Geef constructieve feedback op de tekst. Criteria: Analyseer de tekst op drie punten: 1) de helderheid van de probleemstelling, 2) de logische opbouw van de argumentatie, en 3) de academische schrijfstijl. Geef concrete voorbeelden uit de tekst en doe suggesties voor verbetering." |
 
----
+- - -
 
 ## 2.2 My prompts: jouw verzameling instructies
 
@@ -73,7 +72,7 @@ Wil je een eerder opgeslagen prompts snel hergebruiken? Klik dan onder in het te
 
 UvA AI Chat heeft een 'knowledge cutoff'; de kennis is niet actueel. Om de AI met recente, online informatie te laten werken, kun je de internetzoekfunctie inschakelen. Klik hiervoor in een chatvenster rechtsboven op het 'zakmes'-icoon en vink 'Internet Search' aan. Nadat je de functie hebt geactiveerd, is het belangrijk dat je in je opdracht vermeldt dat de AI het internet moet gebruiken. Begin je vraag bijvoorbeeld met: "Zoek op het internet naar...". Houd er rekening mee dat deze functionaliteit nog in ontwikkeling is en niet altijd feilloos werkt.
 
----
+- - -
 
 ## 2.3 Documenten als kennisbron: uploaden en analyseren
 
@@ -106,7 +105,7 @@ Met deze aanpak bespaart de onderzoeker tijd en ontvangt ze een specifieke, geri
 
 De technologie waarmee het uploaden en analyseren van documenten werkt, wordt Retrieval-Augmented Generation (RAG) genoemd. Dit werkt door de output van het taalmodel te verrijken met informatie die is opgehaald uit de documenten die je hebt geüpload. Wanneer je een prompt indient, vergelijkt het systeem eerst je vraag met je documenten en haalt vervolgens de stukjes informatie uit je documenten die relevant lijken voor je prompt. Het kan maximaal 10 stukjes informatie meenemen. Deze fragmenten worden vervolgens aan je prompt toegevoegd als context en verwerkt door het taalmodel (LLM) om een nauwkeuriger en beter onderbouwd antwoord te genereren. Dit is enorm krachtig, omdat het de AI in staat stelt haar antwoord te baseren op specifieke, contextuele informatie die jij hebt gekozen. Het heeft echter ook beperkingen; het is bijvoorbeeld niet ontworpen om zeer grote teksten samen te vatten (het kan slechts 10 fragmenten verwerken).
 
----
+- - -
 
 ## 2.4 Afbeeldingen genereren en analyseren
 
@@ -118,16 +117,14 @@ Om een afbeelding te genereren, vraag je simpelweg in het tekstvak van de UvA AI
 
 In plaats van een vraag zoals "maak een afbeelding van een bloem", kun je een veel beter resultaat krijgen met een gedetailleerde prompt.
 
-- **Te algemene prompt:** "Genereer een tulp."
-- **Gedetailleerde prompt:** "Genereer een afbeelding in de stijl van een botanische illustratie uit de 19e eeuw. De afbeelding moet een tulp tonen met duidelijke, fijne lijntjes die de details van de bloemblaadjes, de steel en de bladeren accentueren. De achtergrond moet lijken op perkament met een lichte textuur."
+* **Te algemene prompt:** "Genereer een tulp."
+* **Gedetailleerde prompt:** "Genereer een afbeelding in de stijl van een botanische illustratie uit de 19e eeuw. De afbeelding moet een tulp tonen met duidelijke, fijne lijntjes die de details van de bloemblaadjes, de steel en de bladeren accentueren. De achtergrond moet lijken op perkament met een lichte textuur."
 
 ### Afbeeldingen analyseren
 
-Gebruik het foto-icoon rechtsonder in het tekstvak om afbeeldingen toe te voegen. Na uploaden kan de AI een afbeelding beschrijven en de inhoud interpreteren. Zorg er wel voor dat je er een prompt bij voegt met een goede beschrijving van wat je wilt dat de AI analyseert.
+Gebruik het foto-icoon rechtsonder in het tekstvak om afbeeldingen toe te voegen. Na uploaden kan de AI een afbeelding beschrijven en de inhoud interpreteren. Zorg er wel voor dat je er een prompt bij voegt met een goede beschrijving van wat je wilt dat de AI analyseert. Let op: De AI kan tekst, grafieken of tabellen in een afbeelding niet altijd goed interpreteren. Naast het uploaden van afbeeldingen via het paperclip-icoon kun je nu ook afbeeldingen rechtstreeks in de chat plakken. Kopieer eenvoudig een afbeelding van je computer of van een webpagina en plak deze in het tekstveld van UvA AI Chat. De afbeelding wordt automatisch geüpload en is direct klaar voor analyse.
 
-Let op: De AI kan tekst, grafieken of tabellen in een afbeelding niet altijd goed interpreteren.
-
----
+- - -
 
 ## 2.5 Artefacten
 
@@ -136,16 +133,12 @@ De functie 'Artefacten' in UvA AI Chat is een krachtige tool die is ontworpen om
 ### Hoe gebruik je artefacten
 
 1. **Activeer de functie:** Om te beginnen moet u de functie 'Artifact Creation' selecteren binnen de UvA AI Chat-interface (klik op het schuifmenu). Hiermee geeft u aan de AI aan dat u een output zoekt in een apart venster voor verdere bewerking.
-
 2. **Geef een duidelijke opdracht:** Typ in het chatvenster een opdracht die het onderwerp en het type artefact dat je nodig hebt duidelijk definieert. Je zou de AI bijvoorbeeld kunnen vragen: "Maak een artefact waarin de Keynesiaanse en Neoklassieke economische theorieën worden vergeleken."
-
 3. **Bekijk de gegenereerde output:** De AI produceert vervolgens een artefact op basis van je verzoek. In het voorbeeld van de economische theorieën zou de output een overzicht kunnen zijn van de belangrijkste principes, aannames en politieke implicaties.
-
 4. **Werk samen aan revisies:** Het platform stelt je in staat om het artefact gezamenlijk te verfijnen. Je kunt direct bewerkingen uitvoeren in het speciale tekst- of codevenster, of je kunt de AI verdere instructies geven in de chat om een specifiek gedeelte van het artefact te wijzigen of uit te breiden. Je kunt ook stukken tekst of code selecteren en de AI vragen die aan te passen.
-
 5. **Sla je werk op:** Zorg ervoor dat als je het artefact handmatig bewerkt, je het eerst opslaat voordat je de AI vraagt om verder te bewerken. Dit doe je door op het 'opslaan'-icoon rechtsboven in het artefact te klikken. Wanneer je de AI vraagt om het artefact te bewerken, wordt er automatisch een nieuwe versie opgeslagen. Eerdere versies worden ook bewaard, zodat je wijzigingen kunt volgen en eerdere versies opnieuw kunt bekijken indien nodig door op de pijlen linksboven in het artefact te klikken. Het voltooide artefact kan vervolgens worden gedownload voor gebruik in je onderzoekspaper, presentatie of andere academische projecten. Doe dit door rechtsbovenin te klikken op het pijltje naar beneden en "Download as" te selecteren.
 
----
+- - -
 
 ## 2.6 Study Mode
 
@@ -154,11 +147,9 @@ De functie 'Artefacten' in UvA AI Chat is een krachtige tool die is ontworpen om
 ### Hoe gebruik je Study Mode
 
 1. **Activeren en leerdoel bepalen:** Open het schuifmenu in het tekstvak van UvA AI Chat en zet Study Mode aan. Uitzetten doe je door op het kruisje naast Study te klikken. Geef daarna een leerdoel door te specificeren waar je over wilt leren en benoem wat je al weet. Voorbeelden:
-   - "Ik bereid een seminar voor over de Franse Revolutie en specifiek de bestorming van de Bastille. Help me de oorzaken en interpretaties van de oorzaak te begrijpen."
-   - "Ik bereid me voor op een tentamen onderzoeksvaardigheden en wil begrijpen hoe ik twee groepen kan vergelijken met statistiek. Leg uit welke methoden geschikt zijn, zoals de t-toets, en wanneer je beter een andere toets gebruikt."
 
+   * "Ik bereid een seminar voor over de Franse Revolutie en specifiek de bestorming van de Bastille. Help me de oorzaken en interpretaties van de oorzaak te begrijpen."
+   * "Ik bereid me voor op een tentamen onderzoeksvaardigheden en wil begrijpen hoe ik twee groepen kan vergelijken met statistiek. Leg uit welke methoden geschikt zijn, zoals de t-toets, en wanneer je beter een andere toets gebruikt."
 2. **Werken in dialoog:** De AI stelt open vragen en wacht op jouw antwoord. Je kunt aangeven hoe je begeleid wilt worden: om kleinere stappen vragen, om hints in plaats van antwoorden, of om feedback op je redenering. Ook kun je vragen om specifieke vormen, zoals een multiplechoicevraag, een concreet voorbeeld of metaforen.
-
 3. **Tempo en niveau aanpassen:** Stuur bij waar nodig: "gebruik eenvoudiger taal", "maak het moeilijker", of "ga sneller/langzamer". De AI past zijn vragen en voorbeelden hierop aan.
-
 4. **Afronden en vastleggen:** Om wat je hebt geleerd te versterken, sluit af met een recap of oefenmateriaal. Voorbeelden: "Vat samen in vijf bulletpoints de belangrijkste punten van dit gesprek" of "Geef drie oefenvragen met korte oplossingen." Wil je het resultaat bewaren of verder uitwerken, combineer Study Mode dan met Artefacten. Zo kun je notities, tabellen of conceptteksten in een apart venster bewerken en later terughalen.
