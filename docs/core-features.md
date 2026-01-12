@@ -1,10 +1,9 @@
 ---
-id: core-features
 title: "Part 2: Core Features in practice"
+id: core-features
 sidebar_label: Core features
 slug: /core-features
 ---
-
 ## 2.1 Communicating effectively: the art of prompting
 
 The most important skill for making the best use of UvA AI Chat is writing effective prompts. The quality of the output you receive from the AI is directly tied to the quality of the instructions you provide.
@@ -27,23 +26,23 @@ A key tip is to phrase instructions positively. Avoid exclusions (like "don't us
 
 ### Practical example of positive formulation
 
-- **Negative:** "Write an introduction for my essay, but don't use jargon and don't make it longer than 200 words."
-- **Positive:** "Write an accessible introduction of around 200 words for my essay on Italo Calvino, aimed at a first-year student. Use clear, simple language and define the main concepts."
+* **Negative:** "Write an introduction for my essay, but don't use jargon and don't make it longer than 200 words."
+* **Positive:** "Write an accessible introduction of around 200 words for my essay on Italo Calvino, aimed at a first-year student. Use clear, simple language and define the main concepts."
 
----
+- - -
 
 ### Table 1: Examples of positive formulation
 
 The table below illustrates the difference between a vague prompt and a specific, well-structured prompt for various academic tasks.
 
-| Task | Ineffective Prompt | Effective Prompt |
-| :-- | :-- | :-- |
-| Writing an email | "Write an email to my professor" | "Context: I need to email my professor, Dr. Jansen, about an extension for my paper on the Eighty Years' War. Instruction: Draft a formal and respectful email in which I request a two-day extension. Criteria: Mention that the reason is unforeseen personal circumstances (without going into detail) and suggest a new submission date." |
-| Summarizing text | "Summarize this document" | "Context: The uploaded document is a scientific article about the impact of AI on the labor market. Instruction: Generate a summary in bullet points. Criteria: Focus on the research methodology, main findings, and the authors' conclusions. The summary should be in Dutch and no longer than 250 words." |
-| Brainstorming | "Give me ideas for an argument" | "Context: I am a sociology researcher and want to write an essay within the theme of social inequality. Instruction: Generate five concrete standpoints I could write an essay about. Criteria: Each standpoint should be original, empirically grounded, and relevant to contemporary Dutch society." |
-| Requesting feedback | "Check my text" | "Context: The attached file is the draft introduction of my research proposal. The audience is researchers in my field. Instruction: Provide constructive feedback on the text. Criteria: Analyze the text on three points: 1) clarity of the problem statement, 2) logical structure of the argument, and 3) academic writing style. Give concrete examples from the text and suggest specific improvements." |
+| Task                | Ineffective Prompt               | Effective Prompt                                                                                                                                                                                                                                                                                                                                                                                               |
+| ------------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Writing an email    | "Write an email to my professor" | "Context: I need to email my professor, Dr. Jansen, about an extension for my paper on the Eighty Years' War. Instruction: Draft a formal and respectful email in which I request a two-day extension. Criteria: Mention that the reason is unforeseen personal circumstances (without going into detail) and suggest a new submission date."                                                                  |
+| Summarizing text    | "Summarize this document"        | "Context: The uploaded document is a scientific article about the impact of AI on the labor market. Instruction: Generate a summary in bullet points. Criteria: Focus on the research methodology, main findings, and the authors' conclusions. The summary should be in Dutch and no longer than 250 words."                                                                                                  |
+| Brainstorming       | "Give me ideas for an argument"  | "Context: I am a sociology researcher and want to write an essay within the theme of social inequality. Instruction: Generate five concrete standpoints I could write an essay about. Criteria: Each standpoint should be original, empirically grounded, and relevant to contemporary Dutch society."                                                                                                         |
+| Requesting feedback | "Check my text"                  | "Context: The attached file is the draft introduction of my research proposal. The audience is researchers in my field. Instruction: Provide constructive feedback on the text. Criteria: Analyze the text on three points: 1) clarity of the problem statement, 2) logical structure of the argument, and 3) academic writing style. Give concrete examples from the text and suggest specific improvements." |
 
----
+- - -
 
 ## 2.2 "My prompts": Your personal collection of instructions
 
@@ -73,7 +72,7 @@ Want to quickly reuse a previously saved prompt? Just click the book icon at the
 
 UvA AI Chat has a 'knowledge cutoff'; its knowledge is not up-to-date. To have the AI work with recent, online information, you can enable the internet search function. To do this, click on the 'swiss army knife' icon in the top right of a chat window and check 'Internet Search'. After you have activated the function, it is important that you state in your prompt that the AI should use the internet. For example, start your question with: "Search the internet for...". Please keep in mind that this functionality is still in development and does not always work flawlessly.
 
----
+- - -
 
 ## 2.3 Uploading and analyzing documents
 
@@ -106,7 +105,7 @@ With this approach, the researcher saves time and receives a focused, actionable
 
 The technology by which uploading and analyzing documents functions is called Retrieval-Augmented Generation (RAG). This works by augmenting the language model's generation with information retrieved from your uploaded documents. When you submit a prompt, the system first compares your query to your documents and then retrieves pieces of information from your documents that seem relevant for your prompt. It can take a maximum of 10 pieces of information. These snippets are then added to your prompt as context and processed by the language model (LLM) to generate a more accurate and well-supported answer. This is immensely powerful, as it allows the AI to base its answer on specific contextual information you choose. However, it also has limitations; for example, it is not designed to summarize very large texts (it can only take 10 snippets).
 
----
+- - -
 
 ## 2.4 Generating and analysing images
 
@@ -116,14 +115,14 @@ In addition to text-based tasks, UvA AI Chat can also generate images based on y
 
 Instead of asking something like "make a picture of a flower," you'll get far better results with a detailed prompt.
 
-- **Too general:** "Generate a tulip".
-- **Detailed:** "Generate an image in the style of a 19th-century botanical illustration. The image should show a tulip with clear, fine lines highlighting the details of the petals, stem, and leaves. The background should resemble parchment with a light texture".
+* **Too general:** "Generate a tulip".
+* **Detailed:** "Generate an image in the style of a 19th-century botanical illustration. The image should show a tulip with clear, fine lines highlighting the details of the petals, stem, and leaves. The background should resemble parchment with a light texture".
 
 ### Analyzing images
 
-Use the photo icon at the bottom right of the text box to add images. After uploading, the AI can describe and interpret the content. Always include a prompt explaining what you want the AI to analyze. Note: the AI cannot always accurately interpret text, charts, or tables contained within images.
+Use the photo icon at the bottom right of the text box to add images. After uploading, the AI can describe and interpret the content. Always include a prompt explaining what you want the AI to analyze. Note: the AI cannot always accurately interpret text, charts, or tables contained within images. In addition to uploading images using the paperclip icon, you can now also paste images directly into the chat. Simply copy an image from your computer or a webpage and paste it into the text entry field of UvA AI Chat. The image will be uploaded and ready for analysis.
 
----
+- - -
 
 ## 2.5 Artifacts
 
@@ -132,16 +131,12 @@ The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support co
 ### How to use artifacts
 
 1. **Activate the feature:** To begin, you must select the "Artifact Creation" feature within the UvA AI Chat interface (click the slider menu). This signals to the AI that you are looking for a output in a separate window for further editing.
-
 2. **Provide a clear instruction:** In the chat box, enter an instruction that clearly defines the topic and the type of artifact you need. For example, you could prompt the AI with: "create an artifact comparing Keynesian and Neoclassical economic theories."
-
 3. **Review the generated output:** The AI will then produce an artifact based on your request. In the example of economic theories, the output could be an overview of the key principles, assumptions and political implications.
-
 4. **Collaborate on revisions:** The platform allows you to refine the artifact collaboratively. You can make direct edits in the dedicated text or code window, or you can give the AI further instructions in the chat to modify or expand a specific section of the artifact. You can also select pieces of text or code and ask AI to modify those.
-
 5. **Save your work:** Make sure that if you manually edit the artifact, you first save the artifact before you ask the AI to continue editing it, you can do this by clicking on the "save" icon on the top right of the artifact. When you ask the AI to edit the artifact a new version will automatically be saved. Previous versions will also be saved, so you can track changes and revisit previous iterations if necessary by clicking on the arrows at the top left of the artifact. The completed artifact can then be downloaded for use in your research paper, presentation, or other academic projects. Do this by clicking on the arrow at the top right corner of the artefact, and selecting "download as".
 
----
+- - -
 
 ## 2.6 Study Mode
 
@@ -150,11 +145,49 @@ The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support co
 ### How to use Study Mode
 
 1. **Activate and set a learning goal:** Open the slide menu in the textbox of UvA AI Chat and switch on Study Mode. To turn it off, click the cross next to Study. Then set a learning goal by specifying what you want to learn about and mention what you already know. Examples:
-   - "I am preparing a seminar on the French revolution and specifically the storming of the Bastille, help me understand the causes and interpretations of the cause."
-   - "I am preparing for an exam in research skills and want to understand how to compare two groups using statistics. Explain which methods are suitable, such as the t-test, and when it is better to use another test."
 
+   * "I am preparing a seminar on the French revolution and specifically the storming of the Bastille, help me understand the causes and interpretations of the cause."
+   * "I am preparing for an exam in research skills and want to understand how to compare two groups using statistics. Explain which methods are suitable, such as the t-test, and when it is better to use another test."
 2. **Work in dialogue:** The AI asks open questions and waits for your answer. You can indicate how you want to be guided: ask for smaller steps, hints instead of answers, or feedback on your reasoning. You can also request specific forms, such as a multiple-choice question, concrete examples, or metaphors.
-
 3. **Adjust pace and level:** Redirect where needed: "use simpler language", "make it harder", or "go faster/slower". The AI adjusts its questions, explanations, and examples accordingly.
-
 4. **Conclude and record:** To consolidate your learning, finish with a recap or practice material. Examples: "Summarise in five bullet points the most important lessons from this conversation" or "Give three practice questions with short solutions." If you want to save the result or work it out further, combine Study Mode with Artefacts. This allows you to edit notes, tables, or draft texts in a separate window and retrieve them later.
+
+## 2.6 Creating Diagrams with Streamdown
+
+UvA AI Chat includes a powerful feature called Streamdown, which allows you to create diagrams and flowcharts directly within the chat. This is particularly useful for visualizing complex processes, organizing ideas, or creating structured illustrations for your projects and presentations. Streamdown uses the popular Mermaid syntax, a simple and intuitive way to generate diagrams from text. 
+
+**How to use Streamdown** 
+
+To create a diagram, you simply need to provide a prompt that asks for a Mermaid code block. The AI will then render the diagram for you. 
+
+**Practical example of creating a flowchart:** 
+
+Suppose you want to create a flowchart that visualizes the research process. You can use the following prompt: 
+
+"Create a flowchart that illustrates the steps of the research process, from formulating a research question to publishing the results." 
+
+UvA AI Chat will then generate a Mermaid code block and the corresponding flowchart, which you can then download as an image. 
+
+**Here is an example of what the Mermaid code might look like:** 
+
+flowchart TD 
+
+    A\[Formulate Research Question] --> B\[Conduct Literature Review] 
+
+    B --> C\[Design Research Methodology] 
+
+    C --> D\[Collect Data] 
+
+    D --> E\[Analyze Data] 
+
+    E --> F\[Interpret Results] 
+
+    F --> G\[Write Research Paper] 
+
+    G --> H\[Submit Paper for Peer Review] 
+
+    H --> I\[Revise Paper Based on Feedback] 
+
+    I --> J\[Publish Results] 
+
+This will produce a flowchart that clearly visualizes the different stages of the research process. You can create various types of diagrams, including sequence diagrams, Gantt charts, and pie charts, by using the corresponding Mermaid syntax in your prompts.
