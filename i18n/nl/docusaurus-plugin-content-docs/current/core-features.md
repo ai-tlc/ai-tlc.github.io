@@ -153,3 +153,43 @@ De functie 'Artefacten' in UvA AI Chat is een krachtige tool die is ontworpen om
 2. **Werken in dialoog:** De AI stelt open vragen en wacht op jouw antwoord. Je kunt aangeven hoe je begeleid wilt worden: om kleinere stappen vragen, om hints in plaats van antwoorden, of om feedback op je redenering. Ook kun je vragen om specifieke vormen, zoals een multiplechoicevraag, een concreet voorbeeld of metaforen.
 3. **Tempo en niveau aanpassen:** Stuur bij waar nodig: "gebruik eenvoudiger taal", "maak het moeilijker", of "ga sneller/langzamer". De AI past zijn vragen en voorbeelden hierop aan.
 4. **Afronden en vastleggen:** Om wat je hebt geleerd te versterken, sluit af met een recap of oefenmateriaal. Voorbeelden: "Vat samen in vijf bulletpoints de belangrijkste punten van dit gesprek" of "Geef drie oefenvragen met korte oplossingen." Wil je het resultaat bewaren of verder uitwerken, combineer Study Mode dan met Artefacten. Zo kun je notities, tabellen of conceptteksten in een apart venster bewerken en later terughalen.
+
+## 2.7 Diagrammen maken met Streamdown
+
+UvA AI Chat bevat een krachtige functie genaamd Streamdown, waarmee je direct in de chat diagrammen en stroomdiagrammen kunt maken. Dit is vooral handig om complexe processen te visualiseren, ideeën te structureren of overzichtelijke illustraties te maken voor je projecten en presentaties. Streamdown maakt gebruik van de populaire Mermaid-syntaxis, een eenvoudige en intuïtieve manier om diagrammen te genereren op basis van tekst.
+
+**Hoe gebruik je Streamdown**
+
+Om een diagram te maken, hoef je alleen maar een prompt te geven waarin je vraagt om een Mermaid-codeblok. De AI zal het diagram vervolgens voor je renderen.
+
+Praktisch voorbeeld: een stroomdiagram maken
+
+Stel dat je een stroomdiagram wilt maken dat het onderzoeksproces visualiseert. Je kunt dan de volgende prompt gebruiken:
+
+“*Maak een stroomdiagram dat de stappen van het onderzoeksproces weergeeft, van het formuleren van een onderzoeksvraag tot het publiceren van de resultaten.*”
+
+UvA AI Chat genereert vervolgens een Mermaid-codeblok en het bijbehorende stroomdiagram, dat je daarna als afbeelding kunt downloaden.
+
+Voorbeeld van hoe de Mermaid-code eruit kan zien:
+
+flowchart TD
+
+A\[Formuleer onderzoeksvraag] --> B\[Voer literatuurstudie uit]
+
+B --> C\[Ontwerp onderzoeksmethodologie]
+
+C --> D\[Verzamel data]
+
+D --> E\[Analyseer data]
+
+E --> F\[Interpreteer resultaten]
+
+F --> G\[Schrijf onderzoeksartikel]
+
+G --> H\[Dien artikel in voor peer review]
+
+H --> I\[Herzie artikel op basis van feedback]
+
+I --> J\[Publiceer resultaten]
+
+Dit resulteert in een stroomdiagram dat de verschillende fasen van het onderzoeksproces duidelijk visualiseert. Je kunt verschillende soorten diagrammen maken, waaronder sequentiediagrammen, Gantt-diagrammen en cirkeldiagrammen, door de bijbehorende Mermaid-syntaxis in je prompts te gebruiken.
