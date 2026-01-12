@@ -16,7 +16,7 @@ Voor vragen over deze handleiding en UvA AI Chat, neem contact op via [ai-tlc@uv
 
 Deze handleiding wordt ontwikkeld door TLC-Centraal (zie tlc.uva.nl)
 
-**Versie 1.1** | Gepubliceerd op 2 oktober 2025
+**Versie 1.2** | Gepubliceerd op 16 januari 2026
 
 - - -
 
