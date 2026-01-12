@@ -1,11 +1,10 @@
 ---
-id: before-you-start
 title: "Deel 1: Voordat je begint"
+id: before-you-start
 sidebar_label: Voordat je begint
 slug: /before-you-start
 ---
-
-<img src="/img/splashimg.jpeg" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+<img src="/img/uploads/chatgpt-image-12-jan-2026-11_29_00.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 ## Over deze handleiding
 
@@ -19,7 +18,7 @@ Deze handleiding wordt ontwikkeld door TLC-Centraal (zie tlc.uva.nl)
 
 **Versie 1.1** | Gepubliceerd op 2 oktober 2025
 
----
+- - -
 
 ## 1.1 Verantwoord gebruik
 
@@ -29,14 +28,14 @@ Het is cruciaal om te begrijpen dat UvA AI Chat, net als elke andere AI-tool, ni
 
 Stel, je vraagt de AI om een samenvatting van een wetenschappelijk artikel dat je hebt geüpload. De AI produceert een beknopte tekst.
 
-- **Onzorgvuldig gebruik:** Je kopieert de samenvatting direct en gebruikt deze in jouw eigen werk zonder verificatie.
-- **Zorgvuldig gebruik:** Je leest de door de AI gegenereerde samenvatting en vergelijkt deze nauwkeurig met het originele artikel. Je controleert of de kernargumenten, methodologie en conclusies correct zijn weergegeven. Je gebruikt de AI-output als een hulpmiddel om het artikel sneller te doorgronden, maar baseert jouw eigen werk op jouw veronderstelde brontekst.
+* **Onzorgvuldig gebruik:** Je kopieert de samenvatting direct en gebruikt deze in jouw eigen werk zonder verificatie.
+* **Zorgvuldig gebruik:** Je leest de door de AI gegenereerde samenvatting en vergelijkt deze nauwkeurig met het originele artikel. Je controleert of de kernargumenten, methodologie en conclusies correct zijn weergegeven. Je gebruikt de AI-output als een hulpmiddel om het artikel sneller te doorgronden, maar baseert jouw eigen werk op jouw veronderstelde brontekst.
 
 Om generatieve AI op een verantwoorde manier te gebruiken, moet je je bewust zijn van de mogelijke nadelen. Bij het gebruik van AI moet je rekening houden met de risico's van 'cognitive offloading'. Cognitieve offloading verwijst naar het proces waarbij cognitieve processen worden overgedragen aan een extern hulpmiddel, zoals een AI. Vooral in een onderwijssetting is het belangrijk om je ervan bewust te zijn dat voortdurend vertrouwen op AI voor een bepaalde taak je kan belemmeren in het ontwikkelen van kennis en vaardigheden die je op de lange termijn ten goede komen. Onderzoek toont aan dat veelvuldig maar ondoordacht gebruik van AI het kritisch denkvermogen kan verminderen.
 
 Om AI effectief en verantwoord te gebruiken, moeten we onze AI-geletterdheid ontwikkelen. Dit betekent onder meer dat we moeten begrijpen hoe we AI-hulpmiddelen goed kunnen gebruiken, zoals het stellen van de juiste vragen, en zorgvuldig controleren wat de AI produceert. Zo kunnen we ervoor zorgen dat we AI op zo'n manier inzetten dat het ons werk, leren en onderzoek op een waardevolle manier ondersteunt, terwijl we de risico's die het gebruik van AI met zich meebrengt, beperken.
 
----
+- - -
 
 ## 1.2 Jouw eerste stap: inloggen
 
