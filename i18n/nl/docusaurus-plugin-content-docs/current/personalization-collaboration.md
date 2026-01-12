@@ -1,6 +1,6 @@
 ---
-id: personalization-collaboration
 title: "Deel 3: Personalisatie en samenwerking"
+id: personalization-collaboration
 sidebar_label: Personalisatie & samenwerking
 slug: /personalization-collaboration
 ---
@@ -76,7 +76,7 @@ Om een groep aan te maken, klik je op de knop "Add group". Vul de volgende tekst
 - **Start- en einddata:** Kies een startdatum en een einddatum voor de groep met behulp van de datumkiezers.
 - **Opslaan:** Klik op de knop "Opslaan" om de aanmaak van de groep te voltooien.
 
-Door een groep aan te maken, kun je specifieke chats, persona's of prompts delen. Je bepaalt of toegevoegde leden alleen de persona's kunnen gebruiken ('Leden') of ze ook kunnen bewerken ('Eigenaren'). Als docent zou je bijvoorbeeld studenten als leden kunnen toevoegen, zodat ze een specifieke persona die jij hebt aangemaakt kunnen gebruiken. Je kunt ook een start- en einddatum voor de groep instellen indien nodig.
+Door een groep aan te maken, kun je specifieke chats, persona's of prompts delen. Je bepaalt of toegevoegde leden alleen de persona's kunnen gebruiken ('Leden') of ze ook kunnen bewerken ('Eigenaren'). Als docent zou je bijvoorbeeld studenten als leden kunnen toevoegen, zodat ze een specifieke persona die jij hebt aangemaakt kunnen gebruiken. Je kunt ook een start- en einddatum voor de groep instellen indien nodig. Goed om te weten: als eigenaar van de groep kun je de zichtbaarheid van leden voor anderen verbergen door in het optiemenu de optie ‘leden voor elkaar verbergen’ in te schakelen.
 
 ---
 
