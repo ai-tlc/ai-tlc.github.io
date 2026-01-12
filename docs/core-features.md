@@ -151,3 +151,43 @@ The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support co
 2. **Work in dialogue:** The AI asks open questions and waits for your answer. You can indicate how you want to be guided: ask for smaller steps, hints instead of answers, or feedback on your reasoning. You can also request specific forms, such as a multiple-choice question, concrete examples, or metaphors.
 3. **Adjust pace and level:** Redirect where needed: "use simpler language", "make it harder", or "go faster/slower". The AI adjusts its questions, explanations, and examples accordingly.
 4. **Conclude and record:** To consolidate your learning, finish with a recap or practice material. Examples: "Summarise in five bullet points the most important lessons from this conversation" or "Give three practice questions with short solutions." If you want to save the result or work it out further, combine Study Mode with Artefacts. This allows you to edit notes, tables, or draft texts in a separate window and retrieve them later.
+
+## 2.6 Creating Diagrams with Streamdown
+
+UvA AI Chat includes a powerful feature called Streamdown, which allows you to create diagrams and flowcharts directly within the chat. This is particularly useful for visualizing complex processes, organizing ideas, or creating structured illustrations for your projects and presentations. Streamdown uses the popular Mermaid syntax, a simple and intuitive way to generate diagrams from text. 
+
+**How to use Streamdown** 
+
+To create a diagram, you simply need to provide a prompt that asks for a Mermaid code block. The AI will then render the diagram for you. 
+
+**Practical example of creating a flowchart:** 
+
+Suppose you want to create a flowchart that visualizes the research process. You can use the following prompt: 
+
+"Create a flowchart that illustrates the steps of the research process, from formulating a research question to publishing the results." 
+
+UvA AI Chat will then generate a Mermaid code block and the corresponding flowchart, which you can then download as an image. 
+
+**Here is an example of what the Mermaid code might look like:** 
+
+flowchart TD 
+
+    A\[Formulate Research Question] --> B\[Conduct Literature Review] 
+
+    B --> C\[Design Research Methodology] 
+
+    C --> D\[Collect Data] 
+
+    D --> E\[Analyze Data] 
+
+    E --> F\[Interpret Results] 
+
+    F --> G\[Write Research Paper] 
+
+    G --> H\[Submit Paper for Peer Review] 
+
+    H --> I\[Revise Paper Based on Feedback] 
+
+    I --> J\[Publish Results] 
+
+This will produce a flowchart that clearly visualizes the different stages of the research process. You can create various types of diagrams, including sequence diagrams, Gantt charts, and pie charts, by using the corresponding Mermaid syntax in your prompts.
