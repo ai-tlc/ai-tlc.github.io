@@ -23,6 +23,7 @@ De onderstaande tabel dient als een snelle referentie om je te helpen het meest 
 | Llama-3.3-70B-Instruct-AWQ | Open source, local deployment, long context | 01-12-2023 | Medium | Open source language model | 128 K | 8 K |
 | Claude-Sonnet 4.5          | Complex multi-step reasoning, advanced coding and debugging, building agentic workflows, long-form analysis and creative work                                                                       | 31-01-2025       | High                     | Hybrid reasoning model         | 200 K               | 64 K                  |
 | Claude-Haiku 4.5           |Fast, cost-efficient assistant for quick questions, summaries, document synthesis, routine operations, and high-volume or real-time workflows; strong coding helper at roughly Sonnet-4-level performance |28-08-2025       | Low                      | Fast lightweight reasoning model | 200 K                |64 K  
+| GPT-5.1                    | One of the latest frontier models. Excellent for coding, complex reasoning tasks, and building intelligent agents. Provides high-quality output and analysis. | 31-08-2025       | High                     | Advanced reasoning model | 400K | 128K
 ---
 
 ## 4.2 Functionaliteit uitbreiden met Extensies
