@@ -269,3 +269,15 @@ a:hover {
 .theme-last-updated {
   display: none;
 }
+
+/* Hide right-side TOC - headings are now in left sidebar */
+.theme-doc-toc-desktop,
+.theme-doc-toc-mobile,
+.tocCollapsible_ETCw {
+  display: none !important;
+}
+
+/* Expand main content to use the space freed by hiding TOC */
+.docItemCol_VOVn {
+  max-width: 100% !important;
+}
