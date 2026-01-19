@@ -1,0 +1,59 @@
+.itemContainer {
+  position: relative;
+}
+
+.linkRow {
+  display: flex;
+  align-items: center;
+}
+
+.expandButton {
+  background: none;
+  border: none;
+  padding: 4px 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ifm-menu-color);
+  opacity: 0.6;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  flex-shrink: 0;
+}
+
+.expandButton:hover {
+  opacity: 1;
+}
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.expanded .arrow {
+  transform: rotate(90deg);
+}
+
+.mainLink {
+  flex: 1;
+}
+
+.headingsList {
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  border-left: 1px solid var(--ifm-menu-color-background-active);
+}
+
+.headingLink {
+  font-size: 0.85em;
+  padding: 0.25rem 0.5rem;
+  opacity: 0.85;
+}
+
+.headingLink:hover {
+  opacity: 1;
+}
+
+.menuExternalLink {
+  /* external links styling */
+}

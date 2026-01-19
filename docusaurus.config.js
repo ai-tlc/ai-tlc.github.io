@@ -60,6 +60,7 @@ const config = {
         ],
       },
     ],
+    require.resolve('./plugins/headings-extractor'),
   ],
 
   themeConfig: {
