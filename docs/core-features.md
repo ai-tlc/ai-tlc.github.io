@@ -198,4 +198,6 @@ UvA AI Chat can also read and analyze your .csv documents. This allows you to ga
 
 **Here is an example of what the graphs might look like:**
 
-static/img/uploads/data-analysis-tool.mp4
+<video controls>
+  <source src="/static/img/uploads/data-analysis-tool.mp4" type="video/mp4">
+</video>
