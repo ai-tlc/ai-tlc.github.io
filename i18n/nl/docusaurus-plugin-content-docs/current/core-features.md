@@ -201,5 +201,5 @@ UvA AI Chat kan ook jouw .csv documenten lezen en analyseren. Hiermee kun je inz
 **Hieronder is een voorbeeld van hoe dat eruit zou zien:**
 
 <video controls>
-  <source src="/static/img/uploads/data-analysis-tool.mp4" type="video/mp4">
+  <source src="/static/img/uploads/data-analysis-tool.mp4" type="video/mp4" />
 </video>
