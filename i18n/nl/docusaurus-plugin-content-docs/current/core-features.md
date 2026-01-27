@@ -194,7 +194,7 @@ I --> J\[Publiceer resultaten]
 
 Dit resulteert in een stroomdiagram dat de verschillende fasen van het onderzoeksproces duidelijk visualiseert. Je kunt verschillende soorten diagrammen maken, waaronder sequentiediagrammen, Gantt-diagrammen en cirkeldiagrammen, door de bijbehorende Mermaid-syntaxis in je prompts te gebruiken.
 
-## 2.7 .csv files analyseren en grafieken maken met UvA AI Chat
+## 2.8 .csv files analyseren en grafieken maken met UvA AI Chat
 
 UvA AI Chat kan ook jouw .csv documenten lezen en analyseren. Hiermee kun je inzicht krijgen in jaarrapporten, kwartaalcijfers en meer. Probeer ook eens om grafieken te genereren op basis van jouw data, zoals hieronder wordt gedemonstreerd.
 
