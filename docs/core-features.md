@@ -191,3 +191,11 @@ flowchart TD 
     I --> J\[Publish Results] 
 
 This will produce a flowchart that clearly visualizes the different stages of the research process. You can create various types of diagrams, including sequence diagrams, Gantt charts, and pie charts, by using the corresponding Mermaid syntax in your prompts.
+
+## 2.7 Analysing .csv files and creating graphs with UvA AI Chat
+
+UvA AI Chat can also read and analyze your .csv documents. This allows you to gain insight into annual reports, quarterly figures, and more. Try generating graphs from your data, as demonstrated below.
+
+**Here is an example of what the graphs might look like:**
+
+
