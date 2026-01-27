@@ -209,7 +209,7 @@ UvA AI Chat can also read and analyze your .csv documents. This allows you to ga
     type="video/webm"
   />
   <source
-    src="https://ai-tlc.github.io/img/uploads/data-analysis-tool.chrome.mp4"
+    src="https://ai-tlc.github.io/img/uploads/data-analysis-tool.mp4"
     type="video/mp4"
   />
   Your browser does not support the video tag.

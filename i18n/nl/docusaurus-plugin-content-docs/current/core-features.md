@@ -211,7 +211,7 @@ UvA AI Chat kan ook jouw .csv documenten lezen en analyseren. Hiermee kun je inz
     type="video/webm"
   />
   <source
-    src="https://ai-tlc.github.io/img/uploads/data-analysis-tool.chrome.mp4"
+    src="https://ai-tlc.github.io/img/uploads/data-analysis-tool.mp4"
     type="video/mp4"
   />
   Your browser does not support the video tag.
