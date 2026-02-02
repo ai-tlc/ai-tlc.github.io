@@ -152,6 +152,8 @@ The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support co
 3. **Adjust pace and level:** Redirect where needed: "use simpler language", "make it harder", or "go faster/slower". The AI adjusts its questions, explanations, and examples accordingly.
 4. **Conclude and record:** To consolidate your learning, finish with a recap or practice material. Examples: "Summarise in five bullet points the most important lessons from this conversation" or "Give three practice questions with short solutions." If you want to save the result or work it out further, combine Study Mode with Artefacts. This allows you to edit notes, tables, or draft texts in a separate window and retrieve them later.
 
+- - -
+
 ## 2.7 Creating Diagrams with Streamdown
 
 UvA AI Chat includes a powerful feature called Streamdown, which allows you to create diagrams and flowcharts directly within the chat. This is particularly useful for visualizing complex processes, organizing ideas, or creating structured illustrations for your projects and presentations. Streamdown uses the popular Mermaid syntax, a simple and intuitive way to generate diagrams from text. 
@@ -191,6 +193,8 @@ flowchart TD 
     I --> J\[Publish Results] 
 
 This will produce a flowchart that clearly visualizes the different stages of the research process. You can create various types of diagrams, including sequence diagrams, Gantt charts, and pie charts, by using the corresponding Mermaid syntax in your prompts.
+
+- - -
 
 ## 2.8 Analysing .csv files and creating graphs with UvA AI Chat
 
