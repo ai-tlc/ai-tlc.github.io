@@ -198,7 +198,11 @@ This will produce a flowchart that clearly visualizes the different stage
 
 ## 2.8 Analysing .csv files and creating graphs with UvA AI Chat
 
-UvA AI Chat can also read and analyze your .csv documents. This allows you to gain insight into annual reports, quarterly figures, and more. Try generating graphs from your data, as demonstrated below.
+UvA AI Chat can also read and analyze your .csv documents. This allows you to gain insight into annual reports, quarterly figures, survey results, and other tabular data. In the example video, a .csv file is uploaded, after which UvA AI Chat: (1) inspects the structure of the data (columns, data types, missing values), (2) runs a few basic statistical analyses (such as summaries or comparisons over time), and (3) generates visualizations such as line charts or bar charts based on the selected columns.
+
+You can ask UvA AI Chat to write and run code (for example in Python) to perform more advanced analyses on your data and to create customized graphs. This makes it easy to explore trends, compare periods, or highlight specific variables from your dataset.
+
+However, if you want to use these analyses and graphs in contexts where accuracy is critical (for example in a research project, thesis, report, or any formal publication), you must carefully check that the generated code and results are correct. You cannot automatically assume that all analyses are methodologically appropriate or free of errors. Always review the code, verify the calculations, and ensure that the chosen methods match your research question and data before using the results in important work.
 
 **Here is an example of what the graphs might look like:**
 
