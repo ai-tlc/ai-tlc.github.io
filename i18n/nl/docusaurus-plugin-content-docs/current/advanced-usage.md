@@ -4,7 +4,7 @@ id: advanced-usage
 sidebar_label: Geavanceerd gebruik
 slug: /advanced-usage
 ---
-## 4.1 De juiste motor kiezen
+## 4.1 Het juiste model kiezen
 
 UvA AI Chat biedt toegang tot verschillende geavanceerde AI-modellen (Large Language Models). Het standaardmodel, GPT-4o, is een uitstekende allrounder en werkt goed voor veel taken, maar voor specifieke taken kan een ander model betere resultaten opleveren. Voor simpelere taken kan het beter zijn om een kleiner en efficiënter model te kiezen dat minder energie verbruikt. Om een ​​ander standaardmodel voor uw taken in te stellen, selecteert u het model dat het beste bij uw behoeften past in het menu Instellingen, zoals hieronder weergegeven.
 
