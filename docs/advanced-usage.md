@@ -4,7 +4,7 @@ id: advanced-usage
 sidebar_label: Advanced usage
 slug: /advanced-usage
 ---
-## 4.1 Choosing the right engine
+## 4.1 Choosing the right Language Model
 
 UvA AI Chat gives you access to a range of advanced AI models (Large Language Models). The default, GPT-4o, is a strong all-rounder and works well for most tasks, but for specific needs, a different model may deliver better results. For simple tasks, you might prefer a smaller, more efficient model that uses less energy. To set up a different default model for your tasks, select the one best suited to your needs in the Settings menu like shown below.
 
