@@ -154,6 +154,8 @@ De functie 'Artefacten' in UvA AI Chat is een krachtige tool die is ontworpen om
 3. **Tempo en niveau aanpassen:** Stuur bij waar nodig: "gebruik eenvoudiger taal", "maak het moeilijker", of "ga sneller/langzamer". De AI past zijn vragen en voorbeelden hierop aan.
 4. **Afronden en vastleggen:** Om wat je hebt geleerd te versterken, sluit af met een recap of oefenmateriaal. Voorbeelden: "Vat samen in vijf bulletpoints de belangrijkste punten van dit gesprek" of "Geef drie oefenvragen met korte oplossingen." Wil je het resultaat bewaren of verder uitwerken, combineer Study Mode dan met Artefacten. Zo kun je notities, tabellen of conceptteksten in een apart venster bewerken en later terughalen.
 
+- - -
+
 ## 2.7 Diagrammen maken met Streamdown
 
 UvA AI Chat bevat een krachtige functie genaamd Streamdown, waarmee je direct in de chat diagrammen en stroomdiagrammen kunt maken. Dit is vooral handig om complexe processen te visualiseren, ideeën te structureren of overzichtelijke illustraties te maken voor je projecten en presentaties. Streamdown maakt gebruik van de populaire Mermaid-syntaxis, een eenvoudige en intuïtieve manier om diagrammen te genereren op basis van tekst.
@@ -193,6 +195,8 @@ H --> I\[Herzie artikel op basis van feedback]
 I --> J\[Publiceer resultaten]
 
 Dit resulteert in een stroomdiagram dat de verschillende fasen van het onderzoeksproces duidelijk visualiseert. Je kunt verschillende soorten diagrammen maken, waaronder sequentiediagrammen, Gantt-diagrammen en cirkeldiagrammen, door de bijbehorende Mermaid-syntaxis in je prompts te gebruiken.
+
+- - -
 
 ## 2.8 .csv files analyseren en grafieken maken met UvA AI Chat
 
