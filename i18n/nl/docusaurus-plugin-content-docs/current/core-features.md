@@ -198,9 +198,13 @@ Dit resulteert in een stroomdiagram dat de verschillende fasen van het onderzoek
 
 - - -
 
-## 2.8 .csv files analyseren en grafieken maken met UvA AI Chat
+## 2.8 .csv bestanden analyseren en grafieken maken met UvA AI Chat
 
-UvA AI Chat kan ook jouw .csv documenten lezen en analyseren. Hiermee kun je inzicht krijgen in jaarrapporten, kwartaalcijfers en meer. Probeer ook eens om grafieken te genereren op basis van jouw data, zoals hieronder wordt gedemonstreerd.
+UvA AI Chat kan ook je .csv‑bestanden lezen en analyseren. Dit maakt het mogelijk om inzicht te krijgen in jaarverslagen, kwartaalcijfers, enquêteresultaten en andere tabelgegevens. In de voorbeeldvideo wordt een .csv‑bestand geüpload, waarna UvA AI Chat: (1) de structuur van de data bekijkt (kolommen, datatypen, missende waarden), (2) een aantal basisanalyses uitvoert (zoals samenvattingen of vergelijkingen), en (3) visualisaties genereert, zoals lijngrafieken of staafdiagrammen op basis van de geselecteerde data.
+
+Je kunt UvA AI Chat vragen om code te schrijven en uit te voeren (bijvoorbeeld in Python) om meer geavanceerde analyses op je data uit te voeren en om aangepaste grafieken te maken. Daarmee kun je eenvoudig trends verkennen, perioden vergelijken of specifieke variabelen uit je dataset uitlichten.
+
+Als je deze analyses en grafieken echter wilt gebruiken in situaties waar nauwkeurigheid cruciaal is (bijvoorbeeld in een onderzoeksproject, scriptie, rapport of andere formele publicatie), moet je zorgvuldig controleren of de gegenereerde code en resultaten kloppen. Je kunt er niet automatisch van uitgaan dat alle analyses methodologisch passend zijn of vrij van fouten. Controleer altijd de code, verifieer de berekeningen en kijk of de gekozen methoden aansluiten bij je onderzoeksvraag en je data voordat je de resultaten in belangrijk werk gebruikt.
 
 **Hieronder is een voorbeeld van hoe dat eruit zou zien:**
 
