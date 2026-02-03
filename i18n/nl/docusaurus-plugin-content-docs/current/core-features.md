@@ -156,45 +156,67 @@ De functie 'Artefacten' in UvA AI Chat is een krachtige tool die is ontworpen om
 
 - - -
 
-## 2.7 Diagrammen maken met Streamdown
+## 2.7 Diagrammen maken met *Mermaid*
 
-UvA AI Chat bevat een krachtige functie genaamd Streamdown, waarmee je direct in de chat diagrammen en stroomdiagrammen kunt maken. Dit is vooral handig om complexe processen te visualiseren, ideeën te structureren of overzichtelijke illustraties te maken voor je projecten en presentaties. Streamdown maakt gebruik van de populaire Mermaid-syntaxis, een eenvoudige en intuïtieve manier om diagrammen te genereren op basis van tekst.
 
-**Hoe gebruik je Streamdown**
+UvA AI Chat kan je helpen om diagrammen en flowcharts te maken met behulp van **Mermaid**. Mermaid is een eenvoudige tekst‑gebaseerde manier om diagrammen te beschrijven. Dit is handig om complexe processen te visualiseren, ideeën te ordenen of schema’s te maken voor presentaties en verslagen.
 
-Om een diagram te maken, hoef je alleen maar een prompt te geven waarin je vraagt om een Mermaid-codeblok. De AI zal het diagram vervolgens voor je renderen.
+> *Let op: de onderliggende techniek heet intern Streamdown, maar als gebruiker hoef je daar **niets** mee te doen. Je hoeft het niet aan te zetten en je hoeft de term ook niet in je prompt te gebruiken. Vraag gewoon om een Mermaid‑diagram.*
+>
 
-Praktisch voorbeeld: een stroomdiagram maken
+**Hoe maak je een Mermaid-diagram aan?**
 
-Stel dat je een stroomdiagram wilt maken dat het onderzoeksproces visualiseert. Je kunt dan de volgende prompt gebruiken:
 
-“*Maak een stroomdiagram dat de stappen van het onderzoeksproces weergeeft, van het formuleren van een onderzoeksvraag tot het publiceren van de resultaten.*”
+Om een diagram te krijgen dat je direct kunt gebruiken, moet je twee dingen expliciet in je prompt vragen:
 
-UvA AI Chat genereert vervolgens een Mermaid-codeblok en het bijbehorende stroomdiagram, dat je daarna als afbeelding kunt downloaden.
+1. Zeg dat je een Mermaid-diagram wilt (bijvoorbeeld: “*Mermaid flowchart*”).
+2. Vraag om de output in een mermaid codeblok.
 
-Voorbeeld van hoe de Mermaid-code eruit kan zien:
 
-flowchart TD
+Als je alleen zegt “*maak een flowchart*”, dan kan de AI ook een beschrijvende tekst geven zonder Mermaid‑code. Door expliciet om een Mermaid‑codeblok te vragen, voorkom je dat.
 
-A\[Formuleer onderzoeksvraag] --> B\[Voer literatuurstudie uit]
+**Promptvoorbeeld dat direct een flowchart genereert**
 
-B --> C\[Ontwerp onderzoeksmethodologie]
 
-C --> D\[Verzamel data]
+Een prompt die in de praktijk goed werkt, is bijvoorbeeld:
 
-D --> E\[Analyseer data]
+“*Maak een flowchart van het onderzoeksproces, van het formuleren van een onderzoeksvraag tot en met het publiceren van de resultaten. Gebruik Mermaid‑syntax en geef alleen een mermaid codeblok als antwoord.*”
 
-E --> F\[Interpreteer resultaten]
+UvA AI Chat zal dan een Mermaid‑codeblok genereren, bijvoorbeeld:
 
-F --> G\[Schrijf onderzoeksartikel]
 
-G --> H\[Dien artikel in voor peer review]
 
-H --> I\[Herzie artikel op basis van feedback]
+Dit is gewone tekst, maar in de juiste Mermaid‑syntax.
 
-I --> J\[Publiceer resultaten]
+**Hoe maak je hier een plaatje van?**
 
-Dit resulteert in een stroomdiagram dat de verschillende fasen van het onderzoeksproces duidelijk visualiseert. Je kunt verschillende soorten diagrammen maken, waaronder sequentiediagrammen, Gantt-diagrammen en cirkeldiagrammen, door de bijbehorende Mermaid-syntaxis in je prompts te gebruiken.
+
+UvA AI Chat toont de flowchart niet automatisch als afbeelding. Je moet de Mermaid‑code zelf in een viewer plakken om het diagram te zien en te downloaden.
+
+Bijvoorbeeld:
+
+1. Ga naar een **Mermaid Live Editor** zoals: <https://mermaid.live>
+2. Kopieer het volledige mermaid‑codeblok uit UvA AI Chat.
+3. Plak de code in het linkerpaneel van de Mermaid Live Editor.
+4. De flowchart verschijnt in het rechterpaneel.
+5. Download het diagram als **PNG**, **SVG** of **PDF** via de export‑opties.
+
+
+**Andere soorten diagrammen**
+
+
+Je kunt UvA AI Chat op dezelfde manier vragen om andere soorten Mermaid‑diagrammen, bijvoorbeeld:
+
+\- Sequence diagrams
+
+\- Gantt charts
+
+\- Pie charts
+
+
+Formuleer dan je prompt bijvoorbeeld zo:
+
+“*Maak een Gantt chart in Mermaid‑syntax in een mermaid codeblok, voor de planning van een onderzoeksproject met de fases X, Y en Z*.”
 
 - - -
 
