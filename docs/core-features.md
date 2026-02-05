@@ -154,45 +154,66 @@ The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support co
 
 - - -
 
-## 2.7 Creating Diagrams with Streamdown
+## 2.7 Creating diagrams with *Mermaid*
 
-UvA AI Chat includes a powerful feature called Streamdown, which allows you to create diagrams and flowcharts directly within the chat. This is particularly useful for visualizing complex processes, organizing ideas, or creating structured illustrations for your projects and presentations. Streamdown uses the popular Mermaid syntax, a simple and intuitive way to generate diagrams from text. 
 
-**How to use Streamdown** 
+UvA AI Chat can help you create diagrams and flowcharts using **Mermaid**. Mermaid is a simple text-based way to describe diagrams. This is useful for visualizing complex processes, organizing ideas, or creating schemes for presentations and reports.
 
-To create a diagram, you simply need to provide a prompt that asks for a Mermaid code block. The AI will then render the diagram for you. 
+> *Note: the underlying technique is internally called Streamdown, but as a user you do **not** need to do anything with this. You don’t have to turn it on and you don’t need to use the term in your prompt. Just ask for a Mermaid diagram.*
+>
 
-**Practical example of creating a flowchart:** 
+**How do you create a Mermaid diagram?**
 
-Suppose you want to create a flowchart that visualizes the research process. You can use the following prompt: 
 
-"Create a flowchart that illustrates the steps of the research process, from formulating a research question to publishing the results." 
+To get a diagram that you can use directly, you need to explicitly ask for two things in your prompt:
 
-UvA AI Chat will then generate a Mermaid code block and the corresponding flowchart, which you can then download as an image. 
 
-**Here is an example of what the Mermaid code might look like:** 
+1. Say that you want a Mermaid diagram (for example: “*Mermaid flowchart*”).
+2. Ask for the output in a mermaid code block.
 
-flowchart TD 
+If you only say “*create a flowchart*”, the AI may also give a descriptive text without Mermaid code. By explicitly asking for a Mermaid code block, you avoid this.
 
-    A\[Formulate Research Question] --> B\[Conduct Literature Review] 
+**Prompt example that directly generates a flowchart**
 
-    B --> C\[Design Research Methodology] 
 
-    C --> D\[Collect Data] 
+A prompt that works well in practice is for example:
 
-    D --> E\[Analyze Data] 
+“*Create a flowchart of the research process, from formulating a research question up to and including publishing the results. Use Mermaid syntax and give only a mermaid code block as the answer.*”
 
-    E --> F\[Interpret Results] 
 
-    F --> G\[Write Research Paper] 
+UvA AI Chat will then generate a Mermaid code block, for example:
 
-    G --> H\[Submit Paper for Peer Review] 
 
-    H --> I\[Revise Paper Based on Feedback] 
+<img src="https://raw.githubusercontent.com/ai-tlc/ai-tlc.github.io/refs/heads/main/static/img/uploads/screenshot-2026-02-03-172559.png"/>
 
-    I --> J\[Publish Results] 
+This is plain text, but in the correct Mermaid syntax.
 
-This will produce a flowchart that clearly visualizes the different stages of the research process. You can create various types of diagrams, including sequence diagrams, Gantt charts, and pie charts, by using the corresponding Mermaid syntax in your prompts.
+**How do you turn this into an image?**
+
+UvA AI Chat does not automatically display the flowchart as an image. You need to paste the Mermaid code into a viewer yourself to see the diagram and download it.
+
+For example:
+
+
+1. Go to a **Mermaid Live Editor** such as: [https://mermaid.live](https://mermaid.live)
+2. Copy the full mermaid code block from UvA AI Chat.
+3. Paste the code into the left panel of the Mermaid Live Editor.
+4. The flowchart will appear in the right panel.
+5. Download the diagram as **PNG**, **SVG** or **PDF** via the export options.
+
+**Other types of diagrams**
+
+You can ask UvA AI Chat for other types of Mermaid diagrams in the same way, for example:
+
+\- Sequence diagrams
+
+\- Gantt charts
+
+\- Pie charts
+
+Formulate your prompt for example like this:
+
+“*Create a Gantt chart in Mermaid syntax in a mermaid code block, for the planning of a research project with phases X, Y and Z.*”
 
 - - -
 
