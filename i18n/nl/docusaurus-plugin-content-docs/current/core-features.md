@@ -197,7 +197,7 @@ UvA AI Chat toont de flowchart niet automatisch als afbeelding. Je moet de Merma
 
 Bijvoorbeeld:
 
-1. Ga naar een **Mermaid Live Editor** zoals: <https://mermaid.live>
+1. Ga naar een **Mermaid Live Editor** zoals: [https://mermaid.live](https://mermaid.live)
 2. Kopieer het volledige mermaid‑codeblok uit UvA AI Chat.
 3. Plak de code in het linkerpaneel van de Mermaid Live Editor.
 4. De flowchart verschijnt in het rechterpaneel.
