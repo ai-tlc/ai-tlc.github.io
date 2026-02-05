@@ -184,7 +184,9 @@ Een prompt die in de praktijk goed werkt, is bijvoorbeeld:
 
 UvA AI Chat zal dan een Mermaid‑codeblok genereren, bijvoorbeeld:
 
-<img src="/img/uploads/screenshot-2026-02-03-172559.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+
+<img src="https://raw.githubusercontent.com/ai-tlc/ai-tlc.github.io/refs/heads/main/static/img/uploads/screenshot-2026-02-03-172559.png"/>
+
 
 Dit is gewone tekst, maar in de juiste Mermaid‑syntax.
 
