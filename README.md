@@ -4,6 +4,19 @@ This repository hosts the user manual for UvA AI Chat. The manual is available i
 
 **Live site:** [ai-tlc.github.io](https://ai-tlc.github.io)
 
+## Editing Content
+
+Content can be edited in two ways:
+
+1. **Via the CMS** at [ai-tlc.github.io/admin/](https://ai-tlc.github.io/admin/) (requires GitHub access)
+2. **Directly** by editing markdown files in `docs/` or `i18n/nl/`
+
+>**📖 Need help editing?**  
+> For a full, step-by-step walkthrough, check out the  
+> **[CMS Editing Guide (Wiki)](https://github.com/ai-tlc/ai-tlc.github.io/wiki)**
+
+When updating content, remember to keep both English and Dutch versions in sync.
+
 ## About
 
 The manual covers:
@@ -29,17 +42,6 @@ Content is stored as markdown files in the `docs/` folder (English) and `i18n/nl
 ## Deployment
 
 Deployment is automatic. Push changes to the `main` branch and GitHub Actions will build and deploy the site within a few minutes.
-
-## Editing Content
-
-Content can be edited in two ways:
-
-1. **Via the CMS** at [ai-tlc.github.io/admin/](https://ai-tlc.github.io/admin/) (requires GitHub access)
-2. **Directly** by editing markdown files in `docs/` or `i18n/nl/`
-
-For a step-by-step guide, see the [CMS editing guide](https://github.com/ai-tlc/ai-tlc.github.io/wiki).
-
-When updating content, both English and Dutch versions should be kept in sync.
 
 ## License
 
