@@ -37,6 +37,8 @@ Content can be edited in two ways:
 1. **Via the CMS** at [ai-tlc.github.io/admin/](https://ai-tlc.github.io/admin/) (requires GitHub access)
 2. **Directly** by editing markdown files in `docs/` or `i18n/nl/`
 
+For a step-by-step guide, see the [CMS editing guide](https://github.com/ai-tlc/ai-tlc.github.io/wiki).
+
 When updating content, both English and Dutch versions should be kept in sync.
 
 ## License
