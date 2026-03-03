@@ -155,17 +155,17 @@ The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support co
 - - -
 
 ## 2.7 Speech-to-text function
+
 With the speech-to-text function of UvA AI Chat, you can speak your question instead of typing it. The assistant automatically converts your spoken text into written text and processes it as you are used to.
 
 ### What can you do with it?
 
-- Ask questions by speaking them
-
-- Dictate long or complex explanations
-
-- Dictate notes, summaries, or draft texts that the assistant can further elaborate
+* Ask questions by speaking them
+* Dictate long or complex explanations
+* Dictate notes, summaries, or draft texts that the assistant can further elaborate
 
 ### How do you use the speech function?
+
 Click the microphone icon in the chat input field.
 
 If prompted, allow access to the microphone of your device.
@@ -190,36 +190,13 @@ UvA AI Chat can help you create diagrams and flowcharts using **Mermaid**. Merma
 
 **How do you create a Mermaid diagram?**
 
-To get a diagram that you can use directly, you need to explicitly ask for two things in your prompt:
+To get a diagram that you can use directly, you need to explicitly ask for a *Mermaid flowchart*, like the example below:
 
-1. Say that you want a Mermaid diagram (for example: “*Mermaid flowchart*”).
-2. Ask for the output in a mermaid code block.
 
-If you only say “*create a flowchart*”, the AI may also give a descriptive text without Mermaid code. By explicitly asking for a Mermaid code block, you avoid this.
 
-**Prompt example that directly generates a flowchart**
 
-A prompt that works well in practice is for example:
 
-“*Create a flowchart of the research process, from formulating a research question up to and including publishing the results. Use Mermaid syntax and give only a mermaid code block as the answer.*”
 
-UvA AI Chat will then generate a Mermaid code block, for example:
-
-<img src="https://raw.githubusercontent.com/ai-tlc/ai-tlc.github.io/refs/heads/main/static/img/uploads/screenshot-2026-02-03-172559.png"/>
-
-This is plain text, but in the correct Mermaid syntax.
-
-**How do you turn this into an image?**
-
-UvA AI Chat does not automatically display the flowchart as an image. You need to paste the Mermaid code into a viewer yourself to see the diagram and download it.
-
-For example:
-
-1. Go to a **Mermaid Live Editor** such as: <https://mermaid.live>
-2. Copy the full mermaid code block from UvA AI Chat.
-3. Paste the code into the left panel of the Mermaid Live Editor.
-4. The flowchart will appear in the right panel.
-5. Download the diagram as **PNG**, **SVG** or **PDF** via the export options.
 
 **Other types of diagrams**
 
@@ -271,4 +248,3 @@ However, if you want to use these analyses and graphs in contexts where accuracy
 UvA AI chat can write and run Python code for you to analyse data, create charts, or perform calculations within a separate, safe environment. As per usual, your files stay private and separate from other users. When the AI generates graphs or images, they can appear directly in your conversation. Code is shown in a separate panel where you can view, copy, or edit it. You don't need to understand the code in order for it to operate. 
 
 <img src="/img/uploads/screenshot-2026-02-03-172559.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
-
