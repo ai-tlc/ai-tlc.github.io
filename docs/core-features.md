@@ -187,7 +187,7 @@ UvA AI Chat does not automatically display the flowchart as an image. You need t
 
 For example:
 
-1. Go to a **Mermaid Live Editor** such as: <https://mermaid.live>
+1. Go to a **Mermaid Live Editor** such as: [Mermaid live](https://mermaid.live).
 2. Copy the full mermaid code block from UvA AI Chat.
 3. Paste the code into the left panel of the Mermaid Live Editor.
 4. The flowchart will appear in the right panel.
