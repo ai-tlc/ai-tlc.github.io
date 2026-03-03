@@ -156,7 +156,35 @@ De functie 'Artefacten' in UvA AI Chat is een krachtige tool die is ontworpen om
 
 - - -
 
-## 2.7 Diagrammen maken met *Mermaid*
+## 2.7 Spraak-naar-tekst functie
+
+Met de spraak-naar-tekstfunctie van UvA AI Chat kun je je vraag inspreken in plaats van typen. De assistent zet jouw gesproken tekst automatisch om in geschreven tekst en verwerkt die zoals je gewend bent.
+
+### Wat kun je ermee doen?
+
+- Vragen stellen door ze in te spreken
+- Lange of complexe uitleg dicteren
+- Notities, samenvattingen of conceptteksten inspreken die de assistent verder kan uitwerken
+
+### Hoe gebruik je de spraakfunctie?
+
+Klik op het microfoon‑icoon in het invoerveld van de chat.
+
+Sta, als daarom gevraagd wordt, toegang tot de microfoon van je apparaat toe.
+
+Spreek duidelijk in en formuleer je vraag of opdracht.
+
+Klik opnieuw op het microfoon‑icoon om het opnemen te stoppen.
+
+Controleer de herkende tekst in het invoerveld en pas die indien nodig aan.
+
+Verstuur je vraag zoals gebruikelijk.
+
+De kwaliteit van de herkenning hangt af van je microfoon, achtergrondgeluid en je spreektempo. Spreek bij voorkeur rustig en in volledige zinnen voor het beste resultaat.
+
+- - -
+
+## 2.8 Diagrammen maken met *Mermaid*
 
 
 
@@ -255,7 +283,7 @@ Formuleer dan je prompt bijvoorbeeld zo:
 
 - - -
 
-## 2.8 .csv bestanden analyseren en grafieken maken met UvA AI Chat
+## 2.9 .csv bestanden analyseren en grafieken maken met UvA AI Chat
 
 UvA AI Chat kan ook je .csv‑bestanden lezen en analyseren. Dit maakt het mogelijk om inzicht te krijgen in jaarverslagen, kwartaalcijfers, enquêteresultaten en andere tabelgegevens. In de voorbeeldvideo wordt een .csv‑bestand geüpload, waarna UvA AI Chat: (1) de structuur van de data bekijkt (kolommen, datatypen, missende waarden), (2) een aantal basisanalyses uitvoert (zoals samenvattingen of vergelijkingen), en (3) visualisaties genereert, zoals lijngrafieken of staafdiagrammen op basis van de geselecteerde data.
 
@@ -272,6 +300,6 @@ Als je deze analyses en grafieken echter wilt gebruiken in situaties waar nauwke
   />
 </video>
 
-## 2.8 Python code schrijven met UvA AI Chat
+## 2.10 Python code schrijven met UvA AI Chat
 
 AI chat kan Python-code voor je schrijven en uitvoeren om gegevens te analyseren, grafieken te maken of berekeningen uit te voeren in een aparte, veilige omgeving. Zoals altijd blijven uw bestanden privé en gescheiden van andere gebruikers. Wanneer  AI grafieken of afbeeldingen genereert, kunnen deze direct in je gesprek verschijnen. De code wordt weergegeven in een apart paneel waar je deze kan bekijken, kopiëren of bewerken. Je hoeft de code niet te begrijpen om deze te kunnen gebruiken.
