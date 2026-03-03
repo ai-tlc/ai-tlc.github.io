@@ -154,7 +154,35 @@ The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support co
 
 - - -
 
-## 2.7 Creating diagrams with *Mermaid*
+## 2.7 Speech-to-text function
+With the speech-to-text function of UvA AI Chat, you can speak your question instead of typing it. The assistant automatically converts your spoken text into written text and processes it as you are used to.
+
+### What can you do with it?
+
+- Ask questions by speaking them
+
+- Dictate long or complex explanations
+
+- Dictate notes, summaries, or draft texts that the assistant can further elaborate
+
+### How do you use the speech function?
+Click the microphone icon in the chat input field.
+
+If prompted, allow access to the microphone of your device.
+
+Speak clearly and formulate your question or instruction.
+
+Click the microphone icon again to stop recording.
+
+Check the recognized text in the input field and adjust it if necessary.
+
+Send your question as usual.
+
+The quality of the recognition depends on your microphone, background noise, and speaking tempo. For the best results, speak slowly and in full sentences where possible.
+
+- - -
+
+## 2.8 Creating diagrams with *Mermaid*
 
 UvA AI Chat can help you create diagrams and flowcharts using **Mermaid**. Mermaid is a simple text-based way to describe diagrams. This is useful for visualizing complex processes, organizing ideas, or creating schemes for presentations and reports.
 
@@ -187,7 +215,7 @@ UvA AI Chat does not automatically display the flowchart as an image. You need t
 
 For example:
 
-1. Go to a **Mermaid Live Editor** such as: [Mermaid live](https://mermaid.live).
+1. Go to a **Mermaid Live Editor** such as: <https://mermaid.live>
 2. Copy the full mermaid code block from UvA AI Chat.
 3. Paste the code into the left panel of the Mermaid Live Editor.
 4. The flowchart will appear in the right panel.
@@ -209,7 +237,7 @@ Formulate your prompt for example like this:
 
 - - -
 
-## 2.8 Analysing .csv files and creating graphs with UvA AI Chat
+## 2.9 Analysing .csv files and creating graphs with UvA AI Chat
 
 UvA AI Chat can also read and analyze your .csv documents. This allows you to gain insight into annual reports, quarterly figures, survey results, and other tabular data. In the example video, a .csv file is uploaded, after which UvA AI Chat: (1) inspects the structure of the data (columns, data types, missing values), (2) runs a few basic statistical analyses (such as summaries or comparisons over time), and (3) generates visualizations such as line charts or bar charts based on the selected columns.
 
@@ -238,7 +266,7 @@ However, if you want to use these analyses and graphs in contexts where accuracy
   Your browser does not support the video tag.
 </video>
 
-## 2.9 Writing Python code with UvA AI Chat
+## 2.10 Writing Python code with UvA AI Chat
 
 UvA AI chat can write and run Python code for you to analyse data, create charts, or perform calculations within a separate, safe environment. As per usual, your files stay private and separate from other users. When the AI generates graphs or images, they can appear directly in your conversation. Code is shown in a separate panel where you can view, copy, or edit it. You don't need to understand the code in order for it to operate. 
 
