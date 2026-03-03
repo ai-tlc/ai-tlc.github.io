@@ -208,6 +208,8 @@ Formulate your prompt for example like this:
 
 “*Create a Gantt chart in Mermaid syntax in a mermaid code block, for the planning of a research project with phases X, Y and Z.*”
 
+<img src="/img/uploads/screenshot-2026-03-03-at-15.42.51.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+
 - - -
 
 ## 2.9 Analysing .csv files and creating graphs with UvA AI Chat
