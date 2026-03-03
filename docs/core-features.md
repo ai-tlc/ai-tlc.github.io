@@ -245,4 +245,4 @@ However, if you want to use these analyses and graphs in contexts where accuracy
 
 UvA AI chat can write and run Python code for you to analyse data, create charts, or perform calculations within a separate, safe environment. As per usual, your files stay private and separate from other users. When the AI generates graphs or images, they can appear directly in your conversation. Code is shown in a separate panel where you can view, copy, or edit it. You don't need to understand the code in order for it to operate. 
 
-<img src="/img/uploads/screenshot-2026-02-03-172559.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+<img src="/img/uploads/screenshot-2026-03-03-at-15.10.50.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
