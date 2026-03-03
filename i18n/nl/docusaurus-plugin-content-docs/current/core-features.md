@@ -208,7 +208,7 @@ Formuleer je prompt bijvoorbeeld zo:
 
 “Create a pie chart in Mermaid syntax in a mermaid code block, to show the division of types of pie”
 
-<img src="/img/uploads/screenshot-2026-03-03-at-15.49.20.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+<img src="/img/uploads/screenshot-2026-03-03-at-16.03.46.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 - - -
 
