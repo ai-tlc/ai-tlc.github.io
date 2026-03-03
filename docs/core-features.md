@@ -156,17 +156,13 @@ The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support co
 
 ## 2.7 Creating diagrams with *Mermaid*
 
-
 UvA AI Chat can help you create diagrams and flowcharts using **Mermaid**. Mermaid is a simple text-based way to describe diagrams. This is useful for visualizing complex processes, organizing ideas, or creating schemes for presentations and reports.
 
 > *Note: the underlying technique is internally called Streamdown, but as a user you do **not** need to do anything with this. You don’t have to turn it on and you don’t need to use the term in your prompt. Just ask for a Mermaid diagram.*
->
 
 **How do you create a Mermaid diagram?**
 
-
 To get a diagram that you can use directly, you need to explicitly ask for two things in your prompt:
-
 
 1. Say that you want a Mermaid diagram (for example: “*Mermaid flowchart*”).
 2. Ask for the output in a mermaid code block.
@@ -175,14 +171,11 @@ If you only say “*create a flowchart*”, the AI may also give a descriptive t
 
 **Prompt example that directly generates a flowchart**
 
-
 A prompt that works well in practice is for example:
 
 “*Create a flowchart of the research process, from formulating a research question up to and including publishing the results. Use Mermaid syntax and give only a mermaid code block as the answer.*”
 
-
 UvA AI Chat will then generate a Mermaid code block, for example:
-
 
 <img src="https://raw.githubusercontent.com/ai-tlc/ai-tlc.github.io/refs/heads/main/static/img/uploads/screenshot-2026-02-03-172559.png"/>
 
@@ -194,8 +187,7 @@ UvA AI Chat does not automatically display the flowchart as an image. You need t
 
 For example:
 
-
-1. Go to a **Mermaid Live Editor** such as: [https://mermaid.live](https://mermaid.live)
+1. Go to a **Mermaid Live Editor** such as: <https://mermaid.live>
 2. Copy the full mermaid code block from UvA AI Chat.
 3. Paste the code into the left panel of the Mermaid Live Editor.
 4. The flowchart will appear in the right panel.
@@ -232,7 +224,9 @@ However, if you want to use these analyses and graphs in contexts where accuracy
   preload="metadata"
   playsInline
   style={{ width: "100%", maxWidth: "100%", height: "auto" }}
+
 >
+
   <source
     src="https://ai-tlc.github.io/img/uploads/data-analysis-tool.webm"
     type="video/webm"
@@ -243,4 +237,8 @@ However, if you want to use these analyses and graphs in contexts where accuracy
   />
   Your browser does not support the video tag.
 </video>
+
+## 2.9 Writing Python code with UvA AI Chat
+
+UvA AI chat can write and run Python code for you to analyse data, create charts, or perform calculations within a separate, safe environment. As per usual, your files stay private and separate from other users. When the AI generates graphs or images, they can appear directly in your conversation. Code is shown in a separate panel where you can view, copy, or edit it. You don't need to understand the code in order for it to operate. 
 
