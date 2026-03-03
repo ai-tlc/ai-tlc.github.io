@@ -192,11 +192,7 @@ UvA AI Chat can help you create diagrams and flowcharts using **Mermaid**. Merma
 
 To get a diagram that you can use directly, you need to explicitly ask for a *Mermaid flowchart*, like the example below:
 
-
-
-
-
-
+<img src="/img/uploads/screenshot-2026-03-03-at-15.42.51.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 **Other types of diagrams**
 
