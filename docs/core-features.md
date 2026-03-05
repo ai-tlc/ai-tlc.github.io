@@ -156,7 +156,7 @@ The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support co
 
 ## 2.7 Speech-to-text function
 
-With the speech-to-text function of UvA AI Chat, you can speak your question instead of typing it. The assistant automatically converts your spoken text into written text and processes it as you are used to.
+With the speech-to-text function of UvA AI Chat, you can speak your question instead of typing it. The assistant automatically converts your spoken text into written text and processes it as you are used to. Are you unsure what exactly you want to prompt or how you want to phrase your question? Try out this mode.
 
 ### What can you do with it?
 
@@ -184,19 +184,17 @@ The quality of the recognition depends on your microphone, background noise, and
 
 ## 2.8 Creating diagrams with *Mermaid*
 
-UvA AI Chat can help you create diagrams and flowcharts using **Mermaid**. Mermaid is a simple text-based way to describe diagrams. This is useful for visualizing complex processes, organizing ideas, or creating schemes for presentations and reports.
-
-> *Note: the underlying technique is internally called Streamdown, but as a user you do **not** need to do anything with this. You don’t have to turn it on and you don’t need to use the term in your prompt. Just ask for a Mermaid diagram.*
+UvA AI Chat can help you create diagrams using **Mermaid**. Mermaid is a simple text-based way to describe diagrams. This is useful for visualizing complex processes, organizing ideas, or creating schemes for presentations and reports.
 
 **How do you create a Mermaid diagram?**
 
-To get a diagram that you can use directly, you need to explicitly ask for a *Mermaid flowchart*, like the example below:
+To get a diagram that you can use directly, you need to explicitly ask for a *Mermaid diagram*, like the example below:
 
 <img src="/img/uploads/screenshot-2026-03-03-at-15.42.51.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 **Other types of diagrams**
 
-You can ask UvA AI Chat for other types of Mermaid diagrams in the same way, for example:
+You can ask UvA AI Chat for a variety of Mermaid diagrams in the same way, for example:
 
 \- Sequence diagrams
 
@@ -206,9 +204,9 @@ You can ask UvA AI Chat for other types of Mermaid diagrams in the same way, for
 
 Formulate your prompt for example like this:
 
-“*Create a pie chart in Mermaid syntax in a mermaid code block, to show the division of types of pie*”
+“*Create a pie chart in Mermaid to show division of types of pie: Apple (30) Cherry (20) Pumpkin (25) Blueberry (15) Pecan (10)*”
 
-<img src="/img/uploads/screenshot-2026-03-03-at-16.03.46.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+<img src="/img/uploads/screenshot-2026-03-05-at-10.10.24.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 - - -
 
@@ -243,6 +241,6 @@ However, if you want to use these analyses and graphs in contexts where accuracy
 
 ## 2.10 Writing Python code with UvA AI Chat
 
-UvA AI chat can write and run Python code for you to analyse data, create charts, or perform calculations within a separate, safe environment. As per usual, your files stay private and separate from other users. When the AI generates graphs or images, they can appear directly in your conversation. Code is shown in a separate panel where you can view, copy, or edit it. You don't need to understand the code in order for it to operate. 
+UvA AI chat can write and run Python code for you to analyse data, create charts, or perform calculations within a separate, safe environment. As per usual, your files stay private and separate from other users. When the AI generates graphs or images, they can appear directly in your conversation. Code is shown in a separate panel where you can view, copy, or edit it. You don't need to understand the code in order for it to operate. Is it important that the information extracted from the code is actually correct, for example, for education or research? Always check the data manually.
 
 <img src="/img/uploads/screenshot-2026-03-03-at-15.10.50.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
