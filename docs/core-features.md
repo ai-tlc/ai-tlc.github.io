@@ -156,7 +156,7 @@ The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support co
 
 ## 2.7 Speech-to-text function
 
-With the speech-to-text function of UvA AI Chat, you can speak your question instead of typing it. The assistant automatically converts your spoken text into written text and processes it as you are used to.
+With the speech-to-text function of UvA AI Chat, you can speak your question instead of typing it. The assistant automatically converts your spoken text into written text and processes it as you are used to. Are you unsure what exactly you want to prompt or how you want to phrase your question? Try out this mode.
 
 ### What can you do with it?
 
