@@ -184,19 +184,17 @@ The quality of the recognition depends on your microphone, background noise, and
 
 ## 2.8 Creating diagrams with *Mermaid*
 
-UvA AI Chat can help you create diagrams and flowcharts using **Mermaid**. Mermaid is a simple text-based way to describe diagrams. This is useful for visualizing complex processes, organizing ideas, or creating schemes for presentations and reports.
-
-> *Note: the underlying technique is internally called Streamdown, but as a user you do **not** need to do anything with this. You don’t have to turn it on and you don’t need to use the term in your prompt. Just ask for a Mermaid diagram.*
+UvA AI Chat can help you create diagrams using **Mermaid**. Mermaid is a simple text-based way to describe diagrams. This is useful for visualizing complex processes, organizing ideas, or creating schemes for presentations and reports.
 
 **How do you create a Mermaid diagram?**
 
-To get a diagram that you can use directly, you need to explicitly ask for a *Mermaid flowchart*, like the example below:
+To get a diagram that you can use directly, you need to explicitly ask for a *Mermaid diagram*, like the example below:
 
 <img src="/img/uploads/screenshot-2026-03-03-at-15.42.51.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 **Other types of diagrams**
 
-You can ask UvA AI Chat for other types of Mermaid diagrams in the same way, for example:
+You can ask UvA AI Chat for a variety of Mermaid diagrams in the same way, for example:
 
 \- Sequence diagrams
 
