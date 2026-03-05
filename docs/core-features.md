@@ -206,7 +206,7 @@ You can ask UvA AI Chat for other types of Mermaid diagrams in the same way, for
 
 Formulate your prompt for example like this:
 
-“*Create a pie chart in Mermaid syntax in a mermaid code block, to show the division of types of pie*”
+“*Create a pie chart in Mermaid to show division of types of pie: Apple (30) Cherry (20) Pumpkin (25) Blueberry (15) Pecan (10)*”
 
 <img src="/img/uploads/screenshot-2026-03-05-at-10.10.24.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
