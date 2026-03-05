@@ -158,7 +158,7 @@ De functie 'Artefacten' in UvA AI Chat is een krachtige tool die is ontworpen om
 
 ## 2.7 Spraak-naar-tekst functie
 
-Met de spraak-naar-tekstfunctie van UvA AI Chat kun je je vraag inspreken in plaats van typen. De assistent zet jouw gesproken tekst automatisch om in geschreven tekst en verwerkt die zoals je gewend bent.
+Met de spraak-naar-tekstfunctie van UvA AI Chat kun je je vraag inspreken in plaats van typen. De assistent zet jouw gesproken tekst automatisch om in geschreven tekst en verwerkt die zoals je gewend bent. Weet je niet zeker wat je precies wilt vragen of hoe je je vraag wilt formuleren? Probeer dan deze modus eens.
 
 ### Wat kun je ermee doen?
 
