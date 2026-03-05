@@ -186,23 +186,21 @@ De kwaliteit van de herkenning hangt af van je microfoon, achtergrondgeluid en j
 
 ## 2.8 Diagrammen maken met *Mermaid*
 
-UvA AI Chat kan je helpen om diagrammen en flowcharts te maken met behulp van Mermaid. Mermaid is een eenvoudige, tekstgebaseerde manier om diagrammen te beschrijven. Dit is handig voor het visualiseren van complexe processen, het organiseren van ideeën, of het maken van schema’s voor presentaties en verslagen.
-
-Let op: de onderliggende techniek heet intern *Streamdown*, maar als gebruiker hoef je daar niets mee te doen. Je hoeft het niet aan te zetten en je hoeft de term niet in je prompt te gebruiken. Vraag gewoon om een Mermaid-diagram.
+UvA AI Chat kan je helpen om diagrammen te maken met behulp van **Mermaid**. Mermaid is een eenvoudige, tekstgebaseerde manier om diagrammen te beschrijven. Dit is handig voor het visualiseren van complexe processen, het organiseren van ideeën, of het maken van schema’s voor presentaties en verslagen.
 
 ### Hoe maak je een Mermaid-diagram?
 
-Om een diagram te krijgen dat je direct kunt gebruiken, moet je expliciet vragen om een Mermaid-flowchart, zoals in het voorbeeld hieronder:
+Om een diagram te krijgen dat je direct kunt gebruiken, moet je expliciet vragen om een Mermaid-diagram, zoals in het voorbeeld hieronder:
 
 <img src="/img/uploads/screenshot-2026-03-03-at-15.42.51.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 ### Andere soorten diagrammen
 
-Je kunt UvA AI Chat op dezelfde manier vragen om andere soorten Mermaid-diagrammen, bijvoorbeeld:
+Je kunt UvA AI Chat op dezelfde manier vragen voor allerlei soorten Mermaid-diagrammen, bijvoorbeeld:
 
-* Sequence diagrams
-* Gantt charts
-* Pie charts
+* Volgorde diagrammen
+* Gantt diagrammen
+* Cirkel charts
 
 Formuleer je prompt bijvoorbeeld zo:
 
