@@ -158,7 +158,7 @@ De functie 'Artefacten' in UvA AI Chat is een krachtige tool die is ontworpen om
 
 ## 2.7 Spraak-naar-tekst functie
 
-Met de spraak-naar-tekstfunctie van UvA AI Chat kun je je vraag inspreken in plaats van typen. De assistent zet jouw gesproken tekst automatisch om in geschreven tekst en verwerkt die zoals je gewend bent.
+Met de spraak-naar-tekstfunctie van UvA AI Chat kun je je vraag inspreken in plaats van typen. De assistent zet jouw gesproken tekst automatisch om in geschreven tekst en verwerkt die zoals je gewend bent. Weet je niet zeker wat je precies wilt vragen of hoe je je vraag wilt formuleren? Probeer dan deze modus eens.
 
 ### Wat kun je ermee doen?
 
@@ -186,29 +186,27 @@ De kwaliteit van de herkenning hangt af van je microfoon, achtergrondgeluid en j
 
 ## 2.8 Diagrammen maken met *Mermaid*
 
-UvA AI Chat kan je helpen om diagrammen en flowcharts te maken met behulp van Mermaid. Mermaid is een eenvoudige, tekstgebaseerde manier om diagrammen te beschrijven. Dit is handig voor het visualiseren van complexe processen, het organiseren van ideeën, of het maken van schema’s voor presentaties en verslagen.
-
-Let op: de onderliggende techniek heet intern *Streamdown*, maar als gebruiker hoef je daar niets mee te doen. Je hoeft het niet aan te zetten en je hoeft de term niet in je prompt te gebruiken. Vraag gewoon om een Mermaid-diagram.
+UvA AI Chat kan je helpen om diagrammen te maken met behulp van **Mermaid**. Mermaid is een eenvoudige, tekstgebaseerde manier om diagrammen te beschrijven. Dit is handig voor het visualiseren van complexe processen, het organiseren van ideeën, of het maken van schema’s voor presentaties en verslagen.
 
 ### Hoe maak je een Mermaid-diagram?
 
-Om een diagram te krijgen dat je direct kunt gebruiken, moet je expliciet vragen om een Mermaid-flowchart, zoals in het voorbeeld hieronder:
+Om een diagram te krijgen dat je direct kunt gebruiken, moet je expliciet vragen om een Mermaid-diagram, zoals in het voorbeeld hieronder:
 
 <img src="/img/uploads/screenshot-2026-03-03-at-15.42.51.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 ### Andere soorten diagrammen
 
-Je kunt UvA AI Chat op dezelfde manier vragen om andere soorten Mermaid-diagrammen, bijvoorbeeld:
+Je kunt UvA AI Chat op dezelfde manier vragen voor allerlei soorten Mermaid-diagrammen, bijvoorbeeld:
 
-* Sequence diagrams
-* Gantt charts
-* Pie charts
+* Volgorde diagrammen
+* Gantt diagrammen
+* Cirkel charts
 
 Formuleer je prompt bijvoorbeeld zo:
 
-“Create a pie chart in Mermaid syntax in a mermaid code block, to show the division of types of pie”
+“Create a pie chart in Mermaid to show division of types of pie: Apple (30) Cherry (20) Pumpkin (25) Blueberry (15) Pecan (10)”
 
-<img src="/img/uploads/screenshot-2026-03-03-at-16.03.46.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+<img src="/img/uploads/screenshot-2026-03-05-at-10.10.24.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 - - -
 
@@ -231,6 +229,6 @@ Als je deze analyses en grafieken echter wilt gebruiken in situaties waar nauwke
 
 ## 2.10 Python code schrijven met UvA AI Chat
 
-AI chat kan Python-code voor je schrijven en uitvoeren om gegevens te analyseren, grafieken te maken of berekeningen uit te voeren in een aparte, veilige omgeving. Zoals altijd blijven uw bestanden privé en gescheiden van andere gebruikers. Wanneer  AI grafieken of afbeeldingen genereert, kunnen deze direct in je gesprek verschijnen. De code wordt weergegeven in een apart paneel waar je deze kan bekijken, kopiëren of bewerken. Je hoeft de code niet te begrijpen om deze te kunnen gebruiken.
+AI chat kan Python-code voor je schrijven en uitvoeren om gegevens te analyseren, grafieken te maken of berekeningen uit te voeren in een aparte, veilige omgeving. Zoals altijd blijven uw bestanden privé en gescheiden van andere gebruikers. Wanneer  AI grafieken of afbeeldingen genereert, kunnen deze direct in je gesprek verschijnen. De code wordt weergegeven in een apart paneel waar je deze kan bekijken, kopiëren of bewerken. Je hoeft de code niet te begrijpen om deze te kunnen gebruiken. Is het belangrijk dat de informatie die uit de code komt feitelijk juist is, bijvoorbeeld voor onderwijs of onderzoek? Verifieër altijd de data handmatig.
 
 <img src="/img/uploads/screenshot-2026-03-03-at-15.10.50.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
