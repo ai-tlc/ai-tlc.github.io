@@ -94,3 +94,48 @@ UvA AI Chat has access to a **`web_scrape`** tool that lets it fetch and read th
 "Can you scrape this page and summarize it for me: https://example.com/article"
 
 > Just paste a URL and tell UvA AI Chat what you'd like to know from it!
+
+- - -
+
+## 4.4 Use the Speech-to-Text Function
+
+UvA AI Chat supports voice input and text-to-speech output. Below is an overview of how to use it and how to configure the settings.
+
+**Getting Started**
+
+To use speech input, click the **microphone icon** in the chat input bar. UvA AI Chat will start recording your voice and transcribe it into text automatically.
+
+**Speech Settings**
+
+You can configure the speech behaviour via **Settings → Speech**. The following options are available:
+
+| Setting | Description |
+| ------- | ----------- |
+| **Auto-reply** | Automatically reads assistant replies aloud after you send a message using speech transcription |
+| **Interrupt speech on voice input** | Stops text-to-speech playback as soon as you start speaking again |
+| **Auto-send** | Automatically sends your message after a period of silence |
+
+**Auto-send delay options:**
+- Off
+- 1 second
+- 2 seconds
+- 5 seconds
+
+
+**Choosing a Voice**
+
+Under **Settings → Speech → Voice**, you can select a voice for text-to-speech narration. The following voices are available:
+
+* **Ava** – 🇬🇧 en-US
+* **Andrew** – 🇬🇧 en-US
+* **Emma** – 🇬🇧 en-US
+* **Brian** – 🇬🇧 en-US
+* **Colette** – 🇳🇱 nl-NL
+* **Maarten** – 🇳🇱 nl-NL
+* **Fenna** – 🇳🇱 nl-NL
+
+Click the **play button** (▷) next to a voice to preview it before selecting.
+
+> **Tip:** If you prefer Dutch text-to-speech narration, select **Colette**, **Maarten**, or **Fenna** (nl-NL) from the voice list.
+
+- - -
