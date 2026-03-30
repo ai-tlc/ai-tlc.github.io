@@ -54,13 +54,13 @@ A researcher configures an extension that communicates with the UvA library cata
 
 > "Use the library extension to find the five most recent publications by author 'Adriaan van Dis'. Provide the full APA citations for each publication and a direct link to each in the catalog."
 
+- - -
+
 ## 4.3 Use the Web Crawler tool
 
 **Web Scraper / Crawler Function**
 
 UvA AI Chat has access to a **`web_scrape`** tool that lets it fetch and read the content of a webpage when you provide a URL. Here's how it works.
-
-- - -
 
 **What It Does**
 
@@ -69,16 +69,12 @@ UvA AI Chat has access to a **`web_scrape`** tool that lets it fetch and read th
 | Input   | A full URL (e.g., `https://example.com`)     |
 | Output  | Page content in **Markdown format**          |
 
-- - -
-
 **What UvA AI Chat Can Do With It**
 
 * **Summarize** the content of a webpage
 * **Extract specific information** (e.g., dates, names, prices, policies)
 * **Follow links** found on a page and scrape those too, for deeper exploration
 * **Answer questions** based on the live content of a page
-
-- - -
 
 **Limitations**
 
@@ -87,15 +83,11 @@ UvA AI Chat has access to a **`web_scrape`** tool that lets it fetch and read th
 * Does **not** browse the web autonomously, you need to provide the URL
 * UvA AI Chat can only scrape **one page per message**
 
-- - -
-
 **Example Usage**
 
 "Can you scrape this page and summarize it for me: https://example.com/article"
 
 > Just paste a URL and tell UvA AI Chat what you'd like to know from it!
-
-- - -
 
 ## 4.4 Use the Speech-to-Text Function
 
@@ -120,7 +112,6 @@ You can configure the speech behaviour via **Settings → Speech**. The followin
 - 1 second
 - 2 seconds
 - 5 seconds
-
 
 **Choosing a Voice**
 
