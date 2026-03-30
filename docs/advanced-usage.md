@@ -53,3 +53,6 @@ To add your own extension, click "Add extension":
 A researcher configures an extension that communicates with the UvA library catalog API. Now they can use a prompt like:
 
 > "Use the library extension to find the five most recent publications by author 'Adriaan van Dis'. Provide the full APA citations for each publication and a direct link to each in the catalog."
+
+## 4.3 Use the Web Crawler tool
+
