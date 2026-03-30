@@ -40,3 +40,55 @@ Om AI effectief en verantwoord te gebruiken, moeten we onze AI-geletterdheid ont
 ## 1.2 Jouw eerste stap: inloggen
 
 Open UvA AI Chat in jouw webbrowser. Voer vervolgens jouw UvA-inloggegevens in; dit zijn jouw emailadres en wachtwoord die gekoppeld zijn aan jouw UvA-account. Voor extra beveiliging is tweefactorauthenticatie (2FA) vereist, waarbij je een verificatiecode moet invoeren die naar jouw mobiele apparaat wordt gestuurd. Na succesvolle authenticatie krijg je toegang tot het dashboard van UvA AI Chat en kun je gebruikmaken van alle functionaliteiten.
+
+## 1.3 De Technische Ondersteuningsassistent in UvA AI Chat
+
+**Wat is de Technische Ondersteuningsassistent?**
+
+De **Technische Ondersteuningsassistent** is een standaard, vooraf geconfigureerde chatbot (persona) in UvA AI Chat. In tegenstelling tot de algemene AI, die gebruikmaakt van brede trainingsdata en vrijwel elke vraag kan beantwoorden, werkt de Technische Ondersteuningsassistent binnen een **strikt afgebakend kennisdomein**: hij gebruikt uitsluitend de officiële UvA AI Chat-handleiding en de bijbehorende privacydocumentatie als kennisbasis.
+
+Dit betekent:
+
+* Hij **beantwoordt alleen vragen** die op basis van de handleiding en privacydocumenten beantwoord kunnen worden.
+* Hij geeft **betrouwbare, beleidsconforme** antwoorden over de functies en gegevensverwerking van UvA AI Chat.
+
+**Wanneer gebruik je de Technische Ondersteuningsassistent?**
+
+Je kunt hem gebruiken voor nauwkeurige en nuttige antwoorden op al je vragen over UvA AI Chat, of het nu gaat om functies, mogelijkheden of andere aspecten van het platform. Hij is vooral nuttig in de volgende situaties:
+
+| Situatie                                           | Waarom de Technische Ondersteuningsassistent helpt                                     |
+| -------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Je weet niet zeker hoe een functie werkt           | Hij legt functies uit op basis van de officiële handleiding, niet op basis van giswerk |
+| Je hebt een privacyvraag over geüploade documenten | Hij antwoordt strikt vanuit het privacybeleid                                          |
+| Je wilt weten welke AI-modellen beschikbaar zijn   | Hij geeft het actuele modeloverzicht uit de handleiding                                |
+| Je bent nieuw bij UvA AI Chat                      | Hij geeft betrouwbare informatie voor nieuwe gebruikers                                |
+| Je wilt verifiëren wat UvA AI Chat wel en niet kan | Hij overdrijft geen mogelijkheden en verzint niets                                     |
+
+We raden het gebruik ervan **niet** aan voor algemene academische taken, schrijfhulp of andere zaken buiten de scope van de eigen UvA AI Chat-documentatie — hij zal dergelijke verzoeken afwijzen of er niet bij kunnen helpen.
+
+**Hoe activeer je de Technische Ondersteuningsassistent**
+
+Klik op het "?"-icoon rechtsonder op de hoofdpagina van UvA AI Chat, óf:
+
+1. Klik op het maskericoon in de linker zijbalk van UvA AI Chat.
+2. Blader door de lijst met beschikbare persona's.
+3. Selecteer *Technical Support Assistant*.
+4. Start een nieuw gesprek: de Technische Ondersteuningsassistent is nu actief.
+
+**Praktische gebruiksscenario's**
+
+*Gebruiksscenario 1: een functie begrijpen*
+
+**Jij vraagt:** "Hoe werkt de promptbibliotheek?"
+
+**De ondersteuningspersona antwoordt** door uit te leggen wat de promptbibliotheek is, waar je die kunt vinden en hoe hij werkt.
+
+<img src="/img/uploads/screenshot-2026-03-30-at-17.41.21.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+
+*Gebruiksscenario 2: persona's zelf begrijpen*
+
+**Jij vraagt:** "Wat is een persona en hoe maak ik er een aan?"
+
+**De ondersteuningspersona antwoordt:** door je stap voor stap door het 7-stappen persona-aanmaakproces uit paragraaf 3.2 van de handleiding te leiden, inclusief het instellen van een titel, beschrijving, model, gespreksstijl, gedragsinstructies en het uploaden van kennisbestanden.
+
+<img src="/img/uploads/screenshot-2026-03-30-at-17.43.11.png" style={{width: '100%', marginBottom: '2rem'}} />
