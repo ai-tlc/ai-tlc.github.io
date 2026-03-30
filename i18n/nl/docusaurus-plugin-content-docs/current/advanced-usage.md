@@ -53,3 +53,45 @@ Om je eigen extensie toe te voegen, klik je op "Add extension" (Extensie toevoeg
 Een onderzoeker configureert een extensie die communiceert met de UvA-bibliotheekcatalogus API. Nu kunnen ze een prompt gebruiken zoals:
 
 > "Use the library extension to find the five most recent publications by author 'Adriaan van Dis'. Provide the full APA citations for each publication and a direct link to each in the catalog."
+
+## 4.3 Gebruik de Web Crawler-tool
+
+**Web Scraper / Crawler Functie**
+
+UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud van een webpagina kan ophalen en lezen wanneer je een URL opgeeft. Zo werkt het.
+
+- - -
+
+**Wat het doet**
+
+| Functie  | Beschrijving                                        |
+| -------- | --------------------------------------------------- |
+| Invoer   | Een volledige URL (bijv. `https://example.com`)     |
+| Uitvoer  | Pagina-inhoud in **Markdown-formaat**               |
+
+- - -
+
+**Wat UvA AI Chat ermee kan doen**
+
+* **Samenvatten** van de inhoud van een webpagina
+* **Specifieke informatie extraheren** (bijv. datums, namen, prijzen, beleid)
+* **Links volgen** die op een pagina staan en deze ook scrapen, voor diepere verkenning
+* **Vragen beantwoorden** op basis van de live inhoud van een pagina
+
+- - -
+
+**Beperkingen**
+
+* Leest alleen **openbaar toegankelijke** pagina's, geen met inloggegevens beveiligde inhoud
+* Leest **statische inhoud**, dynamisch geladen inhoud (bijv. JavaScript-gegenereerde pagina's) wordt mogelijk niet altijd volledig weergegeven
+* Bladert **niet** zelfstandig door het web, je moet zelf een URL opgeven
+* UvA AI Chat kan slechts **één pagina per bericht** scrapen
+
+- - -
+
+**Voorbeeldgebruik**
+
+"Kun je deze pagina scrapen en samenvatten: https://example.com/article"
+
+> Plak gewoon een URL en vertel UvA AI Chat wat je erover wilt weten!
+
