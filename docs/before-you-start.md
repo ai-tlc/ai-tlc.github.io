@@ -87,7 +87,7 @@ Click the "?" icon in the bottom right corner of the UvA AI Chat's main page, ó
 <img src="/img/uploads/screenshot-2026-03-30-at-16.41.29.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 
-*Use case 5: understanding personas themselves*
+*Use case 2: understanding personas themselves*
 
 **You ask:** "What is a persona and how do I create one?"
 
