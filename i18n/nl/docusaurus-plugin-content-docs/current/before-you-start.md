@@ -83,7 +83,7 @@ Klik op het "?"-icoon rechtsonder op de hoofdpagina van UvA AI Chat, óf:
 
 **De ondersteuningspersona antwoordt** door uit te leggen wat de promptbibliotheek is, waar je die kunt vinden en hoe hij werkt.
 
-<img src="/img/uploads/screenshot-2026-03-30-at-17.27.25.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+<img src="/img/uploads/screenshot-2026-03-30-at-17.41.21.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 *Gebruiksscenario 2: persona's zelf begrijpen*
 
@@ -91,4 +91,4 @@ Klik op het "?"-icoon rechtsonder op de hoofdpagina van UvA AI Chat, óf:
 
 **De ondersteuningspersona antwoordt:** door je stap voor stap door het 7-stappen persona-aanmaakproces uit paragraaf 3.2 van de handleiding te leiden, inclusief het instellen van een titel, beschrijving, model, gespreksstijl, gedragsinstructies en het uploaden van kennisbestanden.
 
-<img src="/img/uploads/screenshot-2026-03-30-at-17.24.33.png" style={{width: '100%', marginBottom: '2rem'}} />
+<img src="/img/uploads/screenshot-2026-03-30-at-17.43.11.png" style={{width: '100%', marginBottom: '2rem'}} />
