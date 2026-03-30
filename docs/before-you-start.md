@@ -40,3 +40,72 @@ To use AI effectively and responsibly, we need to develop our AI literacy. Among
 ## 1.2 Your first step: logging in
 
 Open AI Chat in your webbrowser. Enter your UvA login details - this means your email address and password linked to your UvA account. For additional security, two-factor authentication (2FA) is required; you'll need to enter a verification code sent to your mobile device. After successful authentication, you'll have access to the UvA AI Chat dashboard and can use all its features.
+
+- - -
+
+## 1.3 The Support Persona in UvA AI Chat
+
+**What is the Support Persona?**
+
+The **Support Persona** is a standard, pre-configured chatbot in UvA AI Chat. Unlike the general AI, which draws on broad training data and can answer almost any question, the support persona operates within a **strictly defined knowledge boundary**: it only uses the official UvA AI Chat manual and the associated privacy documentation as its knowledge base.
+
+This means:
+- It **only answers questions** that can be answered based on the manual and privacy docs.
+- It provides **reliable, policy-consistent** answers about UvA AI Chat's features and data handling.
+
+**When should you use the Support Persona?**
+
+Use the Support Persona when you need **accurate, policy-grounded answers** about UvA AI Chat itself. It is especially useful in the following situations:
+
+| Situation | Why the Support Persona helps |
+|---|---|
+| You're unsure how a feature works | It explains features based on the official manual, not guesswork |
+| You have a privacy question about uploaded documents | It answers strictly from the privacy policy |
+| You want to know which AI models are available | It provides the up-to-date model overview from the manual |
+| You're new to UvA AI Chat | It gives reliable onboarding information |
+| You need to verify what UvA AI Chat can and cannot do | It won't overstate or invent capabilities |
+
+**We do not recommend using it for** general academic tasks, writing assistance, or anything outside the scope of UvA AI Chat's own documentation - it will either decline or be unable to help with those.
+
+**How to activate the support persona**
+
+1. Click the **mask icon** in the left sidebar of UvA AI Chat.
+2. Browse the list of available personas.
+3. Select **support persona** (or the equivalent name shown in your interface).
+4. Start a new conversation — the persona is now active.
+
+> **Note:** when a persona is active, your **custom instructions are overridden**. The persona's behavior rules take full effect for the entire conversation.
+
+**Key limitations to keep in mind**
+
+- The support persona **cannot answer questions outside the manual and privacy docs**. If you ask it about general AI topics, academic writing, or anything unrelated to UvA AI Chat, it will not be able to help.
+- Its answers are only as current as the **version of the manual it has been given**. If the manual is outdated, so are its answers.
+- It does **not browse the internet** or access live UvA systems — it works purely from its uploaded documents.
+
+**Summary**
+
+| Property | Detail |
+|---|---|
+| Knowledge source | UvA AI Chat manual + privacy documentation only |
+| Purpose | Explain UvA AI Chat features and privacy rules reliably |
+| Best for | Feature questions, privacy questions, troubleshooting, onboarding |
+| Not suitable for | General tasks, academic writing, topics outside UvA AI Chat |
+| Overrides custom instructions | Yes |
+| Access | Mask icon → personas → support persona |
+
+**Practical use cases**
+
+*Use case 1: understanding a feature*
+
+**You ask:** "How does the prompt library work?"
+
+**Support persona answers:** Based on the manual, it explains that the prompt library is accessible via the book icon in the left sidebar, that it contains standard prompts (such as "academic paper feedback") and allows you to save your own prompts for reuse. It will not add information beyond what the manual states.
+
+*Use case 5: understanding personas themselves*
+
+**You ask:** "What is a persona and how do I create one?"
+
+**Support persona answers:** It walks you through the 7-step persona creation process from section 3.2 of the manual, including setting a title, description, model, conversation style, behavior instructions, and uploading knowledge files.
+
+
+
