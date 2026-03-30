@@ -43,38 +43,38 @@ Open AI Chat in your webbrowser. Enter your UvA login details - this means your 
 
 - - -
 
-## 1.3 The Support Persona in UvA AI Chat
+## 1.3 The Technical Support Assistant in UvA AI Chat
 
-**What is the Support Persona?**
+**What is the Technical Support Assistant?**
 
-The **Support Persona** is a standard, pre-configured chatbot in UvA AI Chat. Unlike the general AI, which draws on broad training data and can answer almost any question, the support persona operates within a **strictly defined knowledge boundary**: it only uses the official UvA AI Chat manual and the associated privacy documentation as its knowledge base.
+The **Technical Support Assistant** is a standard, pre-configured chatbot (persona) in UvA AI Chat. Unlike the general AI, which draws on broad training data and can answer almost any question, the Technical Support Assistant operates within a **strictly defined knowledge boundary**: it only uses the official UvA AI Chat manual and the associated privacy documentation as its knowledge base.
 
 This means:
 - It **only answers questions** that can be answered based on the manual and privacy docs.
 - It provides **reliable, policy-consistent** answers about UvA AI Chat's features and data handling.
 
-**When should you use the Support Persona?**
+**When should you use the Technical Support Assistant?**
 
-Use the Support Persona when you need **accurate, policy-grounded answers** about UvA AI Chat itself. It is especially useful in the following situations:
+You can use it to get accurate, helpful answers to all your questions about UvA AI Chat, whether they relate to its features, functionalities, capabilities, or anything else you may want to know about the platform. It is especially useful in the following situations:
 
-| Situation | Why the Support Persona helps |
+| Situation | Why the Technical Support Assistant helps |
 |---|---|
 | You're unsure how a feature works | It explains features based on the official manual, not guesswork |
 | You have a privacy question about uploaded documents | It answers strictly from the privacy policy |
 | You want to know which AI models are available | It provides the up-to-date model overview from the manual |
-| You're new to UvA AI Chat | It gives reliable onboarding information |
+| You're new to UvA AI Chat | It gives reliable information for new users |
 | You need to verify what UvA AI Chat can and cannot do | It won't overstate or invent capabilities |
 
-**We do not recommend using it for** general academic tasks, writing assistance, or anything outside the scope of UvA AI Chat's own documentation - it will either decline or be unable to help with those.
+We do not recommend using it for general academic tasks, writing assistance, or anything outside the scope of UvA AI Chat's own documentation - it will either decline or be unable to help with those.
 
-**How to activate the support persona**
+**How to activate the Technical Support Assistant**
 
-1. Click the **mask icon** in the left sidebar of UvA AI Chat.
+Click the "?" icon in the bottom right corner of the UvA AI Chat's main page, ór:
+
+1. Click the mask icon in the left sidebar of UvA AI Chat.
 2. Browse the list of available personas.
-3. Select **support persona** (or the equivalent name shown in your interface).
-4. Start a new conversation — the persona is now active.
-
-> **Note:** when a persona is active, your **custom instructions are overridden**. The persona's behavior rules take full effect for the entire conversation.
+3. Select Technical Support Assistant.
+4. Start a new conversation: the Technical Support Assistant is now active.
 
 **Key limitations to keep in mind**
 
