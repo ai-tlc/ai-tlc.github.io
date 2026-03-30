@@ -76,36 +76,21 @@ Click the "?" icon in the bottom right corner of the UvA AI Chat's main page, ó
 3. Select Technical Support Assistant.
 4. Start a new conversation: the Technical Support Assistant is now active.
 
-**Key limitations to keep in mind**
-
-- The support persona **cannot answer questions outside the manual and privacy docs**. If you ask it about general AI topics, academic writing, or anything unrelated to UvA AI Chat, it will not be able to help.
-- Its answers are only as current as the **version of the manual it has been given**. If the manual is outdated, so are its answers.
-- It does **not browse the internet** or access live UvA systems — it works purely from its uploaded documents.
-
-**Summary**
-
-| Property | Detail |
-|---|---|
-| Knowledge source | UvA AI Chat manual + privacy documentation only |
-| Purpose | Explain UvA AI Chat features and privacy rules reliably |
-| Best for | Feature questions, privacy questions, troubleshooting, onboarding |
-| Not suitable for | General tasks, academic writing, topics outside UvA AI Chat |
-| Overrides custom instructions | Yes |
-| Access | Mask icon → personas → support persona |
-
 **Practical use cases**
 
 *Use case 1: understanding a feature*
 
 **You ask:** "How does the prompt library work?"
 
-**Support persona answers:** Based on the manual, it explains that the prompt library is accessible via the book icon in the left sidebar, that it contains standard prompts (such as "academic paper feedback") and allows you to save your own prompts for reuse. It will not add information beyond what the manual states.
+**Support persona answers** by explaining what the prompt library is, where to find it, and how it works.
+
+<img src="/img/uploads/screenshot-2026-03-30-at-16.41.29.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+
 
 *Use case 5: understanding personas themselves*
 
 **You ask:** "What is a persona and how do I create one?"
 
-**Support persona answers:** It walks you through the 7-step persona creation process from section 3.2 of the manual, including setting a title, description, model, conversation style, behavior instructions, and uploading knowledge files.
+**Support persona answers:** by walking you through the 7-step persona creation process from section 3.2 of the manual, including setting a title, description, model, conversation style, behavior instructions, and uploading knowledge files.
 
-
-
+<img src="/img/uploads/screenshot-2026-03-30-at-17.10.14.png" style={{width: '100%', marginBottom: '2rem'}} />
