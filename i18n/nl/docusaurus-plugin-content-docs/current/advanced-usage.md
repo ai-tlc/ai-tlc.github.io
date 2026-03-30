@@ -54,13 +54,13 @@ Een onderzoeker configureert een extensie die communiceert met de UvA-bibliothee
 
 > "Use the library extension to find the five most recent publications by author 'Adriaan van Dis'. Provide the full APA citations for each publication and a direct link to each in the catalog."
 
+- - -
+
 ## 4.3 Gebruik de Web Crawler-tool
 
 **Web Scraper / Crawler Functie**
 
 UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud van een webpagina kan ophalen en lezen wanneer je een URL opgeeft. Zo werkt het.
-
-- - -
 
 **Wat het doet**
 
@@ -69,16 +69,12 @@ UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud va
 | Invoer   | Een volledige URL (bijv. `https://example.com`)     |
 | Uitvoer  | Pagina-inhoud in **Markdown-formaat**               |
 
-- - -
-
 **Wat UvA AI Chat ermee kan doen**
 
 * **Samenvatten** van de inhoud van een webpagina
 * **Specifieke informatie extraheren** (bijv. datums, namen, prijzen, beleid)
 * **Links volgen** die op een pagina staan en deze ook scrapen, voor diepere verkenning
 * **Vragen beantwoorden** op basis van de live inhoud van een pagina
-
-- - -
 
 **Beperkingen**
 
@@ -87,7 +83,6 @@ UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud va
 * Bladert **niet** zelfstandig door het web, je moet zelf een URL opgeven
 * UvA AI Chat kan slechts **één pagina per bericht** scrapen
 
-- - -
 
 **Voorbeeldgebruik**
 
@@ -96,43 +91,44 @@ UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud va
 > Plak gewoon een URL en vertel UvA AI Chat wat je erover wilt weten!
 
 - - -
-## 4.4 Use the Speech-to-Text Function
+## 4.4 Gebruik de Spraak-naar-tekst Functie
 
-UvA AI Chat supports voice input and text-to-speech output. Below is an overview of how to use it and how to configure the settings.
+UvA AI Chat ondersteunt spraakinvoer en tekst-naar-spraak uitvoer. Hieronder vind je een overzicht van hoe je het kunt gebruiken en hoe je de instellingen kunt configureren.
 
+**Aan de slag**
 
-**Getting Started**
+Om spraakinvoer te gebruiken, klik je op het **microfoonpictogram** in de chatinvoerbalk. UvA AI Chat begint dan je stem op te nemen en zet deze automatisch om naar tekst.
 
-To use speech input, click the **microphone icon** in the chat input bar. UvA AI Chat will start recording your voice and transcribe it into text automatically.
+**Spraak-instellingen**
 
-**Speech Settings**
+Je kunt het spraakgedrag configureren via **Instellingen → Spraak**. De volgende opties zijn beschikbaar:
 
-You can configure the speech behaviour via **Settings → Speech**. The following options are available:
-
-| Setting | Description |
+| Instelling | Beschrijving |
 | ------- | ----------- |
-| **Auto-reply** | Automatically reads assistant replies aloud after you send a message using speech transcription |
-| **Interrupt speech on voice input** | Stops text-to-speech playback as soon as you start speaking again |
-| **Auto-send** | Automatically sends your message after a period of silence |
+| **Auto-antwoord** | Leest antwoorden van de assistent automatisch voor nadat je een bericht hebt verzonden via spraakinvoer |
+| **Spraak onderbreken bij spraakinvoer** | Stopt de tekst-naar-spraak weergave zodra je opnieuw begint te spreken |
+| **Automatisch verzenden** | Verzendt je bericht automatisch na een periode van stilte |
 
-**Auto-send delay options:**
-- Off
-- 1 second
-- 2 seconds
-- 5 seconds
+**Vertragingsopties voor automatisch verzenden:**
+- Uit
+- 1 seconde
+- 2 seconden
+- 5 seconden
 
-**Choosing a Voice**
+**Een stem kiezen**
 
-Under **Settings → Speech → Voice**, you can select a voice for text-to-speech narration. The following voices are available:
+Via **Instellingen → Spraak → Stem** kun je een stem kiezen voor tekst-naar-spraak. De volgende stemmen zijn beschikbaar:
 
 * **Ava** – 🇬🇧 en-US
 * **Andrew** – 🇬🇧 en-US
 * **Emma** – 🇬🇧 en-US
 * **Brian** – 🇬🇧 en-US
 * **Colette** – 🇳🇱 nl-NL
+* **Maarten** – 🇳🇱 nl-NL
+* **Fenna** – 🇳🇱 nl-NL
 
-Click the **play button** (▷) next to a voice to preview it before selecting.
+Klik op de **afspeelknop** (▷) naast een stem om een voorbeeld te beluisteren voordat je deze selecteert.
 
-> **Tip:** If you prefer Dutch text-to-speech narration, select **Colette (nl-NL)** from the voice list.
+> **Tip:** Als je de voorkeur geeft aan Nederlandse tekst-naar-spraak, selecteer dan **Colette**, **Maarten** of **Fenna** (nl-NL) uit de stemmenlijst.
 
 - - -
