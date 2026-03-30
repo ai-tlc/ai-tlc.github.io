@@ -23,7 +23,7 @@ De onderstaande tabel dient als een snelle referentie om je te helpen het meest 
 | GPT-4.1                    | General, language, high input, creative tasks, agentic planning                                                                                                                                           | 14-04-2025       | High                     | Advanced language model          | 1 M                  | 100 K                 |
 | GPT-oss-120b | Powerful open-source model. Excellent for complex reasoning, coding, and multi-step tasks                                                                                                                                                              | 01-06-2024       | Low                   | Open source language model       | 128 K                | 32 K                   |
 | Mistral-small-3.2 | Small, fast Mistral model for quick responses, short explanations, and lightweight assistant-style tasks                                                                                                                                                               | 01-12-2023       | Medium                   | Open source language model       | 128 K                | 128 K                   |
-| Claude-Sonnet 4.5          | Complex multi-step reasoning, advanced coding and debugging, building agentic workflows, long-form analysis and creative work                                                                             | 31-01-2025       | High                     | Hybrid reasoning model           | 200 K                | 64 K                  |
+| Claude-Sonnet 4.6          | Latest and most capable Claude Sonnet model, good for complex tasks requiring deep analysis, coding, and creative work. Efficient for everyday use with excellent reasoning capabilities.                                                                             | 31-01-2026       | High                     | Hybrid reasoning model           | 1M                | 128 K                  |
 | Claude-Haiku 4.5           | Fast, cost-efficient assistant for quick questions, summaries, document synthesis, routine operations, and high-volume or real-time workflows; strong coding helper at roughly Sonnet-4-level performance | 28-08-2025       | Low                      | Fast lightweight reasoning model | 200 K                | 64 K                  |
 | GPT-5.1                    | One of the latest frontier models. Excellent for coding, complex reasoning tasks, and building intelligent agents. Provides high-quality output and analysis.                                             | 31-08-2025       | High                     | Advanced reasoning model         | 400K                 | 128K                  |
 
@@ -53,3 +53,82 @@ Om je eigen extensie toe te voegen, klik je op "Add extension" (Extensie toevoeg
 Een onderzoeker configureert een extensie die communiceert met de UvA-bibliotheekcatalogus API. Nu kunnen ze een prompt gebruiken zoals:
 
 > "Use the library extension to find the five most recent publications by author 'Adriaan van Dis'. Provide the full APA citations for each publication and a direct link to each in the catalog."
+
+- - -
+
+## 4.3 Gebruik de Web Crawler-tool
+
+**Web Scraper / Crawler Functie**
+
+UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud van een webpagina kan ophalen en lezen wanneer je een URL opgeeft. Zo werkt het.
+
+**Wat het doet**
+
+| Functie  | Beschrijving                                        |
+| -------- | --------------------------------------------------- |
+| Invoer   | Een volledige URL (bijv. `https://example.com`)     |
+| Uitvoer  | Pagina-inhoud in **Markdown-formaat**               |
+
+**Wat UvA AI Chat ermee kan doen**
+
+* **Samenvatten** van de inhoud van een webpagina
+* **Specifieke informatie extraheren** (bijv. datums, namen, prijzen, beleid)
+* **Links volgen** die op een pagina staan en deze ook scrapen, voor diepere verkenning
+* **Vragen beantwoorden** op basis van de live inhoud van een pagina
+
+**Beperkingen**
+
+* Leest alleen **openbaar toegankelijke** pagina's, geen met inloggegevens beveiligde inhoud
+* Leest **statische inhoud**, dynamisch geladen inhoud (bijv. JavaScript-gegenereerde pagina's) wordt mogelijk niet altijd volledig weergegeven
+* Bladert **niet** zelfstandig door het web, je moet zelf een URL opgeven
+* UvA AI Chat kan slechts **één pagina per bericht** scrapen
+
+
+**Voorbeeldgebruik**
+
+"Kun je deze pagina scrapen en samenvatten: https://example.com/article"
+
+> Plak gewoon een URL en vertel UvA AI Chat wat je erover wilt weten!
+
+- - -
+## 4.4 Gebruik de Spraak-naar-tekst Functie
+
+UvA AI Chat ondersteunt spraakinvoer en tekst-naar-spraak uitvoer. Hieronder vind je een overzicht van hoe je het kunt gebruiken en hoe je de instellingen kunt configureren.
+
+**Aan de slag**
+
+Om spraakinvoer te gebruiken, klik je op het **microfoonpictogram** in de chatinvoerbalk. UvA AI Chat begint dan je stem op te nemen en zet deze automatisch om naar tekst.
+
+**Spraak-instellingen**
+
+Je kunt het spraakgedrag configureren via **Instellingen → Spraak**. De volgende opties zijn beschikbaar:
+
+| Instelling | Beschrijving |
+| ------- | ----------- |
+| **Auto-antwoord** | Leest antwoorden van de assistent automatisch voor nadat je een bericht hebt verzonden via spraakinvoer |
+| **Spraak onderbreken bij spraakinvoer** | Stopt de tekst-naar-spraak weergave zodra je opnieuw begint te spreken |
+| **Automatisch verzenden** | Verzendt je bericht automatisch na een periode van stilte |
+
+**Vertragingsopties voor automatisch verzenden:**
+- Uit
+- 1 seconde
+- 2 seconden
+- 5 seconden
+
+**Een stem kiezen**
+
+Via **Instellingen → Spraak → Stem** kun je een stem kiezen voor tekst-naar-spraak. De volgende stemmen zijn beschikbaar:
+
+* **Ava** – 🇬🇧 en-US
+* **Andrew** – 🇬🇧 en-US
+* **Emma** – 🇬🇧 en-US
+* **Brian** – 🇬🇧 en-US
+* **Colette** – 🇳🇱 nl-NL
+* **Maarten** – 🇳🇱 nl-NL
+* **Fenna** – 🇳🇱 nl-NL
+
+Klik op de **afspeelknop** (▷) naast een stem om een voorbeeld te beluisteren voordat je deze selecteert.
+
+> **Tip:** Als je de voorkeur geeft aan Nederlandse tekst-naar-spraak, selecteer dan **Colette**, **Maarten** of **Fenna** (nl-NL) uit de stemmenlijst.
+
+- - -
