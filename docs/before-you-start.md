@@ -84,8 +84,7 @@ Click the "?" icon in the bottom right corner of the UvA AI Chat's main page, ó
 
 **Support persona answers** by explaining what the prompt library is, where to find it, and how it works.
 
-<img src="/img/uploads/screenshot-2026-03-30-at-16.41.29.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
-
+<img src="/img/uploads/screenshot-2026-03-30-at-17.27.25.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 *Use case 2: understanding personas themselves*
 
@@ -93,4 +92,5 @@ Click the "?" icon in the bottom right corner of the UvA AI Chat's main page, ó
 
 **Support persona answers:** by walking you through the 7-step persona creation process from section 3.2 of the manual, including setting a title, description, model, conversation style, behavior instructions, and uploading knowledge files.
 
-<img src="/img/uploads/screenshot-2026-03-30-at-17.10.14.png" style={{width: '100%', marginBottom: '2rem'}} />
+<img src="/img/uploads/screenshot-2026-03-30-at-17.24.33.png" style={{width: '100%', marginBottom: '2rem'}} />
+
