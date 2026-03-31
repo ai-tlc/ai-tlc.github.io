@@ -41,6 +41,8 @@ Om AI effectief en verantwoord te gebruiken, moeten we onze AI-geletterdheid ont
 
 Open UvA AI Chat in jouw webbrowser. Voer vervolgens jouw UvA-inloggegevens in; dit zijn jouw emailadres en wachtwoord die gekoppeld zijn aan jouw UvA-account. Voor extra beveiliging is tweefactorauthenticatie (2FA) vereist, waarbij je een verificatiecode moet invoeren die naar jouw mobiele apparaat wordt gestuurd. Na succesvolle authenticatie krijg je toegang tot het dashboard van UvA AI Chat en kun je gebruikmaken van alle functionaliteiten.
 
+- - -
+
 ## 1.3 De Technische Ondersteuningsassistent in UvA AI Chat
 
 **Wat is de Technische Ondersteuningsassistent?**
@@ -92,3 +94,35 @@ Klik op het "?"-icoon rechtsonder op de hoofdpagina van UvA AI Chat, óf:
 **De ondersteuningspersona antwoordt:** door je stap voor stap door het 7-stappen persona-aanmaakproces uit paragraaf 3.2 van de handleiding te leiden, inclusief het instellen van een titel, beschrijving, model, gespreksstijl, gedragsinstructies en het uploaden van kennisbestanden.
 
 <img src="/img/uploads/screenshot-2026-03-30-at-17.43.11.png" style={{width: '100%', marginBottom: '2rem'}} />
+
+- - -
+
+## 1.4 Mobiele interface
+
+De UvA AI Chat is ook via de browser op je telefoon te gebruiken: je hoeft geen app te installeren. Open gewoon de website op je telefoon en je ziet een interface die vrijwel identiek is aan de desktopversie.
+
+**Het navigatiemenu**
+
+Het voornaamste verschil met de desktopversie is het **navigatiemenu**. Op de computer is dit paneel standaard uitgeklapt aan de linkerkant van het scherm. Op je telefoon is het menu standaard verborgen om ruimte te besparen.
+
+Je opent het menu via het **pijltje linksboven in het scherm**. Het menu schuift dan open en toont dezelfde opties als op de desktop, weergegeven met iconen:
+
+| Icoon        | Functie       |
+| ------------ | ------------- |
+| Spraakbubbel | Algemene chat |
+| Masker       | Personas      |
+| Map          | Projects      |
+| Twee mensen  | Groups        |
+| Boekje       | Prompts       |
+| Puzzelstukje | Extensies     |
+
+Onderin het menu vind je:
+
+* **?** — Aanvullende materialen, zoals de handleiding en E-learning
+* **Mannetje-icoon** — Instellingen en accountopties
+
+Tik linksbovenin het menu opnieuw om het menu te sluiten.
+
+**Overige functies**
+
+Alle overige functies werken hetzelfde als in de desktopversie. Raadpleeg de betreffende secties in deze handleiding voor meer informatie over de individuele opties.
