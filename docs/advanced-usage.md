@@ -91,7 +91,7 @@ UvA AI Chat has access to a **`web_scrape`** tool that lets it fetch and read th
 
 - - -
 
-## 2.10 Writing Python code with UvA AI Chat
+## 4.4 Writing Python code with UvA AI Chat
 
 UvA AI chat can write and run Python code for you to analyse data, create charts, or perform calculations within a separate, safe environment. As per usual, your files stay private and separate from other users. When the AI generates graphs or images, they can appear directly in your conversation. Code is shown in a separate panel where you can view, copy, or edit it. You don't need to understand the code in order for it to operate. Is it important that the information extracted from the code is actually correct, for example, for education or research? Always check the data manually.
 
