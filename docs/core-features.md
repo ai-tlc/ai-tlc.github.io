@@ -154,31 +154,46 @@ The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support co
 
 - - -
 
-## 2.7 Speech-to-text function
+## 2.7 Use the Speech-to-Text Function
 
-With the speech-to-text function of UvA AI Chat, you can speak your question instead of typing it. The assistant automatically converts your spoken text into written text and processes it as you are used to. Are you unsure what exactly you want to prompt or how you want to phrase your question? Try out this mode.
+UvA AI Chat supports voice input and text-to-speech output. Below is an overview of how to use it and how to configure the settings.
 
-### What can you do with it?
+**Getting Started**
 
-* Ask questions by speaking them
-* Dictate long or complex explanations
-* Dictate notes, summaries, or draft texts that the assistant can further elaborate
+To use speech input, click the **microphone icon** in the chat input bar. UvA AI Chat will start recording your voice and transcribe it into text automatically.
 
-### How do you use the speech function?
+**Speech Settings**
 
-Click the microphone icon in the chat input field.
+You can configure the speech behaviour via **Settings → Speech**. The following options are available:
 
-If prompted, allow access to the microphone of your device.
+| Setting                             | Description                                                                                     |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Auto-reply**                      | Automatically reads assistant replies aloud after you send a message using speech transcription |
+| **Interrupt speech on voice input** | Stops text-to-speech playback as soon as you start speaking again                               |
+| **Auto-send**                       | Automatically sends your message after a period of silence                                      |
 
-Speak clearly and formulate your question or instruction.
+**Auto-send delay options:**
 
-Click the microphone icon again to stop recording.
+* Off
+* 1 second
+* 2 seconds
+* 5 seconds
 
-Check the recognized text in the input field and adjust it if necessary.
+**Choosing a Voice**
 
-Send your question as usual.
+Under **Settings → Speech → Voice**, you can select a voice for text-to-speech narration. The following voices are available:
 
-The quality of the recognition depends on your microphone, background noise, and speaking tempo. For the best results, speak slowly and in full sentences where possible.
+* **Ava** – 🇬🇧 en-US
+* **Andrew** – 🇬🇧 en-US
+* **Emma** – 🇬🇧 en-US
+* **Brian** – 🇬🇧 en-US
+* **Colette** – 🇳🇱 nl-NL
+* **Maarten** – 🇳🇱 nl-NL
+* **Fenna** – 🇳🇱 nl-NL
+
+Click the **play button** (▷) next to a voice to preview it before selecting.
+
+> **Tip:** If you prefer Dutch text-to-speech narration, select **Colette**, **Maarten**, or **Fenna** (nl-NL) from the voice list.
 
 - - -
 
@@ -239,8 +254,4 @@ However, if you want to use these analyses and graphs in contexts where accuracy
   Your browser does not support the video tag.
 </video>
 
-## 2.10 Writing Python code with UvA AI Chat
-
-UvA AI chat can write and run Python code for you to analyse data, create charts, or perform calculations within a separate, safe environment. As per usual, your files stay private and separate from other users. When the AI generates graphs or images, they can appear directly in your conversation. Code is shown in a separate panel where you can view, copy, or edit it. You don't need to understand the code in order for it to operate. Is it important that the information extracted from the code is actually correct, for example, for education or research? Always check the data manually.
-
-<img src="/img/uploads/screenshot-2026-03-03-at-15.10.50.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+- - - 
