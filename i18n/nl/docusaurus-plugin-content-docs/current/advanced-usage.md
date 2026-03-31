@@ -14,18 +14,18 @@ De onderstaande tabel dient als een snelle referentie om je te helpen het meest 
 
 ### Tabel 2: Vergelijking van beschikbare AI-modellen
 
-| Model                      | General Use Cases                                                                                                                                                                                         | Knowledge Cutoff | Energy / Cost (relative) | Type                             | Context Window Input | Context Window Output |
-| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------------------ | -------------------------------- | -------------------- | --------------------- |
-| gpt-5                      | Explaining complex concepts, advanced coding projects, interpreting academic papers                                                                                                                       | 30-09-2024       | High                     | Advanced reasoning model         | 272 K                | 128 K                 |
-| gpt-5-mini                 | moderate concept clarification, brainstorming ideas, study planning, understanding course material                                                                                                        | 31-05-2024       | Medium                   | Efficient reasoning model        | 272 K                | 128 K                 |
-| gpt-5-nano                 | Quick definitions, fact-checking, basic explanations, vocabulary help, concept reviews                                                                                                                    | 31-05-2024       | Low                      | Lightweight reasoning model      | 272 K                | 128 K                 |
-| GPT-4o                     | Analyzing diagrams/charts visual content interpretation, presentation feedback                                                                                                                            | 20-11-2024       | High                     | Multimodal model                 | 128 K                | 16 K                  |
-| GPT-4.1                    | General, language, high input, creative tasks, agentic planning                                                                                                                                           | 14-04-2025       | High                     | Advanced language model          | 1 M                  | 100 K                 |
-| GPT-oss-120b | Powerful open-source model. Excellent for complex reasoning, coding, and multi-step tasks                                                                                                                                                              | 01-06-2024       | Low                   | Open source language model       | 128 K                | 32 K                   |
-| Mistral-small-3.2 | Small, fast Mistral model for quick responses, short explanations, and lightweight assistant-style tasks                                                                                                                                                               | 01-12-2023       | Medium                   | Open source language model       | 128 K                | 128 K                   |
-| Claude-Sonnet 4.6          | Latest and most capable Claude Sonnet model, good for complex tasks requiring deep analysis, coding, and creative work. Efficient for everyday use with excellent reasoning capabilities.                                                                             | 31-01-2026       | High                     | Hybrid reasoning model           | 1M                | 128 K                  |
-| Claude-Haiku 4.5           | Fast, cost-efficient assistant for quick questions, summaries, document synthesis, routine operations, and high-volume or real-time workflows; strong coding helper at roughly Sonnet-4-level performance | 28-08-2025       | Low                      | Fast lightweight reasoning model | 200 K                | 64 K                  |
-| GPT-5.1                    | One of the latest frontier models. Excellent for coding, complex reasoning tasks, and building intelligent agents. Provides high-quality output and analysis.                                             | 31-08-2025       | High                     | Advanced reasoning model         | 400K                 | 128K                  |
+| Model             | General Use Cases                                                                                                                                                                                         | Knowledge Cutoff | Energy / Cost (relative) | Type                             | Context Window Input | Context Window Output |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------------------ | -------------------------------- | -------------------- | --------------------- |
+| gpt-5             | Explaining complex concepts, advanced coding projects, interpreting academic papers                                                                                                                       | 30-09-2024       | High                     | Advanced reasoning model         | 272 K                | 128 K                 |
+| gpt-5-mini        | moderate concept clarification, brainstorming ideas, study planning, understanding course material                                                                                                        | 31-05-2024       | Medium                   | Efficient reasoning model        | 272 K                | 128 K                 |
+| gpt-5-nano        | Quick definitions, fact-checking, basic explanations, vocabulary help, concept reviews                                                                                                                    | 31-05-2024       | Low                      | Lightweight reasoning model      | 272 K                | 128 K                 |
+| GPT-4o            | Analyzing diagrams/charts visual content interpretation, presentation feedback                                                                                                                            | 20-11-2024       | High                     | Multimodal model                 | 128 K                | 16 K                  |
+| GPT-4.1           | General, language, high input, creative tasks, agentic planning                                                                                                                                           | 14-04-2025       | High                     | Advanced language model          | 1 M                  | 100 K                 |
+| GPT-oss-120b      | Powerful open-source model. Excellent for complex reasoning, coding, and multi-step tasks                                                                                                                 | 01-06-2024       | Low                      | Open source language model       | 128 K                | 32 K                  |
+| Mistral-small-3.2 | Small, fast Mistral model for quick responses, short explanations, and lightweight assistant-style tasks                                                                                                  | 01-12-2023       | Medium                   | Open source language model       | 128 K                | 128 K                 |
+| Claude-Sonnet 4.6 | Latest and most capable Claude Sonnet model, good for complex tasks requiring deep analysis, coding, and creative work. Efficient for everyday use with excellent reasoning capabilities.                 | 31-01-2026       | High                     | Hybrid reasoning model           | 1M                   | 128 K                 |
+| Claude-Haiku 4.5  | Fast, cost-efficient assistant for quick questions, summaries, document synthesis, routine operations, and high-volume or real-time workflows; strong coding helper at roughly Sonnet-4-level performance | 28-08-2025       | Low                      | Fast lightweight reasoning model | 200 K                | 64 K                  |
+| GPT-5.1           | One of the latest frontier models. Excellent for coding, complex reasoning tasks, and building intelligent agents. Provides high-quality output and analysis.                                             | 31-08-2025       | High                     | Advanced reasoning model         | 400K                 | 128K                  |
 
 - - -
 
@@ -64,10 +64,10 @@ UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud va
 
 **Wat het doet**
 
-| Functie  | Beschrijving                                        |
-| -------- | --------------------------------------------------- |
-| Invoer   | Een volledige URL (bijv. `https://example.com`)     |
-| Uitvoer  | Pagina-inhoud in **Markdown-formaat**               |
+| Functie | Beschrijving                                    |
+| ------- | ----------------------------------------------- |
+| Invoer  | Een volledige URL (bijv. `https://example.com`) |
+| Uitvoer | Pagina-inhoud in **Markdown-formaat**           |
 
 **Wat UvA AI Chat ermee kan doen**
 
@@ -83,7 +83,6 @@ UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud va
 * Bladert **niet** zelfstandig door het web, je moet zelf een URL opgeven
 * UvA AI Chat kan slechts **één pagina per bericht** scrapen
 
-
 **Voorbeeldgebruik**
 
 "Kun je deze pagina scrapen en samenvatten: https://example.com/article"
@@ -91,6 +90,7 @@ UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud va
 > Plak gewoon een URL en vertel UvA AI Chat wat je erover wilt weten!
 
 - - -
+
 ## 4.4 Gebruik de Spraak-naar-tekst Functie
 
 UvA AI Chat ondersteunt spraakinvoer en tekst-naar-spraak uitvoer. Hieronder vind je een overzicht van hoe je het kunt gebruiken en hoe je de instellingen kunt configureren.
@@ -103,17 +103,18 @@ Om spraakinvoer te gebruiken, klik je op het **microfoonpictogram** in de chatin
 
 Je kunt het spraakgedrag configureren via **Instellingen → Spraak**. De volgende opties zijn beschikbaar:
 
-| Instelling | Beschrijving |
-| ------- | ----------- |
-| **Auto-antwoord** | Leest antwoorden van de assistent automatisch voor nadat je een bericht hebt verzonden via spraakinvoer |
-| **Spraak onderbreken bij spraakinvoer** | Stopt de tekst-naar-spraak weergave zodra je opnieuw begint te spreken |
-| **Automatisch verzenden** | Verzendt je bericht automatisch na een periode van stilte |
+| Instelling                              | Beschrijving                                                                                            |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Auto-antwoord**                       | Leest antwoorden van de assistent automatisch voor nadat je een bericht hebt verzonden via spraakinvoer |
+| **Spraak onderbreken bij spraakinvoer** | Stopt de tekst-naar-spraak weergave zodra je opnieuw begint te spreken                                  |
+| **Automatisch verzenden**               | Verzendt je bericht automatisch na een periode van stilte                                               |
 
 **Vertragingsopties voor automatisch verzenden:**
-- Uit
-- 1 seconde
-- 2 seconden
-- 5 seconden
+
+* Uit
+* 1 seconde
+* 2 seconden
+* 5 seconden
 
 **Een stem kiezen**
 
@@ -132,3 +133,33 @@ Klik op de **afspeelknop** (▷) naast een stem om een voorbeeld te beluisteren 
 > **Tip:** Als je de voorkeur geeft aan Nederlandse tekst-naar-spraak, selecteer dan **Colette**, **Maarten** of **Fenna** (nl-NL) uit de stemmenlijst.
 
 - - -
+
+## 4.5 Mobiele interface
+
+De UvA AI Chat is ook via de browser op je telefoon te gebruiken: je hoeft geen app te installeren. Open gewoon de website op je telefoon en je ziet een interface die vrijwel identiek is aan de desktopversie.
+
+**Het navigatiemenu**
+
+Het voornaamste verschil met de desktopversie is het **navigatiemenu**. Op de computer is dit paneel standaard uitgeklapt aan de linkerkant van het scherm. Op je telefoon is het menu standaard verborgen om ruimte te besparen.
+
+Je opent het menu via het **pijltje linksboven in het scherm**. Het menu schuift dan open en toont dezelfde opties als op de desktop, weergegeven met iconen:
+
+| Icoon        | Functie       |
+| ------------ | ------------- |
+| Spraakbubbel | Algemene chat |
+| Masker       | Personas      |
+| Map          | Projects      |
+| Twee mensen  | Groups        |
+| Boekje       | Prompts       |
+| Puzzelstukje | Extensies     |
+
+Onderin het menu vind je:
+
+* **?** — Aanvullende materialen, zoals de handleiding en E-learning
+* **Mannetje-icoon** — Instellingen en accountopties
+
+Tik linksbovenin het menu opnieuw om het menu te sluiten.
+
+**Overige functies**
+
+Alle overige functies werken hetzelfde als in de desktopversie. Raadpleeg de betreffende secties in deze handleiding voor meer informatie over de individuele opties.
