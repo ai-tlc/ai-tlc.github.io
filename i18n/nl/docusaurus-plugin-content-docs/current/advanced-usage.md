@@ -90,3 +90,9 @@ UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud va
 > Plak gewoon een URL en vertel UvA AI Chat wat je erover wilt weten!
 
 - - -
+
+## 4.4 Python code schrijven met UvA AI Chat
+
+AI chat kan Python-code voor je schrijven en uitvoeren om gegevens te analyseren, grafieken te maken of berekeningen uit te voeren in een aparte, veilige omgeving. Zoals altijd blijven uw bestanden privé en gescheiden van andere gebruikers. Wanneer  AI grafieken of afbeeldingen genereert, kunnen deze direct in je gesprek verschijnen. De code wordt weergegeven in een apart paneel waar je deze kan bekijken, kopiëren of bewerken. Je hoeft de code niet te begrijpen om deze te kunnen gebruiken. Is het belangrijk dat de informatie die uit de code komt feitelijk juist is, bijvoorbeeld voor onderwijs of onderzoek? Verifieër altijd de data handmatig.
+
+<img src="/img/uploads/screenshot-2026-03-31-at-13.15.16.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
