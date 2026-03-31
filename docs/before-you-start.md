@@ -8,7 +8,7 @@ slug: /before-you-start
 
 ## About this manual
 
-This manual for UvA AI Chat is designed as a reference guide where you can look up information about the various features and settings of UvA AI Chat. If you're using UvA AI Chat for the first time - or if you don't have much experience with generative AI - we recommend starting with the "Getting Started with the UvA AI Chat" e-learning. This e-learning module walks you through all the basic features step by step and shows examples of how you can use the tool. Once you're familiar with UvA AI Chat, you can use this manual as a reference whenever you need it. You can also use the "UvA AI Chat Ondersteuning" persona within UvA AI Chat, which is based on this guide.
+This manual for UvA AI Chat is designed as a reference guide where you can look up information about the various features and settings of UvA AI Chat. If you're using UvA AI Chat for the first time - or if you don't have much experience with generative AI - we recommend starting with the "[Getting Started with the UvA AI Chat](https://edu.nl/r4duh)" e-learning. This e-learning module walks you through all the basic features step by step and shows examples of how you can use the tool. Once you're familiar with UvA AI Chat, you can use this manual as a reference whenever you need it. You can also use the "UvA AI Chat Ondersteuning" persona within UvA AI Chat, which is based on this guide.
 
 Because AI is evolving rapidly, this manual will also be regularly updated. The latest features and applications of UvA AI Chat will be included in future versions.
 
@@ -50,20 +50,21 @@ Open AI Chat in your webbrowser. Enter your UvA login details - this means your 
 The **Technical Support Assistant** is a standard, pre-configured chatbot (persona) in UvA AI Chat. Unlike the general AI, which draws on broad training data and can answer almost any question, the Technical Support Assistant operates within a **strictly defined knowledge boundary**: it only uses the official UvA AI Chat manual and the associated privacy documentation as its knowledge base.
 
 This means:
-- It **only answers questions** that can be answered based on the manual and privacy docs.
-- It provides **reliable, policy-consistent** answers about UvA AI Chat's features and data handling.
+
+* It **only answers questions** that can be answered based on the manual and privacy docs.
+* It provides **reliable, policy-consistent** answers about UvA AI Chat's features and data handling.
 
 **When should you use the Technical Support Assistant?**
 
 You can use it to get accurate, helpful answers to all your questions about UvA AI Chat, whether they relate to its features, functionalities, capabilities, or anything else you may want to know about the platform. It is especially useful in the following situations:
 
-| Situation | Why the Technical Support Assistant helps |
-|---|---|
-| You're unsure how a feature works | It explains features based on the official manual, not guesswork |
-| You have a privacy question about uploaded documents | It answers strictly from the privacy policy |
-| You want to know which AI models are available | It provides the up-to-date model overview from the manual |
-| You're new to UvA AI Chat | It gives reliable information for new users |
-| You need to verify what UvA AI Chat can and cannot do | It won't overstate or invent capabilities |
+| Situation                                             | Why the Technical Support Assistant helps                        |
+| ----------------------------------------------------- | ---------------------------------------------------------------- |
+| You're unsure how a feature works                     | It explains features based on the official manual, not guesswork |
+| You have a privacy question about uploaded documents  | It answers strictly from the privacy policy                      |
+| You want to know which AI models are available        | It provides the up-to-date model overview from the manual        |
+| You're new to UvA AI Chat                             | It gives reliable information for new users                      |
+| You need to verify what UvA AI Chat can and cannot do | It won't overstate or invent capabilities                        |
 
 We do not recommend using it for general academic tasks, writing assistance, or anything outside the scope of UvA AI Chat's own documentation - it will either decline or be unable to help with those.
 
@@ -93,4 +94,3 @@ Click the "?" icon in the bottom right corner of the UvA AI Chat's main page, ó
 **Support persona answers:** by walking you through the 7-step persona creation process from section 3.2 of the manual, including setting a title, description, model, conversation style, behavior instructions, and uploading knowledge files.
 
 <img src="/img/uploads/screenshot-2026-03-30-at-17.24.33.png" style={{width: '100%', marginBottom: '2rem'}} />
-
