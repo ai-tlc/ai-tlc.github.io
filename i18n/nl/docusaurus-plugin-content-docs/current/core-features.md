@@ -132,7 +132,7 @@ De functie 'Artefacten' in UvA AI Chat is een krachtige tool die is ontworpen om
 
 ### Hoe gebruik je artefacten
 
-1. **Activeer de functie:** Om te beginnen moet u de functie 'Artifact Creation' selecteren binnen de UvA AI Chat-interface (klik op het schuifmenu). Hiermee geeft u aan de AI aan dat u een output zoekt in een apart venster voor verdere bewerking.
+1. **Activeer de functie:** Om te beginnen moet u de functie 'Artifact Creation' selecteren binnen de UvA AI Chat-interface (klik op de drie puntjes). Hiermee geeft u aan de AI aan dat u een output zoekt in een apart venster voor verdere bewerking.
 2. **Geef een duidelijke opdracht:** Typ in het chatvenster een opdracht die het onderwerp en het type artefact dat je nodig hebt duidelijk definieert. Je zou de AI bijvoorbeeld kunnen vragen: "Maak een artefact waarin de Keynesiaanse en Neoklassieke economische theorieën worden vergeleken."
 3. **Bekijk de gegenereerde output:** De AI produceert vervolgens een artefact op basis van je verzoek. In het voorbeeld van de economische theorieën zou de output een overzicht kunnen zijn van de belangrijkste principes, aannames en politieke implicaties.
 4. **Werk samen aan revisies:** Het platform stelt je in staat om het artefact gezamenlijk te verfijnen. Je kunt direct bewerkingen uitvoeren in het speciale tekst- of codevenster, of je kunt de AI verdere instructies geven in de chat om een specifiek gedeelte van het artefact te wijzigen of uit te breiden. Je kunt ook stukken tekst of code selecteren en de AI vragen die aan te passen.
