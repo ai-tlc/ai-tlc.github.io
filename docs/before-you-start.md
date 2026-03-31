@@ -94,3 +94,35 @@ Click the "?" icon in the bottom right corner of the UvA AI Chat's main page, ó
 **Support persona answers:** by walking you through the 7-step persona creation process from section 3.2 of the manual, including setting a title, description, model, conversation style, behavior instructions, and uploading knowledge files.
 
 <img src="/img/uploads/screenshot-2026-03-30-at-17.24.33.png" style={{width: '100%', marginBottom: '2rem'}} />
+
+- - -
+
+## 1.4 Mobile interface
+
+The UvA AI Chat can also be used via the browser on your phone: no app installation required. Simply open the website on your phone and you will see an interface that is virtually identical to the desktop version.
+
+**The navigation menu**
+
+The main difference from the desktop version is the **navigation menu**. On a computer, this panel is expanded by default on the left side of the screen. On your phone, the menu is hidden by default to save space.
+
+You can open the menu using the **arrow in the top-left corner of the screen**. The menu will slide open and display the same options as on the desktop, shown with icons:
+
+| Icon          | Function     |
+| ------------- | ------------ |
+| Speech bubble | General chat |
+| Mask          | Personas     |
+| Folder        | Projects     |
+| Two people    | Groups       |
+| Booklet       | Prompts      |
+| Puzzle piece  | Extensions   |
+
+At the bottom of the menu you will find:
+
+* **?** — Additional materials, such as the manual and E-learning
+* **Person icon** — Settings and account options
+
+Tap on the arrow in the top left of the menu again to close it.
+
+**Other features**
+
+All other features work the same as in the desktop version. Refer to the relevant sections in this manual for more information on the individual options.
