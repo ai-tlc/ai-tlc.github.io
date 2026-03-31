@@ -130,7 +130,7 @@ The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support co
 
 ### How to use artifacts
 
-1. **Activate the feature:** To begin, you must select the "Artifact Creation" feature within the UvA AI Chat interface (click the slider menu). This signals to the AI that you are looking for a output in a separate window for further editing.
+1. **Activate the feature:** To begin, you must select the "Artifact Creation" feature within the UvA AI Chat interface (click the three dots in the chat window_. This signals to the AI that you are looking for a output in a separate window for further editing.
 2. **Provide a clear instruction:** In the chat box, enter an instruction that clearly defines the topic and the type of artifact you need. For example, you could prompt the AI with: "create an artifact comparing Keynesian and Neoclassical economic theories."
 3. **Review the generated output:** The AI will then produce an artifact based on your request. In the example of economic theories, the output could be an overview of the key principles, assumptions and political implications.
 4. **Collaborate on revisions:** The platform allows you to refine the artifact collaboratively. You can make direct edits in the dedicated text or code window, or you can give the AI further instructions in the chat to modify or expand a specific section of the artifact. You can also select pieces of text or code and ask AI to modify those.
