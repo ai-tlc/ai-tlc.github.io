@@ -156,31 +156,46 @@ De functie 'Artefacten' in UvA AI Chat is een krachtige tool die is ontworpen om
 
 - - -
 
-## 2.7 Spraak-naar-tekst functie
+## 2.7 Gebruik de Spraak-naar-tekst Functie
 
-Met de spraak-naar-tekstfunctie van UvA AI Chat kun je je vraag inspreken in plaats van typen. De assistent zet jouw gesproken tekst automatisch om in geschreven tekst en verwerkt die zoals je gewend bent. Weet je niet zeker wat je precies wilt vragen of hoe je je vraag wilt formuleren? Probeer dan deze modus eens.
+UvA AI Chat ondersteunt spraakinvoer en tekst-naar-spraak uitvoer. Hieronder vind je een overzicht van hoe je het kunt gebruiken en hoe je de instellingen kunt configureren.
 
-### Wat kun je ermee doen?
+**Aan de slag**
 
-* Vragen stellen door ze in te spreken
-* Lange of complexe uitleg dicteren
-* Notities, samenvattingen of conceptteksten inspreken die de assistent verder kan uitwerken
+Om spraakinvoer te gebruiken, klik je op het **microfoonpictogram** in de chatinvoerbalk. UvA AI Chat begint dan je stem op te nemen en zet deze automatisch om naar tekst.
 
-### Hoe gebruik je de spraakfunctie?
+**Spraak-instellingen**
 
-Klik op het microfoon‑icoon in het invoerveld van de chat.
+Je kunt het spraakgedrag configureren via **Instellingen → Spraak**. De volgende opties zijn beschikbaar:
 
-Sta, als daarom gevraagd wordt, toegang tot de microfoon van je apparaat toe.
+| Instelling                              | Beschrijving                                                                                            |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Auto-antwoord**                       | Leest antwoorden van de assistent automatisch voor nadat je een bericht hebt verzonden via spraakinvoer |
+| **Spraak onderbreken bij spraakinvoer** | Stopt de tekst-naar-spraak weergave zodra je opnieuw begint te spreken                                  |
+| **Automatisch verzenden**               | Verzendt je bericht automatisch na een periode van stilte                                               |
 
-Spreek duidelijk in en formuleer je vraag of opdracht.
+**Vertragingsopties voor automatisch verzenden:**
 
-Klik opnieuw op het microfoon‑icoon om het opnemen te stoppen.
+* Uit
+* 1 seconde
+* 2 seconden
+* 5 seconden
 
-Controleer de herkende tekst in het invoerveld en pas die indien nodig aan.
+**Een stem kiezen**
 
-Verstuur je vraag zoals gebruikelijk.
+Via **Instellingen → Spraak → Stem** kun je een stem kiezen voor tekst-naar-spraak. De volgende stemmen zijn beschikbaar:
 
-De kwaliteit van de herkenning hangt af van je microfoon, achtergrondgeluid en je spreektempo. Spreek bij voorkeur rustig en in volledige zinnen voor het beste resultaat.
+* **Ava** – 🇬🇧 en-US
+* **Andrew** – 🇬🇧 en-US
+* **Emma** – 🇬🇧 en-US
+* **Brian** – 🇬🇧 en-US
+* **Colette** – 🇳🇱 nl-NL
+* **Maarten** – 🇳🇱 nl-NL
+* **Fenna** – 🇳🇱 nl-NL
+
+Klik op de **afspeelknop** (▷) naast een stem om een voorbeeld te beluisteren voordat je deze selecteert.
+
+> **Tip:** Als je de voorkeur geeft aan Nederlandse tekst-naar-spraak, selecteer dan **Colette**, **Maarten** of **Fenna** (nl-NL) uit de stemmenlijst.
 
 - - -
 
@@ -227,8 +242,4 @@ Als je deze analyses en grafieken echter wilt gebruiken in situaties waar nauwke
   />
 </video>
 
-## 2.10 Python code schrijven met UvA AI Chat
-
-AI chat kan Python-code voor je schrijven en uitvoeren om gegevens te analyseren, grafieken te maken of berekeningen uit te voeren in een aparte, veilige omgeving. Zoals altijd blijven uw bestanden privé en gescheiden van andere gebruikers. Wanneer  AI grafieken of afbeeldingen genereert, kunnen deze direct in je gesprek verschijnen. De code wordt weergegeven in een apart paneel waar je deze kan bekijken, kopiëren of bewerken. Je hoeft de code niet te begrijpen om deze te kunnen gebruiken. Is het belangrijk dat de informatie die uit de code komt feitelijk juist is, bijvoorbeeld voor onderwijs of onderzoek? Verifieër altijd de data handmatig.
-
-<img src="/img/uploads/screenshot-2026-03-03-at-15.10.50.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+- - - 
