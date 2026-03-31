@@ -91,75 +91,8 @@ UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud va
 
 - - -
 
-## 4.4 Gebruik de Spraak-naar-tekst Functie
+## 4.4 Python code schrijven met UvA AI Chat
 
-UvA AI Chat ondersteunt spraakinvoer en tekst-naar-spraak uitvoer. Hieronder vind je een overzicht van hoe je het kunt gebruiken en hoe je de instellingen kunt configureren.
+AI chat kan Python-code voor je schrijven en uitvoeren om gegevens te analyseren, grafieken te maken of berekeningen uit te voeren in een aparte, veilige omgeving. Zoals altijd blijven uw bestanden privé en gescheiden van andere gebruikers. Wanneer  AI grafieken of afbeeldingen genereert, kunnen deze direct in je gesprek verschijnen. De code wordt weergegeven in een apart paneel waar je deze kan bekijken, kopiëren of bewerken. Je hoeft de code niet te begrijpen om deze te kunnen gebruiken. Is het belangrijk dat de informatie die uit de code komt feitelijk juist is, bijvoorbeeld voor onderwijs of onderzoek? Verifieër altijd de data handmatig.
 
-**Aan de slag**
-
-Om spraakinvoer te gebruiken, klik je op het **microfoonpictogram** in de chatinvoerbalk. UvA AI Chat begint dan je stem op te nemen en zet deze automatisch om naar tekst.
-
-**Spraak-instellingen**
-
-Je kunt het spraakgedrag configureren via **Instellingen → Spraak**. De volgende opties zijn beschikbaar:
-
-| Instelling                              | Beschrijving                                                                                            |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| **Auto-antwoord**                       | Leest antwoorden van de assistent automatisch voor nadat je een bericht hebt verzonden via spraakinvoer |
-| **Spraak onderbreken bij spraakinvoer** | Stopt de tekst-naar-spraak weergave zodra je opnieuw begint te spreken                                  |
-| **Automatisch verzenden**               | Verzendt je bericht automatisch na een periode van stilte                                               |
-
-**Vertragingsopties voor automatisch verzenden:**
-
-* Uit
-* 1 seconde
-* 2 seconden
-* 5 seconden
-
-**Een stem kiezen**
-
-Via **Instellingen → Spraak → Stem** kun je een stem kiezen voor tekst-naar-spraak. De volgende stemmen zijn beschikbaar:
-
-* **Ava** – 🇬🇧 en-US
-* **Andrew** – 🇬🇧 en-US
-* **Emma** – 🇬🇧 en-US
-* **Brian** – 🇬🇧 en-US
-* **Colette** – 🇳🇱 nl-NL
-* **Maarten** – 🇳🇱 nl-NL
-* **Fenna** – 🇳🇱 nl-NL
-
-Klik op de **afspeelknop** (▷) naast een stem om een voorbeeld te beluisteren voordat je deze selecteert.
-
-> **Tip:** Als je de voorkeur geeft aan Nederlandse tekst-naar-spraak, selecteer dan **Colette**, **Maarten** of **Fenna** (nl-NL) uit de stemmenlijst.
-
-- - -
-
-## 4.5 Mobiele interface
-
-De UvA AI Chat is ook via de browser op je telefoon te gebruiken: je hoeft geen app te installeren. Open gewoon de website op je telefoon en je ziet een interface die vrijwel identiek is aan de desktopversie.
-
-**Het navigatiemenu**
-
-Het voornaamste verschil met de desktopversie is het **navigatiemenu**. Op de computer is dit paneel standaard uitgeklapt aan de linkerkant van het scherm. Op je telefoon is het menu standaard verborgen om ruimte te besparen.
-
-Je opent het menu via het **pijltje linksboven in het scherm**. Het menu schuift dan open en toont dezelfde opties als op de desktop, weergegeven met iconen:
-
-| Icoon        | Functie       |
-| ------------ | ------------- |
-| Spraakbubbel | Algemene chat |
-| Masker       | Personas      |
-| Map          | Projects      |
-| Twee mensen  | Groups        |
-| Boekje       | Prompts       |
-| Puzzelstukje | Extensies     |
-
-Onderin het menu vind je:
-
-* **?** — Aanvullende materialen, zoals de handleiding en E-learning
-* **Mannetje-icoon** — Instellingen en accountopties
-
-Tik linksbovenin het menu opnieuw om het menu te sluiten.
-
-**Overige functies**
-
-Alle overige functies werken hetzelfde als in de desktopversie. Raadpleeg de betreffende secties in deze handleiding voor meer informatie over de individuele opties.
+<img src="/img/uploads/screenshot-2026-03-31-at-13.15.16.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
