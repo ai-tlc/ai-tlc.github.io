@@ -64,10 +64,10 @@ UvA AI Chat has access to a **`web_scrape`** tool that lets it fetch and read th
 
 **What It Does**
 
-| Feature | Description                                  |
-| ------- | -------------------------------------------- |
-| Input   | A full URL (e.g., `https://example.com`)     |
-| Output  | Page content in **Markdown format**          |
+| Feature | Description                              |
+| ------- | ---------------------------------------- |
+| Input   | A full URL (e.g., `https://example.com`) |
+| Output  | Page content in **Markdown format**      |
 
 **What UvA AI Chat Can Do With It**
 
@@ -101,17 +101,18 @@ To use speech input, click the **microphone icon** in the chat input bar. UvA AI
 
 You can configure the speech behaviour via **Settings → Speech**. The following options are available:
 
-| Setting | Description |
-| ------- | ----------- |
-| **Auto-reply** | Automatically reads assistant replies aloud after you send a message using speech transcription |
-| **Interrupt speech on voice input** | Stops text-to-speech playback as soon as you start speaking again |
-| **Auto-send** | Automatically sends your message after a period of silence |
+| Setting                             | Description                                                                                     |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Auto-reply**                      | Automatically reads assistant replies aloud after you send a message using speech transcription |
+| **Interrupt speech on voice input** | Stops text-to-speech playback as soon as you start speaking again                               |
+| **Auto-send**                       | Automatically sends your message after a period of silence                                      |
 
 **Auto-send delay options:**
-- Off
-- 1 second
-- 2 seconds
-- 5 seconds
+
+* Off
+* 1 second
+* 2 seconds
+* 5 seconds
 
 **Choosing a Voice**
 
@@ -130,3 +131,33 @@ Click the **play button** (▷) next to a voice to preview it before selecting.
 > **Tip:** If you prefer Dutch text-to-speech narration, select **Colette**, **Maarten**, or **Fenna** (nl-NL) from the voice list.
 
 - - -
+
+## 4.5 Mobile interface
+
+The UvA AI Chat can also be used via the browser on your phone: no app installation required. Simply open the website on your phone and you will see an interface that is virtually identical to the desktop version.
+
+**The navigation menu**
+
+The main difference from the desktop version is the **navigation menu**. On a computer, this panel is expanded by default on the left side of the screen. On your phone, the menu is hidden by default to save space.
+
+You can open the menu using the **arrow in the top-left corner of the screen**. The menu will slide open and display the same options as on the desktop, shown with icons:
+
+| Icon          | Function     |
+| ------------- | ------------ |
+| Speech bubble | General chat |
+| Mask          | Personas     |
+| Folder        | Projects     |
+| Two people    | Groups       |
+| Booklet       | Prompts      |
+| Puzzle piece  | Extensions   |
+
+At the bottom of the menu you will find:
+
+* **?** — Additional materials, such as the manual and E-learning
+* **Person icon** — Settings and account options
+
+Tap on the arrow in the top left of the menu again to close it.
+
+**Other features**
+
+All other features work the same as in the desktop version. Refer to the relevant sections in this manual for more information on the individual options.
