@@ -51,7 +51,7 @@ The **Technical Support Assistant** is a standard, pre-configured chatbot (perso
 
 This means:
 
-* It **only answers questions** that can be answered based on the manual and privacy docs.
+* It only answers questions that can be answered based on the manual and privacy docs.
 * It provides **reliable, policy-consistent** answers about UvA AI Chat's features and data handling.
 
 **When should you use the Technical Support Assistant?**
@@ -66,9 +66,9 @@ You can use it to get accurate, helpful answers to all your questions about UvA 
 | You're new to UvA AI Chat                             | It gives reliable information for new users                      |
 | You need to verify what UvA AI Chat can and cannot do | It won't overstate or invent capabilities                        |
 
-We do not recommend using it for general academic tasks, writing assistance, or anything outside the scope of UvA AI Chat's own documentation - it will either decline or be unable to help with those.
+We do not recommend using the Technical Support Assistant for general academic tasks, writing assistance, or anything outside the scope of UvA AI Chat's own documentation - it will either decline or be unable to help with those.
 
-**How to activate the Technical Support Assistant**
+**How to activate the Technical Support Assistant?**
 
 1. Click the "?" icon in the left sidebar of UvA AI Chat.
 2. Select Talk to Support Persona.
@@ -80,7 +80,7 @@ We do not recommend using it for general academic tasks, writing assistance, or 
 
 **You ask:** "How does the prompt library work?"
 
-**Support persona answers** by explaining what the prompt library is, where to find it, and how it works.
+**Support assistant answers** by explaining what the prompt library is, where to find it, and how it works.
 
 <img src="/img/uploads/screenshot-2026-03-30-at-17.27.25.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
@@ -88,7 +88,7 @@ We do not recommend using it for general academic tasks, writing assistance, or 
 
 **You ask:** "What is a persona and how do I create one?"
 
-**Support persona answers:** by walking you through the 7-step persona creation process from section 3.2 of the manual, including setting a title, description, model, conversation style, behavior instructions, and uploading knowledge files.
+**Support assistant answers** by walking you through the 7-step persona creation process from section 3.2 of the manual, including setting a title, description, model, conversation style, behavior instructions, and uploading knowledge files.
 
 <img src="/img/uploads/screenshot-2026-03-30-at-17.24.33.png" style={{width: '100%', marginBottom: '2rem'}} />
 
