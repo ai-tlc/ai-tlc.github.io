@@ -166,7 +166,7 @@ Om spraakinvoer te gebruiken, klik je op het **microfoonpictogram** in de chatin
 
 **Spraak-instellingen**
 
-Je kunt het spraakgedrag configureren via **Instellingen → Spraak**. De volgende opties zijn beschikbaar:
+Je kunt het spraakgedrag configureren door op het menu **Settings** linksonder (onder het radiale icoon) te klikken en vervolgens **Speech** te selecteren. De volgende opties zijn beschikbaar:
 
 | Instelling                              | Beschrijving                                                                                            |
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -183,7 +183,7 @@ Je kunt het spraakgedrag configureren via **Instellingen → Spraak**. De volgen
 
 **Een stem kiezen**
 
-Via **Instellingen → Spraak → Stem** kun je een stem kiezen voor tekst-naar-spraak. De volgende stemmen zijn beschikbaar:
+Via Instellingen → Spraak → Stem kun je een stem kiezen voor tekst-naar-spraak. **Dit is belangrijk, omdat je zo ook de taal kiest waarin je met de AI kan communiceren**. De volgende stemmen zijn beschikbaar:
 
 * **Ava** – 🇬🇧 en-US
 * **Andrew** – 🇬🇧 en-US
@@ -195,7 +195,7 @@ Via **Instellingen → Spraak → Stem** kun je een stem kiezen voor tekst-naar-
 
 Klik op de **afspeelknop** (▷) naast een stem om een voorbeeld te beluisteren voordat je deze selecteert.
 
-> **Tip:** Als je de voorkeur geeft aan Nederlandse tekst-naar-spraak, selecteer dan **Colette**, **Maarten** of **Fenna** (nl-NL) uit de stemmenlijst.
+> **Herinnering:** Als je de voorkeur geeft aan Nederlandse tekst-naar-spraak, selecteer dan Colette, Maarten of Fenna (nl-NL) uit de stemmenlijst.
 
 - - -
 
@@ -242,4 +242,4 @@ Als je deze analyses en grafieken echter wilt gebruiken in situaties waar nauwke
   />
 </video>
 
-- - - 
+- - -
