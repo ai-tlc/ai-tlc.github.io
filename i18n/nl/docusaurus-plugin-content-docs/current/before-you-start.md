@@ -51,7 +51,7 @@ De **Technische Ondersteuningsassistent** is een standaard, vooraf geconfigureer
 
 Dit betekent:
 
-* Hij **beantwoordt alleen vragen** die op basis van de handleiding en privacydocumenten beantwoord kunnen worden.
+* Hij beantwoordt alleen vragen die op basis van de handleiding en privacydocumenten beantwoord kunnen worden.
 * Hij geeft **betrouwbare, beleidsconforme** antwoorden over de functies en gegevensverwerking van UvA AI Chat.
 
 **Wanneer gebruik je de Technische Ondersteuningsassistent?**
@@ -66,9 +66,9 @@ Je kunt hem gebruiken voor nauwkeurige en nuttige antwoorden op al je vragen ove
 | Je bent nieuw bij UvA AI Chat                      | Hij geeft betrouwbare informatie voor nieuwe gebruikers                                |
 | Je wilt verifiëren wat UvA AI Chat wel en niet kan | Hij overdrijft geen mogelijkheden en verzint niets                                     |
 
-We raden het gebruik ervan **niet** aan voor algemene academische taken, schrijfhulp of andere zaken buiten de scope van de eigen UvA AI Chat-documentatie — hij zal dergelijke verzoeken afwijzen of er niet bij kunnen helpen.
+We raden het gebruik van de Technische ondersteuningsassistent **niet** aan voor algemene academische taken, schrijfhulp of andere zaken buiten de scope van de eigen UvA AI Chat-documentatie — hij zal dergelijke verzoeken afwijzen of er niet bij kunnen helpen.
 
-**Hoe activeer je de Technische Ondersteuningsassistent**
+**Hoe activeer je de Technische Ondersteuningsassistent?**
 
 1. Klik op het "?" icoon in de linker zijbalk van UvA AI Chat.
 2. Selecteer *Talk to Support Persona*.
@@ -80,7 +80,7 @@ We raden het gebruik ervan **niet** aan voor algemene academische taken, schrijf
 
 **Jij vraagt:** "Hoe werkt de promptbibliotheek?"
 
-**De ondersteuningspersona antwoordt** door uit te leggen wat de promptbibliotheek is, waar je die kunt vinden en hoe hij werkt.
+**De ondersteuningsassistent antwoordt:** door uit te leggen wat de promptbibliotheek is, waar je die kunt vinden en hoe hij werkt.
 
 <img src="/img/uploads/screenshot-2026-03-30-at-17.41.21.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
@@ -88,7 +88,7 @@ We raden het gebruik ervan **niet** aan voor algemene academische taken, schrijf
 
 **Jij vraagt:** "Wat is een persona en hoe maak ik er een aan?"
 
-**De ondersteuningspersona antwoordt:** door je stap voor stap door het 7-stappen persona-aanmaakproces uit paragraaf 3.2 van de handleiding te leiden, inclusief het instellen van een titel, beschrijving, model, gespreksstijl, gedragsinstructies en het uploaden van kennisbestanden.
+**De ondersteuningsassistent antwoordt:** door je stap voor stap door het 7-stappen persona-aanmaakproces uit paragraaf 3.2 van de handleiding te leiden, inclusief het instellen van een titel, beschrijving, model, gespreksstijl, gedragsinstructies en het uploaden van kennisbestanden.
 
 <img src="/img/uploads/screenshot-2026-03-30-at-17.43.11.png" style={{width: '100%', marginBottom: '2rem'}} />
 
@@ -96,7 +96,7 @@ We raden het gebruik ervan **niet** aan voor algemene academische taken, schrijf
 
 ## 1.4 Mobiele interface
 
-De UvA AI Chat is ook via de browser op je telefoon te gebruiken: je hoeft geen app te installeren. Open gewoon de website op je telefoon en je ziet een interface die vrijwel identiek is aan de desktopversie.
+De UvA AI Chat is ook via de browser op je telefoon te gebruiken: je hoeft geen app te installeren. Open simpelweg de website op je telefoon en je ziet een interface die vrijwel identiek is aan de desktopversie.
 
 **Het navigatiemenu**
 
