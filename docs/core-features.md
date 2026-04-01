@@ -164,7 +164,7 @@ To use speech input, click the **microphone icon** in the chat input bar. UvA AI
 
 **Speech Settings**
 
-You can configure the speech behaviour via **Settings → Speech**. The following options are available:
+You can configure the speech behaviour by clicking the **Settings** menu in the bottom left corner under the radial icon and then selecting **Speech**. The following options are available:
 
 | Setting                             | Description                                                                                     |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -179,9 +179,9 @@ You can configure the speech behaviour via **Settings → Speech**. The followin
 * 2 seconds
 * 5 seconds
 
-**Choosing a Voice**
+**Choosing a voice and a language**
 
-Under **Settings → Speech → Voice**, you can select a voice for text-to-speech narration. The following voices are available:
+Under Settings → Speech → Voice, you can select a voice for text-to-speech narration. **This is important, because it also selects the language you can converse in with the AI**. The following voices are available:
 
 * **Ava** – 🇬🇧 en-US
 * **Andrew** – 🇬🇧 en-US
@@ -193,7 +193,7 @@ Under **Settings → Speech → Voice**, you can select a voice for text-to-spee
 
 Click the **play button** (▷) next to a voice to preview it before selecting.
 
-> **Tip:** If you prefer Dutch text-to-speech narration, select **Colette**, **Maarten**, or **Fenna** (nl-NL) from the voice list.
+> **Reminder:** If you prefer Dutch text-to-speech narration, select Colette, Maarten, or Fenna (nl-NL) from the voice list.
 
 - - -
 
@@ -254,4 +254,4 @@ However, if you want to use these analyses and graphs in contexts where accuracy
   Your browser does not support the video tag.
 </video>
 
-- - - 
+- - -
