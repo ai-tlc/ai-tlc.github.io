@@ -70,12 +70,9 @@ We raden het gebruik ervan **niet** aan voor algemene academische taken, schrijf
 
 **Hoe activeer je de Technische Ondersteuningsassistent**
 
-Klik op het "?"-icoon rechtsonder op de hoofdpagina van UvA AI Chat, óf:
-
-1. Klik op het maskericoon in de linker zijbalk van UvA AI Chat.
-2. Blader door de lijst met beschikbare persona's.
-3. Selecteer *Technical Support Assistant*.
-4. Start een nieuw gesprek: de Technische Ondersteuningsassistent is nu actief.
+1. Klik op het "?" icoon in de linker zijbalk van UvA AI Chat.
+2. Selecteer *Talk to Support Persona*.
+3. Start een nieuw gesprek: de Technische Ondersteuningsassistent is nu actief.
 
 **Praktische gebruiksscenario's**
 
