@@ -87,7 +87,7 @@ UvA AI Chat has access to a **`web_scrape`** tool that lets it fetch and read th
 
 "Can you scrape this page and summarize it for me: https://example.com/article"
 
-> Just paste a URL and tell UvA AI Chat what you'd like to know from it!
+> Simply paste a URL and tell UvA AI Chat what you'd like to know from it!
 
 - - -
 
