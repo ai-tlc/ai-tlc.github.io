@@ -181,7 +181,7 @@ You can configure the speech behaviour by clicking the **Settings** menu in the 
 
 **Choosing a voice and a language**
 
-Under **Settings → Speech → Voice**, you can select a voice for text-to-speech narration. This is important, because it also selects the language you can converse in with the AI. The following voices are available:
+Under Settings → Speech → Voice, you can select a voice for text-to-speech narration. **This is important, because it also selects the language you can converse in with the AI**. The following voices are available:
 
 * **Ava** – 🇬🇧 en-US
 * **Andrew** – 🇬🇧 en-US
@@ -193,7 +193,7 @@ Under **Settings → Speech → Voice**, you can select a voice for text-to-spee
 
 Click the **play button** (▷) next to a voice to preview it before selecting.
 
-> **Tip:** If you prefer Dutch text-to-speech narration, select **Colette**, **Maarten**, or **Fenna** (nl-NL) from the voice list.
+> **Reminder:** If you prefer Dutch text-to-speech narration, select Colette, Maarten, or Fenna (nl-NL) from the voice list.
 
 - - -
 
