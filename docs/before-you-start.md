@@ -71,7 +71,7 @@ We do not recommend using the Technical Support Assistant for general academic t
 **How to activate the Technical Support Assistant?**
 
 1. Click the "?" icon in the left sidebar of UvA AI Chat.
-2. Select Talk to Support Persona.
+2. Select Talk to Technical Support Assistant.
 3. Start a new conversation: the Technical Support Assistant is now active.
 
 **Practical use cases**
