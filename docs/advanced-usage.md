@@ -99,6 +99,6 @@ UvA AI chat can write and run Python code for you to analyse data, create charts
 **Using the code**
 Once you ask for python code to be generated, a separate window is generated with the code. From here, you can run the code (by clicking *Run Python*) or copy all code lines (by clicking the two pages in the top right corner). 
 
-<img src="/img/uploads/screenshot-2026-03-31-at-13.15.16.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+<img src="/img/uploads/screenshot-2026-04-07-at-17.09.50.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 - - -
