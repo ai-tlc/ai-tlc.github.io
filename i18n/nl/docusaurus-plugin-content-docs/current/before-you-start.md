@@ -84,6 +84,8 @@ We raden het gebruik van de Technische ondersteuningsassistent **niet** aan voor
 
 <img src="/img/uploads/screenshot-2026-03-30-at-17.41.21.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
+- - - 
+
 *Gebruiksscenario 2: persona's zelf begrijpen*
 
 **Jij vraagt:** "Wat is een persona en hoe maak ik er een aan?"
