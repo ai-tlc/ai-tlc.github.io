@@ -56,9 +56,9 @@ Een onderzoeker configureert een extensie die communiceert met de UvA-bibliothee
 
 - - -
 
-## 4.3 Gebruik de Web Crawler-tool
+## 4.3 Gebruik de Web Scraper-tool
 
-**Web Scraper / Crawler Functie**
+**Web Scraper Functie**
 
 UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud van een webpagina kan ophalen en lezen wanneer je een URL opgeeft. Zo werkt het.
 
@@ -67,13 +67,12 @@ UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud va
 | Functie | Beschrijving                                    |
 | ------- | ----------------------------------------------- |
 | Invoer  | Een volledige URL (bijv. `https://example.com`) |
-| Uitvoer | Pagina-inhoud in **Markdown-formaat**           |
+| Uitvoer | Pagina-inhoud in **markdown-formaat** (markdown is een eenvoudige manier om tekst op te maken met simpele symbolen, zodat het makkelijk leesbaar is en kan worden omgezet in mooi opgemaakte documenten zoals webpagina’s.)           |
 
-**Wat UvA AI Chat ermee kan doen**
+**Wat UvA AI Chat met de Web Scraper kan doen**
 
 * **Samenvatten** van de inhoud van een webpagina
 * **Specifieke informatie extraheren** (bijv. datums, namen, prijzen, beleid)
-* **Links volgen** die op een pagina staan en deze ook scrapen, voor diepere verkenning
 * **Vragen beantwoorden** op basis van de live inhoud van een pagina
 
 **Beperkingen**
@@ -85,6 +84,8 @@ UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud va
 
 **Voorbeeldgebruik**
 
+Om deze functionaliteit te gebruiken, vraag de UvA AI Chat om een pagina voor je te scrapen en voeg jouw pagina in.
+
 "Kun je deze pagina scrapen en samenvatten: https://example.com/article"
 
 > Plak simpelweg een URL en vertel UvA AI Chat wat je erover wilt weten!
@@ -93,6 +94,9 @@ UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud va
 
 ## 4.4 Python code schrijven met UvA AI Chat
 
-AI chat kan Python-code voor je schrijven en uitvoeren om gegevens te analyseren, grafieken te maken of berekeningen uit te voeren in een aparte, veilige omgeving. Zoals altijd blijven uw bestanden privé en gescheiden van andere gebruikers. Wanneer  AI grafieken of afbeeldingen genereert, kunnen deze direct in je gesprek verschijnen. De code wordt weergegeven in een apart paneel waar je deze kan bekijken, kopiëren of bewerken. Je hoeft de code niet te kunnen lezen om deze te kunnen gebruiken. Is het belangrijk dat de informatie die uit de code komt feitelijk juist is, bijvoorbeeld voor onderwijs of onderzoek? Verifieër altijd de data handmatig.
+AI chat kan Python-code voor je schrijven en uitvoeren om gegevens te analyseren, grafieken te maken of berekeningen uit te voeren in een aparte, veilige omgeving. Zoals altijd blijven je bestanden privé en gescheiden van andere gebruikers. Wanneer AI grafieken of afbeeldingen genereert, kunnen deze direct in je gesprek verschijnen. De code wordt automatisch weergegeven in een apart paneel waar je deze kan bekijken, kopiëren of bewerken. Je kunt de Python-functionaliteit gebruiken zonder dat je weet hoe je Python-code moet schrijven, en je kunt data analyseren, grafieken maken of berekeningen uitvoeren met Python zonder zelf de code te hoeven bewerken of schrijven. Is het belangrijk dat de informatie die uit de code komt feitelijk juist is, bijvoorbeeld voor onderwijs of onderzoek? Verifieër altijd de data handmatig.
+
+**De code gebruiken**
+Zodra je vraagt om Python-code te genereren, verschijnt er een apart venster met de code. Van daaruit kun je de code uitvoeren (door op *Run Python* te klikken) of alle regels kopiëren (door op het pictogram met de twee pagina’s rechtsboven te klikken).
 
 <img src="/img/uploads/screenshot-2026-03-31-at-13.15.16.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
