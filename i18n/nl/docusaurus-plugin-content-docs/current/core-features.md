@@ -44,13 +44,13 @@ De onderstaande tabel illustreert het verschil tussen een wat vage prompt en een
 
 - - -
 
-## 2.2 My prompts: jouw verzameling instructies
+## 2.2 Prompts: jouw verzameling instructies
 
-"My prompts" is een functie die je helpt om efficiënter te werken door het hergebruiken van effectieve prompts. Je vindt de "My prompts" sectie via het boek-icoon in de linker zijbalk van UvA AI Chat.
+"Prompts" is een functie die je helpt om efficiënter te werken door het hergebruiken van effectieve prompts. Je vindt de "My prompts" sectie via het boek-icoon in de linker zijbalk van UvA AI Chat.
 
 ### Gebruik van standaard prompts
 
-"My prompts" bevat een verzameling vooraf gedefinieerde prompts voor veelvoorkomende taken. Voorbeelden hiervan zijn "feedback on your writing" en de "multiple choice question generation". Deze standaardprompts zijn ontworpen door experts en bevatten al een goede structuur. Je kunt een standaardprompt selecteren en deze gemakkelijk aanpassen aan jouw specifieke behoeften om snel en effectief het gewenste resultaat te bereiken.
+"Prompts" bevat een verzameling vooraf gedefinieerde prompts voor veelvoorkomende taken. Voorbeelden hiervan zijn "feedback on your writing" en de "multiple choice question generation". Deze standaardprompts zijn ontworpen door experts en bevatten al een goede structuur. Je kunt een standaardprompt selecteren en deze gemakkelijk aanpassen aan jouw specifieke behoeften om snel en effectief het gewenste resultaat te bereiken.
 
 ### Eigen prompts opslaan en hergebruiken
 
@@ -61,7 +61,7 @@ Als je merkt dat je bepaalde taken of instructies regelmatig herhaalt, kun je jo
 Stel dat je vaak Engelse academische teksten schrijft en deze wilt laten controleren op een formele schrijfstijl. Je kunt een zeer effectieve prompt hiervoor opstellen en opslaan voor hergebruik.
 
 1. Stel een effectieve prompt op.
-2. Ga naar "My Prompts" en kies de optie "Add prompt".
+2. Ga naar "Prompts" en kies de optie "Add prompt".
 3. Geef de prompt een herkenbare naam, bijvoorbeeld 'Academic English Check'.
 4. Plak jouw prompt in het tekstveld: "Analyseer de bijgevoegde Engelse tekst. Je fungeert als een ervaren redacteur voor een wetenschappelijk tijdschrift. Identificeer en corrigeer zinnen die te informeel zijn voor een wetenschappelijke publicatie. Vervang spreektaal door formele alternatieven, controleer op consistentie in terminologie en geef suggesties om de zinsstructuur te variëren voor betere leesbaarheid."
 5. Bewaar de prompt. Deze is nu beschikbaar voor eenvoudig hergebruik bij toekomstige gesprekken.
