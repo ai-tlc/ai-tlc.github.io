@@ -185,13 +185,13 @@ Je kunt het spraakgedrag configureren door op het menu **Settings** linksonder (
 
 Via Instellingen → Spraak → Stem kun je een stem kiezen voor tekst-naar-spraak. **Dit is belangrijk, omdat je zo ook de taal kiest waarin je met de AI kan communiceren**. De volgende stemmen zijn beschikbaar:
 
-* **Ava** – 🇬🇧 en-US
-* **Andrew** – 🇬🇧 en-US
-* **Emma** – 🇬🇧 en-US
-* **Brian** – 🇬🇧 en-US
-* **Colette** – 🇳🇱 nl-NL
-* **Maarten** – 🇳🇱 nl-NL
-* **Fenna** – 🇳🇱 nl-NL
+* **Ava** – 🇬🇧 en
+* **Andrew** – 🇬🇧 en
+* **Emma** – 🇬🇧 en
+* **Brian** – 🇬🇧 en
+* **Colette** – 🇳🇱 nl
+* **Maarten** – 🇳🇱 nl
+* **Fenna** – 🇳🇱 nl
 
 Klik op de **afspeelknop** (▷) naast een stem om een voorbeeld te beluisteren voordat je deze selecteert.
 
