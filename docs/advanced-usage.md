@@ -56,24 +56,23 @@ A researcher configures an extension that communicates with the UvA library cata
 
 - - -
 
-## 4.3 Use the Web Crawler tool
+## 4.3 Use the Web Scraper tool
 
-**Web Scraper / Crawler Function**
+**Web Scraper function**
 
 UvA AI Chat has access to a **`web_scrape`** tool that lets it fetch and read the content of a webpage when you provide a URL. Here's how it works.
 
-**What It Does**
+**What it does**
 
 | Feature | Description                              |
 | ------- | ---------------------------------------- |
 | Input   | A full URL (e.g., `https://example.com`) |
-| Output  | Page content in **Markdown format**      |
+| Output  | Page content in **markdown format** (markdown is a lightweight way to format text using simple symbols so it can be easily read and converted into nicely styled documents like web pages.)     |
 
-**What UvA AI Chat Can Do With It**
+**What UvA AI Chat can do with the Web Crawler**
 
 * **Summarize** the content of a webpage
 * **Extract specific information** (e.g., dates, names, prices, policies)
-* **Follow links** found on a page and scrape those too, for deeper exploration
 * **Answer questions** based on the live content of a page
 
 **Limitations**
@@ -83,7 +82,9 @@ UvA AI Chat has access to a **`web_scrape`** tool that lets it fetch and read th
 * Does **not** browse the web autonomously, you need to provide the URL
 * UvA AI Chat can only scrape **one page per message**
 
-**Example Usage**
+**How to scrape a webpage:**
+
+To use this functionality, ask the UvA AI Chat to scrape a page for you and insert your page.
 
 "Can you scrape this page and summarize it for me: https://example.com/article"
 
@@ -93,7 +94,10 @@ UvA AI Chat has access to a **`web_scrape`** tool that lets it fetch and read th
 
 ## 4.4 Writing Python code with UvA AI Chat
 
-UvA AI chat can write and run Python code for you to analyse data, create charts, or perform calculations within a separate, safe environment. As per usual, your files stay private and separate from other users. When the AI generates graphs or images, they can appear directly in your conversation. Code is shown in a separate panel where you can view, copy, or edit it. You don't need to be able to read the code in order for it to operate. Is it important that the information extracted from the code is actually correct, for example, for education or research? Always check the data manually.
+UvA AI chat can write and run Python code for you to analyse data, create charts, or perform calculations within a separate, safe environment. As per usual, your files stay private and separate from other users. When the AI generates graphs or images, they can appear directly in your conversation. Code is automatically shown in a separate panel where you can view, copy, or edit it. You can use the python functionality without knowing how to write python code, and you can analyse data, create charts, or perform calculations using python without knowing how to edit or write the code yourself. Is it important that the information extracted from the code is actually correct, for example, for education or research? Always check the data manually.
+
+**Using the code**
+Once you ask for python code to be generated, a separate window is generated with the code. From here, you can run the code (by clicking *Run Python*) or copy all code lines (by clicking the two pages in the top right corner). 
 
 <img src="/img/uploads/screenshot-2026-03-31-at-13.15.16.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
