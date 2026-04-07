@@ -44,24 +44,24 @@ The table below illustrates the difference between a vague prompt and a specific
 
 - - -
 
-## 2.2 "My prompts": Your personal collection of instructions
+## 2.2 "Prompts": Your personal collection of instructions
 
-The "My prompts" is a feature that helps you work more efficiently by reusing effective prompts. You'll find the "My prompts" section via the book icon in the left sidebar of UvA AI Chat.
+The "Prompts" is a feature that helps you work more efficiently by reusing effective prompts. You'll find the "My prompts" section via the book icon in the left sidebar of UvA AI Chat.
 
 ### Using standard prompts
 
-"My prompts" includes a collection of predefined prompts for common tasks. Examples include "feedback on your writing" and the "multiple choice question generation." These standard prompts are designed by experts and already have a strong structure. You can select a standard prompt and easily adapt it to your specific needs, allowing you to get fast, effective results.
+"Prompts" includes a collection of predefined prompts for common tasks. Examples include "feedback on your writing" and the "multiple choice question generation." These standard prompts are designed by experts and already have a strong structure. You can select a standard prompt and easily adapt it to your specific needs, allowing you to get fast, effective results.
 
 ### Saving and reusing your own prompts
 
-If you notice you're repeating certain tasks or instructions, you can save your own prompts in "My prompts". This is especially useful for complex, recurring assignments.
+If you notice you're repeating certain tasks or instructions, you can save your own prompts in "Prompts". This is especially useful for complex, recurring assignments.
 
 ### Practical example: Saving a custom prompt
 
 Suppose you frequently write academic texts in English and want them checked for formal writing style. You can draft a highly effective prompt for this and save it for future use.
 
 1. Write your effective prompt.
-2. Go to "My prompts" and select "Add prompt".
+2. Go to "Prompts" and select "Add prompt".
 3. Give your prompt a clear name, like "Academic English Check".
 4. Paste your prompt in the text field: "Analyze the attached English text. Act as an experienced editor for an academic journal. Identify and correct sentences that are too informal for scientific publication. Replace colloquial language with formal alternatives, check for consistency in terminology, and suggest ways to vary sentence structure for better readability."
 5. Save the prompt. It's now available for easy reuse in future conversations.
