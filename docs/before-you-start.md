@@ -84,6 +84,8 @@ We do not recommend using the Technical Support Assistant for general academic t
 
 <img src="/img/uploads/screenshot-2026-03-30-at-17.27.25.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
+- - - 
+
 *Use case 2: understanding personas themselves*
 
 **You ask:** "What is a persona and how do I create one?"
