@@ -8,7 +8,7 @@ slug: /before-you-start
 
 ## Over deze handleiding
 
-Deze handleiding voor UvA AI Chat is bedoeld als naslagwerk waar je meer informatie kunt opzoeken over de verschillende functies en instellingen van UvA AI chat. Als je UvA AI Chat voor het eerst gaat gebruiken, of nog weinig ervaring hebt met generatieve AI, dan raden we aan om eerst door de e-learning "[Wegwijs met UvA AI Chat](https://edu.nl/u97mn)" heen te gaan. Deze e-learning laat je stap voor stap alle basisfuncties van UvA AI Chat zien en geeft voorbeelden over hoe je het kunt gebruiken. Nadat je wegwijs bent met UvA AI chat kun je deze handleiding als naslagwerk gebruiken. Ook kun je binnen de UvA AI Chat gebruik maken van de "UvA AI Chat Ondersteuning"-persona, die gebaseerd is op deze handleiding.
+Deze handleiding voor UvA AI Chat is bedoeld als naslagwerk waar je meer informatie kunt opzoeken over de verschillende functies en instellingen van UvA AI chat. Als je UvA AI Chat voor het eerst gaat gebruiken, of nog weinig ervaring hebt met generatieve AI, dan raden we aan om eerst door de e-learning "[Wegwijs met UvA AI Chat](https://edu.nl/u97mn)" heen te gaan. Deze e-learning laat je stap voor stap alle basisfuncties van UvA AI Chat zien en geeft voorbeelden over hoe je het kunt gebruiken. Nadat je wegwijs bent met UvA AI chat kun je deze handleiding als naslagwerk gebruiken. Ook kun je binnen de UvA AI Chat gebruik maken van de Technische Ondersteuningsassistent, die gebaseerd is op deze handleiding.
 
 Omdat de ontwikkeling van AI in rap tempo gaat, zal deze handleiding ook continu worden doorontwikkeld. De nieuwste ontwikkelingen van UvA AI Chat en de nieuwste toepassingen van UvA AI Chat zullen meegenomen worden in de volgende versies.
 
@@ -16,7 +16,7 @@ Voor vragen over deze handleiding en UvA AI Chat, neem contact op via [ai-tlc@uv
 
 Deze handleiding wordt ontwikkeld door TLC-Centraal (zie tlc.uva.nl)
 
-**Versie 1.2** | Gepubliceerd op 16 januari 2026
+**Versie 1.3** | Gepubliceerd op 1 april 2026
 
 - - -
 
