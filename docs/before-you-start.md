@@ -8,7 +8,7 @@ slug: /before-you-start
 
 ## About this manual
 
-This manual for UvA AI Chat is designed as a reference guide where you can look up information about the various features and settings of UvA AI Chat. If you're using UvA AI Chat for the first time - or if you don't have much experience with generative AI - we recommend starting with the "[Getting Started with the UvA AI Chat](https://edu.nl/r4duh)" e-learning. This e-learning module walks you through all the basic features step by step and shows examples of how you can use the tool. Once you're familiar with UvA AI Chat, you can use this manual as a reference whenever you need it. You can also use the "UvA AI Chat Ondersteuning" persona within UvA AI Chat, which is based on this guide.
+This manual for UvA AI Chat is designed as a reference guide where you can look up information about the various features and settings of UvA AI Chat. If you're using UvA AI Chat for the first time - or if you don't have much experience with generative AI - we recommend starting with the "[Getting Started with the UvA AI Chat](https://edu.nl/r4duh)" e-learning. This e-learning module walks you through all the basic features step by step and shows examples of how you can use the tool. Once you're familiar with UvA AI Chat, you can use this manual as a reference whenever you need it. You can also use the Technical Support Assistant within UvA AI Chat, which is based on this guide.
 
 Because AI is evolving rapidly, this manual will also be regularly updated. The latest features and applications of UvA AI Chat will be included in future versions.
 
