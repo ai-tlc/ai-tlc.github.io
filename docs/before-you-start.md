@@ -16,7 +16,7 @@ For questions about this guide and UvA AI Chat, please contact [ai-tlc@uva.nl](m
 
 This manual is developed by TLC Central (see tlc.uva.nl)
 
-**Version 1.2** | Published 16th of January 2026
+**Version 1.3** | Published 1st of April 2026
 
 - - -
 
