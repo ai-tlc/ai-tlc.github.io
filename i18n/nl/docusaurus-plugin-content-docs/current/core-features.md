@@ -146,7 +146,7 @@ De functie 'Artefacten' in UvA AI Chat is een krachtige tool die is ontworpen om
 
 ### Hoe gebruik je Study Mode
 
-1. **Activeren en leerdoel bepalen:** Open het schuifmenu in het tekstvak van UvA AI Chat en zet Study Mode aan. Uitzetten doe je door op het kruisje naast Study te klikken. Geef daarna een leerdoel door te specificeren waar je over wilt leren en benoem wat je al weet. Voorbeelden:
+1. **Activeren en leerdoel bepalen:** Klik op de pet in het tekstvak van UvA AI Chat en zet Study Mode aan. Uitzetten doe je door op het kruisje naast Study te klikken. Geef daarna een leerdoel door te specificeren waar je over wilt leren en benoem wat je al weet. Voorbeelden:
 
    * "Ik bereid een seminar voor over de Franse Revolutie en specifiek de bestorming van de Bastille. Help me de oorzaken en interpretaties van de oorzaak te begrijpen."
    * "Ik bereid me voor op een tentamen onderzoeksvaardigheden en wil begrijpen hoe ik twee groepen kan vergelijken met statistiek. Leg uit welke methoden geschikt zijn, zoals de t-toets, en wanneer je beter een andere toets gebruikt."
