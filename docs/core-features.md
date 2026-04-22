@@ -144,7 +144,7 @@ The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support co
 
 ### How to use Study Mode
 
-1. **Activate and set a learning goal:** Open the slide menu in the textbox of UvA AI Chat and switch on Study Mode. To turn it off, click the cross next to Study. Then set a learning goal by specifying what you want to learn about and mention what you already know. Examples:
+1. **Activate and set a learning goal:** click on the graduation cap in UvA AI Chat and switch on Study Mode. To turn it off, click the cross next to Study. Then set a learning goal by specifying what you want to learn about and mention what you already know. Examples:
 
    * "I am preparing a seminar on the French revolution and specifically the storming of the Bastille, help me understand the causes and interpretations of the cause."
    * "I am preparing for an exam in research skills and want to understand how to compare two groups using statistics. Explain which methods are suitable, such as the t-test, and when it is better to use another test."
