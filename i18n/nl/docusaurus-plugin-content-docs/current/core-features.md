@@ -173,6 +173,7 @@ Je kunt het spraakgedrag configureren door op het menu **Settings** linksonder (
 | **Auto-antwoord**                       | Leest antwoorden van de assistent automatisch voor nadat je een bericht hebt verzonden via spraakinvoer |
 | **Spraak onderbreken bij spraakinvoer** | Stopt de tekst-naar-spraak weergave zodra je opnieuw begint te spreken                                  |
 | **Automatisch verzenden**               | Verzendt je bericht automatisch na een periode van stilte                                               |
+| **Configureer transcriptietalen**       | Kies welke spraakherkenningstalen beschikbaar zijn.                                                     |
 
 **Vertragingsopties voor automatisch verzenden:**
 
