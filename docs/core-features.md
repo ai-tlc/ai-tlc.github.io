@@ -171,6 +171,7 @@ You can configure the speech behaviour by clicking the **Settings** menu in the 
 | **Auto-reply**                      | Automatically reads assistant replies aloud after you send a message using speech transcription |
 | **Interrupt speech on voice input** | Stops text-to-speech playback as soon as you start speaking again                               |
 | **Auto-send**                       | Automatically sends your message after a period of silence                                      |
+| **Configure transcription languages**                       | Choose which speech recognition languages are available.                                      |
 
 **Auto-send delay options:**
 
