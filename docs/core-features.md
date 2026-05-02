@@ -84,7 +84,7 @@ With UvA AI Chat, uploading documents is simple. Go to the text entry field at t
 
 ### Supported file formats
 
-UvA AI Chat supports a range of common file formats, including PDF, DOCX (Word), XLS (Excel), PPT (PowerPoint), and CSV. This makes it possible to upload and work with different document types, ranging from research articles to datasets, directly in your interactions with the AI.
+UvA AI Chat supports a range of common file formats, including .PDF, .DOCX (Word), .XLS (Excel), .PPT (PowerPoint), .CSV, as well as .TXT, .PY (Python), and .MD (Markdown) files. This makes it possible to upload and work with various document types, ranging from research articles and datasets to plain text and code files, directly in your interactions with the AI.
 
 Note: Large, unusual, or password-protected files may not always process correctly. If a document is very large (e.g., 100+ pages), the AI is essentially searching for a needle in a haystack.
 
@@ -166,11 +166,12 @@ To use speech input, click the **microphone icon** in the chat input bar. UvA AI
 
 You can configure the speech behaviour by clicking the **Settings** menu in the bottom left corner under the radial icon and then selecting **Speech**. The following options are available:
 
-| Setting                             | Description                                                                                     |
-| ----------------------------------- | ----------------------------------------------------------------------------------------------- |
-| **Auto-reply**                      | Automatically reads assistant replies aloud after you send a message using speech transcription |
-| **Interrupt speech on voice input** | Stops text-to-speech playback as soon as you start speaking again                               |
-| **Auto-send**                       | Automatically sends your message after a period of silence                                      |
+| Setting                               | Description                                                                                     |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Auto-reply**                        | Automatically reads assistant replies aloud after you send a message using speech transcription |
+| **Interrupt speech on voice input**   | Stops text-to-speech playback as soon as you start speaking again                               |
+| **Auto-send**                         | Automatically sends your message after a period of silence                                      |
+| **Configure transcription languages** | Choose which speech recognition languages are available.                                        |
 
 **Auto-send delay options:**
 
@@ -181,19 +182,7 @@ You can configure the speech behaviour by clicking the **Settings** menu in the 
 
 **Choosing a voice and a language**
 
-Under Settings → Speech → Voice, you can select a voice for text-to-speech narration. **This is important, because it also selects the language you can converse in with the AI**. The following voices are available:
-
-* **Ava** – 🇬🇧
-* **Andrew** – 🇬🇧
-* **Emma** – 🇬🇧
-* **Brian** – 🇬🇧
-* **Colette** – 🇳🇱 
-* **Maarten** – 🇳🇱
-* **Fenna** – 🇳🇱
-
-Click the **play button** (▷) next to a voice to preview it before selecting.
-
-> **Reminder:** If you prefer Dutch text-to-speech narration, select Colette, Maarten, or Fenna (nl-NL) from the voice list.
+Under Settings → Speech → Voice, you can select a voice for text-to-speech narration. Click the **play button** (▷) next to a voice to preview it before selecting.
 
 - - -
 
