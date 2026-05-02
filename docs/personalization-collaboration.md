@@ -86,3 +86,27 @@ Under "My Projects" (the folder icon in the left sidebar), you can set up your o
 <img src="/img/uploads/screenshot-2026-05-02-at-13.50.37.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 When setting up the Projects folder, you can assign a title, choose an icon and color to visually distinguish it, and add custom instructions. Custom instructions define specific guidelines or preferences for how the assistant should behave or respond within that project, helping tailor outputs to your needs.
+
+For all Project-specific functionalities, see below.
+
+<img src="/img/uploads/screenshot-2026-05-02-at-14.05.52.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+
+**+**: Upload documents to this specific chat, or the entire project. The project will save that file under "Project files". You can also access your Promp Library here to select frequently used prompts.
+
+**Project** **chats**: access and revisit previously used conversations from within the project. You can also import existing chats from the general chat using "Add existing chat".
+
+**Project** **knowlegde**: this feature stores key information, insights, and decisions related to your project so the assistant can use them as ongoing context in future chats. This helps maintain consistency, avoid repetition, and ensure that responses stay aligned with your project’s themes, methods, and goals.
+
+With the **Add card** function, you can manually create new knowledge entries by saving important notes, guidelines, or conclusions. Each card represents a single piece of remembered information. For every card, you can edit the content, pin it to give it greater importance in the assistant’s context, or hide it to exclude that information from being used in responses.
+
+**Search this project**: use this function to chats, files, personas, prompts, other projects and more.
+
+**Project files**: See what project files are being used in this project and add new documents.
+
+**Instructions**: Give the project assistant extra context and instructions to better adhere to your needs.
+
+**Personas**: see what persona's you have access to from within this project and add new ones.
+
+**Prompts**: see what prompts you have access to from within this project and add new ones.
+
+### Tip! When using the chat, use "@" to refer to specific project documents so the AI can follow your instructions closely.
