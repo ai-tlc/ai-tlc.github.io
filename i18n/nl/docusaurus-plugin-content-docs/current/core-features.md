@@ -84,7 +84,7 @@ Met de UvA AI Chat kun je eenvoudig documenten uploaden. Ga naar het vak voor te
 
 ### Ondersteunde bestandsformaten
 
-De UvA AI Chat ondersteunt een reeks veelgebruikte bestandsformaten, waaronder PDF, DOCX (Word), XLS (Excel), PPT (PowerPoint) en CSV. Dit maakt het mogelijk om verschillende typen documenten, van onderzoeksartikelen tot datasets, te uploaden en te gebruiken in jouw interacties met de AI.
+UvA AI Chat ondersteunt een breed scala aan gangbare bestandsformaten, waaronder .PDF, .DOCX (Word), .XLS (Excel), .PPT (PowerPoint), .CSV, evenals .TXT, .PY (Python) en .MD (Markdown) bestanden. Dit maakt het mogelijk om verschillende soorten documenten te uploaden en ermee te werken, variërend van wetenschappelijke artikelen en datasets tot platte tekst en codebestanden, direct binnen je interacties met de AI.
 
 Let op: Het kan soms gebeuren dat grote, ongebruikelijke of beveiligde bestanden niet goed worden verwerkt. Als een document veel informatie bevat (bijv. 100+ pagina's), moet de AI zoeken naar een speld in een hooiberg.
 
