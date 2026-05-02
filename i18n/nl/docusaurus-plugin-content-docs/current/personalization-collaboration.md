@@ -80,7 +80,7 @@ Door een groep aan te maken, kun je specifieke chats, persona's of prompts delen
 
 ### Tip! Je kunt nu berichten delen met de leden van jouw groep via "Post Announcement"
 
-<img src="/img/uploads/screenshot-2026-05-02-at-16.20.04.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+<img src="/img/uploads/screenshot-2026-05-02-at-16.23.50.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 - - -
 
