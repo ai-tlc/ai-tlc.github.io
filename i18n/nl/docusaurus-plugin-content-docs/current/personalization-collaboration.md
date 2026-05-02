@@ -79,9 +79,9 @@ Door een groep aan te maken, kun je specifieke chats, persona's of prompts delen
 
 - - -
 
-## 3.4 "My projects": jouw georganiseerde werkruimte
+## 3.4 "Projects": jouw georganiseerde werkruimte
 
-Onder "My projects" (het folder-icoon in de linkerbalk) kun je jouw eigen projecten inrichten. Dit fungeert als een digitale container voor al het materiaal dat gerelateerd is aan een specifieke taak of onderzoek. Je kunt dit gebruiken om je chats te ordenen, als je bijvoorbeeld meerdere gesprekken over hetzelfde onderwerp hebt. Om te beginnen, klik je op "+ Add Project" midden op het scherm. Binnen een project kun je chats, prompts, en persona's bij elkaar zetten. Daarmee kun je binnen jouw project gemakkelijk navigeren naar eerder gebruikte prompts en de bijbehorende antwoorden, wat het eenvoudig maakt om verder te werken waar je gebleven was.
+Onder "Projects" (het folder-icoon in de linkerbalk) kun je jouw eigen projecten inrichten. Dit fungeert als een digitale container voor al het materiaal dat gerelateerd is aan een specifieke taak of onderzoek. Je kunt dit gebruiken om je chats te ordenen, als je bijvoorbeeld meerdere gesprekken over hetzelfde onderwerp hebt. Om te beginnen, klik je op "+ Add Project" midden op het scherm. Binnen een project kun je chats, prompts, en persona's bij elkaar zetten. Daarmee kun je binnen jouw project gemakkelijk navigeren naar eerder gebruikte prompts en de bijbehorende antwoorden, wat het eenvoudig maakt om verder te werken waar je gebleven was.
 
 <img src="/img/uploads/screenshot-2026-05-02-at-13.50.37.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
