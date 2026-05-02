@@ -78,6 +78,10 @@ To create a group, click the "Add Group" button. Fill in the following textboxes
 
 By creating a group, you can share specific chats, personas, or prompts. You control whether added members can only use the personas ('Members') or also edit them ('Owners'). As a teacher, for example, you might add students as members so they can use a specific persona you've created. You can also set a start and end date for the group if needed. Good to know: as owner of the group, you can hide member visibility from others by toggling "hide members from each other" in the options menu
 
+### Tip! You can now share annoucements with members of your group by using the button "Post Announcement".
+
+<img src="/img/uploads/screenshot-2026-05-02-at-16.12.45.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+
 - - -
 
 ## 3.4 "Projects": your organized workspace
