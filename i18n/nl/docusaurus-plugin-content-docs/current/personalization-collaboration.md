@@ -47,8 +47,9 @@ Het creëren van jouw eigen, op maat gemaakte persona's kan jouw interacties met
 3. **"Which AI model do you want to use?":** Kies het achterliggende taalmodel (bijv. GPT-4o) waarop jouw persona draait. Zie sectie 4.1.
 4. **"Choose a conversation style":** Selecteer een gespreksstijl. 'Balanced' is vaak een goede start, maar je kunt ook kiezen voor 'Creative' (vrije, creatieve antwoorden) of 'Precise' (zakelijk en feitelijk).
 5. **"Describe your persona and its behaviour":** Dit is de belangrijkste stap. Beschrijf hier zeer gedetailleerd welke toon, expertise en gedrag jouw persona moet hebben. Je kunt een voorbeeld kiezen om dit aan te passen ('Select a preset...') of dit veld handmatig invullen. Wees zo specifiek mogelijk.
-6. **"Upload files to enhance your persona's resources":** Je kunt hier specifieke documenten uploaden, zoals handleidingen of stijlboeken, die de persona als kennisbasis moet gebruiken.
-7. **"Opslaan":** Klik op "Save" om jouw persona op te slaan en te activeren.
+6. **“Send opening message”:** Laat je persona altijd beginnen met dezelfde openingsboodschap om ideeën te stimuleren of te laten zien waarbij de persona kan helpen. Ideaal voor gebruik in **Groups**!
+7. **"Upload files to enhance your persona's resources":** Je kunt hier specifieke documenten uploaden, zoals handleidingen of stijlboeken, die de persona als kennisbasis moet gebruiken.
+8. **"Opslaan":** Klik op "Save" om jouw persona op te slaan en te activeren.
 
 ### Praktijkvoorbeeld van een eigen Persona
 
@@ -70,7 +71,7 @@ Om een groep aan te maken, klik je op de knop "Add group". Vul de volgende tekst
 * **Groepsbeschrijving:** Geef een beschrijving voor de groep in het tekstvak "Group Description". Dit is over het algemeen het doel van de groep.
 * **Members:** Voeg de e-mailadressen toe van de mensen die je lid wilt maken van de groep. Je kunt meerdere e-mailadressen scheiden met een komma.
 * **Owners:** Voer de e-mailadressen in van de mensen die de eigenaren van de groep zullen zijn. Deze moeten ook worden gescheiden door komma's. Deze eigenaren kunnen de groep bewerken.
-* **Persona's:** Selecteer, indien van toepassing, de persona's voor de groep.
+* **Persona's:** Selecteer, indien van toepassing, de persona's voor de groep. **Tip! Wanneer je bewerkingsrechten hebt, kun je ook samen persona’s bewerken.**
 * **Prompts:** Selecteer, indien van toepassing, specifieke opgeslagen prompts voor de groep.
 * **Start- en einddata:** Kies een startdatum en een einddatum voor de groep met behulp van de datumkiezers.
 * **Opslaan:** Klik op de knop "Opslaan" om de aanmaak van de groep te voltooien.
