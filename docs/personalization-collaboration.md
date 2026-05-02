@@ -79,9 +79,9 @@ By creating a group, you can share specific chats, personas, or prompts. You con
 
 - - -
 
-## 3.4 "My Projects": your organized workspace
+## 3.4 "Projects": your organized workspace
 
-Under "My Projects" (the folder icon in the left sidebar), you can set up your own projects. This acts as a digital container for all materials related to a specific task or research project. Use it to keep your chats organized, especially if you have multiple conversations on the same topic. To get started, click '+ Add Project' at the middle of the screen. Within a project, you can collect chats, prompts, and personas in one place. This lets you easily navigate back to earlier prompts and responses, making it simple to pick up right where you left off.
+Under "Projects" (the folder icon in the left sidebar), you can set up your own projects. This acts as a digital container for all materials related to a specific task or research project. Use it to keep your chats organized, especially if you have multiple conversations on the same topic. To get started, click '+ Add Project' at the middle of the screen. Within a project, you can collect chats, prompts, and personas in one place. This lets you easily navigate back to earlier prompts and responses, making it simple to pick up right where you left off.
 
 <img src="/img/uploads/screenshot-2026-05-02-at-13.50.37.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
