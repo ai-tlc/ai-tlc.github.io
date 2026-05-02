@@ -47,8 +47,9 @@ Building your own tailored personas can take your AI interactions to the next le
 3. **"Which AI model do you want to use?":** Select the underlying language model (e.g., GPT-4o) for your persona. See section 4.1.
 4. **"Choose a conversation style":** Pick a style. 'Balanced' is often a good starting point, but you can also select 'Creative' (open, imaginative responses) or 'Precise' (concise and factual).
 5. **"Describe your persona and its behaviour":** This is the key step. Give a detailed description of the tone, expertise, and behavior you want your persona to have. You can adapt a preset or fill in this field manually - be as specific as possible.
-6. **"Upload files to enhance your persona's resources":** Add specific documents, such as manuals or style guides, that your persona should use as a knowledge base.
-7. **"Save":** Click "Save" to store and activate your persona.
+6. "**Send opening message":** Have your persona always open with the same opening message, to prompt ideas or to illustrate what the persona can help with. Ideal for in **Groups**! 
+7. **"Upload files to enhance your persona's resources":** Add specific documents, such as manuals or style guides, that your persona should use as a knowledge base.
+8. **"Save":** Click "Save" to store and activate your persona.
 
 ### Practical example of a custom persona
 
@@ -70,7 +71,7 @@ To create a group, click the "Add Group" button. Fill in the following textboxes
 * **Group Description:** Provide a description for the group in the "Group Description" text box. This is generally the purpose of the group.
 * **Members:** Add the email addresses of the people you want to be members of the group. You can separate multiple email addresses with a comma.
 * **Owners:** Enter the email addresses of the people who will be the owners of the group. These should also be separated by commas. These owners will be able to edit the group.
-* **Personas:** If applicable, select the personas for the group.
+* **Personas:** If applicable, select the personas for the group. **Tip! When given editing rights, you can also edit personas together.**
 * **Prompts:** If applicable, select any specific saved prompts for the group.
 * **Start and End Dates:** Choose a start date and an end date for the group using the date pickers.
 * **Save:** Click the "Save" button to finalize the creation of the group.
