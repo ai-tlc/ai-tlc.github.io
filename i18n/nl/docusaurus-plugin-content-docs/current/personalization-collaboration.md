@@ -4,15 +4,14 @@ id: personalization-collaboration
 sidebar_label: Personalisatie & samenwerking
 slug: /personalization-collaboration
 ---
-
 ## 3.1 Verdere configuratie
 
 Om UvA AI Chat optimaal te kunnen gebruiken is het belangrijk om het te configureren naar jouw wensen. Om dit te doen, navigeer je naar de instellingen, hiervoor klik je eerst op persoons-icoon helemaal links onderin op het scherm. Hier kun je direct jouw voorkeuren voor het thema (licht/donker) instellen. Daarna klik je op 'Settings', en dan op 'Personalization' voor de belangrijkste gebruiksinstellingen:
 
-- **'Memory Creation' (Geheugencreatie):** Schakel deze optie in om de UvA AI Chat informatie over jouw eerdere prompts en gesprekken te laten opslaan in het geheugen. Dit stelt de AI in staat om context uit eerdere interacties te onthouden. Een voorbeeld van zulke context kan zijn dat je astronomie studeert of dat je bijvoorbeeld koken als hobby hebt.
-- **'Memory Context' (Geheugencontext):** Om de chat de opgeslagen 'memories' daadwerkelijk te laten gebruiken in nieuwe gesprekken, dient je ook deze optie in te schakelen.
-- **'Memory Management' (Geheugencontext):** Bekijk en beheer hier welke informatie UvA AI Chat heeft opgeslagen over jou in het geheugen. Je kunt hier opgeslagen 'Memories' zelf aanpassen of verwijderen.
-- **'Custom Instructions' (Aangepaste Instructies):** Geef hierin aan hoe je wilt dat de AI zich gedraagt, opstelt of in welke stijl de AI standaard moet schrijven. Deze instructies worden op de achtergrond meegenomen in elk gesprek dat je start (behalve als je een Persona gebruikt).
+* **'Memory Creation' (Geheugencreatie):** Schakel deze optie in om de UvA AI Chat informatie over jouw eerdere prompts en gesprekken te laten opslaan in het geheugen. Dit stelt de AI in staat om context uit eerdere interacties te onthouden. Een voorbeeld van zulke context kan zijn dat je astronomie studeert of dat je bijvoorbeeld koken als hobby hebt.
+* **'Memory Context' (Geheugencontext):** Om de chat de opgeslagen 'memories' daadwerkelijk te laten gebruiken in nieuwe gesprekken, dient je ook deze optie in te schakelen.
+* **'Memory Management' (Geheugencontext):** Bekijk en beheer hier welke informatie UvA AI Chat heeft opgeslagen over jou in het geheugen. Je kunt hier opgeslagen 'Memories' zelf aanpassen of verwijderen.
+* **'Custom Instructions' (Aangepaste Instructies):** Geef hierin aan hoe je wilt dat de AI zich gedraagt, opstelt of in welke stijl de AI standaard moet schrijven. Deze instructies worden op de achtergrond meegenomen in elk gesprek dat je start (behalve als je een Persona gebruikt).
 
 ### Praktijkvoorbeeld van 'Custom Instructions'
 
@@ -20,7 +19,7 @@ In het veld voor 'Custom Instructions' kun je bijvoorbeeld de volgende tekst inv
 
 > "Antwoord altijd in het Nederlands. Formuleer jouw antwoorden als een academische adviseur: ondersteunend, kritisch en gericht op het verbeteren van mijn werk. Gebruik formele taal en vermijd overmatig gebruik van jargon. Structureer complexe antwoorden met bullet points voor de duidelijkheid."
 
----
+- - -
 
 ## 3.2 Interactie op maat: werken met Persona's
 
@@ -34,10 +33,10 @@ Persona's zijn vooraf gedefinieerde 'karakters' of 'persoonlijkheden' die de AI 
 
 De UvA AI Chat wordt geleverd met verschillende standaard persona's die je direct kunt gebruiken:
 
-- **Course Manual Creator:** Gaat in gesprek met jou om samen een cursus handleiding te maken.
-- **Socratic Coach:** Gebruikt de Socratische methode om jou te helpen een onderwerp beter te begrijpen zonder directe antwoorden te geven.
-- **Technisch Assistent:** Ondersteunt gebruikers bij technische vraagstukken door heldere uitleg en praktische oplossingen voor vragen over de UvA AI Chat zelf te bieden.
-- **Taalassistent:** Controleert teksten en geeft tips op het gebied van grammatica, spelling en stijl om de taalvaardigheid te verhogen en het taalgebruik te optimaliseren.
+* **Course Manual Creator:** Gaat in gesprek met jou om samen een cursus handleiding te maken.
+* **Socratic Coach:** Gebruikt de Socratische methode om jou te helpen een onderwerp beter te begrijpen zonder directe antwoorden te geven.
+* **Technisch Assistent:** Ondersteunt gebruikers bij technische vraagstukken door heldere uitleg en praktische oplossingen voor vragen over de UvA AI Chat zelf te bieden.
+* **Taalassistent:** Controleert teksten en geeft tips op het gebied van grammatica, spelling en stijl om de taalvaardigheid te verhogen en het taalgebruik te optimaliseren.
 
 ### Eigen Persona's maken: een stapsgewijze handleiding
 
@@ -55,11 +54,11 @@ Het creëren van jouw eigen, op maat gemaakte persona's kan jouw interacties met
 
 Een onderzoeker wil een AI-assistent die haar helpt om haar conceptartikelen kritisch te beoordelen. Ze creëert de volgende persona:
 
-- **Persona title:** "Kritische Onderzoeksassistent"
-- **Persona description:** "Analyseert academische teksten op logische consistentie, argumentatieve zwaktes en onduidelijke formuleringen."
-- **Describe your persona and its behaviour:** "Je bent een ervaren peer reviewer voor een wetenschappelijk tijdschrift. Je toon is kritisch maar altijd constructief. Wanneer je feedback geeft op een geüploade tekst, structureer je je antwoord altijd in drie delen: 1) Een beknopte samenvatting van het hoofdargument van de auteur. 2) Een lijst met sterke punten van de tekst. 3) Een gedetailleerde lijst van punten voor verbetering, inclusief specifieke suggesties voor herformulering en vragen die de auteur aan het denken zetten over de zwaktes in de argumentatie."
+* **Persona title:** "Kritische Onderzoeksassistent"
+* **Persona description:** "Analyseert academische teksten op logische consistentie, argumentatieve zwaktes en onduidelijke formuleringen."
+* **Describe your persona and its behaviour:** "Je bent een ervaren peer reviewer voor een wetenschappelijk tijdschrift. Je toon is kritisch maar altijd constructief. Wanneer je feedback geeft op een geüploade tekst, structureer je je antwoord altijd in drie delen: 1) Een beknopte samenvatting van het hoofdargument van de auteur. 2) Een lijst met sterke punten van de tekst. 3) Een gedetailleerde lijst van punten voor verbetering, inclusief specifieke suggesties voor herformulering en vragen die de auteur aan het denken zetten over de zwaktes in de argumentatie."
 
----
+- - -
 
 ## 3.3 "Groups": samenwerking en delen met anderen
 
@@ -67,19 +66,48 @@ De functie "Groepen" maakt het eenvoudig om samen te werken aan gedeelde project
 
 Om een groep aan te maken, klik je op de knop "Add group". Vul de volgende tekstvelden in:
 
-- **Groepsnaam:** Voer een naam voor je groep in het veld "Group Name". Dit is een verplicht veld.
-- **Groepsbeschrijving:** Geef een beschrijving voor de groep in het tekstvak "Group Description". Dit is over het algemeen het doel van de groep.
-- **Members:** Voeg de e-mailadressen toe van de mensen die je lid wilt maken van de groep. Je kunt meerdere e-mailadressen scheiden met een komma.
-- **Owners:** Voer de e-mailadressen in van de mensen die de eigenaren van de groep zullen zijn. Deze moeten ook worden gescheiden door komma's. Deze eigenaren kunnen de groep bewerken.
-- **Persona's:** Selecteer, indien van toepassing, de persona's voor de groep.
-- **Prompts:** Selecteer, indien van toepassing, specifieke opgeslagen prompts voor de groep.
-- **Start- en einddata:** Kies een startdatum en een einddatum voor de groep met behulp van de datumkiezers.
-- **Opslaan:** Klik op de knop "Opslaan" om de aanmaak van de groep te voltooien.
+* **Groepsnaam:** Voer een naam voor je groep in het veld "Group Name". Dit is een verplicht veld.
+* **Groepsbeschrijving:** Geef een beschrijving voor de groep in het tekstvak "Group Description". Dit is over het algemeen het doel van de groep.
+* **Members:** Voeg de e-mailadressen toe van de mensen die je lid wilt maken van de groep. Je kunt meerdere e-mailadressen scheiden met een komma.
+* **Owners:** Voer de e-mailadressen in van de mensen die de eigenaren van de groep zullen zijn. Deze moeten ook worden gescheiden door komma's. Deze eigenaren kunnen de groep bewerken.
+* **Persona's:** Selecteer, indien van toepassing, de persona's voor de groep.
+* **Prompts:** Selecteer, indien van toepassing, specifieke opgeslagen prompts voor de groep.
+* **Start- en einddata:** Kies een startdatum en een einddatum voor de groep met behulp van de datumkiezers.
+* **Opslaan:** Klik op de knop "Opslaan" om de aanmaak van de groep te voltooien.
 
 Door een groep aan te maken, kun je specifieke chats, persona's of prompts delen. Je bepaalt of toegevoegde leden alleen de persona's kunnen gebruiken ('Leden') of ze ook kunnen bewerken ('Eigenaren'). Als docent zou je bijvoorbeeld studenten als leden kunnen toevoegen, zodat ze een specifieke persona die jij hebt aangemaakt kunnen gebruiken. Je kunt ook een start- en einddatum voor de groep instellen indien nodig. Goed om te weten: als eigenaar van de groep kun je de zichtbaarheid van leden voor anderen verbergen door in het optiemenu de optie ‘hide members from each other’ in te schakelen.
 
----
+- - -
 
 ## 3.4 "My projects": jouw georganiseerde werkruimte
 
-Onder "My projects" (het folder-icoon in de linkerbalk) kun je jouw eigen projecten inrichten. Dit fungeert als een digitale container voor al het materiaal dat gerelateerd is aan een specifieke taak of onderzoek. Je kunt dit gebruiken om je chats te ordenen, als je bijvoorbeeld meerder gesprekken over hetzelfde onderwerp hebt. Om te beginnen, klik je op "+ Add Project" rechtsboven in het scherm. Binnen een project kun je chats, prompts, en persona's bij elkaar zetten. Daarmee kun je binnen jouw project gemakkelijk navigeren naar eerder gebruikte prompts en de bijbehorende antwoorden, wat het eenvoudig maakt om verder te werken waar je gebleven was.
+Onder "My projects" (het folder-icoon in de linkerbalk) kun je jouw eigen projecten inrichten. Dit fungeert als een digitale container voor al het materiaal dat gerelateerd is aan een specifieke taak of onderzoek. Je kunt dit gebruiken om je chats te ordenen, als je bijvoorbeeld meerder gesprekken over hetzelfde onderwerp hebt. Om te beginnen, klik je op "+ Add Project" midden op het scherm. Binnen een project kun je chats, prompts, en persona's bij elkaar zetten. Daarmee kun je binnen jouw project gemakkelijk navigeren naar eerder gebruikte prompts en de bijbehorende antwoorden, wat het eenvoudig maakt om verder te werken waar je gebleven was.
+
+<img src="/img/uploads/screenshot-2026-05-02-at-13.50.37.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+
+Bij het instellen van de projectmap kun je een titel toewijzen, een pictogram en kleur kiezen om deze visueel te onderscheiden, en aangepaste instructies toevoegen. Aangepaste instructies bepalen specifieke richtlijnen of voorkeuren voor hoe de assistent zich binnen dat project gedraagt of reageert, zodat de output beter aansluit op jouw behoeften.
+
+Voor alle Project functionaliteiten, zie hieronder.
+
+<img src="/img/uploads/screenshot-2026-05-02-at-14.05.52.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+
+**+:** Upload documenten naar deze specifieke chat of naar het hele project. Het project slaat deze bestanden op onder “Project files”. Je kunt hier ook je Prompt Library openen om veelgebruikte prompts te selecteren.
+
+**Project chats:** Bekijk en heropen eerder gebruikte gesprekken binnen het project. Je kunt ook bestaande chats uit de algemene omgeving toevoegen via “Add existing chat”.
+
+**Project knowledge:** Deze functie slaat belangrijke informatie, inzichten en beslissingen op die relevant zijn voor je project, zodat de assistent deze als doorlopende context kan gebruiken in toekomstige chats. Dit helpt om consistentie te behouden, herhaling te voorkomen en antwoorden af te stemmen op de thema’s, methoden en doelen van je project.
+
+
+Met de functie **Add card** kun je handmatig nieuwe kennisitems toevoegen door belangrijke notities, richtlijnen of conclusies op te slaan. Elke kaart bevat één stuk informatie. Per kaart kun je de inhoud bewerken, vastpinnen om deze belangrijker te maken binnen de context, of verbergen om deze niet mee te nemen in de antwoorden van de assistent.
+
+**Search this project:** Gebruik deze functie om te zoeken binnen chats, bestanden, persona’s, prompts, andere projecten en meer.
+
+**Project files:** Bekijk welke bestanden in het project worden gebruikt en voeg nieuwe documenten toe.
+
+**Instructions:** Geef de projectassistent extra context en instructies zodat deze beter aansluit op jouw behoeften.
+
+**Personas:** Bekijk welke persona’s beschikbaar zijn binnen dit project en voeg nieuwe toe.
+
+**Prompts:** Bekijk welke prompts beschikbaar zijn binnen dit project en voeg nieuwe toe.
+
+### **Tip!** Gebruik tijdens het chatten “@” om naar specifieke projectdocumenten te verwijzen, zodat de AI je instructies nauwkeuriger kan volgen.
