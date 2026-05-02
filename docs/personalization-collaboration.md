@@ -80,7 +80,7 @@ By creating a group, you can share specific chats, personas, or prompts. You con
 
 ### Tip! You can now share annoucements with members of your group by using the button "Post Announcement".
 
-<img src="/img/uploads/screenshot-2026-05-02-at-16.20.04.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+<img src="/img/uploads/screenshot-2026-05-02-at-16.23.50.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 - - -
 
