@@ -78,6 +78,10 @@ Om een groep aan te maken, klik je op de knop "Add group". Vul de volgende tekst
 
 Door een groep aan te maken, kun je specifieke chats, persona's of prompts delen. Je bepaalt of toegevoegde leden alleen de persona's kunnen gebruiken ('Leden') of ze ook kunnen bewerken ('Eigenaren'). Als docent zou je bijvoorbeeld studenten als leden kunnen toevoegen, zodat ze een specifieke persona die jij hebt aangemaakt kunnen gebruiken. Je kunt ook een start- en einddatum voor de groep instellen indien nodig. Goed om te weten: als eigenaar van de groep kun je de zichtbaarheid van leden voor anderen verbergen door in het optiemenu de optie ‘hide members from each other’ in te schakelen.
 
+### Tip! Je kunt nu berichten delen met de leden van jouw groep via "Post Announcement"
+
+<img src="/img/uploads/screenshot-2026-05-02-at-16.12.45.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+
 - - -
 
 ## 3.4 "Projects": jouw georganiseerde werkruimte
