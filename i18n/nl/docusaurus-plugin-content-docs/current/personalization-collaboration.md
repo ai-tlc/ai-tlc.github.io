@@ -81,7 +81,7 @@ Door een groep aan te maken, kun je specifieke chats, persona's of prompts delen
 
 ## 3.4 "My projects": jouw georganiseerde werkruimte
 
-Onder "My projects" (het folder-icoon in de linkerbalk) kun je jouw eigen projecten inrichten. Dit fungeert als een digitale container voor al het materiaal dat gerelateerd is aan een specifieke taak of onderzoek. Je kunt dit gebruiken om je chats te ordenen, als je bijvoorbeeld meerder gesprekken over hetzelfde onderwerp hebt. Om te beginnen, klik je op "+ Add Project" midden op het scherm. Binnen een project kun je chats, prompts, en persona's bij elkaar zetten. Daarmee kun je binnen jouw project gemakkelijk navigeren naar eerder gebruikte prompts en de bijbehorende antwoorden, wat het eenvoudig maakt om verder te werken waar je gebleven was.
+Onder "My projects" (het folder-icoon in de linkerbalk) kun je jouw eigen projecten inrichten. Dit fungeert als een digitale container voor al het materiaal dat gerelateerd is aan een specifieke taak of onderzoek. Je kunt dit gebruiken om je chats te ordenen, als je bijvoorbeeld meerdere gesprekken over hetzelfde onderwerp hebt. Om te beginnen, klik je op "+ Add Project" midden op het scherm. Binnen een project kun je chats, prompts, en persona's bij elkaar zetten. Daarmee kun je binnen jouw project gemakkelijk navigeren naar eerder gebruikte prompts en de bijbehorende antwoorden, wat het eenvoudig maakt om verder te werken waar je gebleven was.
 
 <img src="/img/uploads/screenshot-2026-05-02-at-13.50.37.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
@@ -96,7 +96,6 @@ Voor alle Project functionaliteiten, zie hieronder.
 **Project chats:** Bekijk en heropen eerder gebruikte gesprekken binnen het project. Je kunt ook bestaande chats uit de algemene omgeving toevoegen via “Add existing chat”.
 
 **Project knowledge:** Deze functie slaat belangrijke informatie, inzichten en beslissingen op die relevant zijn voor je project, zodat de assistent deze als doorlopende context kan gebruiken in toekomstige chats. Dit helpt om consistentie te behouden, herhaling te voorkomen en antwoorden af te stemmen op de thema’s, methoden en doelen van je project.
-
 
 Met de functie **Add card** kun je handmatig nieuwe kennisitems toevoegen door belangrijke notities, richtlijnen of conclusies op te slaan. Elke kaart bevat één stuk informatie. Per kaart kun je de inhoud bewerken, vastpinnen om deze belangrijker te maken binnen de context, of verbergen om deze niet mee te nemen in de antwoorden van de assistent.
 
