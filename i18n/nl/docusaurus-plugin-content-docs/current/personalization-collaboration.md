@@ -94,23 +94,21 @@ Bij het instellen van de projectmap kun je een titel toewijzen, een pictogram en
 
 Voor alle Project functionaliteiten, zie hieronder.
 
-<img src="/img/uploads/screenshot-2026-05-02-at-14.05.52.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+<img src="/img/uploads/screenshot-2026-06-02-at-11.05.07.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 **+:** Upload documenten naar deze specifieke chat of naar het hele project. Het project slaat deze bestanden op onder “Project files”. Je kunt hier ook je Prompt Library openen om veelgebruikte prompts te selecteren.
 
-**Project chats:** Bekijk en heropen eerder gebruikte gesprekken binnen het project. Je kunt ook bestaande chats uit de algemene omgeving toevoegen via “Add existing chat”.
+**Chats in this projects:** Bekijk en heropen eerder gebruikte gesprekken binnen het project. Je kunt ook bestaande chats uit de algemene omgeving toevoegen via “Add existing chat”.
 
 **Project knowledge:** Deze functie slaat belangrijke informatie, inzichten en beslissingen op die relevant zijn voor je project, zodat de assistent deze als doorlopende context kan gebruiken in toekomstige chats. Dit helpt om consistentie te behouden, herhaling te voorkomen en antwoorden af te stemmen op de thema’s, methoden en doelen van je project.
 
 Met de functie **Add card** kun je handmatig nieuwe kennisitems toevoegen door belangrijke notities, richtlijnen of conclusies op te slaan. Elke kaart bevat één stuk informatie. Per kaart kun je de inhoud bewerken, vastpinnen om deze belangrijker te maken binnen de context, of verbergen om deze niet mee te nemen in de antwoorden van de assistent.
 
-**Search this project:** Gebruik deze functie om te zoeken binnen chats, bestanden, persona’s, prompts, andere projecten en meer.
-
 **Project files:** Bekijk welke bestanden in het project worden gebruikt en voeg nieuwe documenten toe.
 
-**Instructions:** Geef de projectassistent extra context en instructies zodat deze beter aansluit op jouw behoeften.
-
 **Personas:** Bekijk welke persona’s beschikbaar zijn binnen dit project en voeg nieuwe toe.
+
+**Instructions:** Geef de projectassistent extra context en instructies zodat deze beter aansluit op jouw behoeften.
 
 **Prompts:** Bekijk welke prompts beschikbaar zijn binnen dit project en voeg nieuwe toe.
 
