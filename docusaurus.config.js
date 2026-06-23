@@ -6,6 +6,14 @@ const config = {
   url: 'https://ai-tlc.github.io',
   baseUrl: '/',
 
+  scripts: [
+    {
+      src: 'https://static.cloudflareinsights.com/beacon.min.js',
+      defer: true,
+      'data-cf-beacon': '{"token": "394d337c4f624dc1a2a8330c07a228fe"}',
+    },
+  ],
+
   organizationName: 'ai-tlc',
   projectName: 'ai-tlc.github.io',
 
