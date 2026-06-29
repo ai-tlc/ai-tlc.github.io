@@ -244,3 +244,23 @@ However, if you want to use these analyses and graphs in contexts where accuracy
 </video>
 
 - - -
+
+## 2.10 Generative UI: interactive quizzes and follow-up questions
+
+UvA AI Chat can use **Generative UI**: it can create interactive elements directly inside the chat, instead of only responding with plain text. One useful example is the **Quiz Maker**. When you ask something like **"Quiz me on this article"**, **"Quiz me on week 3"** or **"Create a quiz about Renoir’s late period"**, UvA AI Chat can generate a structured quiz with multiple-choice or open questions.
+
+This can help you study more actively. Instead of rereading your notes, you can test what you remember, check whether you understand key concepts, and quickly see which parts of the material need more attention. When you are working in a project or have uploaded files, the quiz can also be based on that material. For example, you can ask: **"Quiz me on the uploaded lecture slides"** or **"Make five questions about the main arguments in this text."**
+
+You can also make the quiz more specific. For example:
+
+* **"Quiz me on the key concepts, but do not give me the answers immediately."**
+* **"Ask me one question at a time."**
+* **"Make the questions more difficult."**
+* **"Focus on definitions and examples."**
+* **"Give feedback after each answer."**
+
+Generative UI also makes UvA AI Chat more conversational. The chat can ask **follow-up questions** when you request this, or when it needs more information to help you properly. For example, if your request is too broad, it may ask which topic, level, file or learning goal it should focus on. You can also actively invite this by asking: **"Ask me follow-up questions before answering"** or **"Help me figure out what I need to study first."**
+
+In this way, Generative UI can support a more guided learning process. You can use it to move step by step through course material, practise retrieval, clarify confusing concepts and turn your own documents into active study exercises.
+
+Please keep in mind that an AI-generated quiz and its grading may contain errors or hallucinations, and do not constitute an official or representative assessment of any course or module. Use the quiz as a study aid, not as a definitive indication of what will be tested or how your work would be graded.
