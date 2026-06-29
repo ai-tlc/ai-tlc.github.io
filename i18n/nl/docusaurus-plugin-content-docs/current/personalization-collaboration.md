@@ -21,7 +21,7 @@ In het veld voor 'Custom Instructions' kun je bijvoorbeeld de volgende tekst inv
 
 - - -
 
-## 3.2 Gepersonaliseerde interactie: werken met persona’s
+## 3.2 "Persona's": op maat gemaakte interactie
 
 
 Met een persona geef je UvA AI Chat een duidelijke rol, werkwijze en toon. Een persona helpt om antwoorden beter te laten aansluiten op een terugkerende taak, een specifieke doelgroep of een vaste manier van werken. Je kunt bijvoorbeeld bepalen welke expertise de AI moet benadrukken, hoe kritisch of ondersteunend de toon moet zijn, hoe gestructureerd de antwoorden moeten zijn en welke grenzen de persona moet respecteren.
