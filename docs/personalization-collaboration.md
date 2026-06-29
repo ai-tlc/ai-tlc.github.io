@@ -23,41 +23,46 @@ In the 'Custom Instructions' field, you might enter something like:
 
 ## 3.2 Customized interaction: working with personas
 
-Personas are an advanced feature that let you instruct UvA AI Chat to take on a specific role or character during a conversation. This makes interactions more focused and the output better aligned with your context.
+With a persona, you give UvA AI Chat a clear role, working method and tone. A persona helps responses better match a recurring task, a specific target group or a fixed way of working. For example, you can determine what expertise the AI should emphasise, how critical or supportive the tone should be, how structured the answers should be and which boundaries the persona should respect.
 
-### The basics: definition and purpose
+### Creating personas with the Persona Maker
 
-Personas are predefined 'characters' or 'personalities' that the AI can adopt to provide directly relevant answers. By giving a persona clear instructions, you set its role, expertise, tone, background knowledge, and function - for example, as a critical reviewer, subject-matter expert, or helpful tutor. Personas are especially useful for recurring tasks or scenarios where you want to use the same prompts repeatedly. This ensures you get consistent, relevant answers without having to re-enter all your context and instructions each time. With personas, you can have the AI communicate from a specific perspective, expertise, or knowledge area. Essentially, a persona is a complex, pre-saved 'master prompt' that shapes the AI's behavior for an entire conversation.
+You do not have to create a persona only by filling in fields manually. In the persona maker (click "Add persona"), you can also build the persona by talking to the AI. Start by describing, in your own words, what you want the persona to do. The AI will then help you refine the persona: it can ask follow-up questions, make unclear points more concrete and adjust the settings in the configuration panel based on your description.
 
-### Standard personas
+This works best when you are as specific as possible. Explain who the persona is for, what tasks it should support, what tone it should use, what it should and should not do, and how you want the answers to be structured.
 
-UvA AI Chat comes with several standard personas you can use right away, including:
+You can also ask the maker to help improve the persona. Useful questions include:
 
-* **Course Manual Creator:** Collaborates with you to create a course manual.
-* **Socratic Coach:** Uses the Socratic method to help you deepen your understanding of a topic without giving direct answers.
-* **Technical Assistant:** Supports users with technical questions by providing clear explanations and practical solutions related to UvA AI Chat.
-* **Language Assistant:** Checks texts and offers tips on grammar, spelling, and style to improve language skills and optimize usage.
+* What information is still missing to make this persona better?
+* Which settings would you adjust for this purpose?
+* Can you make the persona stricter, clearer or more creative?
+* Can you suggest better conversation starters?
+* Can you rewrite the instructions so they are more useful for students, teachers or colleagues?
 
-### Creating your own personas: a step-by-step guide
+The better your conversation with the maker, the better the final persona will be. It is therefore useful to see the maker not just as a form-filling tool, but as an AI assistant that helps you design the persona.
 
-Building your own tailored personas can take your AI interactions to the next level. This lets you set up the persona's behavior exactly the way you want. Go to the mask icon in the left sidebar to access "Personas," then choose the option to create a new persona. Follow these steps:
+### The settings in 'Configure persona'
 
-1. **"Persona title":** Enter a short, recognizable name for your persona.
-2. **"Persona description":** Briefly describe the role and purpose of the persona (this does not affect its behavior).
-3. **"Which AI model do you want to use?":** Select the underlying language model (e.g., GPT-4o) for your persona. See section 4.1.
-4. **"Choose a conversation style":** Pick a style. 'Balanced' is often a good starting point, but you can also select 'Creative' (open, imaginative responses) or 'Precise' (concise and factual).
-5. **"Describe your persona and its behaviour":** This is the key step. Give a detailed description of the tone, expertise, and behavior you want your persona to have. You can adapt a preset or fill in this field manually - be as specific as possible.
-6. "**Send opening message":** Have your persona always open with the same opening message, to prompt ideas or to illustrate what the persona can help with. Ideal for in **Groups**! 
-7. **"Upload files to enhance your persona's resources":** Add specific documents, such as manuals or style guides, that your persona should use as a knowledge base.
-8. **"Save":** Click "Save" to store and activate your persona.
+The right-hand configuration panel contains all settings for your persona. These can be filled in manually, but the AI can also help you complete and refine them.
 
-### Practical example of a custom persona
+* **Persona icon:** Use the plus icon to give your persona a recognisable icon or avatar. This is useful when you manage several personas or when others use your persona in a shared context. You can upload any image yourself when pressing "+"
+* **Name:** Give your persona a short and clear name that immediately shows what it is for. A task-oriented name is usually more useful than a vague or general name. A clear name makes the persona easier to recognise in lists, previews and group contexts.
+* **Default language model:** Choose the default language model that the persona will use. This is the model that is selected when someone starts using the persona. The choice of model can affect how fast, detailed or specialised the responses feel.
+* **Users may choose the language model themselves:** Enable this option if users of this persona should be able to choose a different language model than the default one. This is especially useful when a persona is shared in a broader context, such as a course, team or group environment where different users may have different needs. For example, a teacher may set a recommended default model, while still allowing students or colleagues to choose another model themselves.
+* **Persona instructions:** This is the most important content field. Here you describe the persona's role, expertise, goal, tone, boundaries and preferred way of answering. You can write these instructions yourself, but the maker can also draft and refine them for you. It can be helpful to ask the AI for refinement  of these instructions.
+* **Make the instructions visible to others:** Use this option to decide whether other users can see the persona instructions. Making instructions visible can be useful when transparency is important, for example in education, collaboration or quality assurance. If this option is turned off, the underlying instructions remain more in the background.
+* **Send opening message:** Enable this if you want the persona to start the conversation with an opening message. This can help users understand what the persona is for, what kind of input they should provide and how they can use it effectively. The maker can also help write an opening message that fits your target group.
+* **Example response:** Add one or more examples of a question and a desired answer. This is useful when you want to guide the style, depth or structure of the persona's responses. Concrete examples often make your expectations clearer than abstract instructions alone.
+* **Conversation style:** Choose a preset style, such as 'Balanced', 'Creative' or 'Professional', or select 'Custom' to adjust the style more precisely. A preset is useful when you want to start quickly. Choose 'Custom' when you want to fine-tune the persona's tone and behaviour.
+* **Temperature and Top P:** These settings influence how predictable or varied the persona's answers are. Lower values generally make responses more consistent and controlled. Higher values allow for more variation and freedom. If you are unsure, let the AI suggest suitable settings first and only adjust them if the responses feel too flat, too broad or too unpredictable.
+* **Sources:** Add sources or materials that the persona should use as a knowledge base. This is useful when the persona needs to rely on specific documents, guidelines, manuals or other reference material.
+* **Allowed functions within the conversation:** You can decide which functions are available when users interact with the persona. These may include internet search, searching uploaded documents, generating images, creating artifacts, using study mode or switching to other personas in the same chat. Only enable the functions that fit the purpose of the persona. This keeps the experience focused and avoids unnecessary distractions.
+* **Brief work instruction for the user:** This is a short, user-facing instruction or description. It should explain what the persona does, who it is for and what the user should provide to get started. Keep this text short, concrete and task-oriented.
+* **Conversation starters:** Conversation starters are predefined prompts that users can click to begin. Use them to show users what kind of questions or tasks work well with the persona. Good conversation starters help users get started quickly and also guide them towards effective use.
+* **Preview:** Use 'Preview' to check how the persona will appear to users. Check whether the name, description, opening message and conversation starters are clear enough.
+* **Save:** Save the persona when the instructions, settings and user-facing text are ready. A final check is useful to make sure the persona is not only well configured internally, but also clear and usable for others.
 
-A researcher wants an AI assistant that helps critically review her draft articles. She creates this persona:
-
-* **Persona title:** "Critical Research Assistant"
-* **Persona description:** "Analyzes academic texts for logical consistency, weak arguments, and unclear phrasing"
-* **Describe your persona and its behaviour:** "You are an experienced peer reviewer for an academic journal. Your tone is critical but always constructive. When giving feedback on an uploaded text, structure your answer in three parts: 1) a brief summary of the author's main argument, 2) a list of strengths, and 3) a detailed list of points for improvement, including specific suggestions for rephrasing and questions that challenge the author to reflect on weaknesses in their reasoning."
+### You can test and tweak the persona by clicking "Preview" or the Eye-icon in the top right corner.
 
 - - -
 
