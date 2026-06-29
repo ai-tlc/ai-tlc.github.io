@@ -232,3 +232,23 @@ Als je deze analyses en grafieken echter wilt gebruiken in situaties waar nauwke
 </video>
 
 - - -
+
+## Generative UI: interactieve quizzen en vervolgvragen
+
+UvA AI Chat kan nu gebruikmaken van **Generative UI**: de chat kan interactieve elementen direct in het gesprek aanmaken, in plaats van alleen te reageren met platte tekst. Een nuttig voorbeeld hiervan is de **Quiz Maker**. Wanneer je iets vraagt als **"Overhoor me over dit artikel"**, **"Quiz me over week 3"** of **"Maak een quiz over de late periode van Renoir"**, kan UvA AI Chat een gestructureerde quiz genereren met meerkeuzevragen of open vragen.
+
+Dit kan je helpen om actiever te studeren. In plaats van je aantekeningen alleen opnieuw te lezen, kun je testen wat je nog weet, controleren of je kernbegrippen begrijpt en snel zien welke onderdelen van de stof meer aandacht nodig hebben. Wanneer je in een project werkt of bestanden hebt geüpload, kan de quiz ook op dat materiaal worden gebaseerd. Je kunt bijvoorbeeld vragen: **"Overhoor me over de geüploade collegeslides"** of **"Maak vijf vragen over de hoofdargumenten in deze tekst."**
+
+Je kunt de quiz ook specifieker maken. Bijvoorbeeld:
+
+* **"Overhoor me over de kernbegrippen, maar geef de antwoorden niet meteen."**
+* **"Stel één vraag tegelijk."**
+* **"Maak de vragen moeilijker."**
+* **"Richt je op definities en voorbeelden."**
+* **"Geef feedback na elk antwoord."**
+
+Generative UI maakt UvA AI Chat ook meer conversationeel. De chat kan **vervolgvragen** stellen wanneer je daarom vraagt, of wanneer er meer informatie nodig is om je goed te helpen. Als je vraag bijvoorbeeld te breed is, kan de chat vragen op welk onderwerp, niveau, bestand of leerdoel de focus moet liggen. Je kunt dit ook actief uitnodigen door te vragen: **"Stel me vervolgvragen voordat je antwoord geeft"** of **"Help me uitzoeken wat ik eerst moet studeren."**
+
+Op deze manier kan Generative UI een meer begeleid leerproces ondersteunen. Je kunt het gebruiken om stap voor stap door cursusmateriaal heen te gaan, retrieval practice te oefenen, verwarrende concepten te verduidelijken en je eigen documenten om te zetten in actieve studieoefeningen.
+
+Houd er rekening mee dat een door AI gegenereerde quiz en de beoordeling daarvan fouten of hallucinaties kunnen bevatten, en geen officiële of representatieve toetsing vormen van een cursus of module. Gebruik de quiz als studiehulpmiddel, niet als definitieve indicatie van wat er getoetst zal worden of hoe je werk beoordeeld zou worden.
