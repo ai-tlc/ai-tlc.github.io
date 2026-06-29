@@ -21,43 +21,59 @@ In het veld voor 'Custom Instructions' kun je bijvoorbeeld de volgende tekst inv
 
 - - -
 
-## 3.2 Interactie op maat: werken met Persona's
+## 3.2 Gepersonaliseerde interactie: werken met persona’s
 
-Persona's zijn een geavanceerde functie waarmee je UvA AI Chat kunt instrueren om een specifieke rol of karakter aan te nemen tijdens een gesprek. Dit maakt de interactie gerichter en de output beter afgestemd op jouw specifieke context.
 
-### Basisbegrippen: definitie en doel
+Met een persona geef je UvA AI Chat een duidelijke rol, werkwijze en toon. Een persona helpt om antwoorden beter te laten aansluiten op een terugkerende taak, een specifieke doelgroep of een vaste manier van werken. Je kunt bijvoorbeeld bepalen welke expertise de AI moet benadrukken, hoe kritisch of ondersteunend de toon moet zijn, hoe gestructureerd de antwoorden moeten zijn en welke grenzen de persona moet respecteren.
 
-Persona's zijn vooraf gedefinieerde 'karakters' of 'persoonlijkheden' die de AI kan aannemen om direct relevante antwoorden te geven. Door een persona van instructies te voorzien, geef je de AI een rol, expertise, toon, achtergrondkennis en functie - bijvoorbeeld als kritische reviewer, vakspecialist of behulpzame tutor. Een persona is met name nuttig bij herhalende taken of scenario's waarin je steeds dezelfde prompts wilt meegeven. Zo krijg je snel consistente en passende antwoorden, zonder steeds opnieuw alle context en instructies te hoeven invoeren. Met persona's kun je de AI laten communiceren vanuit specifieke informatie, standpunten, expertise of kennisgebieden. Het doel van persona's is om de interactie met de AI te personaliseren en te verbeteren. In essentie is een persona een complexe, vooraf opgeslagen 'master prompt' die het gedrag van de AI voor een heel gesprek bepaalt.
 
-### Standaard Persona's
+### Persona’s maken met de Persona Maker
 
-De UvA AI Chat wordt geleverd met verschillende standaard persona's die je direct kunt gebruiken:
 
-* **Course Manual Creator:** Gaat in gesprek met jou om samen een cursus handleiding te maken.
-* **Socratic Coach:** Gebruikt de Socratische methode om jou te helpen een onderwerp beter te begrijpen zonder directe antwoorden te geven.
-* **Technisch Assistent:** Ondersteunt gebruikers bij technische vraagstukken door heldere uitleg en praktische oplossingen voor vragen over de UvA AI Chat zelf te bieden.
-* **Taalassistent:** Controleert teksten en geeft tips op het gebied van grammatica, spelling en stijl om de taalvaardigheid te verhogen en het taalgebruik te optimaliseren.
+Je hoeft een persona niet alleen te maken door handmatig velden in te vullen. In de Persona Maker klik je op "Add persona" en kun je de persona ook opbouwen door met de AI in gesprek te gaan. Begin door in je eigen woorden te beschrijven wat je wilt dat de persona doet. De AI helpt je vervolgens om de persona verder te verfijnen: ze kan vervolgvragen stellen, onduidelijke punten concreter maken en de instellingen in het configuratiepaneel aanpassen op basis van jouw beschrijving.
 
-### Eigen Persona's maken: een stapsgewijze handleiding
 
-Het creëren van jouw eigen, op maat gemaakte persona's kan jouw interacties met AI tot een hoger niveau brengen. Op deze manier kun je namelijk het gedrag van de persona exact zo inrichten als jij het wilt. Ga naar het masker-icoon in de balk links van UvA AI Chat om bij "Persona's" te komen en kies de optie om een nieuwe persona te maken. Volg daarna deze stappen:
+Dit werkt het best wanneer je zo concreet mogelijk bent. Leg uit voor wie de persona bedoeld is, welke taken de persona moet ondersteunen, welke toon de persona moet gebruiken, wat de persona wel en niet moet doen en hoe je wilt dat de antwoorden worden opgebouwd.
 
-1. **"Persona title":** Vul een korte, herkenbare naam in voor jouw persona.
-2. **"Persona description":** Beschrijf in één of twee zinnen de rol en het doel van de persona. (Dit beïnvloedt het gedrag van de persona niet).
-3. **"Which AI model do you want to use?":** Kies het achterliggende taalmodel (bijv. GPT-4o) waarop jouw persona draait. Zie sectie 4.1.
-4. **"Choose a conversation style":** Selecteer een gespreksstijl. 'Balanced' is vaak een goede start, maar je kunt ook kiezen voor 'Creative' (vrije, creatieve antwoorden) of 'Precise' (zakelijk en feitelijk).
-5. **"Describe your persona and its behaviour":** Dit is de belangrijkste stap. Beschrijf hier zeer gedetailleerd welke toon, expertise en gedrag jouw persona moet hebben. Je kunt een voorbeeld kiezen om dit aan te passen ('Select a preset...') of dit veld handmatig invullen. Wees zo specifiek mogelijk.
-6. **“Send opening message”:** Laat je persona altijd beginnen met dezelfde openingsboodschap om ideeën te stimuleren of te laten zien waarbij de persona kan helpen. Ideaal voor gebruik in **Groups**!
-7. **"Upload files to enhance your persona's resources":** Je kunt hier specifieke documenten uploaden, zoals handleidingen of stijlboeken, die de persona als kennisbasis moet gebruiken.
-8. **"Opslaan":** Klik op "Save" om jouw persona op te slaan en te activeren.
 
-### Praktijkvoorbeeld van een eigen Persona
+Je kunt de maker ook vragen om te helpen de persona te verbeteren. Handige vragen zijn bijvoorbeeld:
 
-Een onderzoeker wil een AI-assistent die haar helpt om haar conceptartikelen kritisch te beoordelen. Ze creëert de volgende persona:
 
-* **Persona title:** "Kritische Onderzoeksassistent"
-* **Persona description:** "Analyseert academische teksten op logische consistentie, argumentatieve zwaktes en onduidelijke formuleringen."
-* **Describe your persona and its behaviour:** "Je bent een ervaren peer reviewer voor een wetenschappelijk tijdschrift. Je toon is kritisch maar altijd constructief. Wanneer je feedback geeft op een geüploade tekst, structureer je je antwoord altijd in drie delen: 1) Een beknopte samenvatting van het hoofdargument van de auteur. 2) Een lijst met sterke punten van de tekst. 3) Een gedetailleerde lijst van punten voor verbetering, inclusief specifieke suggesties voor herformulering en vragen die de auteur aan het denken zetten over de zwaktes in de argumentatie."
+* Welke informatie ontbreekt nog om deze persona beter te maken?
+* Welke instellingen zou je aanpassen voor dit doel?
+* Kun je de persona strenger, duidelijker of creatiever maken?
+* Kun je betere conversation starters voorstellen?
+* Kun je de instructies herschrijven zodat ze bruikbaarder zijn voor studenten, docenten of collega’s?
+
+
+Hoe beter je gesprek met de maker, hoe beter de uiteindelijke persona wordt. Het is daarom nuttig om de maker niet alleen te zien als een hulpmiddel om formulieren in te vullen, maar als een AI-assistent die je helpt de persona te ontwerpen.
+
+
+### De instellingen in 'Configure persona'
+
+
+Het configuratiepaneel aan de rechterkant bevat alle instellingen voor je persona. Deze kunnen handmatig worden ingevuld, maar de AI kan je ook helpen om ze aan te vullen en te verfijnen.
+
+
+* **Persona icon:** Gebruik het plus-icoon om je persona een herkenbaar pictogram of avatar te geven. Dit is handig wanneer je meerdere persona’s beheert of wanneer anderen jouw persona in een gedeelde context gebruiken. Je kunt zelf een afbeelding uploaden door op "+" te klikken.
+* **Name:** Geef je persona een korte en duidelijke naam die meteen laat zien waarvoor de persona bedoeld is. Een taakgerichte naam is meestal bruikbaarder dan een vage of algemene naam. Een duidelijke naam maakt de persona makkelijker te herkennen in lijsten, previews en groepscontexten.
+* **Default language model:** Kies het standaardtaalmodel dat de persona gebruikt. Dit is het model dat geselecteerd is wanneer iemand de persona gaat gebruiken. De keuze voor een model kan invloed hebben op hoe snel, uitgebreid of gespecialiseerd de antwoorden aanvoelen.
+* **Users may choose the language model themselves:** Schakel deze optie in als gebruikers van deze persona zelf een ander taalmodel moeten kunnen kiezen dan het standaardmodel. Dit is vooral handig wanneer een persona wordt gedeeld in een bredere context, zoals een cursus, team of groepsomgeving waarin verschillende gebruikers verschillende behoeften kunnen hebben. Een docent kan bijvoorbeeld een aanbevolen standaardmodel instellen, terwijl studenten of collega’s nog steeds zelf een ander model kunnen kiezen.
+* **Persona instructions:** Dit is het belangrijkste inhoudelijke veld. Hier beschrijf je de rol, expertise, het doel, de toon, de grenzen en de gewenste manier van antwoorden van de persona. Je kunt deze instructies zelf schrijven, maar de maker kan ze ook voor je opstellen en verfijnen. Het kan helpen om de AI te vragen deze instructies verder aan te scherpen.
+* **Make the instructions visible to others:** Gebruik deze optie om te bepalen of andere gebruikers de persona-instructies kunnen zien. Instructies zichtbaar maken kan nuttig zijn wanneer transparantie belangrijk is, bijvoorbeeld in onderwijs, samenwerking of kwaliteitscontrole. Als deze optie is uitgeschakeld, blijven de onderliggende instructies meer op de achtergrond.
+* **Send opening message:** Schakel dit in als je wilt dat de persona het gesprek begint met een openingsbericht. Dit kan gebruikers helpen begrijpen waarvoor de persona bedoeld is, wat voor input ze moeten geven en hoe ze de persona effectief kunnen gebruiken. De maker kan ook helpen om een openingsbericht te schrijven dat past bij je doelgroep.
+* **Example response:** Voeg één of meer voorbeelden toe van een vraag en een gewenst antwoord. Dit is nuttig wanneer je de stijl, diepgang of structuur van de antwoorden van de persona wilt sturen. Concrete voorbeelden maken je verwachtingen vaak duidelijker dan alleen abstracte instructies.
+* **Conversation style:** Kies een vooraf ingestelde stijl, zoals 'Balanced', 'Creative' of 'Professional', of selecteer 'Custom' om de stijl nauwkeuriger aan te passen. Een preset is handig wanneer je snel wilt beginnen. Kies 'Custom' wanneer je de toon en het gedrag van de persona preciezer wilt afstemmen.
+* **Temperature and Top P:** Deze instellingen beïnvloeden hoe voorspelbaar of gevarieerd de antwoorden van de persona zijn. Lagere waarden maken antwoorden meestal consistenter en gecontroleerder. Hogere waarden laten meer variatie en vrijheid toe. Als je twijfelt, laat de AI dan eerst geschikte instellingen voorstellen en pas ze alleen aan als de antwoorden te vlak, te breed of te onvoorspelbaar aanvoelen.
+* **Sources:** Voeg bronnen of materialen toe die de persona als kennisbasis moet gebruiken. Dit is nuttig wanneer de persona moet steunen op specifieke documenten, richtlijnen, handleidingen of ander referentiemateriaal.
+* **Allowed functions within the conversation:** Je kunt bepalen welke functies beschikbaar zijn wanneer gebruikers met de persona werken. Dit kan bijvoorbeeld gaan om zoeken op internet, geüploade documenten doorzoeken, afbeeldingen genereren, artifacts maken, study mode gebruiken of wisselen naar andere persona’s in dezelfde chat. Schakel alleen functies in die passen bij het doel van de persona. Zo blijft de ervaring gericht en voorkom je onnodige afleiding.
+* **Brief work instruction for the user:** Dit is een korte, gebruikersgerichte instructie of beschrijving. Deze moet uitleggen wat de persona doet, voor wie de persona bedoeld is en wat de gebruiker moet aanleveren om goed te kunnen starten. Houd deze tekst kort, concreet en taakgericht.
+* **Conversation starters:** Conversation starters zijn vooraf ingestelde prompts waarop gebruikers kunnen klikken om te beginnen. Gebruik ze om gebruikers te laten zien welk soort vragen of taken goed werken met de persona. Goede conversation starters helpen gebruikers snel op weg en sturen hen ook richting effectief gebruik.
+* **Preview:** Gebruik 'Preview' om te controleren hoe de persona eruitziet voor gebruikers. Controleer of de naam, beschrijving, het openingsbericht en de conversation starters duidelijk genoeg zijn.
+* **Save:** Sla de persona op wanneer de instructies, instellingen en gebruikersgerichte tekst klaar zijn. Een laatste controle is nuttig om te zorgen dat de persona niet alleen intern goed is ingesteld, maar ook duidelijk en bruikbaar is voor anderen.
+
+
+### Je kunt de persona testen en aanpassen door rechtsboven op "Preview" of op het oog-icoon te klikken.
 
 - - -
 
