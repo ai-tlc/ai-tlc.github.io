@@ -21,7 +21,7 @@ In the 'Custom Instructions' field, you might enter something like:
 
 - - -
 
-## 3.2 Customized interaction: working with personas
+## 3.2 "Personas: Customised Interaction"
 
 With a persona, you give UvA AI Chat a clear role, working method and tone. A persona helps responses better match a recurring task, a specific target group or a fixed way of working. For example, you can determine what expertise the AI should emphasise, how critical or supportive the tone should be, how structured the answers should be and which boundaries the persona should respect.
 
