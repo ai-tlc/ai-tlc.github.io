@@ -102,3 +102,72 @@ Zodra je vraagt om Python-code te genereren, verschijnt er een apart venster met
 <img src="/img/uploads/screenshot-2026-04-07-at-17.17.46.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 - - - 
+
+## 4.5 Je geschatte energiegebruik bekijken in UvA AI Chat
+
+UvA AI Chat bevat een **Usage**-dashboard waarin je een schatting kunt zien van het energiegebruik dat samenhangt met je AI-gebruik. Deze functie maakt de milieu-impact van generatieve AI beter zichtbaar en ondersteunt bewuster gebruik van AI bij studie, onderwijs, onderzoek en werk.
+
+De cijfers in dit dashboard moeten worden gelezen als **schattingen**, niet als exacte metingen. De daadwerkelijke milieu-impact van een AI-interactie hangt af van veel factoren, waaronder het gebruikte model, de hoeveelheid tekst die wordt verwerkt, de infrastructuur van het datacentrum, de efficiëntie van de hardware en de energiemix achter die infrastructuur. Het dashboard geeft daarom een indicatie van het energiegebruik, geen precieze real-time berekening.
+
+**Waarom dit relevant is**
+
+Generatieve AI-systemen hebben rekenkracht nodig, en rekenkracht kost energie. Tegelijkertijd is het niet altijd zichtbaar hoeveel verwerking er achter één AI-interactie plaatsvindt. Een kort antwoord vraagt mogelijk minder berekening dan een lang gesprek met geüploade bestanden, veel context of herhaalde vervolgvragen.
+
+Door geschat energiegebruik en tokengebruik te tonen, helpt UvA AI Chat gebruikers om te reflecteren op hun eigen AI-gebruik. Het doel is niet om AI-gebruik te ontmoedigen, maar om **bewust en efficiënt gebruik** te stimuleren: AI gebruiken wanneer het waarde toevoegt, en onnodige verwerking waar mogelijk vermijden.
+
+Dit past binnen een bredere duurzaamheidsblik: verantwoord AI-gebruik gaat niet alleen over óf je AI gebruikt, maar ook over **hoe** je AI gebruikt.
+
+**Hoe je het Usage-dashboard vindt**
+
+Om je geschatte energiegebruik te bekijken:
+
+1. Open **UvA AI Chat**.
+2. Klik linksonder op je **profiel-/accounticoon**.
+3. Selecteer **Settings**.
+4. Klik in het Settings-menu op **Usage**.
+5. Je ziet nu je geschatte energiegebruik, tokengebruik en modelmix.
+
+Met het dropdownmenu bovenaan de Usage-pagina kun je een periode selecteren, zoals **Last Hour** of **Last week**.
+
+**Wat het Usage-dashboard laat zien**
+
+Het dashboard bevat drie hoofdtypen informatie: geschat energiegebruik, gebruikte tokens en modelmix.
+
+* **Geschat energiegebruik**  
+  Het dashboard toont een geschatte hoeveelheid energie voor de geselecteerde periode, uitgedrukt in **Wh**: wattuur. Dit kan ook worden vertaald naar een herkenbaardere vergelijking, zoals een percentage van een telefoonlading.
+
+  Deze vergelijking is bedoeld om het getal makkelijker te interpreteren. Lees dit niet als een exacte ecologische voetafdruk, maar als een praktische manier om gevoel te krijgen voor de schaal.
+
+* **Gebruikte tokens**  
+  Het dashboard laat ook zien hoeveel **tokens** je hebt gebruikt. Een token is een kleine eenheid tekst. Als grove indicatie:
+
+  > 1 token ≈ 3/4 woord
+
+  Tokengebruik omvat de tekst die je invoert en de tekst die de AI genereert. In sommige situaties kan het ook extra context omvatten die het model moet verwerken, zoals eerdere berichten, geüploade bestanden, projectinformatie of instructies.
+
+  In het algemeen betekent meer tokens meer berekening. Langere gesprekken, grote documenten, herhaald prompten en zeer uitgebreide antwoorden kunnen daarom leiden tot een hoger geschat energiegebruik.
+
+* **Modelmix**  
+  De sectie **Model mix** laat zien welke modellen je in de geselecteerde periode hebt gebruikt en welk percentage van je gebruik bij elk model hoort.
+
+  Dit is relevant omdat verschillende modellen verschillende hoeveelheden rekenkracht kunnen vragen. Geavanceerdere modellen kunnen nuttig zijn voor complexe taken, maar zijn niet altijd nodig voor eenvoudige vragen. Een passend model kiezen voor de taak kan helpen om AI efficiënter te gebruiken.
+
+**Hoe de schatting werkt**
+
+Het Usage-dashboard schat energiegebruik op basis van tokengebruik en aannames over de energiekosten van het verwerken van die tokens. Daarbij wordt ook gewerkt met een aangenomen verhouding tussen input en output, en wordt verwezen naar gepubliceerd onderzoek waarop deze berekeningen zijn gebaseerd.
+
+Omdat AI-systemen complex zijn en het exacte energiegebruik van één interactie moeilijk te bepalen is, moet het dashboard worden gezien als een **grove maar nuttige indicator**. Het is vooral geschikt voor bewustwording, vergelijking en reflectie over tijd.
+
+**AI efficiënter gebruiken**
+
+Het Usage-dashboard kan je helpen om kleine, praktische keuzes te maken in hoe je AI gebruikt. Bijvoorbeeld:
+
+* Schrijf duidelijke prompts, zodat je minder herhaalde correcties nodig hebt.
+* Vermijd onnodig lange context of grote bestanden.
+* Vat lange gesprekken samen voordat je verdergaat, in plaats van steeds alle eerdere context mee te nemen.
+* Gebruik geavanceerde modellen wanneer de taak daarom vraagt, maar kies lichtere of passendere opties voor eenvoudigere taken wanneer dat kan.
+* Vraag om gerichte antwoorden in plaats van onnodig lange outputs.
+
+Het belangrijkste uitgangspunt is: **gebruik AI wanneer het je doel betekenisvol ondersteunt, en doe dat zo efficiënt mogelijk.** Het Usage-dashboard helpt om dat proces zichtbaarder te maken.
+
+- - - 
