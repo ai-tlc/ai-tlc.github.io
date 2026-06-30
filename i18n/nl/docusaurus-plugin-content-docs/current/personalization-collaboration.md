@@ -13,11 +13,14 @@ Om UvA AI Chat optimaal te kunnen gebruiken is het belangrijk om het te configur
 * **'Memory Management' (Geheugencontext):** Bekijk en beheer hier welke informatie UvA AI Chat heeft opgeslagen over jou in het geheugen. Je kunt hier opgeslagen 'Memories' zelf aanpassen of verwijderen.
 * **'Custom Instructions' (Aangepaste Instructies):** Geef hierin aan hoe je wilt dat de AI zich gedraagt, opstelt of in welke stijl de AI standaard moet schrijven. Deze instructies worden op de achtergrond meegenomen in elk gesprek dat je start (behalve als je een Persona gebruikt).
 
+
 ### Praktijkvoorbeeld van 'Custom Instructions'
 
 In het veld voor 'Custom Instructions' kun je bijvoorbeeld de volgende tekst invoeren om de AI-output standaard aan te passen aan jouw behoeften:
 
 > "Antwoord altijd in het Nederlands. Formuleer jouw antwoorden als een academische adviseur: ondersteunend, kritisch en gericht op het verbeteren van mijn werk. Gebruik formele taal en vermijd overmatig gebruik van jargon. Structureer complexe antwoorden met bullet points voor de duidelijkheid."
+
+### Tip! Gebruik de deelknop rechtsboven in je chats om je bevindingen te delen met andere UvA AI Chat-gebruikers. Let op: alleen gebruikers binnen de UvA hebben toegang tot deze chats.
 
 - - -
 
