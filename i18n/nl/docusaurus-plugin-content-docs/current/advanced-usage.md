@@ -191,11 +191,15 @@ Voor het beste resultaat kun je aangeven:
 * of het eenvoudig of opgemaakt moet zijn;
 * en of het bedoeld is om te lezen, bewerken, publiceren, analyseren of hergebruiken.
 
+## Op dit moment kan UvA AI Chat bestaande bestanden niet bewerken; het kan alleen nieuwe bestanden genereren.
+
 **Goed om te weten**
 
 Sommige gegenereerde bestanden zijn vooral bedoeld om te lezen, zoals `.txt`, `.md`, `.html` of `.pdf`. Andere bestanden zijn bedoeld om te openen of bewerken in specifieke tools, zoals `.csv` in een spreadsheetprogramma, `.py` in een code-editor of `.mmd` in een Mermaid-compatibele viewer.
 
 Voor codebestanden kan UvA AI Chat veel verschillende programmeertalen genereren. Of de code ook direct kan worden uitgevoerd, hangt af van de beschikbare runtime-omgeving en de bibliotheken of tools die daar worden ondersteund. Controleer gegenereerde code altijd voordat je die gebruikt, vooral in onderwijs, onderzoek, data-analyse of productieomgevingen.
+
+## Om afbeeldingen te bewerken, upload je eigen afbeelding vanaf een lokale bron. Tijdens het maken van je bestand kan UvA AI Chat geen afbeeldingen van het internet ophalen.
 
 <small>
 
