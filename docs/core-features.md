@@ -6,41 +6,105 @@ slug: /core-features
 ---
 ## 2.1 Communicating effectively: the art of prompting
 
-The most important skill for making the best use of UvA AI Chat is writing effective prompts. The quality of the output you receive from the AI is directly tied to the quality of the instructions you provide.
+The most important skill for making good use of UvA AI Chat is learning how to communicate clearly with the AI. This is often called **prompting**: writing the instruction, question or task you give to the AI.
 
-### Definition of a prompt
+A good prompt helps the AI understand what you want, why you want it, and what kind of answer would be useful. The quality of the output is strongly influenced by the quality of your instructions. A clear prompt often leads to a more relevant and usable answer, while a vague prompt usually leads to a more general response.
 
-A prompt is an instruction or question you give to the AI to generate a specific response or output. It's the foundation of your interaction with the AI. The clarity and level of detail in your prompt have a direct impact on the quality of the answer. A well-crafted prompt acts as a clear assignment, while a vague prompt typically results in a generic or unusable response.
+At the same time, prompting is not about writing one perfect instruction. UvA AI Chat is conversational. You can always ask follow-up questions, correct the answer, add missing context, or ask the AI to rewrite, shorten, expand or improve its response.
 
-While crafting a strong prompt is important, there's no need to worry if your first attempt doesn't work perfectly. The real strength of the AI lies in its ability to carry on a conversation, so if the output isn't what you expected, you can always ask the AI to adjust its answer. It's also helpful to ask the AI to help you improve your prompt.
+### What is a prompt?
+
+A **prompt** is the instruction or question you give to the AI.
+
+| Simple prompt                            | More specific prompt                                                                                                                                                         |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Explain this concept in simple language. | Explain the concept of academic citizenship to a first-year university student. Use simple language, give one example from education, and end with two reflection questions. |
+
+The second prompt is more helpful because it gives the AI more direction. It explains the topic, the intended audience, the desired style and the format of the answer.
+
+### How an answer comes together
+
+When UvA AI Chat generates an answer, it does not only look at the sentence you just typed. The answer can also be shaped by the surrounding context of the conversation.
+
+Depending on how you are using UvA AI Chat, this context may include:
+
+| Type of context                     | What it means                                                                                                                                                                     |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Your current prompt**             | The question or instruction you type.                                                                                                                                             |
+| **The conversation so far**         | Earlier messages in the same chat can influence later answers.                                                                                                                    |
+| **Persona or project instructions** | If you are using a persona or project, the AI may follow extra instructions about role, tone, task or working method.                                                             |
+| **Project Knowledge**               | In projects, UvA AI Chat can use reusable knowledge cards: short pieces of durable information from earlier project chats, such as decisions, preferences, facts or task details. |
+| **Uploaded documents or tools**     | If documents or tools are available in the chat, the AI may use them to answer more specifically.                                                                                 |
+
+This means that prompting is not only about the text you type in one message. It is also about making sure the AI has the right context to work with.
+
+### Why context matters
+
+AI answers depend heavily on the information available to the model. If important information is missing, the answer may be too broad, incomplete or based on assumptions. If the right context is provided, the answer can become more relevant and better aligned with your goal.
+
+| Less helpful     | More helpful                                                                                                                                           |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Write a summary. | Summarize this text for a lecturer who wants to quickly understand the main argument. Use around 150 words and focus on the implications for teaching. |
+
+The improved prompt gives the AI a task, audience, length and focus.
+
+### Project Knowledge: reusable context in projects
+
+In UvA AI Chat projects, **Project Knowledge** can help preserve useful information across project chats. Instead of relying only on hidden or informal memory, important information can be stored as explicit **knowledge cards**.
+
+A knowledge card is a small, reusable piece of information, such as:
+
+| Knowledge card may contain...                     | Example                                                                           |
+| ------------------------------------------------- | --------------------------------------------------------------------------------- |
+| A decision made earlier in the project            | “The workshop will be aimed at first-year students.”                              |
+| A target audience                                 | “The text should be understandable for lecturers without technical AI knowledge.” |
+| A preferred tone or writing style                 | “Use a clear, accessible and didactic tone.”                                      |
+| A recurring constraint                            | “Keep manual entries concise and practical.”                                      |
+| An important fact that should be remembered later | “The module is intended for both students and staff.”                             |
+
+When relevant, UvA AI Chat can use these cards in later answers. This helps the AI stay consistent across different chats within the same project. It also makes the use of context more transparent: knowledge cards can be inspected, edited, archived or excluded.
+
+Project Knowledge is useful because stored context is not automatically perfect. A card may become outdated, too general or no longer relevant. The most recent instruction you give should always guide the answer. If the AI seems to rely on old or incorrect context, correct it explicitly.
+
+For example:
+
+> Ignore the earlier project assumption that this text is for students. This version is for lecturers.
+
+Or:
+
+> Use the project knowledge about the workshop audience, but do not use the earlier proposed structure.
 
 ### Structure of an effective prompt
 
-Prompting effectively means making your prompts clear, specific, and relevant. To do this, state clearly what you want the AI to do, including any nuances or specific requirements. Use concrete language, avoid vagueness, and provide context where needed to help the AI understand your question and generate accurate answers. A well-structured prompt usually contains three main elements:
+A well-structured prompt usually contains three main elements:
 
-1. **Context (introduction):** Start with a brief introduction or background so the AI understands what the prompt is about. Who are you? What's the purpose of the task? Who is the output intended for?
-2. **Question or instruction:** Clearly state your question or give a specific, unambiguous task. Use complete sentences and be explicit about the action you want the AI to take.
-3. **Specific details or criteria:** Add relevant details, constraints, or criteria the AI should consider in its response. This could include the desired format (table, bullet points, continuous text), tone (formal, informal, creative), length (number of words), or specific points to address.
+| Element                          | What to include                                                                                                 | Example                                                                                                               |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **Context**                      | Briefly explain the situation. What is the task about? Who is the audience? What background should the AI know? | “I am writing a short introduction for a Canvas module about AI and sustainability.”                                  |
+| **Question or instruction**      | Clearly state what you want the AI to do.                                                                       | “Write a clear paragraph for students and lecturers.”                                                                 |
+| **Specific details or criteria** | Add requirements such as tone, length, format, difficulty level, sources to use, or focus points.               | “Keep it accessible, avoid technical detail, and mention that exact numbers about AI energy use are often uncertain.” |
 
-A key tip is to phrase instructions positively. Avoid exclusions (like "don't use difficult words"), because the AI tends to focus on any concept you mention. Instead, describe what you do want ("use simple, accessible language").
+Combined, this becomes:
 
-### Practical example of positive formulation
+> I am writing a short introduction for a Canvas module about AI and sustainability. Write a clear paragraph for students and lecturers. Keep it accessible, avoid technical detail, and mention that exact numbers about AI energy use are often uncertain.
 
-* **Negative:** "Write an introduction for my essay, but don't use jargon and don't make it longer than 200 words."
-* **Positive:** "Write an accessible introduction of around 200 words for my essay on Italo Calvino, aimed at a first-year student. Use clear, simple language and define the main concepts."
+### Phrase instructions positively
 
-- - -
+A useful prompting habit is to describe what you **do** want, rather than only saying what you **do not** want.
 
-### Table 1: Examples of positive formulation
+| Less helpful                                                                                      | More helpful                                                                                                                                         |
+| ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Write an introduction for my essay, but don’t use jargon and don’t make it longer than 200 words. | Write an accessible introduction of around 200 words for my essay on Italo Calvino. Use clear, simple language and briefly define the main concepts. |
 
-The table below illustrates the difference between a vague prompt and a specific, well-structured prompt for various academic tasks.
+The second version gives the AI a clearer target.
 
-| Task                | Ineffective Prompt               | Effective Prompt                                                                                                                                                                                                                                                                                                                                                                                               |
-| ------------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Writing an email    | "Write an email to my professor" | "Context: I need to email my professor, Dr. Jansen, about an extension for my paper on the Eighty Years' War. Instruction: Draft a formal and respectful email in which I request a two-day extension. Criteria: Mention that the reason is unforeseen personal circumstances (without going into detail) and suggest a new submission date."                                                                  |
-| Summarizing text    | "Summarize this document"        | "Context: The uploaded document is a scientific article about the impact of AI on the labor market. Instruction: Generate a summary in bullet points. Criteria: Focus on the research methodology, main findings, and the authors' conclusions. The summary should be in Dutch and no longer than 250 words."                                                                                                  |
-| Brainstorming       | "Give me ideas for an argument"  | "Context: I am a sociology researcher and want to write an essay within the theme of social inequality. Instruction: Generate five concrete standpoints I could write an essay about. Criteria: Each standpoint should be original, empirically grounded, and relevant to contemporary Dutch society."                                                                                                         |
-| Requesting feedback | "Check my text"                  | "Context: The attached file is the draft introduction of my research proposal. The audience is researchers in my field. Instruction: Provide constructive feedback on the text. Criteria: Analyze the text on three points: 1) clarity of the problem statement, 2) logical structure of the argument, and 3) academic writing style. Give concrete examples from the text and suggest specific improvements." |
+### Key takeaway
+
+Prompting is the practice of giving the AI clear instructions and useful context. A good prompt tells the AI what to do, why it matters, who the answer is for, and what kind of output you need.
+
+In UvA AI Chat, answers may also be shaped by broader context, such as personas, project instructions, uploaded documents, tools, memory or Project Knowledge. This can make answers more useful and consistent, but it also means that you should stay aware of what context the AI may be using.
+
+Good prompting therefore means not only asking clear questions, but also guiding, checking and correcting the context behind the answer.
 
 - - -
 
