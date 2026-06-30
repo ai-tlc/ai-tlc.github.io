@@ -19,6 +19,8 @@ In the 'Custom Instructions' field, you might enter something like:
 
 > "Always answer in Dutch. Write your responses as an academic advisor: supportive, critical, and focused on improving my work. Use formal language and avoid excessive jargon. Structure complex answers with bullet points for clarity."
 
+### Tip! Use the share-button in the top right corner of your chats to share your findings with other UvA AI Chat users. Note: Only those within the UvA can access these chats.
+
 - - -
 
 ## 3.2 "Personas": Customised Interaction
