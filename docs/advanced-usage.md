@@ -172,4 +172,131 @@ The main principle is: **use AI when it meaningfully supports your goal, and use
 
 - - -
 
+## Documents and files UvA AI Chat can generate
+
+UvA AI Chat can help you create different types of downloadable documents and files. This is useful when you want to turn a conversation into a reusable text, a simple webpage, a code file, a data file, or a diagram.
+
+In most cases, you can simply ask UvA AI Chat what you want to create. For example:
+
+> “Create a markdown document based on this explanation.”  
+> “Turn this text into a simple HTML page.”  
+> “Write this as a Python file.”  
+> “Generate a Mermaid diagram of this process.”
+
+When UvA AI Chat creates a file, you can usually download it or copy the contents, depending on the type of output.
+
+**Commonly used file types**
+
+The most commonly used generated files are:
+
+* **Plain text (`.txt`)**  
+  Useful for simple notes, transcripts, drafts, lists, or text that you want to copy into another system.
+
+* **Markdown (`.md`)**  
+  Useful for structured text with headings, bold text, links, lists, tables, or manual entries. Markdown is often used for documentation and web-based content.
+
+* **HTML (`.html`)**  
+  Useful for creating simple webpages or styled documents that can be opened in a browser.
+
+* **CSV (`.csv`)**  
+  Useful for tables, structured data, lists, exports, or data that you want to open in Excel or another spreadsheet program.
+
+* **PDF (`.pdf`)**  
+  Useful for sharing or downloading a formatted version of content, such as a report, guide, or export.
+
+* **Python (`.py`)**  
+  Useful for code that analyses data, performs calculations, creates charts, or automates a task.
+
+* **JavaScript / TypeScript (`.js`, `.ts`, `.tsx`)**  
+  Useful for web development, interactive components, or code artifacts that run in the artifact environment.
+
+* **JSON (`.json`)**  
+  Useful for structured data, configuration files, or exchanging information between systems.
+
+* **SQL (`.sql`)**  
+  Useful for database queries, table creation, or working with structured datasets.
+
+* **Mermaid (`.mmd`)**  
+  Useful for diagrams, flowcharts, process maps, timelines, and other visual structures written in text.
+
+**How to ask for a file**
+
+You do not need to know all file extensions by heart. You can describe the type of output you need in plain language. For example:
+
+> “Make this into a downloadable markdown file.”  
+> “Create a CSV table from this information.”  
+> “Generate a simple HTML page with this content.”  
+> “Write a Python script that analyses this data.”  
+> “Make a Mermaid flowchart of these steps.”
+
+For best results, mention:
+
+* what the file should contain;
+* which format you want;
+* whether it should be simple or styled;
+* and whether it is meant for reading, editing, publishing, analysis, or reuse.
+
+**Good to know**
+
+Some generated files are mainly meant for reading, such as `.txt`, `.md`, `.html` or `.pdf`. Others are meant to be opened or edited in specific tools, such as `.csv` in a spreadsheet program, `.py` in a code editor, or `.mmd` in a Mermaid-compatible viewer.
+
+For code files, UvA AI Chat can generate many different programming languages. Whether the code can also be run directly depends on the available runtime environment and the libraries or tools that are supported there. Always check generated code before using it, especially in education, research, data analysis, or production environments.
+
+<small>
+
+**Every supported file type**
+
+| Category | File type | Extension(s) |
+|---|---|---|
+| Documents and text | Plain text | `.txt` |
+| Documents and text | Markdown | `.md` |
+| Documents and text | HTML | `.html` |
+| Generated code artifacts | JavaScript / TypeScript | `.js`, `.ts`, `.tsx` |
+| Generated code artifacts | Python | `.py` |
+| Generated code artifacts | Java | `.java` |
+| Generated code artifacts | C / C++ / C# | `.c`, `.cpp`, `.cs` |
+| Generated code artifacts | PHP | `.php` |
+| Generated code artifacts | Ruby | `.rb` |
+| Generated code artifacts | Go | `.go` |
+| Generated code artifacts | Rust | `.rs` |
+| Generated code artifacts | Swift | `.swift` |
+| Generated code artifacts | Kotlin | `.kt` |
+| Generated code artifacts | Scala | `.scala` |
+| Generated code artifacts | R | `.r` |
+| Generated code artifacts | MATLAB | `.m` |
+| Generated code artifacts | Lua | `.lua` |
+| Generated code artifacts | Perl / Prolog | `.pl` |
+| Generated code artifacts | Haskell | `.hs` |
+| Generated code artifacts | Clojure | `.clj` |
+| Generated code artifacts | Dart | `.dart` |
+| Generated code artifacts | Elixir | `.ex` |
+| Generated code artifacts | Erlang | `.erl` |
+| Generated code artifacts | F# | `.fs` |
+| Generated code artifacts | Groovy | `.groovy` |
+| Generated code artifacts | Julia | `.jl` |
+| Generated code artifacts | Nim | `.nim` |
+| Generated code artifacts | OCaml | `.ml` |
+| Generated code artifacts | Pascal | `.pas` |
+| Generated code artifacts | Racket | `.rkt` |
+| Generated code artifacts | Scheme | `.scm` |
+| Generated code artifacts | Visual Basic | `.vb` |
+| Generated code artifacts | Assembly | `.asm` |
+| Generated code artifacts | Fortran | `.f90` |
+| Generated code artifacts | COBOL | `.cob` |
+| Generated code artifacts | Ada | `.ada` |
+| Web and data files | HTML | `.html` |
+| Web and data files | CSS / Sass / Less | `.css`, `.scss`, `.sass`, `.less` |
+| Web and data files | JSON | `.json` |
+| Web and data files | XML | `.xml` |
+| Web and data files | YAML | `.yml` |
+| Web and data files | SQL | `.sql` |
+| Diagrams | Mermaid | `.mmd` |
+| Chat export downloads | Plain text | `.txt` |
+| Chat export downloads | CSV | `.csv` |
+| Chat export downloads | PDF | `.pdf` |
+
+</small>
+
+- - -
+
 
