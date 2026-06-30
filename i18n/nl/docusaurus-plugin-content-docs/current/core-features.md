@@ -4,44 +4,108 @@ id: core-features
 sidebar_label: Kernfunctionaliteiten
 slug: /core-features
 ---
-## 2.1 Effectief communiceren: de kunst van het prompten
 
-De belangrijkste vaardigheid voor het succesvol gebruiken van UvA AI Chat is het schrijven van effectieve prompts. De kwaliteit van de output die je van de AI ontvangt, is direct afhankelijk van de kwaliteit van de instructies die je geeft.
+## 2.1 Effectief communiceren: de kunst van prompting
 
-### Definitie van een prompt
+De belangrijkste vaardigheid om UvA AI Chat goed te gebruiken, is leren hoe je duidelijk met de AI communiceert. Dit wordt vaak **prompting** genoemd: het schrijven van de instructie, vraag of taak die je aan de AI geeft.
 
-Een prompt is een instructie of vraag die je aan de AI geeft om een specifieke reactie of output te genereren. Het vormt de basis van de communicatie tussen jou als gebruiker en de AI. De duidelijkheid en het detailniveau van de prompt hebben direct invloed op de kwaliteit van het antwoord. Een goed geformuleerde prompt fungeert als een duidelijke opdracht, terwijl een vage prompt vaak leidt tot een generiek of onbruikbaar antwoord.
+Een goede prompt helpt de AI te begrijpen wat je wilt, waarom je dat wilt en wat voor antwoord nuttig zou zijn. De kwaliteit van de output wordt sterk beïnvloed door de kwaliteit van je instructies. Een duidelijke prompt leidt vaak tot een relevanter en bruikbaarder antwoord, terwijl een vage prompt meestal leidt tot een algemener antwoord.
 
-Hoewel een goed geformuleerde prompt belangrijk is, hoef je je geen zorgen te maken als je eerste prompt niet direct goed werkt. De kracht van de AI zit in de capaciteit om een gesprek kan voeren, dus als je niet de output krijgt die je verwachtte, kun je altijd vragen of de AI het antwoord kan aanpassen. Het kan ook erg behulpzaam zijn om de AI te vragen om jou te helpen met je prompt op te stellen.
+Tegelijkertijd gaat prompting niet om het schrijven van één perfecte instructie. UvA AI Chat is conversationeel. Je kunt altijd vervolgvragen stellen, het antwoord corrigeren, ontbrekende context toevoegen of de AI vragen om het antwoord te herschrijven, in te korten, uit te breiden of te verbeteren.
 
-### De structuur van een effectieve prompt
+### Wat is een prompt?
 
-Effectief prompten houdt in dat je jouw prompts helder, specifiek en relevant maakt. Om dit te bereiken, moet je duidelijk aangeven wat je wilt dat de AI doet, inclusief eventuele nuances of specifieke voorwaarden. Gebruik concrete taal, vermijd vaagheid en geef waar nodig context om de AI te helpen jouw vraag beter te begrijpen en accurate antwoorden te genereren. Een goed gestructureerde prompt bestaat doorgaans uit drie hoofdonderdelen:
+Een **prompt** is de instructie of vraag die je aan de AI geeft.
 
-1. **Context (Introductie):** Begin met een korte inleiding of achtergrondinformatie, zodat de AI begrijpt waar de prompt over gaat. Wie ben je? Wat is het doel van de taak? Voor wie is de output bedoeld?
-2. **Vraag of instructie:** Stel duidelijk de vraag of geef een specifieke, ondubbelzinnige opdracht. Gebruik volledige zinnen en wees expliciet over de actie die de AI moet ondernemen.
-3. **Specifieke details of criteria:** Voeg relevante details, beperkingen of criteria toe die de AI moet meenemen in de respons. Denk hierbij aan het gewenste format (tabel, bullet points, lopende tekst), de toon (formeel, informeel, creatief), de lengte (aantal woorden) of specifieke punten die behandeld moeten worden.
+| Eenvoudige prompt | Specifiekere prompt |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Leg dit concept uit in eenvoudige taal. | Leg het concept academisch burgerschap uit aan een eerstejaarsstudent. Gebruik eenvoudige taal, geef één voorbeeld uit het onderwijs en sluit af met twee reflectievragen. |
 
-Een belangrijk aandachtspunt is om instructies positief te formuleren. Vermijd uitsluitingen (zoals "gebruik geen moeilijke woorden"), omdat de AI de neiging heeft om juist te focussen op de concepten die je noemt. Formuleer in plaats daarvan wat je wél wilt ("gebruik eenvoudige, toegankelijke taal").
+De tweede prompt is nuttiger omdat deze de AI meer richting geeft. De prompt legt het onderwerp, de beoogde doelgroep, de gewenste stijl en de vorm van het antwoord uit.
 
-### Praktijkvoorbeeld van positief formuleren
+### Hoe een antwoord tot stand komt
 
-* **Negatief:** "Schrijf een inleiding voor mijn essay, maar gebruik geen jargon en maak het niet langer dan 200 woorden."
-* **Positief:** "Schrijf een toegankelijke inleiding van ongeveer 200 woorden voor mijn essay over Italo Calvino, gericht op een eerstejaarsstudent. Gebruik heldere, eenvoudige taal en definieer de belangrijkste concepten."
+Wanneer UvA AI Chat een antwoord genereert, kijkt het systeem niet alleen naar de zin die je net hebt getypt. Het antwoord kan ook worden gevormd door de bredere context van het gesprek.
 
-- - -
+Afhankelijk van hoe je UvA AI Chat gebruikt, kan deze context onder meer bestaan uit:
 
-### Tabel 1: Voorbeelden van effectieve prompts
+| Type context | Wat het betekent |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Je huidige prompt** | De vraag of instructie die je typt. |
+| **Het gesprek tot nu toe** | Eerdere berichten in dezelfde chat kunnen latere antwoorden beïnvloeden. |
+| **Persona- of projectinstructies** | Als je een persona of project gebruikt, kan de AI extra instructies volgen over rol, toon, taak of werkwijze. |
+| **Project Knowledge** | In projecten kan UvA AI Chat herbruikbare knowledge cards gebruiken: korte stukken duurzame informatie uit eerdere projectchats, zoals beslissingen, voorkeuren, feiten of taakdetails. |
+| **Geüploade documenten of tools** | Als er documenten of tools beschikbaar zijn in de chat, kan de AI deze gebruiken om specifieker te antwoorden. |
 
-De onderstaande tabel illustreert het verschil tussen een wat vage prompt en een specifieke, goed gestructureerde prompt voor diverse academische taken.
+Dit betekent dat prompting niet alleen gaat over de tekst die je in één bericht typt. Het gaat er ook om dat je ervoor zorgt dat de AI de juiste context heeft om mee te werken.
 
-| Taak              | Ineffectieve Prompt                       | Effectieve Prompt                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ----------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| E-mail opstellen  | "Schrijf een e-mail naar mijn professor." | "Context: Ik moet mijn professor, Dr. Jansen, mailen over een deadlineverlenging voor mijn paper over de Tachtigjarige Oorlog. Instructie: Stel een formele en respectvolle e-mail op waarin ik om twee dagen uitstel vraag. Criteria: Vermeld dat de reden onvoorziene persoonlijke omstandigheden zijn (zonder in detail te treden) en stel een nieuwe inleverdatum voor."                                                                                 |
-| Tekst samenvatten | "Vat dit document samen."                 | "Context: Het geüploade document is een wetenschappelijk artikel over de impact van AI op de arbeidsmarkt. Instructie: Genereer een samenvatting in bullet points. Criteria: Focus op de onderzoeksmethodologie, de belangrijkste bevindingen en de conclusies van de auteurs. De samenvatting moet in het Nederlands zijn en maximaal 250 woorden tellen."                                                                                                  |
-| Brainstormen      | "Geef me ideeën voor een betoog."         | "Context: Ik ben een onderzoeker in sociologie en ik wil een betoog schrijven binnen het thema sociale ongelijkheid. Instructie: Genereer vijf concrete standpunten waar ik een betoog over kan schrijven. Criteria: Elke standpunt moet origineel zijn, empirisch gegrond zijn, en relevant zijn voor de hedendaagse Nederlandse samenleving."                                                                                                              |
-| Feedback vragen   | "Controleer mijn tekst."                  | "Context: Het bijgevoegde bestand is het concept voor de inleiding van mijn onderzoeksvoorstel. De doelgroep is onderzoekers in mijn onderzoeksgebied. Instructie: Geef constructieve feedback op de tekst. Criteria: Analyseer de tekst op drie punten: 1) de helderheid van de probleemstelling, 2) de logische opbouw van de argumentatie, en 3) de academische schrijfstijl. Geef concrete voorbeelden uit de tekst en doe suggesties voor verbetering." |
+### Waarom context belangrijk is
 
+AI-antwoorden zijn sterk afhankelijk van de informatie die beschikbaar is voor het model. Als belangrijke informatie ontbreekt, kan het antwoord te breed, onvolledig of gebaseerd op aannames zijn. Als de juiste context wordt gegeven, kan het antwoord relevanter worden en beter aansluiten op je doel.
+
+| Minder nuttig | Nuttiger |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Schrijf een samenvatting. | Vat deze tekst samen voor een docent die snel de hoofdgedachte wil begrijpen. Gebruik ongeveer 150 woorden en focus op de implicaties voor het onderwijs. |
+
+De verbeterde prompt geeft de AI een taak, doelgroep, lengte en focus.
+
+### Project Knowledge: herbruikbare context in projecten
+
+In UvA AI Chat-projecten kan **Project Knowledge** helpen om nuttige informatie over verschillende projectchats heen te bewaren. In plaats van alleen te vertrouwen op verborgen of informele memory, kan belangrijke informatie worden opgeslagen als expliciete **knowledge cards**.
+
+Een knowledge card is een klein, herbruikbaar stukje informatie, zoals:
+
+| Een knowledge card kan bevatten... | Voorbeeld |
+| ------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Een eerder gemaakte beslissing in het project | “De workshop is bedoeld voor eerstejaarsstudenten.” |
+| Een doelgroep | “De tekst moet begrijpelijk zijn voor docenten zonder technische AI-kennis.” |
+| Een gewenste toon of schrijfstijl | “Gebruik een duidelijke, toegankelijke en didactische toon.” |
+| Een terugkerende randvoorwaarde | “Houd handleidingsteksten beknopt en praktisch.” |
+| Een belangrijk feit dat later onthouden moet worden | “De module is bedoeld voor zowel studenten als medewerkers.” |
+
+Wanneer relevant kan UvA AI Chat deze cards gebruiken in latere antwoorden. Dit helpt de AI om consistent te blijven in verschillende chats binnen hetzelfde project. Het maakt het gebruik van context ook transparanter: knowledge cards kunnen worden bekeken, aangepast, gearchiveerd of uitgesloten.
+
+Project Knowledge is nuttig omdat opgeslagen context niet automatisch perfect is. Een card kan verouderd, te algemeen of niet langer relevant zijn. De meest recente instructie die je geeft, moet altijd richting geven aan het antwoord. Als de AI lijkt te vertrouwen op oude of onjuiste context, corrigeer dit dan expliciet.
+
+Bijvoorbeeld:
+
+> Negeer de eerdere projectaanname dat deze tekst voor studenten is. Deze versie is bedoeld voor docenten.
+
+Of:
+
+> Gebruik de projectkennis over de doelgroep van de workshop, maar gebruik niet de eerder voorgestelde structuur.
+
+### Structuur van een effectieve prompt
+
+Een goed gestructureerde prompt bevat meestal drie hoofdelementen:
+
+| Element | Wat je moet opnemen | Voorbeeld |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **Context** | Leg de situatie kort uit. Waar gaat de taak over? Wie is de doelgroep? Welke achtergrond moet de AI kennen? | “Ik schrijf een korte introductie voor een Canvas-module over AI en duurzaamheid.” |
+| **Vraag of instructie** | Geef duidelijk aan wat je wilt dat de AI doet. | “Schrijf een duidelijke alinea voor studenten en docenten.” |
+| **Specifieke details of criteria** | Voeg vereisten toe, zoals toon, lengte, format, moeilijkheidsniveau, te gebruiken bronnen of aandachtspunten. | “Houd het toegankelijk, vermijd technische details en benoem dat exacte cijfers over energiegebruik van AI vaak onzeker zijn.” |
+
+Samen wordt dit:
+
+> Ik schrijf een korte introductie voor een Canvas-module over AI en duurzaamheid. Schrijf een duidelijke alinea voor studenten en docenten. Houd het toegankelijk, vermijd technische details en benoem dat exacte cijfers over energiegebruik van AI vaak onzeker zijn.
+
+### Formuleer instructies positief
+
+Een nuttige gewoonte bij prompting is om te beschrijven wat je **wel** wilt, in plaats van alleen te zeggen wat je **niet** wilt.
+
+| Minder nuttig | Nuttiger |
+| ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Schrijf een introductie voor mijn essay, maar gebruik geen jargon en maak het niet langer dan 200 woorden. | Schrijf een toegankelijke introductie van ongeveer 200 woorden voor mijn essay over Italo Calvino. Gebruik duidelijke, eenvoudige taal en definieer kort de belangrijkste concepten. |
+
+De tweede versie geeft de AI een duidelijker doel.
+
+### Belangrijkste inzicht
+
+Prompting is het geven van duidelijke instructies en nuttige context aan de AI. Een goede prompt vertelt de AI wat het moet doen, waarom dat belangrijk is, voor wie het antwoord bedoeld is en wat voor soort output je nodig hebt.
+
+In UvA AI Chat kunnen antwoorden ook worden gevormd door bredere context, zoals persona’s, projectinstructies, geüploade documenten, tools, memory of Project Knowledge. Dit kan antwoorden nuttiger en consistenter maken, maar het betekent ook dat je je bewust moet blijven van welke context de AI mogelijk gebruikt.
+
+Goed prompten betekent daarom niet alleen duidelijke vragen stellen, maar ook de context achter het antwoord sturen, controleren en corrigeren.
 - - -
 
 ## 2.2 Prompts: jouw verzameling instructies
