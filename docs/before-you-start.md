@@ -4,7 +4,7 @@ id: before-you-start
 sidebar_label: Before you start
 slug: /before-you-start
 ---
-<img src="/img/uploads/afbeelding.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+<img src="/img/uploads/version-1.4.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 ## About this manual
 
@@ -84,7 +84,7 @@ We do not recommend using the Technical Support Assistant for general academic t
 
 <img src="/img/uploads/screenshot-2026-03-30-at-17.27.25.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
-- - - 
+- - -
 
 *Use case 2: understanding personas themselves*
 
