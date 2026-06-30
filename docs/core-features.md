@@ -148,7 +148,7 @@ With UvA AI Chat, uploading documents is simple. Go to the text entry field at t
 
 ### Supported file formats
 
-UvA AI Chat supports a range of common file formats, including .PDF, .DOCX (Word), .XLS (Excel), .PPT (PowerPoint), .CSV, as well as .TXT, .PY (Python), and .MD (Markdown) files. This makes it possible to upload and work with various document types, ranging from research articles and datasets to plain text and code files, directly in your interactions with the AI.
+UvA AI Chat supports a wide range of common file formats, including .PDF, DOCX (Word),XLS (Excel), .PPT (PowerPoint), .CSV, .TXT, .PY (Python), and .MD (Markdown), along with 30+ additional file types. This makes it possible to upload and work with various document types, ranging from research articles and datasets to plain text and code files, directly in your interactions with the AI.
 
 Note: Large, unusual, or password-protected files may not always process correctly. If a document is very large (e.g., 100+ pages), the AI is essentially searching for a needle in a haystack.
 
