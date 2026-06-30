@@ -170,7 +170,7 @@ Het belangrijkste uitgangspunt is: **gebruik AI wanneer het je doel betekenisvol
 
 - - -
 
-## Documenten en bestanden die UvA AI Chat kan genereren
+## 4.6 Documenten en bestanden die UvA AI Chat kan genereren
 
 UvA AI Chat kan je helpen om verschillende soorten downloadbare documenten en bestanden te maken. Dit is handig wanneer je een gesprek wilt omzetten naar een herbruikbare tekst, een eenvoudige webpagina, een codebestand, een databestand of een diagram.
 
