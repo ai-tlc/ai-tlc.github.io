@@ -127,7 +127,7 @@ To view your estimated energy use:
 4. In the Settings menu, click **Usage**.
 5. You will see your estimated energy use, token use and model mix.
 
-You can use the dropdown menu at the top of the Usage page to select a period, such as **This week** or **Last week**.
+You can use the dropdown menu at the top of the Usage page to select a period, such as **Last Hour** or **Last week**.
 
 **What the Usage dashboard shows**
 
