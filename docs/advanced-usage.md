@@ -191,7 +191,7 @@ For best results, mention:
 * whether it should be simple or styled;
 * and whether it is meant for reading, editing, publishing, analysis, or reuse.
 
-## As of now, UvA AI Chat can not edit existing files, only generate new ones.
+### As of now, UvA AI Chat can not edit existing files, only generate new ones.
 
 **Good to know**
 
@@ -199,7 +199,7 @@ Some generated files are mainly meant for reading, such as `.txt`, `.md`, `.html
 
 For code files, UvA AI Chat can generate many different programming languages. Whether the code can also be run directly depends on the available runtime environment and the libraries or tools that are supported there. Always check generated code before using it, especially in education, research, data analysis, or production environments.
 
-## To edit in pictures, upload your own from a local source. While creating your file, UvA AI Chat is unable to fetch pictures from the internet.
+### To edit in pictures, upload your own from a local source. While creating your file, UvA AI Chat is unable to fetch pictures from the internet.
 
 <small>
 
