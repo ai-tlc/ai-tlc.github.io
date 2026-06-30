@@ -170,7 +170,7 @@ The main principle is: **use AI when it meaningfully supports your goal, and use
 
 - - -
 
-## Documents and files UvA AI Chat can generate
+## 4.6 Documents and files UvA AI Chat can generate
 
 UvA AI Chat can help you create different types of downloadable documents and files. This is useful when you want to turn a conversation into a reusable text, a simple webpage, a code file, a data file, or a diagram.
 
