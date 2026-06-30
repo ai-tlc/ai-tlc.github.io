@@ -4,7 +4,7 @@ id: before-you-start
 sidebar_label: Voordat je begint
 slug: /before-you-start
 ---
-<img src="/img/uploads/afbeelding.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+<img src="/img/uploads/version-1.4.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 ## Over deze handleiding
 
@@ -16,7 +16,7 @@ Voor vragen over deze handleiding en UvA AI Chat, neem contact op via [ai-tlc@uv
 
 Deze handleiding wordt ontwikkeld door TLC-Centraal (zie tlc.uva.nl)
 
-**Versie 1.3** | Gepubliceerd op 1 april 2026
+**Versie 1.4** | Gepubliceerd op 30 juni 2026
 
 - - -
 
@@ -84,7 +84,7 @@ We raden het gebruik van de Technische ondersteuningsassistent **niet** aan voor
 
 <img src="/img/uploads/screenshot-2026-03-30-at-17.41.21.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
-- - - 
+- - -
 
 *Gebruiksscenario 2: persona's zelf begrijpen*
 
