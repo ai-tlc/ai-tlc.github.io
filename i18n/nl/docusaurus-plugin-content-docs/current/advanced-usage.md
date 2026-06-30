@@ -64,10 +64,10 @@ UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud va
 
 **Wat het doet**
 
-| Functie | Beschrijving                                    |
-| ------- | ----------------------------------------------- |
-| Invoer  | Een volledige URL (bijv. `https://example.com`) |
-| Uitvoer | Pagina-inhoud in **markdown-formaat** (markdown is een eenvoudige manier om tekst op te maken met simpele symbolen, zodat het makkelijk leesbaar is en kan worden omgezet in mooi opgemaakte documenten zoals webpagina’s.)           |
+| Functie | Beschrijving                                                                                                                                                                                                                |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Invoer  | Een volledige URL (bijv. `https://example.com`)                                                                                                                                                                             |
+| Uitvoer | Pagina-inhoud in **markdown-formaat** (markdown is een eenvoudige manier om tekst op te maken met simpele symbolen, zodat het makkelijk leesbaar is en kan worden omgezet in mooi opgemaakte documenten zoals webpagina’s.) |
 
 **Wat UvA AI Chat met de Web Scraper kan doen**
 
@@ -101,7 +101,7 @@ Zodra je vraagt om Python-code te genereren, verschijnt er een apart venster met
 
 <img src="/img/uploads/screenshot-2026-04-07-at-17.17.46.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
-- - - 
+- - -
 
 ## 4.5 Je geschatte energiegebruik bekijken in UvA AI Chat
 
@@ -133,12 +133,11 @@ Met het dropdownmenu bovenaan de Usage-pagina kun je een periode selecteren, zoa
 
 Het dashboard bevat drie hoofdtypen informatie: geschat energiegebruik, gebruikte tokens en modelmix.
 
-* **Geschat energiegebruik**  
+* **Geschat energiegebruik**\
   Het dashboard toont een geschatte hoeveelheid energie voor de geselecteerde periode, uitgedrukt in **Wh**: wattuur. Dit kan ook worden vertaald naar een herkenbaardere vergelijking, zoals een percentage van een telefoonlading.
 
   Deze vergelijking is bedoeld om het getal makkelijker te interpreteren. Lees dit niet als een exacte ecologische voetafdruk, maar als een praktische manier om gevoel te krijgen voor de schaal.
-
-* **Gebruikte tokens**  
+* **Gebruikte tokens**\
   Het dashboard laat ook zien hoeveel **tokens** je hebt gebruikt. Een token is een kleine eenheid tekst. Als grove indicatie:
 
   > 1 token ≈ 3/4 woord
@@ -146,8 +145,7 @@ Het dashboard bevat drie hoofdtypen informatie: geschat energiegebruik, gebruikt
   Tokengebruik omvat de tekst die je invoert en de tekst die de AI genereert. In sommige situaties kan het ook extra context omvatten die het model moet verwerken, zoals eerdere berichten, geüploade bestanden, projectinformatie of instructies.
 
   In het algemeen betekent meer tokens meer berekening. Langere gesprekken, grote documenten, herhaald prompten en zeer uitgebreide antwoorden kunnen daarom leiden tot een hoger geschat energiegebruik.
-
-* **Modelmix**  
+* **Modelmix**\
   De sectie **Model mix** laat zien welke modellen je in de geselecteerde periode hebt gebruikt en welk percentage van je gebruik bij elk model hoort.
 
   Dit is relevant omdat verschillende modellen verschillende hoeveelheden rekenkracht kunnen vragen. Geavanceerdere modellen kunnen nuttig zijn voor complexe taken, maar zijn niet altijd nodig voor eenvoudige vragen. Een passend model kiezen voor de taak kan helpen om AI efficiënter te gebruiken.
@@ -170,4 +168,88 @@ Het Usage-dashboard kan je helpen om kleine, praktische keuzes te maken in hoe j
 
 Het belangrijkste uitgangspunt is: **gebruik AI wanneer het je doel betekenisvol ondersteunt, en doe dat zo efficiënt mogelijk.** Het Usage-dashboard helpt om dat proces zichtbaarder te maken.
 
-- - - 
+- - -
+
+## Documenten en bestanden die UvA AI Chat kan genereren
+
+UvA AI Chat kan je helpen om verschillende soorten downloadbare documenten en bestanden te maken. Dit is handig wanneer je een gesprek wilt omzetten naar een herbruikbare tekst, een eenvoudige webpagina, een codebestand, een databestand of een diagram.
+
+**Hoe je om een bestand vraagt**
+
+Je hoeft niet alle bestandsextensies uit je hoofd te kennen. Je kunt in gewone taal beschrijven welk type output je nodig hebt. Bijvoorbeeld:
+
+> “Maak hiervan een downloadbaar markdown-bestand.”\
+> “Maak een CSV-tabel van deze informatie.”\
+> “Genereer een eenvoudige HTML-pagina met deze inhoud.”\
+> “Schrijf een Python-script dat deze data analyseert.”\
+> “Maak een Mermaid-flowchart van deze stappen.”
+
+Voor het beste resultaat kun je aangeven:
+
+* wat er in het bestand moet staan;
+* welk format je wilt;
+* of het eenvoudig of opgemaakt moet zijn;
+* en of het bedoeld is om te lezen, bewerken, publiceren, analyseren of hergebruiken.
+
+**Goed om te weten**
+
+Sommige gegenereerde bestanden zijn vooral bedoeld om te lezen, zoals `.txt`, `.md`, `.html` of `.pdf`. Andere bestanden zijn bedoeld om te openen of bewerken in specifieke tools, zoals `.csv` in een spreadsheetprogramma, `.py` in een code-editor of `.mmd` in een Mermaid-compatibele viewer.
+
+Voor codebestanden kan UvA AI Chat veel verschillende programmeertalen genereren. Of de code ook direct kan worden uitgevoerd, hangt af van de beschikbare runtime-omgeving en de bibliotheken of tools die daar worden ondersteund. Controleer gegenereerde code altijd voordat je die gebruikt, vooral in onderwijs, onderzoek, data-analyse of productieomgevingen.
+
+<small>
+
+**Elk ondersteund bestandstype**
+
+| Categorie                   | Bestandstype            | Extensie(s)                       |
+| --------------------------- | ----------------------- | --------------------------------- |
+| Documenten en tekst         | Platte tekst            | `.txt`                            |
+| Documenten en tekst         | Markdown                | `.md`                             |
+| Documenten en tekst         | HTML                    | `.html`                           |
+| Gegenereerde code-artifacts | JavaScript / TypeScript | `.js`, `.ts`, `.tsx`              |
+| Gegenereerde code-artifacts | Python                  | `.py`                             |
+| Gegenereerde code-artifacts | Java                    | `.java`                           |
+| Gegenereerde code-artifacts | C / C++ / C#            | `.c`, `.cpp`, `.cs`               |
+| Gegenereerde code-artifacts | PHP                     | `.php`                            |
+| Gegenereerde code-artifacts | Ruby                    | `.rb`                             |
+| Gegenereerde code-artifacts | Go                      | `.go`                             |
+| Gegenereerde code-artifacts | Rust                    | `.rs`                             |
+| Gegenereerde code-artifacts | Swift                   | `.swift`                          |
+| Gegenereerde code-artifacts | Kotlin                  | `.kt`                             |
+| Gegenereerde code-artifacts | Scala                   | `.scala`                          |
+| Gegenereerde code-artifacts | R                       | `.r`                              |
+| Gegenereerde code-artifacts | MATLAB                  | `.m`                              |
+| Gegenereerde code-artifacts | Lua                     | `.lua`                            |
+| Gegenereerde code-artifacts | Perl / Prolog           | `.pl`                             |
+| Gegenereerde code-artifacts | Haskell                 | `.hs`                             |
+| Gegenereerde code-artifacts | Clojure                 | `.clj`                            |
+| Gegenereerde code-artifacts | Dart                    | `.dart`                           |
+| Gegenereerde code-artifacts | Elixir                  | `.ex`                             |
+| Gegenereerde code-artifacts | Erlang                  | `.erl`                            |
+| Gegenereerde code-artifacts | F#                      | `.fs`                             |
+| Gegenereerde code-artifacts | Groovy                  | `.groovy`                         |
+| Gegenereerde code-artifacts | Julia                   | `.jl`                             |
+| Gegenereerde code-artifacts | Nim                     | `.nim`                            |
+| Gegenereerde code-artifacts | OCaml                   | `.ml`                             |
+| Gegenereerde code-artifacts | Pascal                  | `.pas`                            |
+| Gegenereerde code-artifacts | Racket                  | `.rkt`                            |
+| Gegenereerde code-artifacts | Scheme                  | `.scm`                            |
+| Gegenereerde code-artifacts | Visual Basic            | `.vb`                             |
+| Gegenereerde code-artifacts | Assembly                | `.asm`                            |
+| Gegenereerde code-artifacts | Fortran                 | `.f90`                            |
+| Gegenereerde code-artifacts | COBOL                   | `.cob`                            |
+| Gegenereerde code-artifacts | Ada                     | `.ada`                            |
+| Web- en databestanden       | HTML                    | `.html`                           |
+| Web- en databestanden       | CSS / Sass / Less       | `.css`, `.scss`, `.sass`, `.less` |
+| Web- en databestanden       | JSON                    | `.json`                           |
+| Web- en databestanden       | XML                     | `.xml`                            |
+| Web- en databestanden       | YAML                    | `.yml`                            |
+| Web- en databestanden       | SQL                     | `.sql`                            |
+| Diagrammen                  | Mermaid                 | `.mmd`                            |
+| Chat-exportdownloads        | Platte tekst            | `.txt`                            |
+| Chat-exportdownloads        | CSV                     | `.csv`                            |
+| Chat-exportdownloads        | PDF                     | `.pdf`                            |
+
+</small>
+
+- - -
