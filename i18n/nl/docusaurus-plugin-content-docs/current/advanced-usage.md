@@ -12,20 +12,25 @@ UvA AI Chat biedt toegang tot verschillende geavanceerde AI-modellen (Large Lang
 
 De onderstaande tabel dient als een snelle referentie om je te helpen het meest geschikte AI-model voor jouw taak te kiezen. Om uit te vinden welk model het beste werkt voor jouw specifieke taak zul je zelf moeten experimenteren met de verschillende modellen. Dit kan belangrijk zijn als je een bepaalde specifieke taak hebt die je vaker wilt uitvoeren.
 
-### Tabel 2: Vergelijking van beschikbare AI-modellen
+### Vergelijking van verschillende beschikbare AI modellen
 
-| Model             | General Use Cases                                                                                                                                                                                         | Knowledge Cutoff | Energy / Cost (relative) | Type                             | Context Window Input | Context Window Output |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------------------ | -------------------------------- | -------------------- | --------------------- |
-| gpt-5             | Explaining complex concepts, advanced coding projects, interpreting academic papers                                                                                                                       | 30-09-2024       | High                     | Advanced reasoning model         | 272 K                | 128 K                 |
-| gpt-5-mini        | moderate concept clarification, brainstorming ideas, study planning, understanding course material                                                                                                        | 31-05-2024       | Medium                   | Efficient reasoning model        | 272 K                | 128 K                 |
-| gpt-5-nano        | Quick definitions, fact-checking, basic explanations, vocabulary help, concept reviews                                                                                                                    | 31-05-2024       | Low                      | Lightweight reasoning model      | 272 K                | 128 K                 |
-| GPT-4o            | Analyzing diagrams/charts visual content interpretation, presentation feedback                                                                                                                            | 20-11-2024       | High                     | Multimodal model                 | 128 K                | 16 K                  |
-| GPT-4.1           | General, language, high input, creative tasks, agentic planning                                                                                                                                           | 14-04-2025       | High                     | Advanced language model          | 1 M                  | 100 K                 |
-| GPT-oss-120b      | Powerful open-source model. Excellent for complex reasoning, coding, and multi-step tasks                                                                                                                 | 01-06-2024       | Low                      | Open source language model       | 128 K                | 32 K                  |
-| Mistral-small-3.2 | Small, fast Mistral model for quick responses, short explanations, and lightweight assistant-style tasks                                                                                                  | 01-12-2023       | Medium                   | Open source language model       | 128 K                | 128 K                 |
-| Claude-Sonnet 4.6 | Latest and most capable Claude Sonnet model, good for complex tasks requiring deep analysis, coding, and creative work. Efficient for everyday use with excellent reasoning capabilities.                 | 31-01-2026       | High                     | Hybrid reasoning model           | 1M                   | 128 K                 |
-| Claude-Haiku 4.5  | Fast, cost-efficient assistant for quick questions, summaries, document synthesis, routine operations, and high-volume or real-time workflows; strong coding helper at roughly Sonnet-4-level performance | 28-08-2025       | Low                      | Fast lightweight reasoning model | 200 K                | 64 K                  |
-| GPT-5.1           | One of the latest frontier models. Excellent for coding, complex reasoning tasks, and building intelligent agents. Provides high-quality output and analysis.                                             | 31-08-2025       | High                     | Advanced reasoning model         | 400K                 | 128K                  |
+| Model | General Use Cases | Knowledge Cutoff | Energy / Cost (relative) | Type | Context Window Input | Context Window Output |
+| --- | --- | --- | --- | --- | --- | --- |
+| gpt-5.1 (default) | Coding, complex reasoning, advanced analysis, building intelligent agents, high-quality academic or technical work | 30-09-2024 | High | Advanced reasoning model | 400K | 128K |
+| claude-sonnet-4.6 | Complex analysis, coding, agentic workflows, creative work, long-context reasoning, knowledge work | 31-08-2025* | High | Hybrid reasoning model | 1M | 128K |
+| gpt-5-mini | Brainstorming, concept clarification, study planning, working with text/images, faster everyday reasoning tasks | 31-05-2024 | Medium | Efficient reasoning model | 400K | 128K |
+| gpt-5-nano | Very light tasks, short summaries, quick calculations, classification, routine assistant tasks | 31-05-2024 | Medium | Lightweight reasoning model | 400K | 128K |
+| claude-haiku-4.5 | Quick tasks, summaries, document synthesis, routine operations, high-volume workflows, fast coding support | 31-07-2025 | Medium | Fast lightweight reasoning model | 200K | 64K |
+| gpt-oss-120b | Open-source reasoning, coding, multi-step tasks, privacy-conscious or open-model workflows | 01-06-2024 | Low | Open-source reasoning model | 131K | 131K |
+| mistral-small-3.2 | Quick responses, short explanations, lightweight assistant tasks, multilingual and multimodal use | 01-12-2023 | Low | Open-source / open-weight language model | 128K | 128K |
+
+### Legacy models
+
+| Model | General Use Cases | Knowledge Cutoff | Energy / Cost (relative) | Type | Context Window Input | Context Window Output |
+| --- | --- | --- | --- | --- | --- | --- |
+| gpt-4.1 | Code, large documents, long-context tasks, tool use, agentic planning, structured language tasks | 01-06-2024 | Medium | Advanced non-reasoning language model | 1M | 32,768 |
+| gpt-4o | Visual content interpretation, diagrams/charts, presentation feedback, general multimodal tasks | 01-10-2023 | High | Multimodal model | 128K | 16,384 |
+| gpt-5 | Complex projects, strategic analysis, advanced coding, deep reasoning, high-quality creative and academic work | 30-09-2024 | High | Advanced reasoning model | 400K | 128K |
 
 - - -
 
