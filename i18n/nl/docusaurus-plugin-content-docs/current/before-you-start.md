@@ -106,14 +106,14 @@ Het voornaamste verschil met de desktopversie is het **navigatiemenu**. Op de co
 
 Je opent het menu via het **pijltje linksboven in het scherm**. Het menu schuift dan open en toont dezelfde opties als op de desktop, weergegeven met iconen:
 
-| Icoon        | Functie       |
-| ------------ | ------------- |
-| Spraakbubbel | Algemene chat |
-| Masker       | Personas      |
-| Map          | Projects      |
-| Twee mensen  | Groups        |
-| Boekje       | Prompts       |
-| Puzzelstukje | Extensies     |
+| Icoon         | Functie       |
+| ------------- | ------------- |
+| Spraakbubbel  | Algemene chat |
+| Robot         | Personas      |
+| Map           | Projects      |
+| Twee personen | Groups        |
+| Text          | Prompts       |
+| Puzzelstukje  | Extensies     |
 
 Onderin het menu vind je:
 
