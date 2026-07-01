@@ -12,7 +12,7 @@ UvA AI Chat gives you access to a range of advanced AI models (Large Language Mo
 
 The table below is a quick reference to help you choose the most suitable AI model for your task. To find out which model works best for your needs, you'll need to experiment - especially if you're running recurring, specific tasks.
 
-### Table 2: Comparison of available AI models
+### Comparison of available AI models
 
 | Model | General Use Cases | Knowledge Cutoff | Energy / Cost (relative) | Type | Context Window Input | Context Window Output |
 | --- | --- | --- | --- | --- | --- | --- |
