@@ -109,10 +109,10 @@ You can open the menu using the **arrow in the top-left corner of the screen**. 
 | Icon          | Function     |
 | ------------- | ------------ |
 | Speech bubble | General chat |
-| Mask          | Personas     |
+| Robot         | Personas     |
 | Folder        | Projects     |
 | Two people    | Groups       |
-| Booklet       | Prompts      |
+| Lines of text | Prompts      |
 | Puzzle piece  | Extensions   |
 
 At the bottom of the menu you will find:
