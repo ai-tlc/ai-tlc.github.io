@@ -6,7 +6,7 @@ slug: /personalization-collaboration
 ---
 ## 3.1 Verdere configuratie
 
-Om UvA AI Chat optimaal te kunnen gebruiken is het belangrijk om het te configureren naar jouw wensen. Om dit te doen, navigeer je naar de instellingen, hiervoor klik je eerst op persoons-icoon helemaal links onderin op het scherm. Hier kun je direct jouw voorkeuren voor het thema (licht/donker) instellen. Daarna klik je op 'Settings', en dan op 'Personalization' voor de belangrijkste gebruiksinstellingen:
+Om UvA AI Chat optimaal te kunnen gebruiken is het belangrijk om het te configureren naar jouw wensen. Om dit te doen, navigeer je naar de instellingen, hiervoor klik je eerst op persoons-icoon <Icon name="account_circle" color="black" size={20} /> helemaal links onderin op het scherm. Hier kun je direct jouw voorkeuren voor het thema (licht/donker) instellen. Daarna klik je op 'Settings', en dan op 'Personalization' voor de belangrijkste gebruiksinstellingen:
 
 * **'Memory Creation' (Geheugencreatie):** Schakel deze optie in om de UvA AI Chat informatie over jouw eerdere prompts en gesprekken te laten opslaan in het geheugen. Dit stelt de AI in staat om context uit eerdere interacties te onthouden. Een voorbeeld van zulke context kan zijn dat je astronomie studeert of dat je bijvoorbeeld koken als hobby hebt.
 * **'Memory Context' (Geheugencontext):** Om de chat de opgeslagen 'memories' daadwerkelijk te laten gebruiken in nieuwe gesprekken, dient je ook deze optie in te schakelen.
@@ -58,7 +58,7 @@ Hoe beter je gesprek met de maker, hoe beter de uiteindelijke persona wordt. Het
 Het configuratiepaneel aan de rechterkant bevat alle instellingen voor je persona. Deze kunnen handmatig worden ingevuld, maar de AI kan je ook helpen om ze aan te vullen en te verfijnen.
 
 
-* **Persona icon:** Gebruik het plus-icoon om je persona een herkenbaar pictogram of avatar te geven. Dit is handig wanneer je meerdere persona’s beheert of wanneer anderen jouw persona in een gedeelde context gebruiken. Je kunt zelf een afbeelding uploaden door op "+" te klikken.
+* **Persona icon:** Gebruik het plus-icoon <Icon name="add" color="black" size={20} /> om je persona een herkenbaar pictogram of avatar te geven. Dit is handig wanneer je meerdere persona’s beheert of wanneer anderen jouw persona in een gedeelde context gebruiken. Je kunt zelf een afbeelding uploaden door op "+" te klikken.
 * **Name:** Geef je persona een korte en duidelijke naam die meteen laat zien waarvoor de persona bedoeld is. Een taakgerichte naam is meestal bruikbaarder dan een vage of algemene naam. Een duidelijke naam maakt de persona makkelijker te herkennen in lijsten, previews en groepscontexten.
 * **Default language model:** Kies het standaardtaalmodel dat de persona gebruikt. Dit is het model dat geselecteerd is wanneer iemand de persona gaat gebruiken. De keuze voor een model kan invloed hebben op hoe snel, uitgebreid of gespecialiseerd de antwoorden aanvoelen.
 * **Users may choose the language model themselves:** Schakel deze optie in als gebruikers van deze persona zelf een ander taalmodel moeten kunnen kiezen dan het standaardmodel. Dit is vooral handig wanneer een persona wordt gedeeld in een bredere context, zoals een cursus, team of groepsomgeving waarin verschillende gebruikers verschillende behoeften kunnen hebben. Een docent kan bijvoorbeeld een aanbevolen standaardmodel instellen, terwijl studenten of collega’s nog steeds zelf een ander model kunnen kiezen.
@@ -76,13 +76,13 @@ Het configuratiepaneel aan de rechterkant bevat alle instellingen voor je person
 * **Save:** Sla de persona op wanneer de instructies, instellingen en gebruikersgerichte tekst klaar zijn. Een laatste controle is nuttig om te zorgen dat de persona niet alleen intern goed is ingesteld, maar ook duidelijk en bruikbaar is voor anderen.
 
 
-### Je kunt de persona testen en aanpassen door rechtsboven op "Preview" of op het oog-icoon te klikken.
+### Je kunt de persona testen en aanpassen door rechtsboven op "Preview" of op het oog-icoon <Icon name="Eye" color="black" size={20} /> te klikken.
 
 - - -
 
 ## 3.3 "Groups": samenwerking en delen met anderen
 
-De functie "Groepen" maakt het eenvoudig om samen te werken aan gedeelde projecten. Het is ideaal voor teamwerk, of je nu onderzoek doet, een gezamenlijke presentatie voorbereidt, of aan een ander project werkt. Binnen een groep kun je eenvoudig bestanden delen, elkaars prompts zien en samenwerken aan dezelfde doelen. Je vindt de functie 'Groepen' via het pictogram met de twee personen in de linkerzijbalk.
+De functie "Groepen" maakt het eenvoudig om samen te werken aan gedeelde projecten. Het is ideaal voor teamwerk, of je nu onderzoek doet, een gezamenlijke presentatie voorbereidt, of aan een ander project werkt. Binnen een groep kun je eenvoudig bestanden delen, elkaars prompts zien en samenwerken aan dezelfde doelen. Je vindt de functie 'Groepen' via het pictogram met de twee personen <Icon name="group" color="black" size={20} /> in de linkerzijbalk.
 
 Om een groep aan te maken, klik je op de knop "Add group". Vul de volgende tekstvelden in:
 
@@ -105,7 +105,7 @@ Door een groep aan te maken, kun je specifieke chats, persona's of prompts delen
 
 ## 3.4 "Projects": jouw georganiseerde werkruimte
 
-Onder "Projects" (het folder-icoon in de linkerbalk) kun je jouw eigen projecten inrichten. Dit fungeert als een digitale container voor al het materiaal dat gerelateerd is aan een specifieke taak of onderzoek. Je kunt dit gebruiken om je chats te ordenen, als je bijvoorbeeld meerdere gesprekken over hetzelfde onderwerp hebt. Om te beginnen, klik je op "+ Add Project" midden op het scherm. Binnen een project kun je chats, prompts, en persona's bij elkaar zetten. Daarmee kun je binnen jouw project gemakkelijk navigeren naar eerder gebruikte prompts en de bijbehorende antwoorden, wat het eenvoudig maakt om verder te werken waar je gebleven was.
+Onder "Projects" (het folder-icoon <Icon name="folder_open" color="black" size={20} /> in de linkerbalk) kun je jouw eigen projecten inrichten. Dit fungeert als een digitale container voor al het materiaal dat gerelateerd is aan een specifieke taak of onderzoek. Je kunt dit gebruiken om je chats te ordenen, als je bijvoorbeeld meerdere gesprekken over hetzelfde onderwerp hebt. Om te beginnen, klik je op "+ Add Project" midden op het scherm. Binnen een project kun je chats, prompts, en persona's bij elkaar zetten. Daarmee kun je binnen jouw project gemakkelijk navigeren naar eerder gebruikte prompts en de bijbehorende antwoorden, wat het eenvoudig maakt om verder te werken waar je gebleven was.
 
 <img src="/img/uploads/screenshot-2026-05-02-at-13.50.37.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 

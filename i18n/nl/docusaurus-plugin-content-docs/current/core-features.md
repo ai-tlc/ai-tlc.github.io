@@ -110,7 +110,7 @@ Goed prompten betekent daarom niet alleen duidelijke vragen stellen, maar ook de
 
 ## 2.2 Prompts: jouw verzameling instructies
 
-"Prompts" is een functie die je helpt om efficiënter te werken door het hergebruiken van effectieve prompts. Je vindt de "My prompts" sectie via het boek-icoon in de linker zijbalk van UvA AI Chat.
+"Prompts" is een functie die je helpt om efficiënter te werken door het hergebruiken van effectieve prompts. Je vindt de "My prompts" sectie via het boek-icoon <Icon name="book_2" color="black" size={20} /> in de linker zijbalk van UvA AI Chat.
 
 ### Gebruik van standaard prompts
 
@@ -130,11 +130,11 @@ Stel dat je vaak Engelse academische teksten schrijft en deze wilt laten control
 4. Plak jouw prompt in het tekstveld: "Analyseer de bijgevoegde Engelse tekst. Je fungeert als een ervaren redacteur voor een wetenschappelijk tijdschrift. Identificeer en corrigeer zinnen die te informeel zijn voor een wetenschappelijke publicatie. Vervang spreektaal door formele alternatieven, controleer op consistentie in terminologie en geef suggesties om de zinsstructuur te variëren voor betere leesbaarheid."
 5. Bewaar de prompt. Deze is nu beschikbaar voor eenvoudig hergebruik bij toekomstige gesprekken.
 
-Wil je een eerder opgeslagen prompts snel hergebruiken? Klik dan onder in het tekstvak van de UvA AI Chat op het boekje-icoon om een lijst van recente prompts te zien en de gewenste prompt direct in te voegen.
+Wil je een eerder opgeslagen prompts snel hergebruiken? Klik dan onder in het tekstvak van de UvA AI Chat op het boekje-icoon <Icon name="book_2" color="black" size={20} /> om een lijst van recente prompts te zien en de gewenste prompt direct in te voegen.
 
 ### De AI toegang geven tot het internet
 
-UvA AI Chat heeft een 'knowledge cutoff'; de kennis is niet actueel. Om de AI met recente, online informatie te laten werken, kun je de internetzoekfunctie inschakelen. Klik hiervoor in een chatvenster rechtsboven op het 'zakmes'-icoon en vink 'Internet Search' aan. Nadat je de functie hebt geactiveerd, is het belangrijk dat je in je opdracht vermeldt dat de AI het internet moet gebruiken. Begin je vraag bijvoorbeeld met: "Zoek op het internet naar...". Houd er rekening mee dat deze functionaliteit nog in ontwikkeling is en niet altijd feilloos werkt.
+UvA AI Chat heeft een 'knowledge cutoff'; de kennis is niet actueel. Om de AI met recente, online informatie te laten werken, kun je de internetzoekfunctie inschakelen. Klik hiervoor in een chatvenster rechtsboven op het 'zakmes'-icoon <Icon name="tune" color="black" size={20} /> en vink 'Internet Search' aan. Nadat je de functie hebt geactiveerd, is het belangrijk dat je in je opdracht vermeldt dat de AI het internet moet gebruiken. Begin je vraag bijvoorbeeld met: "Zoek op het internet naar...". Houd er rekening mee dat deze functionaliteit nog in ontwikkeling is en niet altijd feilloos werkt.
 
 - - -
 
@@ -144,7 +144,7 @@ Een van de krachtigste functies van UvA AI Chat is dat je je eigen documenten ku
 
 ### Uploaden van documenten
 
-Met de UvA AI Chat kun je eenvoudig documenten uploaden. Ga naar het vak voor tekstinvoer onderaan het scherm en klik op het paperclip-icoon. Kies vervolgens de bestanden die je wilt toevoegen vanaf jouw computer. Na het uploaden zijn de documenten direct beschikbaar voor verdere verwerking binnen het huidige gesprek.
+Met de UvA AI Chat kun je eenvoudig documenten uploaden. Ga naar het vak voor tekstinvoer onderaan het scherm en klik op het paperclip-icoon <Icon name="attach_file" color="black" size={20} />. Kies vervolgens de bestanden die je wilt toevoegen vanaf jouw computer. Na het uploaden zijn de documenten direct beschikbaar voor verdere verwerking binnen het huidige gesprek.
 
 ### Ondersteunde bestandsformaten
 
@@ -186,7 +186,7 @@ In plaats van een vraag zoals "maak een afbeelding van een bloem", kun je een ve
 
 ### Afbeeldingen analyseren
 
-Gebruik het foto-icoon rechtsonder in het tekstvak om afbeeldingen toe te voegen. Na uploaden kan de AI een afbeelding beschrijven en de inhoud interpreteren. Zorg er wel voor dat je er een prompt bij voegt met een goede beschrijving van wat je wilt dat de AI analyseert. Let op: De AI kan tekst, grafieken of tabellen in een afbeelding niet altijd goed interpreteren. Naast het uploaden van afbeeldingen via het paperclip-icoon kun je nu ook afbeeldingen rechtstreeks in de chat plakken. Kopieer eenvoudig een afbeelding van je computer of van een webpagina en plak deze in het tekstveld van UvA AI Chat. De afbeelding wordt automatisch geüpload en is direct klaar voor analyse.
+Gebruik het foto-icoon <Icon name="image" color="black" size={20} /> rechtsonder in het tekstvak om afbeeldingen toe te voegen. Na uploaden kan de AI een afbeelding beschrijven en de inhoud interpreteren. Zorg er wel voor dat je er een prompt bij voegt met een goede beschrijving van wat je wilt dat de AI analyseert. Let op: De AI kan tekst, grafieken of tabellen in een afbeelding niet altijd goed interpreteren. Naast het uploaden van afbeeldingen via het paperclip-icoon <Icon name="attach_file" color="black" size={20} /> kun je nu ook afbeeldingen rechtstreeks in de chat plakken. Kopieer eenvoudig een afbeelding van je computer of van een webpagina en plak deze in het tekstveld van UvA AI Chat. De afbeelding wordt automatisch geüpload en is direct klaar voor analyse.
 
 - - -
 
@@ -200,7 +200,7 @@ De functie 'Artefacten' in UvA AI Chat is een krachtige tool die is ontworpen om
 2. **Geef een duidelijke opdracht:** Typ in het chatvenster een opdracht die het onderwerp en het type artefact dat je nodig hebt duidelijk definieert. Je zou de AI bijvoorbeeld kunnen vragen: "Maak een artefact waarin de Keynesiaanse en Neoklassieke economische theorieën worden vergeleken."
 3. **Bekijk de gegenereerde output:** De AI produceert vervolgens een artefact op basis van je verzoek. In het voorbeeld van de economische theorieën zou de output een overzicht kunnen zijn van de belangrijkste principes, aannames en politieke implicaties.
 4. **Werk samen aan revisies:** Het platform stelt je in staat om het artefact gezamenlijk te verfijnen. Je kunt direct bewerkingen uitvoeren in het speciale tekst- of codevenster, of je kunt de AI verdere instructies geven in de chat om een specifiek gedeelte van het artefact te wijzigen of uit te breiden. Je kunt ook stukken tekst of code selecteren en de AI vragen die aan te passen.
-5. **Sla je werk op:** Zorg ervoor dat als je het artefact handmatig bewerkt, je het eerst opslaat voordat je de AI vraagt om verder te bewerken. Dit doe je door op het 'opslaan'-icoon rechtsboven in het artefact te klikken. Wanneer je de AI vraagt om het artefact te bewerken, wordt er automatisch een nieuwe versie opgeslagen. Eerdere versies worden ook bewaard, zodat je wijzigingen kunt volgen en eerdere versies opnieuw kunt bekijken indien nodig door op de pijlen linksboven in het artefact te klikken. Het voltooide artefact kan vervolgens worden gedownload voor gebruik in je onderzoekspaper, presentatie of andere academische projecten. Doe dit door rechtsbovenin te klikken op het pijltje naar beneden en "Download as" te selecteren.
+5. **Sla je werk op:** Zorg ervoor dat als je het artefact handmatig bewerkt, je het eerst opslaat voordat je de AI vraagt om verder te bewerken. Dit doe je door op het 'opslaan'-icoon <Icon name="Save" color="black" size={20} /> rechtsboven in het artefact te klikken. Wanneer je de AI vraagt om het artefact te bewerken, wordt er automatisch een nieuwe versie opgeslagen. Eerdere versies worden ook bewaard, zodat je wijzigingen kunt volgen en eerdere versies opnieuw kunt bekijken indien nodig door op de pijlen <Icon name="ChevronLeft" color="black" size={20} /><Icon name="ChevronRight" color="black" size={20} /> linksboven in het artefact te klikken. Het voltooide artefact kan vervolgens worden gedownload voor gebruik in je onderzoekspaper, presentatie of andere academische projecten. Doe dit door rechtsbovenin te klikken op het pijltje naar beneden <Icon name="Download" color="black" size={20} /> en "Download as" te selecteren.
 
 - - -
 
@@ -226,11 +226,11 @@ UvA AI Chat ondersteunt spraakinvoer en tekst-naar-spraak uitvoer. Hieronder vin
 
 **Aan de slag**
 
-Om spraakinvoer te gebruiken, klik je op het **microfoonpictogram** in de chatinvoerbalk. UvA AI Chat begint dan je stem op te nemen en zet deze automatisch om naar tekst.
+Om spraakinvoer te gebruiken, klik je op het **microfoonpictogram** <Icon name="Mic" color="black" size={20} /> in de chatinvoerbalk. UvA AI Chat begint dan je stem op te nemen en zet deze automatisch om naar tekst.
 
 **Spraak-instellingen**
 
-Je kunt het spraakgedrag configureren door op het menu **Settings** linksonder (onder het radiale icoon) te klikken en vervolgens **Speech** te selecteren. De volgende opties zijn beschikbaar:
+Je kunt het spraakgedrag configureren door op het menu **Settings** linksonder (onder het radiale icoon <Icon name="account_circle" color="black" size={20} />) te klikken en vervolgens **Speech** te selecteren. De volgende opties zijn beschikbaar:
 
 | Instelling                              | Beschrijving                                                                                            |
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------- |

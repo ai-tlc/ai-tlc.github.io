@@ -14,6 +14,14 @@ const config = {
     },
   ],
 
+  stylesheets: [
+    {
+      // material symbols outlined, subset to the icons in src/data/icon-catalog.js
+      href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=account_circle,add,add_photo_alternate,attach_file,book_2,bookmark,chat,chat_add_on,domino_mask,edit_document,extension,folder_open,group,image,info,language,left_panel_close,logout,more_vert,neurology,right_panel_close,school,tune&display=block',
+      type: 'text/css',
+    },
+  ],
+
   organizationName: 'ai-tlc',
   projectName: 'ai-tlc.github.io',
 

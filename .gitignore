@@ -105,3 +105,7 @@ CLAUDE.md
 DEPLOYMENT-CHECKLIST.md
 README-EDITORIAL.md
 SECURITY-EVALUATION.md
+
+# Local icon inventory notes (source of truth is src/data/icon-catalog.js)
+material-icons-inventory.md
+/non-material-icons/

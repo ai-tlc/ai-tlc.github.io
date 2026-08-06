@@ -70,7 +70,7 @@ We raden het gebruik van de Technische ondersteuningsassistent **niet** aan voor
 
 **Hoe activeer je de Technische Ondersteuningsassistent?**
 
-1. Klik op het "?" icoon in de linker zijbalk van UvA AI Chat.
+1. Klik op het "?" icoon <Icon name="HelpCircle" color="black" size={20} /> in de linker zijbalk van UvA AI Chat.
 2. Selecteer *Talk to Technical Support Assistent*.
 3. Start een nieuw gesprek: de Technische Ondersteuningsassistent is nu actief.
 
@@ -110,15 +110,15 @@ Je opent het menu via het **pijltje linksboven in het scherm**. Het menu schuift
 | ------------- | ------------- |
 | Spraakbubbel  | Algemene chat |
 | Robot         | Personas      |
-| Map           | Projects      |
-| Twee personen | Groups        |
+| Map <Icon name="folder_open" color="black" size={20} /> | Projects      |
+| Twee personen <Icon name="group" color="black" size={20} /> | Groups        |
 | Text          | Prompts       |
-| Puzzelstukje  | Extensies     |
+| Puzzelstukje <Icon name="extension" color="black" size={20} /> | Extensies     |
 
 Onderin het menu vind je:
 
 * **?** — Aanvullende materialen, zoals de handleiding en E-learning
-* **Mannetje-icoon** — Instellingen en accountopties
+* **Mannetje-icoon** <Icon name="account_circle" color="black" size={20} /> — Instellingen en accountopties
 
 Tik linksbovenin het menu opnieuw om het menu te sluiten.
 

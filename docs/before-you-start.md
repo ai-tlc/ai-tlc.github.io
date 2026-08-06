@@ -70,7 +70,7 @@ We do not recommend using the Technical Support Assistant for general academic t
 
 **How to activate the Technical Support Assistant?**
 
-1. Click the "?" icon in the left sidebar of UvA AI Chat.
+1. Click the "?" icon <Icon name="HelpCircle" color="black" size={20} /> in the left sidebar of UvA AI Chat.
 2. Select Talk to Technical Support Assistant.
 3. Start a new conversation: the Technical Support Assistant is now active.
 
@@ -110,15 +110,15 @@ You can open the menu using the **arrow in the top-left corner of the screen**. 
 | ------------- | ------------ |
 | Speech bubble | General chat |
 | Robot         | Personas     |
-| Folder        | Projects     |
-| Two people    | Groups       |
+| Folder <Icon name="folder_open" color="black" size={20} /> | Projects     |
+| Two people <Icon name="group" color="black" size={20} /> | Groups       |
 | Lines of text | Prompts      |
-| Puzzle piece  | Extensions   |
+| Puzzle piece <Icon name="extension" color="black" size={20} /> | Extensions   |
 
 At the bottom of the menu you will find:
 
 * **?** — Additional materials, such as the manual and E-learning
-* **Person icon** — Settings and account options
+* **Person icon** <Icon name="account_circle" color="black" size={20} /> — Settings and account options
 
 Tap on the arrow in the top left of the menu again to close it.
 

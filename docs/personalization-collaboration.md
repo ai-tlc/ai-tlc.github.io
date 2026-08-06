@@ -6,7 +6,7 @@ slug: /personalization-collaboration
 ---
 ## 3.1 Further configuration
 
-To get the most out of UvA AI Chat, it's worth configuring it to match your preferences. To do this, go to the settings by clicking the person icon at the bottom left of the screen. Here, you can immediately set your preferred theme (light/dark). Next, click on 'Settings,' then on 'Personalization' for the most important personalization options:
+To get the most out of UvA AI Chat, it's worth configuring it to match your preferences. To do this, go to the settings by clicking the person icon <Icon name="account_circle" color="black" size={20} /> at the bottom left of the screen. Here, you can immediately set your preferred theme (light/dark). Next, click on 'Settings,' then on 'Personalization' for the most important personalization options:
 
 * **'Memory Creation':** Enable this to let UvA AI Chat save information about your previous prompts and conversations. This allows the AI to remember context from earlier interactions, such as your field of study (e.g. astronomy) or your hobbies (like cooking).
 * **'Memory Context':** For the chat to actually use your stored 'memories' in new conversations, you'll also need to enable this option.
@@ -47,7 +47,7 @@ The better your conversation with the maker, the better the final persona will b
 
 The right-hand configuration panel contains all settings for your persona. These can be filled in manually, but the AI can also help you complete and refine them.
 
-* **Persona icon:** Use the plus icon to give your persona a recognisable icon or avatar. This is useful when you manage several personas or when others use your persona in a shared context. You can upload any image yourself when pressing "+"
+* **Persona icon:** Use the plus icon <Icon name="add" color="black" size={20} /> to give your persona a recognisable icon or avatar. This is useful when you manage several personas or when others use your persona in a shared context. You can upload any image yourself when pressing "+"
 * **Name:** Give your persona a short and clear name that immediately shows what it is for. A task-oriented name is usually more useful than a vague or general name. A clear name makes the persona easier to recognise in lists, previews and group contexts.
 * **Default language model:** Choose the default language model that the persona will use. This is the model that is selected when someone starts using the persona. The choice of model can affect how fast, detailed or specialised the responses feel.
 * **Users may choose the language model themselves:** Enable this option if users of this persona should be able to choose a different language model than the default one. This is especially useful when a persona is shared in a broader context, such as a course, team or group environment where different users may have different needs. For example, a teacher may set a recommended default model, while still allowing students or colleagues to choose another model themselves.
@@ -64,13 +64,13 @@ The right-hand configuration panel contains all settings for your persona. These
 * **Preview:** Use 'Preview' to check how the persona will appear to users. Check whether the name, description, opening message and conversation starters are clear enough.
 * **Save:** Save the persona when the instructions, settings and user-facing text are ready. A final check is useful to make sure the persona is not only well configured internally, but also clear and usable for others.
 
-### You can test and tweak the persona by clicking "Preview" or the Eye-icon in the top right corner.
+### You can test and tweak the persona by clicking "Preview" or the Eye-icon <Icon name="Eye" color="black" size={20} /> in the top right corner.
 
 - - -
 
 ## 3.3 "Groups": collaborating and sharing with others
 
-The "Groups" feature makes it easy to work together on shared projects. It's ideal for teamwork - whether you're conducting research, preparing a joint presentation, or working on any other project. Within a group, you can easily share files, see each other's prompts, and work toward the same goals. Find the "Groups" function via the two-person icon in the left sidebar.
+The "Groups" feature makes it easy to work together on shared projects. It's ideal for teamwork - whether you're conducting research, preparing a joint presentation, or working on any other project. Within a group, you can easily share files, see each other's prompts, and work toward the same goals. Find the "Groups" function via the two-person icon <Icon name="group" color="black" size={20} /> in the left sidebar.
 
 To create a group, click the "Add Group" button. Fill in the following textboxes:
 
@@ -93,7 +93,7 @@ By creating a group, you can share specific chats, personas, or prompts. You con
 
 ## 3.4 "Projects": your organized workspace
 
-Under "Projects" (the folder icon in the left sidebar), you can set up your own projects. This acts as a digital container for all materials related to a specific task or research project. Use it to keep your chats organized, especially if you have multiple conversations on the same topic. To get started, click '+ Add Project' at the middle of the screen. Within a project, you can collect chats, prompts, and personas in one place. This lets you easily navigate back to earlier prompts and responses, making it simple to pick up right where you left off.
+Under "Projects" (the folder icon <Icon name="folder_open" color="black" size={20} /> in the left sidebar), you can set up your own projects. This acts as a digital container for all materials related to a specific task or research project. Use it to keep your chats organized, especially if you have multiple conversations on the same topic. To get started, click '+ Add Project' at the middle of the screen. Within a project, you can collect chats, prompts, and personas in one place. This lets you easily navigate back to earlier prompts and responses, making it simple to pick up right where you left off.
 
 <img src="/img/uploads/screenshot-2026-05-02-at-13.50.37.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 

@@ -102,7 +102,7 @@ To use this functionality, ask the UvA AI Chat to scrape a page for you and inse
 UvA AI chat can write and run Python code for you to analyse data, create charts, or perform calculations within a separate, safe environment. As per usual, your files stay private and separate from other users. When the AI generates graphs or images, they can appear directly in your conversation. Code is automatically shown in a separate panel where you can view, copy, or edit it. You can use the python functionality without knowing how to write python code, and you can analyse data, create charts, or perform calculations using python without knowing how to edit or write the code yourself. Is it important that the information extracted from the code is actually correct, for example, for education or research? Always check the data manually.
 
 **Using the code**
-Once you ask for python code to be generated, a separate window is generated with the code. From here, you can run the code (by clicking *Run Python*) or copy all code lines (by clicking the two pages in the top right corner). 
+Once you ask for python code to be generated, a separate window is generated with the code. From here, you can run the code (by clicking *Run Python*) or copy all code lines (by clicking the two pages <Icon name="Copy" color="black" size={20} /> in the top right corner). 
 
 <img src="/img/uploads/screenshot-2026-04-07-at-17.09.50.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
@@ -127,7 +127,7 @@ This fits a broader sustainability perspective: responsible AI use is not only a
 To view your estimated energy use:
 
 1. Open **UvA AI Chat**.
-2. Click your **profile/account icon** in the bottom-left corner.
+2. Click your **profile/account icon** <Icon name="account_circle" color="black" size={20} /> in the bottom-left corner.
 3. Select **Settings**.
 4. In the Settings menu, click **Usage**.
 5. You will see your estimated energy use, token use and model mix.

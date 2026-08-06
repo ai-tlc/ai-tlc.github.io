@@ -102,7 +102,7 @@ Om deze functionaliteit te gebruiken, vraag de UvA AI Chat om een pagina voor je
 AI chat kan Python-code voor je schrijven en uitvoeren om gegevens te analyseren, grafieken te maken of berekeningen uit te voeren in een aparte, veilige omgeving. Zoals altijd blijven je bestanden privé en gescheiden van andere gebruikers. Wanneer AI grafieken of afbeeldingen genereert, kunnen deze direct in je gesprek verschijnen. De code wordt automatisch weergegeven in een apart paneel waar je deze kan bekijken, kopiëren of bewerken. Je kunt de Python-functionaliteit gebruiken zonder dat je weet hoe je Python-code moet schrijven, en je kunt data analyseren, grafieken maken of berekeningen uitvoeren met Python zonder zelf de code te hoeven bewerken of schrijven. Is het belangrijk dat de informatie die uit de code komt feitelijk juist is, bijvoorbeeld voor onderwijs of onderzoek? Verifieër altijd de data handmatig.
 
 **De code gebruiken**
-Zodra je vraagt om Python-code te genereren, verschijnt er een apart venster met de code. Van daaruit kun je de code uitvoeren (door op *Run Python* te klikken) of alle regels kopiëren (door op het pictogram met de twee pagina’s rechtsboven te klikken).
+Zodra je vraagt om Python-code te genereren, verschijnt er een apart venster met de code. Van daaruit kun je de code uitvoeren (door op *Run Python* te klikken) of alle regels kopiëren (door op het pictogram met de twee pagina’s <Icon name="Copy" color="black" size={20} /> rechtsboven te klikken).
 
 <img src="/img/uploads/screenshot-2026-04-07-at-17.17.46.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
@@ -127,7 +127,7 @@ Dit past binnen een bredere duurzaamheidsblik: verantwoord AI-gebruik gaat niet 
 Om je geschatte energiegebruik te bekijken:
 
 1. Open **UvA AI Chat**.
-2. Klik linksonder op je **profiel-/accounticoon**.
+2. Klik linksonder op je **profiel-/accounticoon** <Icon name="account_circle" color="black" size={20} />.
 3. Selecteer **Settings**.
 4. Klik in het Settings-menu op **Usage**.
 5. Je ziet nu je geschatte energiegebruik, tokengebruik en modelmix.

@@ -110,7 +110,7 @@ Good prompting therefore means not only asking clear questions, but also guiding
 
 ## 2.2 "Prompts": Your personal collection of instructions
 
-The "Prompts" is a feature that helps you work more efficiently by reusing effective prompts. You'll find the "My prompts" section via the book icon in the left sidebar of UvA AI Chat.
+The "Prompts" is a feature that helps you work more efficiently by reusing effective prompts. You'll find the "My prompts" section via the book icon <Icon name="book_2" color="black" size={20} /> in the left sidebar of UvA AI Chat.
 
 ### Using standard prompts
 
@@ -130,11 +130,11 @@ Suppose you frequently write academic texts in English and want them checked for
 4. Paste your prompt in the text field: "Analyze the attached English text. Act as an experienced editor for an academic journal. Identify and correct sentences that are too informal for scientific publication. Replace colloquial language with formal alternatives, check for consistency in terminology, and suggest ways to vary sentence structure for better readability."
 5. Save the prompt. It's now available for easy reuse in future conversations.
 
-Want to quickly reuse a previously saved prompt? Just click the book icon at the bottom of the text box in UvA AI Chat to see a list of your recent prompts and insert the one you need instantly.
+Want to quickly reuse a previously saved prompt? Just click the book icon <Icon name="book_2" color="black" size={20} /> at the bottom of the text box in UvA AI Chat to see a list of your recent prompts and insert the one you need instantly.
 
 ### Letting the AI search the internet
 
-UvA AI Chat has a 'knowledge cutoff'; its knowledge is not up-to-date. To have the AI work with recent, online information, you can enable the internet search function. To do this, click on the 'swiss army knife' icon in the top right of a chat window and check 'Internet Search'. After you have activated the function, it is important that you state in your prompt that the AI should use the internet. For example, start your question with: "Search the internet for...". Please keep in mind that this functionality is still in development and does not always work flawlessly.
+UvA AI Chat has a 'knowledge cutoff'; its knowledge is not up-to-date. To have the AI work with recent, online information, you can enable the internet search function. To do this, click on the 'swiss army knife' icon <Icon name="tune" color="black" size={20} /> in the top right of a chat window and check 'Internet Search'. After you have activated the function, it is important that you state in your prompt that the AI should use the internet. For example, start your question with: "Search the internet for...". Please keep in mind that this functionality is still in development and does not always work flawlessly.
 
 - - -
 
@@ -144,7 +144,7 @@ One of the most powerful features of UvA AI Chat is the ability to upload your o
 
 ### Uploading documents
 
-With UvA AI Chat, uploading documents is simple. Go to the text entry field at the bottom of the screen and click the paperclip icon. Then select the files you want to add from your computer. Once uploaded, the documents are immediately available for further use within the current conversation.
+With UvA AI Chat, uploading documents is simple. Go to the text entry field at the bottom of the screen and click the paperclip icon <Icon name="attach_file" color="black" size={20} />. Then select the files you want to add from your computer. Once uploaded, the documents are immediately available for further use within the current conversation.
 
 ### Supported file formats
 
@@ -184,7 +184,7 @@ Instead of asking something like "make a picture of a flower," you'll get far be
 
 ### Analyzing images
 
-Use the photo icon at the bottom right of the text box to add images. After uploading, the AI can describe and interpret the content. Always include a prompt explaining what you want the AI to analyze. Note: the AI cannot always accurately interpret text, charts, or tables contained within images. In addition to uploading images using the paperclip icon, you can now also paste images directly into the chat. Simply copy an image from your computer or a webpage and paste it into the text entry field of UvA AI Chat. The image will be uploaded and ready for analysis.
+Use the photo icon <Icon name="image" color="black" size={20} /> at the bottom right of the text box to add images. After uploading, the AI can describe and interpret the content. Always include a prompt explaining what you want the AI to analyze. Note: the AI cannot always accurately interpret text, charts, or tables contained within images. In addition to uploading images using the paperclip icon <Icon name="attach_file" color="black" size={20} />, you can now also paste images directly into the chat. Simply copy an image from your computer or a webpage and paste it into the text entry field of UvA AI Chat. The image will be uploaded and ready for analysis.
 
 - - -
 
@@ -198,7 +198,7 @@ The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support co
 2. **Provide a clear instruction:** In the chat box, enter an instruction that clearly defines the topic and the type of artifact you need. For example, you could prompt the AI with: "create an artifact comparing Keynesian and Neoclassical economic theories."
 3. **Review the generated output:** The AI will then produce an artifact based on your request. In the example of economic theories, the output could be an overview of the key principles, assumptions and political implications.
 4. **Collaborate on revisions:** The platform allows you to refine the artifact collaboratively. You can make direct edits in the dedicated text or code window, or you can give the AI further instructions in the chat to modify or expand a specific section of the artifact. You can also select pieces of text or code and ask AI to modify those.
-5. **Save your work:** Make sure that if you manually edit the artifact, you first save the artifact before you ask the AI to continue editing it, you can do this by clicking on the "save" icon on the top right of the artifact. When you ask the AI to edit the artifact a new version will automatically be saved. Previous versions will also be saved, so you can track changes and revisit previous iterations if necessary by clicking on the arrows at the top left of the artifact. The completed artifact can then be downloaded for use in your research paper, presentation, or other academic projects. Do this by clicking on the arrow at the top right corner of the artefact, and selecting "download as".
+5. **Save your work:** Make sure that if you manually edit the artifact, you first save the artifact before you ask the AI to continue editing it, you can do this by clicking on the "save" icon <Icon name="Save" color="black" size={20} /> on the top right of the artifact. When you ask the AI to edit the artifact a new version will automatically be saved. Previous versions will also be saved, so you can track changes and revisit previous iterations if necessary by clicking on the arrows <Icon name="ChevronLeft" color="black" size={20} /><Icon name="ChevronRight" color="black" size={20} /> at the top left of the artifact. The completed artifact can then be downloaded for use in your research paper, presentation, or other academic projects. Do this by clicking on the arrow <Icon name="Download" color="black" size={20} /> at the top right corner of the artefact, and selecting "download as".
 
 - - -
 
@@ -224,11 +224,11 @@ UvA AI Chat supports voice input and text-to-speech output. Below is an overview
 
 **Getting Started**
 
-To use speech input, click the **microphone icon** in the chat input bar. UvA AI Chat will start recording your voice and transcribe it into text automatically.
+To use speech input, click the **microphone icon** <Icon name="Mic" color="black" size={20} /> in the chat input bar. UvA AI Chat will start recording your voice and transcribe it into text automatically.
 
 **Speech Settings**
 
-You can configure the speech behaviour by clicking the **Settings** menu in the bottom left corner under the radial icon and then selecting **Speech**. The following options are available:
+You can configure the speech behaviour by clicking the **Settings** menu in the bottom left corner under the radial icon <Icon name="account_circle" color="black" size={20} /> and then selecting **Speech**. The following options are available:
 
 | Setting                               | Description                                                                                     |
 | ------------------------------------- | ----------------------------------------------------------------------------------------------- |
