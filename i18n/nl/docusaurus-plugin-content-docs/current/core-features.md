@@ -4,7 +4,6 @@ id: core-features
 sidebar_label: Kernfunctionaliteiten
 slug: /core-features
 ---
-
 ## 2.1 Effectief communiceren: de kunst van prompting
 
 De belangrijkste vaardigheid om UvA AI Chat goed te gebruiken, is leren hoe je duidelijk met de AI communiceert. Dit wordt vaak **prompting** genoemd: het schrijven van de instructie, vraag of taak die je aan de AI geeft.
@@ -17,8 +16,8 @@ Tegelijkertijd gaat prompting niet om het schrijven van één perfecte instructi
 
 Een **prompt** is de instructie of vraag die je aan de AI geeft.
 
-| Eenvoudige prompt | Specifiekere prompt |
-| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Eenvoudige prompt                       | Specifiekere prompt                                                                                                                                                        |
+| --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Leg dit concept uit in eenvoudige taal. | Leg het concept academisch burgerschap uit aan een eerstejaarsstudent. Gebruik eenvoudige taal, geef één voorbeeld uit het onderwijs en sluit af met twee reflectievragen. |
 
 De tweede prompt is nuttiger omdat deze de AI meer richting geeft. De prompt legt het onderwerp, de beoogde doelgroep, de gewenste stijl en de vorm van het antwoord uit.
@@ -29,13 +28,13 @@ Wanneer UvA AI Chat een antwoord genereert, kijkt het systeem niet alleen naar d
 
 Afhankelijk van hoe je UvA AI Chat gebruikt, kan deze context onder meer bestaan uit:
 
-| Type context | Wat het betekent |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Je huidige prompt** | De vraag of instructie die je typt. |
-| **Het gesprek tot nu toe** | Eerdere berichten in dezelfde chat kunnen latere antwoorden beïnvloeden. |
-| **Persona- of projectinstructies** | Als je een persona of project gebruikt, kan de AI extra instructies volgen over rol, toon, taak of werkwijze. |
-| **Project Knowledge** | In projecten kan UvA AI Chat herbruikbare knowledge cards gebruiken: korte stukken duurzame informatie uit eerdere projectchats, zoals beslissingen, voorkeuren, feiten of taakdetails. |
-| **Geüploade documenten of tools** | Als er documenten of tools beschikbaar zijn in de chat, kan de AI deze gebruiken om specifieker te antwoorden. |
+| Type context                       | Wat het betekent                                                                                                                                                                        |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Je huidige prompt**              | De vraag of instructie die je typt.                                                                                                                                                     |
+| **Het gesprek tot nu toe**         | Eerdere berichten in dezelfde chat kunnen latere antwoorden beïnvloeden.                                                                                                                |
+| **Persona- of projectinstructies** | Als je een persona of project gebruikt, kan de AI extra instructies volgen over rol, toon, taak of werkwijze.                                                                           |
+| **Project Knowledge**              | In projecten kan UvA AI Chat herbruikbare knowledge cards gebruiken: korte stukken duurzame informatie uit eerdere projectchats, zoals beslissingen, voorkeuren, feiten of taakdetails. |
+| **Geüploade documenten of tools**  | Als er documenten of tools beschikbaar zijn in de chat, kan de AI deze gebruiken om specifieker te antwoorden.                                                                          |
 
 Dit betekent dat prompting niet alleen gaat over de tekst die je in één bericht typt. Het gaat er ook om dat je ervoor zorgt dat de AI de juiste context heeft om mee te werken.
 
@@ -43,8 +42,8 @@ Dit betekent dat prompting niet alleen gaat over de tekst die je in één berich
 
 AI-antwoorden zijn sterk afhankelijk van de informatie die beschikbaar is voor het model. Als belangrijke informatie ontbreekt, kan het antwoord te breed, onvolledig of gebaseerd op aannames zijn. Als de juiste context wordt gegeven, kan het antwoord relevanter worden en beter aansluiten op je doel.
 
-| Minder nuttig | Nuttiger |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Minder nuttig             | Nuttiger                                                                                                                                                  |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Schrijf een samenvatting. | Vat deze tekst samen voor een docent die snel de hoofdgedachte wil begrijpen. Gebruik ongeveer 150 woorden en focus op de implicaties voor het onderwijs. |
 
 De verbeterde prompt geeft de AI een taak, doelgroep, lengte en focus.
@@ -55,13 +54,13 @@ In UvA AI Chat-projecten kan **Project Knowledge** helpen om nuttige informatie 
 
 Een knowledge card is een klein, herbruikbaar stukje informatie, zoals:
 
-| Een knowledge card kan bevatten... | Voorbeeld |
-| ------------------------------------------------- | --------------------------------------------------------------------------------- |
-| Een eerder gemaakte beslissing in het project | “De workshop is bedoeld voor eerstejaarsstudenten.” |
-| Een doelgroep | “De tekst moet begrijpelijk zijn voor docenten zonder technische AI-kennis.” |
-| Een gewenste toon of schrijfstijl | “Gebruik een duidelijke, toegankelijke en didactische toon.” |
-| Een terugkerende randvoorwaarde | “Houd handleidingsteksten beknopt en praktisch.” |
-| Een belangrijk feit dat later onthouden moet worden | “De module is bedoeld voor zowel studenten als medewerkers.” |
+| Een knowledge card kan bevatten...                  | Voorbeeld                                                                    |
+| --------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Een eerder gemaakte beslissing in het project       | “De workshop is bedoeld voor eerstejaarsstudenten.”                          |
+| Een doelgroep                                       | “De tekst moet begrijpelijk zijn voor docenten zonder technische AI-kennis.” |
+| Een gewenste toon of schrijfstijl                   | “Gebruik een duidelijke, toegankelijke en didactische toon.”                 |
+| Een terugkerende randvoorwaarde                     | “Houd handleidingsteksten beknopt en praktisch.”                             |
+| Een belangrijk feit dat later onthouden moet worden | “De module is bedoeld voor zowel studenten als medewerkers.”                 |
 
 Wanneer relevant kan UvA AI Chat deze cards gebruiken in latere antwoorden. Dit helpt de AI om consistent te blijven in verschillende chats binnen hetzelfde project. Het maakt het gebruik van context ook transparanter: knowledge cards kunnen worden bekeken, aangepast, gearchiveerd of uitgesloten.
 
@@ -79,10 +78,10 @@ Of:
 
 Een goed gestructureerde prompt bevat meestal drie hoofdelementen:
 
-| Element | Wat je moet opnemen | Voorbeeld |
-| -------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| **Context** | Leg de situatie kort uit. Waar gaat de taak over? Wie is de doelgroep? Welke achtergrond moet de AI kennen? | “Ik schrijf een korte introductie voor een Canvas-module over AI en duurzaamheid.” |
-| **Vraag of instructie** | Geef duidelijk aan wat je wilt dat de AI doet. | “Schrijf een duidelijke alinea voor studenten en docenten.” |
+| Element                            | Wat je moet opnemen                                                                                           | Voorbeeld                                                                                                                      |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| **Context**                        | Leg de situatie kort uit. Waar gaat de taak over? Wie is de doelgroep? Welke achtergrond moet de AI kennen?   | “Ik schrijf een korte introductie voor een Canvas-module over AI en duurzaamheid.”                                             |
+| **Vraag of instructie**            | Geef duidelijk aan wat je wilt dat de AI doet.                                                                | “Schrijf een duidelijke alinea voor studenten en docenten.”                                                                    |
 | **Specifieke details of criteria** | Voeg vereisten toe, zoals toon, lengte, format, moeilijkheidsniveau, te gebruiken bronnen of aandachtspunten. | “Houd het toegankelijk, vermijd technische details en benoem dat exacte cijfers over energiegebruik van AI vaak onzeker zijn.” |
 
 Samen wordt dit:
@@ -93,8 +92,8 @@ Samen wordt dit:
 
 Een nuttige gewoonte bij prompting is om te beschrijven wat je **wel** wilt, in plaats van alleen te zeggen wat je **niet** wilt.
 
-| Minder nuttig | Nuttiger |
-| ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Minder nuttig                                                                                              | Nuttiger                                                                                                                                                                             |
+| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Schrijf een introductie voor mijn essay, maar gebruik geen jargon en maak het niet langer dan 200 woorden. | Schrijf een toegankelijke introductie van ongeveer 200 woorden voor mijn essay over Italo Calvino. Gebruik duidelijke, eenvoudige taal en definieer kort de belangrijkste concepten. |
 
 De tweede versie geeft de AI een duidelijker doel.
@@ -106,6 +105,7 @@ Prompting is het geven van duidelijke instructies en nuttige context aan de AI. 
 In UvA AI Chat kunnen antwoorden ook worden gevormd door bredere context, zoals persona’s, projectinstructies, geüploade documenten, tools, memory of Project Knowledge. Dit kan antwoorden nuttiger en consistenter maken, maar het betekent ook dat je je bewust moet blijven van welke context de AI mogelijk gebruikt.
 
 Goed prompten betekent daarom niet alleen duidelijke vragen stellen, maar ook de context achter het antwoord sturen, controleren en corrigeren.
+
 - - -
 
 ## 2.2 Prompts: jouw verzameling instructies
@@ -201,6 +201,8 @@ De functie 'Artefacten' in UvA AI Chat is een krachtige tool die is ontworpen om
 3. **Bekijk de gegenereerde output:** De AI produceert vervolgens een artefact op basis van je verzoek. In het voorbeeld van de economische theorieën zou de output een overzicht kunnen zijn van de belangrijkste principes, aannames en politieke implicaties.
 4. **Werk samen aan revisies:** Het platform stelt je in staat om het artefact gezamenlijk te verfijnen. Je kunt direct bewerkingen uitvoeren in het speciale tekst- of codevenster, of je kunt de AI verdere instructies geven in de chat om een specifiek gedeelte van het artefact te wijzigen of uit te breiden. Je kunt ook stukken tekst of code selecteren en de AI vragen die aan te passen.
 5. **Sla je werk op:** Zorg ervoor dat als je het artefact handmatig bewerkt, je het eerst opslaat voordat je de AI vraagt om verder te bewerken. Dit doe je door op het 'opslaan'-icoon <Icon name="Save" color="black" size={20} /> rechtsboven in het artefact te klikken. Wanneer je de AI vraagt om het artefact te bewerken, wordt er automatisch een nieuwe versie opgeslagen. Eerdere versies worden ook bewaard, zodat je wijzigingen kunt volgen en eerdere versies opnieuw kunt bekijken indien nodig door op de pijlen <Icon name="ChevronLeft" color="black" size={20} /><Icon name="ChevronRight" color="black" size={20} /> linksboven in het artefact te klikken. Het voltooide artefact kan vervolgens worden gedownload voor gebruik in je onderzoekspaper, presentatie of andere academische projecten. Doe dit door rechtsbovenin te klikken op het pijltje naar beneden <Icon name="Download" color="black" size={20} /> en "Download as" te selecteren.
+
+In Artifacts, you can also build prototypes of websites, interactive apps, data visualisations, and automations that can call the language models available through UvA AI Chat. This allows you to combine the reliability of regular code with the flexible, generative capabilities of AI. For example, you can create adaptive feedback tools, personalised applications, interactive learning environments, or websites that generate and respond to content dynamically based on user input.
 
 - - -
 
