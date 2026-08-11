@@ -22,18 +22,40 @@ Deze handleiding wordt ontwikkeld door TLC-Centraal (zie tlc.uva.nl)
 
 ## 1.1 Verantwoord gebruik
 
-Het is cruciaal om te begrijpen dat UvA AI Chat, net als elke andere AI-tool, niet onfeilbaar is. Het model kan fouten, onnauwkeurigheden, of vooroordelen presenteren alsof deze waar is. Vertrouw daarom nooit blind op de gegenereerde informatie. Controleer altijd zorgvuldig de output en maak kritische afwegingen bij elk gebruik. Wees ook bewust van het feit dat het gebruik van AI energie en water kost.
+UvA AI Chat is ontwikkeld om studenten en medewerkers een veiligere omgeving te bieden voor het werken met generatieve AI. Veilig werken binnen UvA AI Chat betekent echter niet automatisch dat AI voor ieder doel mag worden gebruikt.
 
-### Praktijkvoorbeeld van verantwoord gebruik
+Stel jezelf bij het gebruik van generatieve AI aan de UvA daarom altijd twee afzonderlijke vragen:
 
-Stel, je vraagt de AI om een samenvatting van een wetenschappelijk artikel dat je hebt geüpload. De AI produceert een beknopte tekst.
+1. **Kan ik deze informatie veilig verwerken in UvA AI Chat?**
+2. **Is dit gebruik van AI voor deze taak of dit doel toegestaan volgens het UvA-beleid?**
 
-* **Onzorgvuldig gebruik:** Je kopieert de samenvatting direct en gebruikt deze in jouw eigen werk zonder verificatie.
-* **Zorgvuldig gebruik:** Je leest de door de AI gegenereerde samenvatting en vergelijkt deze nauwkeurig met het originele artikel. Je controleert of de kernargumenten, methodologie en conclusies correct zijn weergegeven. Je gebruikt de AI-output als een hulpmiddel om het artikel sneller te doorgronden, maar baseert jouw eigen werk op jouw veronderstelde brontekst.
+UvA AI Chat biedt sterkere waarborgen voor privacy en gegevensbescherming dan commerciële AI-diensten. De inhoud van chats en geüploade gegevens worden niet gebruikt om AI-modellen te trainen en de UvA heeft technische maatregelen getroffen om informatie die via het platform wordt verwerkt te beschermen. Bestaand UvA-beleid en wettelijke vereisten rond privacy, persoonsgegevens, onderzoeksdata, vertrouwelijke informatie en academische integriteit blijven echter onverminderd van toepassing.
 
-Om generatieve AI op een verantwoorde manier te gebruiken, moet je je bewust zijn van de mogelijke nadelen. Bij het gebruik van AI moet je rekening houden met de risico's van 'cognitive offloading'. Cognitieve offloading verwijst naar het proces waarbij cognitieve processen worden overgedragen aan een extern hulpmiddel, zoals een AI. Vooral in een onderwijssetting is het belangrijk om je ervan bewust te zijn dat voortdurend vertrouwen op AI voor een bepaalde taak je kan belemmeren in het ontwikkelen van kennis en vaardigheden die je op de lange termijn ten goede komen. Onderzoek toont aan dat veelvuldig maar ondoordacht gebruik van AI het kritisch denkvermogen kan verminderen.
+Werk je met persoonsgegevens, vertrouwelijke informatie of andere gevoelige gegevens? Controleer dan altijd eerst welke UvA-richtlijnen van toepassing zijn voordat je deze informatie invoert of uploadt.
 
-Om AI effectief en verantwoord te gebruiken, moeten we onze AI-geletterdheid ontwikkelen. Dit betekent onder meer dat we moeten begrijpen hoe we AI-hulpmiddelen goed kunnen gebruiken, zoals het stellen van de juiste vragen, en zorgvuldig controleren wat de AI produceert. Zo kunnen we ervoor zorgen dat we AI op zo'n manier inzetten dat het ons werk, leren en onderzoek op een waardevolle manier ondersteunt, terwijl we de risico's die het gebruik van AI met zich meebrengt, beperken.
+### Een veilige technische omgeving betekent niet dat ieder gebruik is toegestaan
+
+De technische waarborgen van UvA AI Chat maken niet automatisch iedere toepassing van AI passend of toegestaan.
+
+Of AI gebruikt mag worden, hangt af van de context en het doel. Voor onderwijs, toetsing, onderzoek en administratieve werkzaamheden kunnen verschillende regels en vereisten gelden. Studenten en medewerkers blijven zelf verantwoordelijk voor gebruik dat in overeenstemming is met relevant UvA-beleid, wet- en regelgeving en professionele of disciplinaire normen.
+
+Voor het gebruik van GenAI in het onderwijs kun je het [UvA-beleidskader en de richtlijnen voor GenAI in het onderwijs](https://www.uva.nl/over-de-uva/beleid-en-regelingen/onderwijs/beleidskader-en-richtlijnen-genai-in-het-onderwijs.html) raadplegen. Faculteiten en opleidingen kunnen daarnaast aanvullende richtlijnen geven voor specifieke vakken of onderwijscontexten. Het UvA-beleid benadrukt bovendien dat studenten aantoonbaar zelfstandig hun leerdoelen moeten kunnen behalen.
+
+Sommige toepassingen van AI kunnen grotere gevolgen hebben voor personen en daarom onder aanvullende wettelijke of institutionele vereisten vallen. Denk bijvoorbeeld aan het gebruik van AI bij beslissingen over toelating, toetsresultaten of examenmonitoring. Zet AI niet in voor dergelijke processen enkel omdat de technologie beschikbaar is binnen UvA AI Chat. Ga eerst na welk UvA-beleid, welke wettelijke vereisten en welke goedkeurings- of beoordelingsprocedures van toepassing zijn.
+
+### Je blijft verantwoordelijk voor de output
+
+UvA AI Chat kan, net als ieder generatief AI-systeem, fouten, onnauwkeurigheden, verzonnen informatie en bevooroordeelde output produceren. Gegenereerde tekst kan overtuigend klinken, ook wanneer deze onjuist is.
+
+Vertrouw daarom nooit blind op AI-gegenereerde output. Controleer belangrijke beweringen aan de hand van betrouwbare bronnen en blijf je eigen academische of professionele oordeel gebruiken. Je blijft zelf verantwoordelijk voor beslissingen die je neemt en voor werk dat je inlevert of gebruikt, ook wanneer AI daaraan heeft bijgedragen.
+
+### Gebruik AI als ondersteuning, niet als vervanging van je eigen werk
+
+Verantwoord gebruik betekent ook dat je nadenkt over welke rol AI binnen een taak zou moeten spelen. Vooral in het onderwijs kan het herhaaldelijk uitbesteden van taken aan AI ervoor zorgen dat je de kennis en vaardigheden die met die taak worden geoefend onvoldoende ontwikkelt.
+
+Gebruik AI daarom bewust. Bedenk waarvoor je de tool wilt inzetten, welke onderdelen van het werk je zelf moet uitvoeren en of het gebruik van AI daadwerkelijk bijdraagt aan het doel van de activiteit.
+
+Raadpleeg voor verdere richtlijnen de UvA-informatie over verantwoord gebruik van AI, gegevens en privacy en het beleid dat van toepassing is op jouw specifieke werk- of studiecontext.
 
 - - -
 
