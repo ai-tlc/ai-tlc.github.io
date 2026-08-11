@@ -121,7 +121,17 @@ We do not recommend using the Technical Support Assistant for general academic t
 
 ## 1.4 Mobile interface
 
-The UvA AI Chat can also be used via the browser on your phone: no app installation required. Simply open the website on your phone and you will see an interface that is virtually identical to the desktop version.
+The UvA AI Chat can also be used via the browser on your phone: no app installation is required. Simply open the website on your phone and you will see an interface that is virtually identical to the desktop version.
+
+The mobile version is particularly useful for quick, lightweight interactions when you are away from your computer. For example, you can:
+
+- Revisit an earlier conversation while travelling or moving between meetings or classes
+- Ask a quick question or follow-up question
+- Brainstorm an idea, title, or first approach
+- Quickly consult a persona or project that you already use
+- Perform simple interactions that do not require extensive configuration or working with multiple files
+
+The mobile interface is less suitable for more extensive workflows, such as working with several documents, comparing large amounts of information, configuring complex personas, or carrying out tasks that require frequent switching between sources and AI output. For these types of activities, the desktop version will generally be more convenient.
 
 **The navigation menu**
 
