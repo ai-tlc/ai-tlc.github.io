@@ -120,18 +120,17 @@ We raden het gebruik van de Technische ondersteuningsassistent **niet** aan voor
 
 ## 1.4 Mobiele interface
 
-The UvA AI Chat can also be used via the browser on your phone: no app installation is required. Simply open the website on your phone and you will see an interface that is virtually identical to the desktop version.
+UvA AI Chat kan ook via de browser op je telefoon worden gebruikt: je hoeft hiervoor geen app te installeren. Open de website op je telefoon en je ziet een interface die vrijwel hetzelfde werkt als de desktopversie.
 
-The mobile version is particularly useful for quick, lightweight interactions when you are away from your computer. For example, you can:
+De mobiele versie is vooral handig voor korte, eenvoudige interacties wanneer je niet achter je computer zit. Je kunt bijvoorbeeld:
 
-- Revisit an earlier conversation while travelling or moving between meetings or classes
-- Ask a quick question or follow-up question
-- Brainstorm an idea, title, or first approach
-- Check the wording or structure of a short message
-- Quickly consult a persona or project that you already use
-- Perform simple interactions that do not require extensive configuration or working with multiple files
+- Onderweg of tussen afspraken en colleges door een eerdere chat teruglezen
+- Een korte vraag of vervolgvraag stellen
+- Snel brainstormen over een idee, titel of eerste aanpak
+- Snel een persona of project raadplegen dat je al gebruikt
+- Eenvoudige interacties uitvoeren waarvoor je geen uitgebreide configuratie of meerdere bestanden nodig hebt
 
-The mobile interface is less suitable for more extensive workflows, such as working with several documents, comparing large amounts of information, configuring complex personas, or carrying out tasks that require frequent switching between sources and AI output. For these types of activities, the desktop version will generally be more convenient.
+De mobiele interface is minder geschikt voor uitgebreidere workflows, zoals werken met meerdere documenten, grote hoeveelheden informatie vergelijken, complexe persona's configureren of taken waarbij je veel moet wisselen tussen bronnen en AI-output. Voor dit soort werkzaamheden is de desktopversie doorgaans praktischer.
 
 **Het navigatiemenu**
 
