@@ -148,7 +148,7 @@ With UvA AI Chat, uploading documents is simple. Go to the text entry field at t
 
 ### Supported file formats
 
-UvA AI Chat supports a wide range of common file formats, including .PDF, DOCX (Word),XLS (Excel), .PPT (PowerPoint), .CSV, .TXT, .PY (Python), and .MD (Markdown), along with 30+ additional file types. This makes it possible to upload and work with various document types, ranging from research articles and datasets to plain text and code files, directly in your interactions with the AI.
+UvA AI Chat supports a wide range of common file formats, including .PDF, DOCX (Word),XLS (Excel), .PPT (PowerPoint), .CSV, .TXT, .PY (Python), and .MD (Markdown), along with 30+ additional file types (for the full list, check chapter 4.6). This makes it possible to upload and work with various document types, ranging from research articles and datasets to plain text and code files, directly in your interactions with the AI.
 
 Note: Large, unusual, or password-protected files may not always process correctly. If a document is very large (e.g., 100+ pages), the AI is essentially searching for a needle in a haystack.
 
@@ -199,6 +199,8 @@ The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support co
 3. **Review the generated output:** The AI will then produce an artifact based on your request. In the example of economic theories, the output could be an overview of the key principles, assumptions and political implications.
 4. **Collaborate on revisions:** The platform allows you to refine the artifact collaboratively. You can make direct edits in the dedicated text or code window, or you can give the AI further instructions in the chat to modify or expand a specific section of the artifact. You can also select pieces of text or code and ask AI to modify those.
 5. **Save your work:** Make sure that if you manually edit the artifact, you first save the artifact before you ask the AI to continue editing it, you can do this by clicking on the "save" icon <Icon name="Save" color="black" size={20} /> on the top right of the artifact. When you ask the AI to edit the artifact a new version will automatically be saved. Previous versions will also be saved, so you can track changes and revisit previous iterations if necessary by clicking on the arrows <Icon name="ChevronLeft" color="black" size={20} /><Icon name="ChevronRight" color="black" size={20} /> at the top left of the artifact. The completed artifact can then be downloaded for use in your research paper, presentation, or other academic projects. Do this by clicking on the arrow <Icon name="Download" color="black" size={20} /> at the top right corner of the artefact, and selecting "download as".
+
+In Artifacts kun je ook prototypes bouwen van websites, interactieve apps, datavisualisaties en automatiseringen die gebruik kunnen maken van de taalmodellen die beschikbaar zijn via UvA AI Chat. Zo combineer je de betrouwbaarheid van reguliere code met de flexibele, generatieve mogelijkheden van AI. Je kunt bijvoorbeeld adaptieve feedbacktools, gepersonaliseerde applicaties, interactieve leeromgevingen of websites maken die op basis van gebruikersinput dynamisch content genereren en daarop reageren.
 
 - - -
 
