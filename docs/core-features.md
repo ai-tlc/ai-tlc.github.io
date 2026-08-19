@@ -48,6 +48,12 @@ AI answers depend heavily on the information available to the model. If importan
 
 The improved prompt gives the AI a task, audience, length and focus.
 
+**Context window**
+When a conversation becomes too long, UvA AI Chat automatically leaves older messages out of the active context. In these long conversations, UvA AI Chat can automatically summarise earlier messages. This keeps the main information available while freeing up space in the context window for new messages.
+
+**Memory**
+UvA AI Chat can extract useful details from your conversations overnight and re-use them in future chats. You can view, edit, or delete your memories in **Settings > Personalisation**.
+
 ### Project Knowledge: reusable context in projects
 
 In UvA AI Chat projects, **Project Knowledge** can help preserve useful information across project chats. Instead of relying only on hidden or informal memory, important information can be stored as explicit **knowledge cards**.
