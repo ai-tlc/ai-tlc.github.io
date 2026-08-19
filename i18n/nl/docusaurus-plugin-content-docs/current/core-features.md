@@ -48,6 +48,12 @@ AI-antwoorden zijn sterk afhankelijk van de informatie die beschikbaar is voor h
 
 De verbeterde prompt geeft de AI een taak, doelgroep, lengte en focus.
 
+**Contextvenster**
+Wanneer een gesprek te lang wordt, laat UvA AI Chat automatisch oudere berichten buiten de actieve context. Bij deze lange gesprekken kan UvA AI Chat eerdere berichten automatisch samenvatten. Zo blijft de belangrijkste informatie beschikbaar, terwijl er ruimte vrijkomt in het contextvenster voor nieuwe berichten.
+
+**Geheugen**
+UvA AI Chat kan ’s nachts nuttige informatie uit je gesprekken halen en deze in toekomstige chats opnieuw gebruiken. Je kunt je opgeslagen herinneringen bekijken, aanpassen of verwijderen via **Instellingen > Personalisatie**.
+
 ### Project Knowledge: herbruikbare context in projecten
 
 In UvA AI Chat-projecten kan **Project Knowledge** helpen om nuttige informatie over verschillende projectchats heen te bewaren. In plaats van alleen te vertrouwen op verborgen of informele memory, kan belangrijke informatie worden opgeslagen als expliciete **knowledge cards**.
