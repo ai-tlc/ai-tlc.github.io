@@ -305,7 +305,7 @@ Als je deze analyses en grafieken echter wilt gebruiken in situaties waar nauwke
 
 - - -
 
-## Generative UI: interactieve quizzen en vervolgvragen
+## 2.10 Generative UI: interactieve quizzen en vervolgvragen
 
 UvA AI Chat kan nu gebruikmaken van **Generative UI**: de chat kan interactieve elementen direct in het gesprek aanmaken, in plaats van alleen te reageren met platte tekst. Een nuttig voorbeeld hiervan is de **Quiz Maker**. Wanneer je iets vraagt als **"Overhoor me over dit artikel"**, **"Quiz me over week 3"** of **"Maak een quiz over de late periode van Renoir"**, kan UvA AI Chat een gestructureerde quiz genereren met meerkeuzevragen of open vragen.
 
@@ -324,3 +324,50 @@ Generative UI maakt UvA AI Chat ook meer conversationeel. De chat kan **vervolgv
 Op deze manier kan Generative UI een meer begeleid leerproces ondersteunen. Je kunt het gebruiken om stap voor stap door cursusmateriaal heen te gaan, retrieval practice te oefenen, verwarrende concepten te verduidelijken en je eigen documenten om te zetten in actieve studieoefeningen.
 
 Houd er rekening mee dat een door AI gegenereerde quiz en de beoordeling daarvan fouten of hallucinaties kunnen bevatten, en geen officiële of representatieve toetsing vormen van een cursus of module. Gebruik de quiz als studiehulpmiddel, niet als definitieve indicatie van wat er getoetst zal worden of hoe je werk beoordeeld zou worden.
+
+
+## 2.11 Een persona embedden in Canvas
+
+Met deze instructie embed je een UvA AI Chat-persona als chatvenster in een Canvas-pagina.
+
+### Stap 1: Haal de embed-code op
+
+1. Ga naar de **Personas**-lijst in UvA AI Chat.
+2. Klik op de **drie puntjes (⋮)** naast de persona die je wilt delen.
+3. Kies **Embed Persona**.
+4. Zet de schakelaar **Open for the whole organization** op **aan**.
+   > Dit is belangrijk: zonder deze instelling kunnen gebruikers buiten jouw directe groep de persona niet zien.
+5. Kies de gewenste embed-methode. De meest gebruikte optie is **iframe code**.
+6. Kopieer de iframe-code met de kopieerknop.
+
+De code ziet er zo uit:
+
+```html
+<iframe src="https://aichat.uva.nl/embed/persona/[ID]"
+  width="100%" height="700"
+  style="border:0;"
+  allow="clipboard-write; microphone"></iframe>
+```
+
+### Stap 2: Maak een Canvas-pagina aan
+
+1. Ga in Canvas naar **Pages** en klik op **+ Page** (of open een bestaande pagina).
+2. Geef de pagina een titel.
+
+### Stap 3: Schakel over naar de HTML-editor
+
+Er zijn twee manieren om de HTML-editor te openen:
+
+- Klik op **View → HTML Editor** in de werkbalk van de rich-text editor, **of**
+- Klik op de knop **Switch to raw HTML Editor** onder het tekstvak.
+
+### Stap 4: Plak de iframe-code
+
+1. Plak de gekopieerde iframe-code in het HTML-tekstvak.
+2. Sla de pagina op.
+
+
+### Resultaat
+
+De persona verschijnt als een volledig interactief chatvenster op de Canvas-pagina. Studenten kunnen er direct vragen in stellen aan de persona die je voor jouw vak of module hebt ingericht. Denk bijvoorbeeld aan een assistent die studenten helpt bij het begrijpen van de leerstof, het oefenen met begrippen, of het vinden van de juiste bronnen binnen het vak. De persona is direct beschikbaar op de plek waar studenten al werken, zonder dat ze hoeven over te schakelen naar een andere omgeving.
+
