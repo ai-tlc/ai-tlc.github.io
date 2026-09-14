@@ -339,22 +339,23 @@ Please keep in mind that an AI-generated quiz and its grading may contain errors
 
 ---
 
-# Een persona embedden in Canvas
-
-Met deze instructie embed je een UvA AI Chat-persona als chatvenster in een Canvas-pagina.
+## 2.11 Embedding a persona in Canvas
 
 
-## Stap 1: Haal de embed-code op
+Use these instructions to embed a UvA AI Chat persona as a chat window on a Canvas page.
 
-1. Ga naar de **Personas**-lijst in UvA AI Chat.
-2. Klik op de **drie puntjes (⋮)** naast de persona die je wilt delen.
-3. Kies **Embed Persona**.
-4. Zet de schakelaar **Open for the whole organization** op **aan** (blauw).
-   > Dit is belangrijk: zonder deze instelling kunnen gebruikers buiten jouw directe groep de persona niet zien.
-5. Kies de gewenste embed-methode. De meest gebruikte optie is **iframe code**.
-6. Kopieer de iframe-code met de kopieerknop.
 
-De code ziet er zo uit:
+### Step 1: Retrieve the embed code
+
+1. Go to the **Personas** list in UvA AI Chat.
+2. Click the **three dots (⋮)** next to the persona you want to share.
+3. Choose **Embed Persona**.
+4. Turn the **Open for the whole organization** toggle **on**.
+   > This is important: without this setting, users outside your immediate group may not be able to see the persona.
+5. Choose the preferred embed method. The most commonly used option is **iframe code**.
+6. Copy the iframe code using the copy button.
+
+The code looks like this:
 
 ```html
 <iframe src="https://aichat.uva.nl/embed/persona/[ID]"
@@ -363,29 +364,25 @@ De code ziet er zo uit:
   allow="clipboard-write; microphone"></iframe>
 ```
 
-## Stap 2: Maak een Canvas-pagina aan
+### Step 2: Create a Canvas page
 
-1. Ga in Canvas naar **Pages** en klik op **+ Page** (of open een bestaande pagina).
-2. Geef de pagina een titel.
+1. In Canvas, go to **Pages** and click **+ Page** (or open an existing page).
+2. Give the page a title.
 
+### Step 3: Switch to the HTML editor
 
-## Stap 3: Schakel over naar de HTML-editor
+There are two ways to open the HTML editor:
 
-Er zijn twee manieren om de HTML-editor te openen:
+- Click **View → HTML Editor** in the rich-text editor toolbar, **or**
+- Click the **Switch to raw HTML Editor** button below the text box.
 
-- Klik op **View → HTML Editor** in de werkbalk van de rich-text editor, **of**
-- Klik op de knop **Switch to raw HTML Editor** onder het tekstvak.
+### Step 4: Paste the iframe code
 
-
-## Stap 4: Plak de iframe-code
-
-1. Plak de gekopieerde iframe-code in het HTML-tekstvak.
-2. Sla de pagina op.
+1. Paste the copied iframe code into the HTML text box.
+2. Save the page.
 
 
-## Resultaat
+### Result
 
-De persona verschijnt als een volledig interactief chatvenster op de Canvas-pagina. Studenten kunnen er direct vragen in stellen aan de persona die je voor jouw vak of module hebt ingericht. Denk bijvoorbeeld aan een assistent die studenten helpt bij het begrijpen van de leerstof, het oefenen met begrippen, of het vinden van de juiste bronnen binnen het vak. De persona is direct beschikbaar op de plek waar studenten al werken — zonder dat ze hoeven over te schakelen naar een andere omgeving.
-
-> **Let op:** de iframe-optie vereist dat de bezoeker al ingelogd is in UvA AI Chat in een ander tabblad. Is dat niet het geval, dan zien zij een leeg venster. Overweeg in dat geval de **HTML-knop** als alternatief — die opent de persona in een nieuw tabblad en werkt zonder vooraf inloggen.
+The persona appears as a fully interactive chat window on the Canvas page. Students can ask questions directly to the persona you have set up for your course or module. For example, it can assist students in understanding course content, practising concepts, or finding relevant sources within the course. The persona is available directly in the environment where students already work, without needing to switch to another platform.
 
