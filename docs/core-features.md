@@ -206,7 +206,19 @@ The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support co
 4. **Collaborate on revisions:** The platform allows you to refine the artifact collaboratively. You can make direct edits in the dedicated text or code window, or you can give the AI further instructions in the chat to modify or expand a specific section of the artifact. You can also select pieces of text or code and ask AI to modify those.
 5. **Save your work:** Make sure that if you manually edit the artifact, you first save the artifact before you ask the AI to continue editing it, you can do this by clicking on the "save" icon <Icon name="Save" color="black" size={20} /> on the top right of the artifact. When you ask the AI to edit the artifact a new version will automatically be saved. Previous versions will also be saved, so you can track changes and revisit previous iterations if necessary by clicking on the arrows <Icon name="ChevronLeft" color="black" size={20} /><Icon name="ChevronRight" color="black" size={20} /> at the top left of the artifact. The completed artifact can then be downloaded for use in your research paper, presentation, or other academic projects. Do this by clicking on the arrow <Icon name="Download" color="black" size={20} /> at the top right corner of the artefact, and selecting "download as".
 
-In Artifacts kun je ook prototypes bouwen van websites, interactieve apps, datavisualisaties en automatiseringen die gebruik kunnen maken van de taalmodellen die beschikbaar zijn via UvA AI Chat. Zo combineer je de betrouwbaarheid van reguliere code met de flexibele, generatieve mogelijkheden van AI. Je kunt bijvoorbeeld adaptieve feedbacktools, gepersonaliseerde applicaties, interactieve leeromgevingen of websites maken die op basis van gebruikersinput dynamisch content genereren en daarop reageren.
+In Artifacts, you can also build prototypes of websites, interactive apps, data visualisations, and automations that can call the language models available through UvA AI Chat. This allows you to combine the reliability of regular code with the flexible, generative capabilities of AI. For example, you can create adaptive feedback tools, personalised applications, interactive learning environments, or websites that generate and respond to content dynamically based on user input.
+
+### The Artifacts page
+
+All your artifacts are also collected on a separate page, so you can find them without searching through your chats. To open this page, click the code icon <Icon name="code" color="black" size={20} /> in the left sidebar.
+
+The page gives an overview of the artifacts from all your chats, grouped into Apps and Documents. You cannot create a new artifact here: you still do that in a chat, as described above. What the page adds is a way to open and work on your artifacts separately from the chat.
+
+Click an artifact to open it in full screen. From there you can:
+
+* **Go to the chat:** use the button in the top left corner to go to the chat that the artifact belongs to.
+* **Edit with AI:** at the bottom of the artifact, you can ask the AI to edit only that artifact, without having to go through the chat.
+* **Share:** you can also share the artifact from here.
 
 - - -
 
