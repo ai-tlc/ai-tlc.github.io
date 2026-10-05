@@ -24,7 +24,7 @@ In het veld voor 'Custom Instructions' kun je bijvoorbeeld de volgende tekst inv
 
 ## 3.2 Prompts: jouw verzameling instructies
 
-"Prompts" is een functie die je helpt om efficiënter te werken door het hergebruiken van effectieve prompts. Je vindt de "My prompts" sectie via het boek-icoon <Icon name="book_2" color="black" size={20} /> in de linker zijbalk van UvA AI Chat.
+"Prompts" is een functie die je helpt om efficiënter te werken door het hergebruiken van effectieve prompts. Je vindt de "My prompts" sectie via het icoon met tekstregels en een sterretje in de linker zijbalk van UvA AI Chat.
 
 ### Gebruik van standaard prompts
 
