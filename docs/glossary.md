@@ -23,6 +23,12 @@ Like a power strip for software - lets different programs communicate. Extension
 
 ---
 
+## Artifact
+
+A separate window with text, code or a visualisation that both you and the AI can edit. Artifacts are created in a chat and are collected on the Artifacts page.
+
+---
+
 ## Bias
 
 When the AI (unintentionally) adopts biases from its training data, which can result in unfair or skewed answers.
@@ -41,15 +47,9 @@ The 'working memory' of the AI - the maximum amount of text (tokens) the model c
 
 ---
 
-## Extension
-
-An extra tool or plug-in that gives UvA AI Chat new features, often by linking with other systems via an API.
-
----
-
 ## Extensions
 
-Additional tools or connections that extend what an AI model can do beyond generating a response from the conversation alone. Extensions can, for example, allow AI to retrieve information from another source, interact with a service or perform a specialised task.
+Additional tools or connections that extend what an AI model can do beyond generating a response from the conversation alone. Extensions can, for example, allow AI to retrieve information from another source, interact with a service or perform a specialised task. In UvA AI Chat, extensions often work by linking with other systems via an API.
 
 ---
 
@@ -110,6 +110,12 @@ Your instruction, question, or text for the AI. The foundation of everything.
 ## Prompt Engineering
 
 The art of writing effective prompts to get exactly the output you want.
+
+---
+
+## Skill
+
+A set of instructions that teaches UvA AI Chat how to handle a specific kind of task. You write a skill once and can use it in any chat; the AI applies it when you choose it or when your request matches its description.
 
 ---
 
