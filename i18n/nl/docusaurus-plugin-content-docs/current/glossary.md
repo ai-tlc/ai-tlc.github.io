@@ -22,6 +22,12 @@ Een soort stekkerdoos voor software: het laat verschillende programma’s met el
 
 ---
 
+## Artefact
+
+Een apart venster met tekst, code of een visualisatie dat zowel jij als de AI kunnen bewerken. Artefacten maak je in een chat en vind je terug op de pagina Artefacten.
+
+---
+
 ## Bias
 
 Wanneer AI (onbedoeld) vooroordelen uit de trainingsdata overneemt, wat kan leiden tot oneerlijke of gekleurde antwoorden.
@@ -40,15 +46,9 @@ Het 'werkgeheugen' van de AI: de maximale hoeveelheid tekst, uitgedrukt in token
 
 ---
 
-## Extension
-
-Een extra tool of koppeling die UvA AI Chat nieuwe mogelijkheden geeft, vaak door verbinding te maken met andere systemen via een API.
-
----
-
 ## Extensions
 
-Aanvullende tools of koppelingen die uitbreiden wat een AI-model kan doen naast alleen het genereren van een antwoord op basis van het gesprek. Extensions kunnen AI bijvoorbeeld informatie uit een andere bron laten ophalen, met een dienst laten communiceren of een gespecialiseerde taak laten uitvoeren.
+Aanvullende tools of koppelingen die uitbreiden wat een AI-model kan doen naast alleen het genereren van een antwoord op basis van het gesprek. Extensions kunnen AI bijvoorbeeld informatie uit een andere bron laten ophalen, met een dienst laten communiceren of een gespecialiseerde taak laten uitvoeren. In UvA AI Chat werken extensies vaak door verbinding te maken met andere systemen via een API.
 
 ---
 
@@ -109,6 +109,12 @@ Je instructie, vraag of tekst voor de AI. Dit vormt de basis van de interactie.
 ## Prompt Engineering
 
 Het opstellen en verfijnen van effectieve prompts om de AI zo goed mogelijk de gewenste output te laten genereren.
+
+---
+
+## Skill
+
+Een set instructies waarmee je UvA AI Chat leert hoe het een bepaald soort taak moet aanpakken. Je schrijft een skill één keer en kunt die in elke chat gebruiken; de AI past de skill toe wanneer je die kiest of wanneer je vraag bij de beschrijving past.
 
 ---
 
