@@ -4,7 +4,7 @@ id: before-you-start
 sidebar_label: Before you start
 slug: /before-you-start
 ---
-<img src="/img/uploads/version-1.4.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+<img src="/img/uploads/versie-2.0.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 ## About this manual
 
@@ -16,7 +16,7 @@ For questions about this guide and UvA AI Chat, please contact [ai-tlc@uva.nl](m
 
 This manual is developed by TLC Central (see tlc.uva.nl)
 
-**Version 1.4** | Published 30th of June 2026
+**Version 2.0** | Published 5th of October 2026
 
 - - -
 
@@ -141,17 +141,18 @@ You can open the menu using the **arrow in the top-left corner of the screen**. 
 
 | Icon          | Function     |
 | ------------- | ------------ |
-| Speech bubble | General chat |
+| Speech bubble <Icon name="chat" color="black" size={20} /> | General chat |
 | Robot         | Personas     |
 | Folder <Icon name="folder_open" color="black" size={20} /> | Projects     |
 | Two people <Icon name="group" color="black" size={20} /> | Groups       |
 | Lines of text | Prompts      |
+| Code <Icon name="Code" color="black" size={20} /> | Artifacts: an overview of all your artifacts |
 | Puzzle piece <Icon name="extension" color="black" size={20} /> | Extensions   |
 
 At the bottom of the menu you will find:
 
 * **?** — Additional materials, such as the manual and E-learning
-* **Person icon** <Icon name="account_circle" color="black" size={20} /> — Settings and account options
+* **Gear icon** <Icon name="Settings" color="black" size={20} /> — Settings and account options
 
 Tap on the arrow in the top left of the menu again to close it.
 
