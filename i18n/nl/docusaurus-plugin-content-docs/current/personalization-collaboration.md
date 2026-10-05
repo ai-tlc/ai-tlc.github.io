@@ -6,7 +6,7 @@ slug: /personalization-collaboration
 ---
 ## 3.1 Persoonlijke instellingen: Custom Instructions en Memory
 
-Om UvA AI Chat optimaal te kunnen gebruiken is het belangrijk om het te configureren naar jouw wensen. Om dit te doen, navigeer je naar de instellingen, hiervoor klik je eerst op persoons-icoon <Icon name="account_circle" color="black" size={20} /> helemaal links onderin op het scherm. Hier kun je direct jouw voorkeuren voor het thema (licht/donker) instellen. Daarna klik je op 'Settings', en dan op 'Personalization' voor de belangrijkste gebruiksinstellingen:
+Om UvA AI Chat optimaal te kunnen gebruiken is het belangrijk om het te configureren naar jouw wensen. Om dit te doen, navigeer je naar de instellingen, hiervoor klik je op **Settings** <Icon name="Settings" color="black" size={20} /> helemaal links onderin op het scherm. Hier kun je direct jouw voorkeuren voor het thema (licht/donker) instellen. Daarna klik je op 'Personalization' voor de belangrijkste gebruiksinstellingen:
 
 * **'Memory Creation' (Geheugencreatie):** Schakel deze optie in om de UvA AI Chat informatie over jouw eerdere prompts en gesprekken te laten opslaan in het geheugen. Dit stelt de AI in staat om context uit eerdere interacties te onthouden. Een voorbeeld van zulke context kan zijn dat je astronomie studeert of dat je bijvoorbeeld koken als hobby hebt.
 * **'Memory Context' (Geheugencontext):** Om de chat de opgeslagen 'memories' daadwerkelijk te laten gebruiken in nieuwe gesprekken, dient je ook deze optie in te schakelen.
@@ -65,7 +65,7 @@ Skills werken het best voor taken die je vaker uitvoert en die je steeds op deze
 
 ### Hoe maak je een skill?
 
-1. **Open de Skills-instellingen:** Klik linksonder op het account-icoon <Icon name="account_circle" color="black" size={20} />, kies **Instellingen** en daarna **Skills**.
+1. **Open de Skills-instellingen:** Klik linksonder op **Settings** <Icon name="Settings" color="black" size={20} /> en kies **Skills**.
 2. **Begin een nieuwe skill:** Klik op **New skill** om een skill te schrijven op basis van een sjabloon. Heb je al een skillbestand? Klik dan op **Upload .md** om het toe te voegen.
 3. **Geef de skill een naam:** Het sjabloon begint met een korte kop tussen twee regels met drie streepjes. Achter `name:` vul je een korte naam in, bijvoorbeeld `college-samenvatting`. Gebruik kleine letters en koppeltekens, net als in het sjabloon.
 4. **Schrijf de beschrijving:** Achter `description:` beschrijf je wat de skill doet en wanneer die gebruikt moet worden. Dit is het belangrijkste onderdeel: aan de hand van de beschrijving bepaalt UvA AI Chat of de skill bij je vraag past.
