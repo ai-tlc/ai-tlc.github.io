@@ -6,7 +6,7 @@ slug: /advanced-usage
 ---
 ## 4.1 Het juiste model kiezen
 
-UvA AI Chat biedt toegang tot verschillende geavanceerde AI-modellen (Large Language Models). Het standaardmodel, GPT-4o, is een uitstekende allrounder en werkt goed voor veel taken, maar voor specifieke taken kan een ander model betere resultaten opleveren. Voor simpelere taken kan het beter zijn om een kleiner en efficiënter model te kiezen dat minder energie verbruikt. Om een ​​ander standaardmodel voor uw taken in te stellen, selecteert u het model dat het beste bij uw behoeften past in het menu Instellingen, zoals hieronder weergegeven.
+UvA AI Chat biedt toegang tot verschillende geavanceerde AI-modellen (Large Language Models). Het standaardmodel, GPT-6.1 Sol, is een uitstekende allrounder en werkt goed voor veel taken, maar voor specifieke taken kan een ander model betere resultaten opleveren. Voor simpelere taken kan het beter zijn om een kleiner en efficiënter model te kiezen dat minder energie verbruikt. Om een ​​ander standaardmodel voor uw taken in te stellen, selecteert u het model dat het beste bij uw behoeften past in het menu Instellingen, zoals hieronder weergegeven.
 
 <img src="/img/uploads/screenshot-2026-01-27-111035.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
@@ -16,7 +16,8 @@ De onderstaande tabel dient als een snelle referentie om je te helpen het meest 
 
 | Model | General Use Cases | Knowledge Cutoff | Energy / Cost (relative) | Type | Context Window Input | Context Window Output |
 | --- | --- | --- | --- | --- | --- | --- |
-| gpt-5.1 (default) | Coding, complex reasoning, advanced analysis, building intelligent agents, high-quality academic or technical work | 30-09-2024 | High | Advanced reasoning model | 400K | 128K |
+| gpt-6.1-sol (default) | Complex analysis, coding, agentic workflows, document-heavy academic and professional work | 30-04-2026 | High | Advanced reasoning model | 1M | 128K |
+| gpt-5.1 | Coding, complex reasoning, advanced analysis, building intelligent agents, high-quality academic or technical work | 30-09-2024 | High | Advanced reasoning model | 400K | 128K |
 | claude-sonnet-4.6 | Complex analysis, coding, agentic workflows, creative work, long-context reasoning, knowledge work | 31-08-2025* | High | Hybrid reasoning model | 1M | 128K |
 | gpt-5-mini | Brainstorming, concept clarification, study planning, working with text/images, faster everyday reasoning tasks | 31-05-2024 | Medium | Efficient reasoning model | 400K | 128K |
 | gpt-5-nano | Very light tasks, short summaries, quick calculations, classification, routine assistant tasks | 31-05-2024 | Medium | Lightweight reasoning model | 400K | 128K |
@@ -34,81 +35,7 @@ De onderstaande tabel dient als een snelle referentie om je te helpen het meest 
 
 - - -
 
-## 4.2 Functionaliteit uitbreiden met Extensies
-
-Extensies zijn bedoeld voor technisch onderlegde gebruikers die bekend zijn met API's. Ze functioneren als extra hulpmiddelen die de AI kan gebruiken om taken buiten de chatomgeving uit te voeren, zoals het ophalen van informatie uit externe databases of het uitvoeren van acties in andere software.
-
-### Hoe het werkt
-
-Extensies zijn krachtige hulpmiddelen die UvA AI Chat meer mogelijkheden geven door de AI in staat te stellen API-aanroepen te doen naar interne of externe systemen. Ze fungeren als extra tools die de AI in staat stellen om taken buiten de chatomgeving uit te voeren, zoals het ophalen van informatie uit een database, het uitvoeren van acties in andere software (zoals het toevoegen van een item aan een to-do-lijst), of het verzenden en ontvangen van gegevens. Deze hulpmiddelen zijn bedoeld voor technisch onderlegde gebruikers die bekend zijn met API's, aangezien onjuist gebruik onbedoelde acties in externe systemen kan veroorzaken.
-
-Het proces omvat het definiëren van de details en functies van de extensie, en maakt gebruik van de API-structuur die wordt beschreven in de officiële OpenAI-documentatie (via openai.com). De aanmaakinterface wordt getoond in de bijgeleverde afbeelding.
-
-Om je eigen extensie toe te voegen, klik je op "Add extension" (Extensie toevoegen):
-
-* **Name (Naam):** Geef je extensie een naam in het veld "Name of your Extension".
-* **Short description (Korte beschrijving):** Schrijf een korte beschrijving van de extensie.
-* **Detail description (Uitgebreide beschrijving):** Geef een meer gedetailleerde uitleg over de specialiteiten en de stappen die nodig zijn om de extensie uit te voeren.
-* **Headers:** Definieer de benodigde headers voor de API-aanroepen. Een standaard "Content-Type" header met de waarde "application/json" wordt weergegeven. Je kunt meer headers toevoegen door op "Add Header" (Header toevoegen) te klikken. Het platform ondersteunt ook het beveiligen van headerwaarden die zijn opgeslagen in Azure Key Vault.
-* **Functions (Functies):** Voeg de specifieke functies toe die de extensie zal uitvoeren door op "Add Function" (Functie toevoegen) te klikken. Deze functies kunnen verschillende API-verzoeken ondersteunen, waaronder GET, POST en PUT, waardoor de extensie zowel gegevens kan ophalen als acties kan activeren.
-* **Submit (Verzenden):** Zodra alle details zijn ingevuld, klik je op de knop "Submit" om de aanmaak van je extensie te voltooien.
-
-### Praktisch voorbeeld van het gebruik van een extensie
-
-Een onderzoeker configureert een extensie die communiceert met de UvA-bibliotheekcatalogus API. Nu kunnen ze een prompt gebruiken zoals:
-
-> "Use the library extension to find the five most recent publications by author 'Adriaan van Dis'. Provide the full APA citations for each publication and a direct link to each in the catalog."
-
-- - -
-
-## 4.3 Gebruik de Web Scraper-tool
-
-**Web Scraper Functie**
-
-UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud van een webpagina kan ophalen en lezen wanneer je een URL opgeeft. Zo werkt het.
-
-**Wat het doet**
-
-| Functie | Beschrijving                                                                                                                                                                                                                |
-| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Invoer  | Een volledige URL (bijv. `https://example.com`)                                                                                                                                                                             |
-| Uitvoer | Pagina-inhoud in **markdown-formaat** (markdown is een eenvoudige manier om tekst op te maken met simpele symbolen, zodat het makkelijk leesbaar is en kan worden omgezet in mooi opgemaakte documenten zoals webpagina’s.) |
-
-**Wat UvA AI Chat met de Web Scraper kan doen**
-
-* **Samenvatten** van de inhoud van een webpagina
-* **Specifieke informatie extraheren** (bijv. datums, namen, prijzen, beleid)
-* **Vragen beantwoorden** op basis van de live inhoud van een pagina
-
-**Beperkingen**
-
-* Leest alleen **openbaar toegankelijke** pagina's, geen met inloggegevens beveiligde inhoud
-* Leest **statische inhoud**, dynamisch geladen inhoud (bijv. JavaScript-gegenereerde pagina's) wordt mogelijk niet altijd volledig weergegeven
-* Bladert **niet** zelfstandig door het web, je moet zelf een URL opgeven
-* UvA AI Chat kan slechts **één pagina per bericht** scrapen
-
-**Voorbeeldgebruik**
-
-Om deze functionaliteit te gebruiken, vraag de UvA AI Chat om een pagina voor je te scrapen en voeg jouw pagina in.
-
-"Kun je deze pagina scrapen en samenvatten: https://example.com/article"
-
-> Plak simpelweg een URL en vertel UvA AI Chat wat je erover wilt weten!
-
-- - -
-
-## 4.4 Python code schrijven met UvA AI Chat
-
-AI chat kan Python-code voor je schrijven en uitvoeren om gegevens te analyseren, grafieken te maken of berekeningen uit te voeren in een aparte, veilige omgeving. Zoals altijd blijven je bestanden privé en gescheiden van andere gebruikers. Wanneer AI grafieken of afbeeldingen genereert, kunnen deze direct in je gesprek verschijnen. De code wordt automatisch weergegeven in een apart paneel waar je deze kan bekijken, kopiëren of bewerken. Je kunt de Python-functionaliteit gebruiken zonder dat je weet hoe je Python-code moet schrijven, en je kunt data analyseren, grafieken maken of berekeningen uitvoeren met Python zonder zelf de code te hoeven bewerken of schrijven. Is het belangrijk dat de informatie die uit de code komt feitelijk juist is, bijvoorbeeld voor onderwijs of onderzoek? Verifieër altijd de data handmatig.
-
-**De code gebruiken**
-Zodra je vraagt om Python-code te genereren, verschijnt er een apart venster met de code. Van daaruit kun je de code uitvoeren (door op *Run Python* te klikken) of alle regels kopiëren (door op het pictogram met de twee pagina’s <Icon name="Copy" color="black" size={20} /> rechtsboven te klikken).
-
-<img src="/img/uploads/screenshot-2026-04-07-at-17.17.46.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
-
-- - -
-
-## 4.5 Je geschatte energiegebruik bekijken in UvA AI Chat
+## 4.2 Je geschatte energiegebruik bekijken in UvA AI Chat
 
 UvA AI Chat bevat een **Usage**-dashboard waarin je een schatting kunt zien van het energiegebruik dat samenhangt met je AI-gebruik. Deze functie maakt de milieu-impact van generatieve AI beter zichtbaar en ondersteunt bewuster gebruik van AI bij studie, onderwijs, onderzoek en werk.
 
@@ -175,90 +102,57 @@ Het belangrijkste uitgangspunt is: **gebruik AI wanneer het je doel betekenisvol
 
 - - -
 
-## 4.6 Documenten en bestanden die UvA AI Chat kan genereren
+## 4.3 .csv bestanden analyseren en grafieken maken met UvA AI Chat
 
-UvA AI Chat kan je helpen om verschillende soorten downloadbare documenten en bestanden te maken. Dit is handig wanneer je een gesprek wilt omzetten naar een herbruikbare tekst, een eenvoudige webpagina, een codebestand, een databestand of een diagram.
+UvA AI Chat kan ook je .csv‑bestanden lezen en analyseren. Dit maakt het mogelijk om inzicht te krijgen in jaarverslagen, kwartaalcijfers, enquêteresultaten en andere tabelgegevens. In de voorbeeldvideo wordt een .csv‑bestand geüpload, waarna UvA AI Chat: (1) de structuur van de data bekijkt (kolommen, datatypen, missende waarden), (2) een aantal basisanalyses uitvoert (zoals samenvattingen of vergelijkingen), en (3) visualisaties genereert, zoals lijngrafieken of staafdiagrammen op basis van de geselecteerde data.
 
-**Hoe je om een bestand vraagt**
+Je kunt UvA AI Chat vragen om code te schrijven en uit te voeren (bijvoorbeeld in Python) om meer geavanceerde analyses op je data uit te voeren en om aangepaste grafieken te maken. Daarmee kun je eenvoudig trends verkennen, perioden vergelijken of specifieke variabelen uit je dataset uitlichten.
 
-Je hoeft niet alle bestandsextensies uit je hoofd te kennen. Je kunt in gewone taal beschrijven welk type output je nodig hebt. Bijvoorbeeld:
+Als je deze analyses en grafieken echter wilt gebruiken in situaties waar nauwkeurigheid cruciaal is (bijvoorbeeld in een onderzoeksproject, scriptie, rapport of andere formele publicatie), moet je zorgvuldig controleren of de gegenereerde code en resultaten kloppen. Je kunt er niet automatisch van uitgaan dat alle analyses methodologisch passend zijn of vrij van fouten. Controleer altijd de code, verifieer de berekeningen en kijk of de gekozen methoden aansluiten bij je onderzoeksvraag en je data voordat je de resultaten in belangrijk werk gebruikt.
 
-> “Maak hiervan een downloadbaar markdown-bestand.”\
-> “Maak een CSV-tabel van deze informatie.”\
-> “Genereer een eenvoudige HTML-pagina met deze inhoud.”\
-> “Schrijf een Python-script dat deze data analyseert.”\
-> “Maak een Mermaid-flowchart van deze stappen.”
+**Hieronder is een voorbeeld van hoe dat eruit zou zien:**
 
-Voor het beste resultaat kun je aangeven:
-
-* wat er in het bestand moet staan;
-* welk format je wilt;
-* of het eenvoudig of opgemaakt moet zijn;
-* en of het bedoeld is om te lezen, bewerken, publiceren, analyseren of hergebruiken.
-
-### Op dit moment kan UvA AI Chat bestaande bestanden niet bewerken; het kan alleen nieuwe bestanden genereren.
-
-**Goed om te weten**
-
-Sommige gegenereerde bestanden zijn vooral bedoeld om te lezen, zoals `.txt`, `.md`, `.html` of `.pdf`. Andere bestanden zijn bedoeld om te openen of bewerken in specifieke tools, zoals `.csv` in een spreadsheetprogramma, `.py` in een code-editor of `.mmd` in een Mermaid-compatibele viewer.
-
-Voor codebestanden kan UvA AI Chat veel verschillende programmeertalen genereren. Of de code ook direct kan worden uitgevoerd, hangt af van de beschikbare runtime-omgeving en de bibliotheken of tools die daar worden ondersteund. Controleer gegenereerde code altijd voordat je die gebruikt, vooral in onderwijs, onderzoek, data-analyse of productieomgevingen.
-
-### Om afbeeldingen te bewerken, upload je eigen afbeelding vanaf een lokale bron. Tijdens het maken van je bestand kan UvA AI Chat geen afbeeldingen van het internet ophalen.
-
-<small>
-
-**Elk ondersteund bestandstype**
-
-| Categorie                   | Bestandstype            | Extensie(s)                       |
-| --------------------------- | ----------------------- | --------------------------------- |
-| Documenten en tekst         | Platte tekst            | `.txt`                            |
-| Documenten en tekst         | Markdown                | `.md`                             |
-| Documenten en tekst         | HTML                    | `.html`                           |
-| Gegenereerde code-artifacts | JavaScript / TypeScript | `.js`, `.ts`, `.tsx`              |
-| Gegenereerde code-artifacts | Python                  | `.py`                             |
-| Gegenereerde code-artifacts | Java                    | `.java`                           |
-| Gegenereerde code-artifacts | C / C++ / C#            | `.c`, `.cpp`, `.cs`               |
-| Gegenereerde code-artifacts | PHP                     | `.php`                            |
-| Gegenereerde code-artifacts | Ruby                    | `.rb`                             |
-| Gegenereerde code-artifacts | Go                      | `.go`                             |
-| Gegenereerde code-artifacts | Rust                    | `.rs`                             |
-| Gegenereerde code-artifacts | Swift                   | `.swift`                          |
-| Gegenereerde code-artifacts | Kotlin                  | `.kt`                             |
-| Gegenereerde code-artifacts | Scala                   | `.scala`                          |
-| Gegenereerde code-artifacts | R                       | `.r`                              |
-| Gegenereerde code-artifacts | MATLAB                  | `.m`                              |
-| Gegenereerde code-artifacts | Lua                     | `.lua`                            |
-| Gegenereerde code-artifacts | Perl / Prolog           | `.pl`                             |
-| Gegenereerde code-artifacts | Haskell                 | `.hs`                             |
-| Gegenereerde code-artifacts | Clojure                 | `.clj`                            |
-| Gegenereerde code-artifacts | Dart                    | `.dart`                           |
-| Gegenereerde code-artifacts | Elixir                  | `.ex`                             |
-| Gegenereerde code-artifacts | Erlang                  | `.erl`                            |
-| Gegenereerde code-artifacts | F#                      | `.fs`                             |
-| Gegenereerde code-artifacts | Groovy                  | `.groovy`                         |
-| Gegenereerde code-artifacts | Julia                   | `.jl`                             |
-| Gegenereerde code-artifacts | Nim                     | `.nim`                            |
-| Gegenereerde code-artifacts | OCaml                   | `.ml`                             |
-| Gegenereerde code-artifacts | Pascal                  | `.pas`                            |
-| Gegenereerde code-artifacts | Racket                  | `.rkt`                            |
-| Gegenereerde code-artifacts | Scheme                  | `.scm`                            |
-| Gegenereerde code-artifacts | Visual Basic            | `.vb`                             |
-| Gegenereerde code-artifacts | Assembly                | `.asm`                            |
-| Gegenereerde code-artifacts | Fortran                 | `.f90`                            |
-| Gegenereerde code-artifacts | COBOL                   | `.cob`                            |
-| Gegenereerde code-artifacts | Ada                     | `.ada`                            |
-| Web- en databestanden       | HTML                    | `.html`                           |
-| Web- en databestanden       | CSS / Sass / Less       | `.css`, `.scss`, `.sass`, `.less` |
-| Web- en databestanden       | JSON                    | `.json`                           |
-| Web- en databestanden       | XML                     | `.xml`                            |
-| Web- en databestanden       | YAML                    | `.yml`                            |
-| Web- en databestanden       | SQL                     | `.sql`                            |
-| Diagrammen                  | Mermaid                 | `.mmd`                            |
-| Chat-exportdownloads        | Platte tekst            | `.txt`                            |
-| Chat-exportdownloads        | CSV                     | `.csv`                            |
-| Chat-exportdownloads        | PDF                     | `.pdf`                            |
-
-</small>
+<video controls>
+  <source
+    src="https://ai-tlc.github.io/img/uploads/data-analysis-tool.mp4"
+    type="video/mp4"
+  />
+</video>
 
 - - -
+
+## 4.4 Python code schrijven met UvA AI Chat
+
+AI chat kan Python-code voor je schrijven en uitvoeren om gegevens te analyseren, grafieken te maken of berekeningen uit te voeren in een aparte, veilige omgeving. Zoals altijd blijven je bestanden privé en gescheiden van andere gebruikers. Wanneer AI grafieken of afbeeldingen genereert, kunnen deze direct in je gesprek verschijnen. De code wordt automatisch weergegeven in een apart paneel waar je deze kan bekijken, kopiëren of bewerken. Je kunt de Python-functionaliteit gebruiken zonder dat je weet hoe je Python-code moet schrijven, en je kunt data analyseren, grafieken maken of berekeningen uitvoeren met Python zonder zelf de code te hoeven bewerken of schrijven. Is het belangrijk dat de informatie die uit de code komt feitelijk juist is, bijvoorbeeld voor onderwijs of onderzoek? Verifieër altijd de data handmatig.
+
+**De code gebruiken**
+Zodra je vraagt om Python-code te genereren, verschijnt er een apart venster met de code. Van daaruit kun je de code uitvoeren (door op *Run Python* te klikken) of alle regels kopiëren (door op het pictogram met de twee pagina’s <Icon name="Copy" color="black" size={20} /> rechtsboven te klikken).
+
+<img src="/img/uploads/screenshot-2026-04-07-at-17.17.46.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+
+- - -
+
+## 4.5 Functionaliteit uitbreiden met Extensies
+
+Extensies zijn bedoeld voor technisch onderlegde gebruikers die bekend zijn met API's. Ze functioneren als extra hulpmiddelen die de AI kan gebruiken om taken buiten de chatomgeving uit te voeren, zoals het ophalen van informatie uit externe databases of het uitvoeren van acties in andere software.
+
+### Hoe het werkt
+
+Extensies zijn krachtige hulpmiddelen die UvA AI Chat meer mogelijkheden geven door de AI in staat te stellen API-aanroepen te doen naar interne of externe systemen. Ze fungeren als extra tools die de AI in staat stellen om taken buiten de chatomgeving uit te voeren, zoals het ophalen van informatie uit een database, het uitvoeren van acties in andere software (zoals het toevoegen van een item aan een to-do-lijst), of het verzenden en ontvangen van gegevens. Deze hulpmiddelen zijn bedoeld voor technisch onderlegde gebruikers die bekend zijn met API's, aangezien onjuist gebruik onbedoelde acties in externe systemen kan veroorzaken.
+
+Het proces omvat het definiëren van de details en functies van de extensie, en maakt gebruik van de API-structuur die wordt beschreven in de officiële OpenAI-documentatie (via openai.com). De aanmaakinterface wordt getoond in de bijgeleverde afbeelding.
+
+Om je eigen extensie toe te voegen, klik je op "Add extension" (Extensie toevoegen):
+
+* **Name (Naam):** Geef je extensie een naam in het veld "Name of your Extension".
+* **Short description (Korte beschrijving):** Schrijf een korte beschrijving van de extensie.
+* **Detail description (Uitgebreide beschrijving):** Geef een meer gedetailleerde uitleg over de specialiteiten en de stappen die nodig zijn om de extensie uit te voeren.
+* **Headers:** Definieer de benodigde headers voor de API-aanroepen. Een standaard "Content-Type" header met de waarde "application/json" wordt weergegeven. Je kunt meer headers toevoegen door op "Add Header" (Header toevoegen) te klikken. Het platform ondersteunt ook het beveiligen van headerwaarden die zijn opgeslagen in Azure Key Vault.
+* **Functions (Functies):** Voeg de specifieke functies toe die de extensie zal uitvoeren door op "Add Function" (Functie toevoegen) te klikken. Deze functies kunnen verschillende API-verzoeken ondersteunen, waaronder GET, POST en PUT, waardoor de extensie zowel gegevens kan ophalen als acties kan activeren.
+* **Submit (Verzenden):** Zodra alle details zijn ingevuld, klik je op de knop "Submit" om de aanmaak van je extensie te voltooien.
+
+### Praktisch voorbeeld van het gebruik van een extensie
+
+Een onderzoeker configureert een extensie die communiceert met de UvA-bibliotheekcatalogus API. Nu kunnen ze een prompt gebruiken zoals:
+
+> "Use the library extension to find the five most recent publications by author 'Adriaan van Dis'. Provide the full APA citations for each publication and a direct link to each in the catalog."
