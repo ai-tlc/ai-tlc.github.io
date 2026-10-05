@@ -208,7 +208,19 @@ De functie 'Artefacten' in UvA AI Chat is een krachtige tool die is ontworpen om
 4. **Werk samen aan revisies:** Het platform stelt je in staat om het artefact gezamenlijk te verfijnen. Je kunt direct bewerkingen uitvoeren in het speciale tekst- of codevenster, of je kunt de AI verdere instructies geven in de chat om een specifiek gedeelte van het artefact te wijzigen of uit te breiden. Je kunt ook stukken tekst of code selecteren en de AI vragen die aan te passen.
 5. **Sla je werk op:** Zorg ervoor dat als je het artefact handmatig bewerkt, je het eerst opslaat voordat je de AI vraagt om verder te bewerken. Dit doe je door op het 'opslaan'-icoon <Icon name="Save" color="black" size={20} /> rechtsboven in het artefact te klikken. Wanneer je de AI vraagt om het artefact te bewerken, wordt er automatisch een nieuwe versie opgeslagen. Eerdere versies worden ook bewaard, zodat je wijzigingen kunt volgen en eerdere versies opnieuw kunt bekijken indien nodig door op de pijlen <Icon name="ChevronLeft" color="black" size={20} /><Icon name="ChevronRight" color="black" size={20} /> linksboven in het artefact te klikken. Het voltooide artefact kan vervolgens worden gedownload voor gebruik in je onderzoekspaper, presentatie of andere academische projecten. Doe dit door rechtsbovenin te klikken op het pijltje naar beneden <Icon name="Download" color="black" size={20} /> en "Download as" te selecteren.
 
-In Artifacts, you can also build prototypes of websites, interactive apps, data visualisations, and automations that can call the language models available through UvA AI Chat. This allows you to combine the reliability of regular code with the flexible, generative capabilities of AI. For example, you can create adaptive feedback tools, personalised applications, interactive learning environments, or websites that generate and respond to content dynamically based on user input.
+In Artifacts kun je ook prototypes bouwen van websites, interactieve apps, datavisualisaties en automatiseringen die gebruik kunnen maken van de taalmodellen die beschikbaar zijn via UvA AI Chat. Zo combineer je de betrouwbaarheid van reguliere code met de flexibele, generatieve mogelijkheden van AI. Je kunt bijvoorbeeld adaptieve feedbacktools, gepersonaliseerde applicaties, interactieve leeromgevingen of websites maken die op basis van gebruikersinput dynamisch content genereren en daarop reageren.
+
+### De pagina Artefacten
+
+Al je artefacten staan ook verzameld op een aparte pagina, zodat je ze kunt terugvinden zonder door je chats te zoeken. Om deze pagina te openen, klik je op het code-icoon <Icon name="code" color="black" size={20} /> in de linker zijbalk.
+
+De pagina geeft een overzicht van de artefacten uit al je chats, verdeeld in Apps en Documents. Een nieuw artefact maken kan hier niet: dat doe je nog steeds in een chat, zoals hierboven beschreven. Wat de pagina toevoegt, is dat je je artefacten los van de chat kunt openen en bewerken.
+
+Klik op een artefact om het op volledig scherm te openen. Van daaruit kun je:
+
+* **Naar de chat gaan:** via de knop linksboven ga je naar de chat waar het artefact bij hoort.
+* **Bewerken met AI:** onderaan het artefact kun je de AI vragen om alleen dat artefact aan te passen, zonder dat dit via de chat hoeft.
+* **Delen:** je kunt het artefact vanaf hier ook delen.
 
 - - -
 
