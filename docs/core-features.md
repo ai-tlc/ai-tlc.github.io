@@ -144,7 +144,73 @@ UvA AI Chat has a 'knowledge cutoff'; its knowledge is not up-to-date. To have t
 
 - - -
 
-## 2.3 Uploading and analyzing documents
+## 2.3 Skills
+
+A skill is a set of instructions that teaches UvA AI Chat how to handle a specific kind of task, such as writing in a certain style, following a fixed workflow or using special knowledge. You write the instructions once and can then use them in any chat. This saves you from explaining the same task again in every new conversation.
+
+Skills differ from saved prompts (see 2.2). A prompt is text that you insert into the chat yourself. A skill stays in the background: UvA AI Chat only uses it when you ask for it or when your request matches the skill.
+
+### When are skills useful?
+
+Skills work best for tasks that you repeat and that you always want done in the same way.
+
+| Use case | What the skill does |
+| --- | --- |
+| **Summarising lectures** | Turns lecture notes, slides or transcripts into a study summary with a fixed structure: overview, key concepts, a worked example and self-test questions. |
+| **Writing course announcements** | Writes announcements for Canvas in a fixed structure and tone: what is changing, what students need to do, and by when. |
+
+### How to create a skill
+
+1. **Open the Skills settings:** Click the account icon <Icon name="account_circle" color="black" size={20} /> in the bottom left corner, choose **Settings** and then **Skills**.
+2. **Start a new skill:** Click **New skill** to write a skill from a template. Do you already have a skill file? Then click **Upload .md** to add it.
+3. **Give the skill a name:** The template starts with a short header between two lines of three dashes. After `name:` you enter a short name, for example `lecture-summary`. Use lowercase letters and hyphens, as in the template.
+4. **Write the description:** After `description:` you describe what the skill does and when it should be used. This is the most important part: UvA AI Chat uses the description to decide whether the skill fits your request.
+5. **Write the instructions:** Below the header, replace the text `Instructions...` with what the AI should do. Be specific, as with any good prompt (see 2.1): describe the steps, the format and the tone you expect.
+6. **Save:** Click **Save**. The skill is now available in all your chats.
+
+### Practical example: a skill for lecture summaries
+
+A student wants every lecture summarised in the same way. She creates this skill:
+
+```
+---
+name: lecture-summary
+description: Summarise lecture notes, slides or transcripts into a structured study summary. Use this skill when the user asks to summarise a lecture or prepare study notes.
+---
+
+# Lecture summary
+
+1. Start with a 2-3 sentence overview of the lecture's main topic.
+2. List the key concepts, each with a one-line definition.
+3. Add a short worked example for anything technical.
+4. End with 3 self-test questions (answers hidden at the bottom).
+
+Keep it under one page and use the same language as the lecture material.
+```
+
+The description has two parts: what the skill does and when it should be used. The student then uploads her slides and types: "Summarise this lecture." Because this request matches the description, UvA AI Chat uses the skill and she receives the summary in the fixed structure.
+
+### Using a skill in a chat
+
+A skill can be used in three ways:
+
+| How | What happens |
+| --- | --- |
+| **Choose it yourself with `/`** | Type `/` in the text box and choose a skill from the list. You decide yourself that the skill is used. |
+| **Mention the skill** | Name the skill in your message, for example: "Use my lecture summary skill." |
+| **Automatically** | UvA AI Chat uses a skill on its own, but only when your request matches the description of the skill. For other questions, the skill is not used. |
+
+Once a skill is in use, UvA AI Chat keeps following it for the rest of the conversation.
+
+Is a skill not picked up automatically, or used when you do not want it? Then sharpen the description: state clearly what the skill does and in which situations it should be used. If in doubt, choose the skill yourself with `/`.
+
+### The skill format
+
+Skills use the open Agent Skills format. Skills made for other tools therefore usually work in UvA AI Chat too. See [agentskills.io](https://agentskills.io) for the full guide and examples. Read a skill file from someone else before you upload it, so that you know which instructions you are giving the AI.
+
+- - -
+
+## 2.4 Uploading and analyzing documents
 
 One of the most powerful features of UvA AI Chat is the ability to upload your own documents and use them as a contextual basis for your queries. This allows the AI to work with the specific information you provide, rather than just its general knowledge base. This makes the chatbot more powerful and reliable as it can give more accurate and well-supported answers based on your chosen sources.
 
@@ -177,7 +243,7 @@ The technology by which uploading and analyzing documents functions is called Re
 
 - - -
 
-## 2.4 Generating and analysing images
+## 2.5 Generating and analysing images
 
 In addition to text-based tasks, UvA AI Chat can also generate images based on your descriptions. This is useful for creating illustrations for presentations, visualizing concepts, or for creative projects. To generate an image, simply ask for one in the chat's text box. As with textual prompts, the more detailed and specific your description, the better the result will fit your expectations. As always, you can ask AI to help you refine your prompt. Note that the image generator in UvA AI Chat is not yet reliable for creating images containing text.
 
@@ -194,7 +260,7 @@ Use the photo icon <Icon name="image" color="black" size={20} /> at the bottom r
 
 - - -
 
-## 2.5 Artifacts
+## 2.6 Artifacts
 
 The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support collaborative work with the AI. An artifact is a separate window (with text, code, or visualizations) that both you and the AI can edit. This allows for easy collaboration as you can ask the AI to edit the artifact, and you can select pieces of text in the artifact and tell the AI to specifically edit those. Additionally, you can edit the text manually. This makes the AI more into a creative partner rather than just a text generator.
 
@@ -222,7 +288,7 @@ Click an artifact to open it in full screen. From there you can:
 
 - - -
 
-## 2.6 Study Mode
+## 2.7 Study Mode
 
 "Study Mode" in UvA AI Chat turns the assistant into a guiding tutor. Instead of giving answers right away, the AI first asks questions, offers hints, and waits for your response before continuing. It helps prevent you from outsourcing too much of your thinking to AI. By actively practicing reasoning and formulating your own answers, you keep training and developing your critical thinking skills. The goal is that you reason yourself and thus reach better understanding.
 
@@ -238,7 +304,7 @@ Click an artifact to open it in full screen. From there you can:
 
 - - -
 
-## 2.7 Use the Speech-to-Text Function
+## 2.8 Use the Speech-to-Text Function
 
 UvA AI Chat supports voice input and text-to-speech output. Below is an overview of how to use it and how to configure the settings.
 
@@ -270,7 +336,7 @@ Under Settings → Speech → Voice, you can select a voice for text-to-speech n
 
 - - -
 
-## 2.8 Creating diagrams with *Mermaid*
+## 2.9 Creating diagrams with *Mermaid*
 
 UvA AI Chat can help you create diagrams using **Mermaid**. Mermaid is a simple text-based way to describe diagrams. This is useful for visualizing complex processes, organizing ideas, or creating schemes for presentations and reports.
 
@@ -298,7 +364,7 @@ Formulate your prompt for example like this:
 
 - - -
 
-## 2.9 Analysing .csv files and creating graphs with UvA AI Chat
+## 2.10 Analysing .csv files and creating graphs with UvA AI Chat
 
 UvA AI Chat can also read and analyze your .csv documents. This allows you to gain insight into annual reports, quarterly figures, survey results, and other tabular data. In the example video, a .csv file is uploaded, after which UvA AI Chat: (1) inspects the structure of the data (columns, data types, missing values), (2) runs a few basic statistical analyses (such as summaries or comparisons over time), and (3) generates visualizations such as line charts or bar charts based on the selected columns.
 
@@ -329,7 +395,7 @@ However, if you want to use these analyses and graphs in contexts where accuracy
 
 - - -
 
-## 2.10 Generative UI: interactive quizzes and follow-up questions
+## 2.11 Generative UI: interactive quizzes and follow-up questions
 
 UvA AI Chat can use **Generative UI**: it can create interactive elements directly inside the chat, instead of only responding with plain text. One useful example is the **Quiz Maker**. When you ask something like **"Quiz me on this article"**, **"Quiz me on week 3"** or **"Create a quiz about Renoir’s late period"**, UvA AI Chat can generate a structured quiz with multiple-choice or open questions.
 
@@ -351,7 +417,7 @@ Please keep in mind that an AI-generated quiz and its grading may contain errors
 
 ---
 
-## 2.11 Embedding a persona in Canvas
+## 2.12 Embedding a persona in Canvas
 
 
 Use these instructions to embed a UvA AI Chat persona as a chat window on a Canvas page.
