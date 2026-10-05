@@ -113,7 +113,7 @@ We do not recommend using the Technical Support Assistant for general academic t
 
 **You ask:** "What is a persona and how do I create one?"
 
-**Support assistant answers** by walking you through the 7-step persona creation process from section 3.2 of the manual, including setting a title, description, model, conversation style, behavior instructions, and uploading knowledge files.
+**Support assistant answers** by walking you through the 7-step persona creation process from section 3.4 of the manual, including setting a title, description, model, conversation style, behavior instructions, and uploading knowledge files.
 
 <img src="/img/uploads/screenshot-2026-03-30-at-17.24.33.png" style={{width: '100%', marginBottom: '2rem'}} />
 
