@@ -112,7 +112,7 @@ We raden het gebruik van de Technische ondersteuningsassistent **niet** aan voor
 
 **Jij vraagt:** "Wat is een persona en hoe maak ik er een aan?"
 
-**De ondersteuningsassistent antwoordt:** door je stap voor stap door het 7-stappen persona-aanmaakproces uit paragraaf 3.2 van de handleiding te leiden, inclusief het instellen van een titel, beschrijving, model, gespreksstijl, gedragsinstructies en het uploaden van kennisbestanden.
+**De ondersteuningsassistent antwoordt:** door je stap voor stap door het 7-stappen persona-aanmaakproces uit paragraaf 3.4 van de handleiding te leiden, inclusief het instellen van een titel, beschrijving, model, gespreksstijl, gedragsinstructies en het uploaden van kennisbestanden.
 
 <img src="/img/uploads/screenshot-2026-03-30-at-17.43.11.png" style={{width: '100%', marginBottom: '2rem'}} />
 
