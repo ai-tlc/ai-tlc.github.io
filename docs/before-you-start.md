@@ -145,7 +145,7 @@ You can open the menu using the **arrow in the top-left corner of the screen**. 
 | Robot         | Personas     |
 | Folder <Icon name="folder_open" color="black" size={20} /> | Projects     |
 | Two people <Icon name="group" color="black" size={20} /> | Groups       |
-| Lines of text | Prompts      |
+| Lines of text with a sparkle | Prompts      |
 | Code <Icon name="Code" color="black" size={20} /> | Artifacts: an overview of all your artifacts |
 | Puzzle piece <Icon name="extension" color="black" size={20} /> | Extensions   |
 
