@@ -144,7 +144,7 @@ Je opent het menu via het **pijltje linksboven in het scherm**. Het menu schuift
 | Robot         | Personas      |
 | Map <Icon name="folder_open" color="black" size={20} /> | Projects      |
 | Twee personen <Icon name="group" color="black" size={20} /> | Groups        |
-| Tekstregels   | Prompts       |
+| Tekstregels met een sterretje | Prompts       |
 | Code <Icon name="Code" color="black" size={20} /> | Artefacten: een overzicht van al je artefacten |
 | Puzzelstukje <Icon name="extension" color="black" size={20} /> | Extensies     |
 
