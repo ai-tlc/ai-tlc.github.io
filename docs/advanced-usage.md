@@ -54,10 +54,9 @@ This fits a broader sustainability perspective: responsible AI use is not only a
 To view your estimated energy use:
 
 1. Open **UvA AI Chat**.
-2. Click your **profile/account icon** <Icon name="account_circle" color="black" size={20} /> in the bottom-left corner.
-3. Select **Settings**.
-4. In the Settings menu, click **Usage**.
-5. You will see your estimated energy use, token use and model mix.
+2. Click **Settings** <Icon name="Settings" color="black" size={20} /> in the bottom-left corner.
+3. In the Settings menu, click **Usage**.
+4. You will see your estimated energy use, token use and model mix.
 
 You can use the dropdown menu at the top of the Usage page to select a period, such as **Last Hour** or **Last week**.
 
