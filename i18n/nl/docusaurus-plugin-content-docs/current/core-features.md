@@ -144,7 +144,73 @@ UvA AI Chat heeft een 'knowledge cutoff'; de kennis is niet actueel. Om de AI me
 
 - - -
 
-## 2.3 Documenten als kennisbron: uploaden en analyseren
+## 2.3 Skills
+
+Een skill is een set instructies waarmee je UvA AI Chat leert hoe het een bepaald soort taak moet aanpakken, zoals schrijven in een bepaalde stijl, een vaste werkwijze volgen of specifieke kennis gebruiken. Je schrijft de instructies één keer en kunt ze daarna in elke chat gebruiken. Zo hoef je dezelfde taak niet in elk nieuw gesprek opnieuw uit te leggen.
+
+Skills verschillen van opgeslagen prompts (zie 2.2). Een prompt is tekst die je zelf in de chat invoegt. Een skill blijft op de achtergrond: UvA AI Chat gebruikt de skill alleen wanneer je erom vraagt of wanneer je vraag bij de skill past.
+
+### Wanneer zijn skills handig?
+
+Skills werken het best voor taken die je vaker uitvoert en die je steeds op dezelfde manier gedaan wilt hebben.
+
+| Toepassing | Wat de skill doet |
+| --- | --- |
+| **Colleges samenvatten** | Zet collegeaantekeningen, slides of transcripten om in een studiesamenvatting met een vaste opbouw: overzicht, kernbegrippen, een uitgewerkt voorbeeld en zelftestvragen. |
+| **Cursusmededelingen schrijven** | Schrijft mededelingen voor Canvas in een vaste opbouw en toon: wat er verandert, wat studenten moeten doen en vóór wanneer. |
+
+### Hoe maak je een skill?
+
+1. **Open de Skills-instellingen:** Klik linksonder op het account-icoon <Icon name="account_circle" color="black" size={20} />, kies **Instellingen** en daarna **Skills**.
+2. **Begin een nieuwe skill:** Klik op **New skill** om een skill te schrijven op basis van een sjabloon. Heb je al een skillbestand? Klik dan op **Upload .md** om het toe te voegen.
+3. **Geef de skill een naam:** Het sjabloon begint met een korte kop tussen twee regels met drie streepjes. Achter `name:` vul je een korte naam in, bijvoorbeeld `college-samenvatting`. Gebruik kleine letters en koppeltekens, net als in het sjabloon.
+4. **Schrijf de beschrijving:** Achter `description:` beschrijf je wat de skill doet en wanneer die gebruikt moet worden. Dit is het belangrijkste onderdeel: aan de hand van de beschrijving bepaalt UvA AI Chat of de skill bij je vraag past.
+5. **Schrijf de instructies:** Vervang onder de kop de tekst `Instructions...` door wat de AI moet doen. Wees concreet, net als bij een goede prompt (zie 2.1): beschrijf de stappen, de vorm en de toon die je verwacht.
+6. **Sla op:** Klik op **Save**. De skill is nu beschikbaar in al je chats.
+
+### Praktijkvoorbeeld: een skill voor collegesamenvattingen
+
+Een student wil elk college op dezelfde manier laten samenvatten. Ze maakt daarvoor deze skill:
+
+```
+---
+name: college-samenvatting
+description: Vat collegeaantekeningen, slides of transcripten samen in een gestructureerde studiesamenvatting. Gebruik deze skill wanneer de gebruiker vraagt om een college samen te vatten of studieaantekeningen te maken.
+---
+
+# Collegesamenvatting
+
+1. Begin met een overzicht van 2-3 zinnen over het hoofdonderwerp van het college.
+2. Noem de kernbegrippen, elk met een definitie van één regel.
+3. Voeg een kort uitgewerkt voorbeeld toe bij alles wat technisch is.
+4. Sluit af met 3 zelftestvragen (antwoorden verborgen onderaan).
+
+Houd het korter dan één pagina en gebruik dezelfde taal als het collegemateriaal.
+```
+
+De beschrijving bestaat uit twee delen: wat de skill doet en wanneer die gebruikt moet worden. De student uploadt daarna haar slides en typt: "Vat dit college samen." Omdat deze vraag bij de beschrijving past, gebruikt UvA AI Chat de skill en krijgt ze de samenvatting in de vaste opbouw.
+
+### Een skill gebruiken in een chat
+
+Een skill kan op drie manieren worden gebruikt:
+
+| Manier | Wat er gebeurt |
+| --- | --- |
+| **Zelf kiezen met `/`** | Typ `/` in het tekstvak en kies een skill uit de lijst. Je bepaalt zelf dat de skill wordt gebruikt. |
+| **De skill noemen** | Noem de skill in je bericht, bijvoorbeeld: "Gebruik mijn skill voor collegesamenvattingen." |
+| **Automatisch** | UvA AI Chat gebruikt een skill uit zichzelf, maar alleen wanneer je vraag bij de beschrijving van de skill past. Bij andere vragen wordt de skill niet gebruikt. |
+
+Zodra een skill wordt gebruikt, blijft UvA AI Chat die volgen voor de rest van het gesprek.
+
+Wordt een skill niet automatisch opgepakt, of juist gebruikt wanneer je dat niet wilt? Scherp dan de beschrijving aan: benoem duidelijk wat de skill doet en in welke situaties die gebruikt moet worden. Bij twijfel kies je de skill zelf met `/`.
+
+### Het skillformaat
+
+Skills gebruiken het open Agent Skills-formaat. Skills die voor andere tools zijn gemaakt, werken daardoor meestal ook in UvA AI Chat. Op [agentskills.io](https://agentskills.io) vind je de volledige uitleg en voorbeelden. Lees een skillbestand van iemand anders eerst door voordat je het uploadt, zodat je weet welke instructies je de AI geeft.
+
+- - -
+
+## 2.4 Documenten als kennisbron: uploaden en analyseren
 
 Een van de krachtigste functies van UvA AI Chat is dat je je eigen documenten kunt uploaden en die als context kunt gebruiken voor je vragen. Zo kan de AI werken met de specifieke informatie die jij aanlevert, in plaats van alleen met de algemene kennisbasis. Daardoor kan de chatbot betrouwbaardere en beter onderbouwde antwoorden geven, gebaseerd op de bronnen die jij kiest.
 
@@ -177,7 +243,7 @@ De technologie waarmee het uploaden en analyseren van documenten werkt, wordt Re
 
 - - -
 
-## 2.4 Afbeeldingen genereren en analyseren
+## 2.5 Afbeeldingen genereren en analyseren
 
 Naast tekstuele taken kan de UvA AI Chat ook afbeeldingen genereren op basis van jouw beschrijvingen. Dit kan nuttig zijn voor het maken van illustraties voor presentaties, het visualiseren van concepten of voor creatieve projecten.
 
@@ -196,7 +262,7 @@ Gebruik het foto-icoon <Icon name="image" color="black" size={20} /> rechtsonder
 
 - - -
 
-## 2.5 Artefacten
+## 2.6 Artefacten
 
 De functie 'Artefacten' in UvA AI Chat is een krachtige tool die is ontworpen om samenwerking met de AI te ondersteunen. Een artefact is een afzonderlijk venster (met tekst, code of visualisaties) dat zowel jij als de AI kunnen bewerken. Dit maakt samenwerken eenvoudig, aangezien je de AI het artefact kunt laten bewerken en je specifieke stukken tekst in het artefact kunt selecteren om de AI deze aan te laten passen. Daarnaast kun je de tekst handmatig bewerken. Dit verandert de AI meer in een creatieve partner dan in slechts een tekstgenerator.
 
@@ -224,7 +290,7 @@ Klik op een artefact om het op volledig scherm te openen. Van daaruit kun je:
 
 - - -
 
-## 2.6 Study Mode
+## 2.7 Study Mode
 
 "Study Mode" in UvA AI Chat verandert de assistent in een begeleidende tutor. In plaats van meteen antwoorden te geven, stelt de AI eerst vragen, biedt hints en wacht op jouw reactie voordat het verdergaat. Het helpt voorkomen dat je denkwerk te veel uitbesteedt aan AI. Door actief te oefenen met redeneren en zelf antwoorden te formuleren, blijf je je eigen kritisch denkvermogen trainen en ontwikkelen. Het doel is dat je zelf redeneert en zo tot beter begrip komt.
 
@@ -240,7 +306,7 @@ Klik op een artefact om het op volledig scherm te openen. Van daaruit kun je:
 
 - - -
 
-## 2.7 Gebruik de Spraak-naar-tekst Functie
+## 2.8 Gebruik de Spraak-naar-tekst Functie
 
 UvA AI Chat ondersteunt spraakinvoer en tekst-naar-spraak uitvoer. Hieronder vind je een overzicht van hoe je het kunt gebruiken en hoe je de instellingen kunt configureren.
 
@@ -272,7 +338,7 @@ Via Instellingen → Spraak → Stem kun je een stem kiezen voor tekst-naar-spra
 
 - - -
 
-## 2.8 Diagrammen maken met *Mermaid*
+## 2.9 Diagrammen maken met *Mermaid*
 
 UvA AI Chat kan je helpen om diagrammen te maken met behulp van **Mermaid**. Mermaid is een eenvoudige, tekstgebaseerde manier om diagrammen te beschrijven. Dit is handig voor het visualiseren van complexe processen, het organiseren van ideeën, of het maken van schema’s voor presentaties en verslagen.
 
@@ -298,7 +364,7 @@ Formuleer je prompt bijvoorbeeld zo:
 
 - - -
 
-## 2.9 .csv bestanden analyseren en grafieken maken met UvA AI Chat
+## 2.10 .csv bestanden analyseren en grafieken maken met UvA AI Chat
 
 UvA AI Chat kan ook je .csv‑bestanden lezen en analyseren. Dit maakt het mogelijk om inzicht te krijgen in jaarverslagen, kwartaalcijfers, enquêteresultaten en andere tabelgegevens. In de voorbeeldvideo wordt een .csv‑bestand geüpload, waarna UvA AI Chat: (1) de structuur van de data bekijkt (kolommen, datatypen, missende waarden), (2) een aantal basisanalyses uitvoert (zoals samenvattingen of vergelijkingen), en (3) visualisaties genereert, zoals lijngrafieken of staafdiagrammen op basis van de geselecteerde data.
 
@@ -317,7 +383,7 @@ Als je deze analyses en grafieken echter wilt gebruiken in situaties waar nauwke
 
 - - -
 
-## 2.10 Generative UI: interactieve quizzen en vervolgvragen
+## 2.11 Generative UI: interactieve quizzen en vervolgvragen
 
 UvA AI Chat kan nu gebruikmaken van **Generative UI**: de chat kan interactieve elementen direct in het gesprek aanmaken, in plaats van alleen te reageren met platte tekst. Een nuttig voorbeeld hiervan is de **Quiz Maker**. Wanneer je iets vraagt als **"Overhoor me over dit artikel"**, **"Quiz me over week 3"** of **"Maak een quiz over de late periode van Renoir"**, kan UvA AI Chat een gestructureerde quiz genereren met meerkeuzevragen of open vragen.
 
@@ -338,7 +404,7 @@ Op deze manier kan Generative UI een meer begeleid leerproces ondersteunen. Je k
 Houd er rekening mee dat een door AI gegenereerde quiz en de beoordeling daarvan fouten of hallucinaties kunnen bevatten, en geen officiële of representatieve toetsing vormen van een cursus of module. Gebruik de quiz als studiehulpmiddel, niet als definitieve indicatie van wat er getoetst zal worden of hoe je werk beoordeeld zou worden.
 
 
-## 2.11 Een persona embedden in Canvas
+## 2.12 Een persona embedden in Canvas
 
 Met deze instructie embed je een UvA AI Chat-persona als chatvenster in een Canvas-pagina.
 
