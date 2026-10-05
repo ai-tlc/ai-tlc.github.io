@@ -151,7 +151,7 @@ To use speech input, click the **microphone icon** <Icon name="Mic" color="black
 
 **Speech Settings**
 
-You can configure the speech behaviour by clicking the **Settings** menu in the bottom left corner under the radial icon <Icon name="account_circle" color="black" size={20} /> and then selecting **Speech**. The following options are available:
+You can configure the speech behaviour by clicking **Settings** <Icon name="Settings" color="black" size={20} /> in the bottom left corner and then selecting **Speech**. The following options are available:
 
 | Setting                               | Description                                                                                     |
 | ------------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -231,7 +231,7 @@ In Artifacts, you can also build prototypes of websites, interactive apps, data 
 
 ### The Artifacts page
 
-All your artifacts are also collected on a separate page, so you can find them without searching through your chats. To open this page, click the code icon <Icon name="code" color="black" size={20} /> in the left sidebar.
+All your artifacts are also collected on a separate page, so you can find them without searching through your chats. To open this page, click the code icon <Icon name="Code" color="black" size={20} /> in the left sidebar.
 
 The page gives an overview of the artifacts from all your chats, grouped into Apps and Documents. You cannot create a new artifact here: you still do that in a chat, as described above. What the page adds is a way to open and work on your artifacts separately from the chat.
 
