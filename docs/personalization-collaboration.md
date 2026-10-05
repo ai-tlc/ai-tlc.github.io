@@ -6,7 +6,7 @@ slug: /personalization-collaboration
 ---
 ## 3.1 Personal settings: Custom Instructions and Memory
 
-To get the most out of UvA AI Chat, it's worth configuring it to match your preferences. To do this, go to the settings by clicking the person icon <Icon name="account_circle" color="black" size={20} /> at the bottom left of the screen. Here, you can immediately set your preferred theme (light/dark). Next, click on 'Settings,' then on 'Personalization' for the most important personalization options:
+To get the most out of UvA AI Chat, it's worth configuring it to match your preferences. To do this, go to the settings by clicking **Settings** <Icon name="Settings" color="black" size={20} /> at the bottom left of the screen. Here, you can immediately set your preferred theme (light/dark). Next, click on 'Personalization' for the most important personalization options:
 
 * **'Memory Creation':** Enable this to let UvA AI Chat save information about your previous prompts and conversations. This allows the AI to remember context from earlier interactions, such as your field of study (e.g. astronomy) or your hobbies (like cooking).
 * **'Memory Context':** For the chat to actually use your stored 'memories' in new conversations, you'll also need to enable this option.
@@ -64,7 +64,7 @@ Skills work best for tasks that you repeat and that you always want done in the 
 
 ### How to create a skill
 
-1. **Open the Skills settings:** Click the account icon <Icon name="account_circle" color="black" size={20} /> in the bottom left corner, choose **Settings** and then **Skills**.
+1. **Open the Skills settings:** Click **Settings** <Icon name="Settings" color="black" size={20} /> in the bottom left corner and choose **Skills**.
 2. **Start a new skill:** Click **New skill** to write a skill from a template. Do you already have a skill file? Then click **Upload .md** to add it.
 3. **Give the skill a name:** The template starts with a short header between two lines of three dashes. After `name:` you enter a short name, for example `lecture-summary`. Use lowercase letters and hyphens, as in the template.
 4. **Write the description:** After `description:` you describe what the skill does and when it should be used. This is the most important part: UvA AI Chat uses the description to decide whether the skill fits your request.
