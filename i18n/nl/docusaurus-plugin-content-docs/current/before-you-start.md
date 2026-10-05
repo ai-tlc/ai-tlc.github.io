@@ -4,7 +4,7 @@ id: before-you-start
 sidebar_label: Voordat je begint
 slug: /before-you-start
 ---
-<img src="/img/uploads/version-1.4.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
+<img src="/img/uploads/versie-2.0.png" alt="UvA AI Chat" style={{width: '100%', marginBottom: '2rem'}} />
 
 ## Over deze handleiding
 
@@ -16,7 +16,7 @@ Voor vragen over deze handleiding en UvA AI Chat, neem contact op via [ai-tlc@uv
 
 Deze handleiding wordt ontwikkeld door TLC-Centraal (zie tlc.uva.nl)
 
-**Versie 1.4** | Gepubliceerd op 30 juni 2026
+**Versie 2.0** | Gepubliceerd op 5 oktober 2026
 
 - - -
 
@@ -140,17 +140,18 @@ Je opent het menu via het **pijltje linksboven in het scherm**. Het menu schuift
 
 | Icoon         | Functie       |
 | ------------- | ------------- |
-| Spraakbubbel  | Algemene chat |
+| Spraakbubbel <Icon name="chat" color="black" size={20} /> | Algemene chat |
 | Robot         | Personas      |
 | Map <Icon name="folder_open" color="black" size={20} /> | Projects      |
 | Twee personen <Icon name="group" color="black" size={20} /> | Groups        |
-| Text          | Prompts       |
+| Tekstregels   | Prompts       |
+| Code <Icon name="Code" color="black" size={20} /> | Artefacten: een overzicht van al je artefacten |
 | Puzzelstukje <Icon name="extension" color="black" size={20} /> | Extensies     |
 
 Onderin het menu vind je:
 
 * **?** — Aanvullende materialen, zoals de handleiding en E-learning
-* **Mannetje-icoon** <Icon name="account_circle" color="black" size={20} /> — Instellingen en accountopties
+* **Tandwiel-icoon** <Icon name="Settings" color="black" size={20} /> — Instellingen en accountopties
 
 Tik linksbovenin het menu opnieuw om het menu te sluiten.
 
