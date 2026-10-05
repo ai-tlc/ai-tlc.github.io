@@ -153,7 +153,7 @@ Om spraakinvoer te gebruiken, klik je op het **microfoonpictogram** <Icon name="
 
 **Spraak-instellingen**
 
-Je kunt het spraakgedrag configureren door op het menu **Settings** linksonder (onder het radiale icoon <Icon name="account_circle" color="black" size={20} />) te klikken en vervolgens **Speech** te selecteren. De volgende opties zijn beschikbaar:
+Je kunt het spraakgedrag configureren door linksonder op **Settings** <Icon name="Settings" color="black" size={20} /> te klikken en vervolgens **Speech** te selecteren. De volgende opties zijn beschikbaar:
 
 | Instelling                              | Beschrijving                                                                                            |
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -233,7 +233,7 @@ In Artifacts kun je ook prototypes bouwen van websites, interactieve apps, datav
 
 ### De pagina Artefacten
 
-Al je artefacten staan ook verzameld op een aparte pagina, zodat je ze kunt terugvinden zonder door je chats te zoeken. Om deze pagina te openen, klik je op het code-icoon <Icon name="code" color="black" size={20} /> in de linker zijbalk.
+Al je artefacten staan ook verzameld op een aparte pagina, zodat je ze kunt terugvinden zonder door je chats te zoeken. Om deze pagina te openen, klik je op het code-icoon <Icon name="Code" color="black" size={20} /> in de linker zijbalk.
 
 De pagina geeft een overzicht van de artefacten uit al je chats, verdeeld in Apps en Documents. Een nieuw artefact maken kan hier niet: dat doe je nog steeds in een chat, zoals hierboven beschreven. Wat de pagina toevoegt, is dat je je artefacten los van de chat kunt openen en bewerken.
 
