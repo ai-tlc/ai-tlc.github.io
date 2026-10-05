@@ -23,7 +23,7 @@ In the 'Custom Instructions' field, you might enter something like:
 
 ## 3.2 "Prompts": Your personal collection of instructions
 
-The "Prompts" is a feature that helps you work more efficiently by reusing effective prompts. You'll find the "My prompts" section via the book icon <Icon name="book_2" color="black" size={20} /> in the left sidebar of UvA AI Chat.
+The "Prompts" is a feature that helps you work more efficiently by reusing effective prompts. You'll find the "My prompts" section via the icon with lines of text and a sparkle in the left sidebar of UvA AI Chat.
 
 ### Using standard prompts
 
