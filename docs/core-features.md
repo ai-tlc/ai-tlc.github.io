@@ -54,31 +54,8 @@ When a conversation becomes too long, UvA AI Chat automatically leaves older mes
 **Memory**
 UvA AI Chat can extract useful details from your conversations overnight and re-use them in future chats. You can view, edit, or delete your memories in **Settings > Personalisation**.
 
-### Project Knowledge: reusable context in projects
-
-In UvA AI Chat projects, **Project Knowledge** can help preserve useful information across project chats. Instead of relying only on hidden or informal memory, important information can be stored as explicit **knowledge cards**.
-
-A knowledge card is a small, reusable piece of information, such as:
-
-| Knowledge card may contain...                     | Example                                                                           |
-| ------------------------------------------------- | --------------------------------------------------------------------------------- |
-| A decision made earlier in the project            | “The workshop will be aimed at first-year students.”                              |
-| A target audience                                 | “The text should be understandable for lecturers without technical AI knowledge.” |
-| A preferred tone or writing style                 | “Use a clear, accessible and didactic tone.”                                      |
-| A recurring constraint                            | “Keep manual entries concise and practical.”                                      |
-| An important fact that should be remembered later | “The module is intended for both students and staff.”                             |
-
-When relevant, UvA AI Chat can use these cards in later answers. This helps the AI stay consistent across different chats within the same project. It also makes the use of context more transparent: knowledge cards can be inspected, edited, archived or excluded.
-
-Project Knowledge is useful because stored context is not automatically perfect. A card may become outdated, too general or no longer relevant. The most recent instruction you give should always guide the answer. If the AI seems to rely on old or incorrect context, correct it explicitly.
-
-For example:
-
-> Ignore the earlier project assumption that this text is for students. This version is for lecturers.
-
-Or:
-
-> Use the project knowledge about the workshop audience, but do not use the earlier proposed structure.
+**Project Knowledge**
+In projects, UvA AI Chat can also keep reusable context in the form of knowledge cards. See section 3.6 for how this works.
 
 ### Structure of an effective prompt
 
@@ -114,103 +91,7 @@ Good prompting therefore means not only asking clear questions, but also guiding
 
 - - -
 
-## 2.2 "Prompts": Your personal collection of instructions
-
-The "Prompts" is a feature that helps you work more efficiently by reusing effective prompts. You'll find the "My prompts" section via the book icon <Icon name="book_2" color="black" size={20} /> in the left sidebar of UvA AI Chat.
-
-### Using standard prompts
-
-"Prompts" includes a collection of predefined prompts for common tasks. Examples include "feedback on your writing" and the "multiple choice question generation." These standard prompts are designed by experts and already have a strong structure. You can select a standard prompt and easily adapt it to your specific needs, allowing you to get fast, effective results.
-
-### Saving and reusing your own prompts
-
-If you notice you're repeating certain tasks or instructions, you can save your own prompts in "Prompts". This is especially useful for complex, recurring assignments.
-
-### Practical example: Saving a custom prompt
-
-Suppose you frequently write academic texts in English and want them checked for formal writing style. You can draft a highly effective prompt for this and save it for future use.
-
-1. Write your effective prompt.
-2. Go to "Prompts" and select "Add prompt".
-3. Give your prompt a clear name, like "Academic English Check".
-4. Paste your prompt in the text field: "Analyze the attached English text. Act as an experienced editor for an academic journal. Identify and correct sentences that are too informal for scientific publication. Replace colloquial language with formal alternatives, check for consistency in terminology, and suggest ways to vary sentence structure for better readability."
-5. Save the prompt. It's now available for easy reuse in future conversations.
-
-Want to quickly reuse a previously saved prompt? Just click the book icon <Icon name="book_2" color="black" size={20} /> at the bottom of the text box in UvA AI Chat to see a list of your recent prompts and insert the one you need instantly.
-
-### Letting the AI search the internet
-
-UvA AI Chat has a 'knowledge cutoff'; its knowledge is not up-to-date. To have the AI work with recent, online information, you can enable the internet search function. To do this, click on the 'swiss army knife' icon <Icon name="tune" color="black" size={20} /> in the top right of a chat window and check 'Internet Search'. After you have activated the function, it is important that you state in your prompt that the AI should use the internet. For example, start your question with: "Search the internet for...". Please keep in mind that this functionality is still in development and does not always work flawlessly.
-
-- - -
-
-## 2.3 Skills
-
-A skill is a set of instructions that teaches UvA AI Chat how to handle a specific kind of task, such as writing in a certain style, following a fixed workflow or using special knowledge. You write the instructions once and can then use them in any chat. This saves you from explaining the same task again in every new conversation.
-
-Skills differ from saved prompts (see 2.2). A prompt is text that you insert into the chat yourself. A skill stays in the background: UvA AI Chat only uses it when you ask for it or when your request matches the skill.
-
-### When are skills useful?
-
-Skills work best for tasks that you repeat and that you always want done in the same way.
-
-| Use case | What the skill does |
-| --- | --- |
-| **Summarising lectures** | Turns lecture notes, slides or transcripts into a study summary with a fixed structure: overview, key concepts, a worked example and self-test questions. |
-| **Writing course announcements** | Writes announcements for Canvas in a fixed structure and tone: what is changing, what students need to do, and by when. |
-
-### How to create a skill
-
-1. **Open the Skills settings:** Click the account icon <Icon name="account_circle" color="black" size={20} /> in the bottom left corner, choose **Settings** and then **Skills**.
-2. **Start a new skill:** Click **New skill** to write a skill from a template. Do you already have a skill file? Then click **Upload .md** to add it.
-3. **Give the skill a name:** The template starts with a short header between two lines of three dashes. After `name:` you enter a short name, for example `lecture-summary`. Use lowercase letters and hyphens, as in the template.
-4. **Write the description:** After `description:` you describe what the skill does and when it should be used. This is the most important part: UvA AI Chat uses the description to decide whether the skill fits your request.
-5. **Write the instructions:** Below the header, replace the text `Instructions...` with what the AI should do. Be specific, as with any good prompt (see 2.1): describe the steps, the format and the tone you expect.
-6. **Save:** Click **Save**. The skill is now available in all your chats.
-
-### Practical example: a skill for lecture summaries
-
-A student wants every lecture summarised in the same way. She creates this skill:
-
-```
----
-name: lecture-summary
-description: Summarise lecture notes, slides or transcripts into a structured study summary. Use this skill when the user asks to summarise a lecture or prepare study notes.
----
-
-# Lecture summary
-
-1. Start with a 2-3 sentence overview of the lecture's main topic.
-2. List the key concepts, each with a one-line definition.
-3. Add a short worked example for anything technical.
-4. End with 3 self-test questions (answers hidden at the bottom).
-
-Keep it under one page and use the same language as the lecture material.
-```
-
-The description has two parts: what the skill does and when it should be used. The student then uploads her slides and types: "Summarise this lecture." Because this request matches the description, UvA AI Chat uses the skill and she receives the summary in the fixed structure.
-
-### Using a skill in a chat
-
-A skill can be used in three ways:
-
-| How | What happens |
-| --- | --- |
-| **Choose it yourself with `/`** | Type `/` in the text box and choose a skill from the list. You decide yourself that the skill is used. |
-| **Mention the skill** | Name the skill in your message, for example: "Use my lecture summary skill." |
-| **Automatically** | UvA AI Chat uses a skill on its own, but only when your request matches the description of the skill. For other questions, the skill is not used. |
-
-Once a skill is in use, UvA AI Chat keeps following it for the rest of the conversation.
-
-Is a skill not picked up automatically, or used when you do not want it? Then sharpen the description: state clearly what the skill does and in which situations it should be used. If in doubt, choose the skill yourself with `/`.
-
-### The skill format
-
-Skills use the open Agent Skills format. Skills made for other tools therefore usually work in UvA AI Chat too. See [agentskills.io](https://agentskills.io) for the full guide and examples. Read a skill file from someone else before you upload it, so that you know which instructions you are giving the AI.
-
-- - -
-
-## 2.4 Uploading and analyzing documents
+## 2.2 Uploading and analyzing documents
 
 One of the most powerful features of UvA AI Chat is the ability to upload your own documents and use them as a contextual basis for your queries. This allows the AI to work with the specific information you provide, rather than just its general knowledge base. This makes the chatbot more powerful and reliable as it can give more accurate and well-supported answers based on your chosen sources.
 
@@ -220,7 +101,7 @@ With UvA AI Chat, uploading documents is simple. Go to the text entry field at t
 
 ### Supported file formats
 
-UvA AI Chat supports a wide range of common file formats, including .PDF, DOCX (Word),XLS (Excel), .PPT (PowerPoint), .CSV, .TXT, .PY (Python), and .MD (Markdown), along with 30+ additional file types (for the full list, check chapter 4.6). This makes it possible to upload and work with various document types, ranging from research articles and datasets to plain text and code files, directly in your interactions with the AI.
+UvA AI Chat supports a wide range of common file formats, including .PDF, DOCX (Word),XLS (Excel), .PPT (PowerPoint), .CSV, .TXT, .PY (Python), and .MD (Markdown), along with 30+ additional file types (for the full list, check section 2.7). This makes it possible to upload and work with various document types, ranging from research articles and datasets to plain text and code files, directly in your interactions with the AI.
 
 Note: Large, unusual, or password-protected files may not always process correctly. If a document is very large (e.g., 100+ pages), the AI is essentially searching for a needle in a haystack.
 
@@ -243,7 +124,7 @@ The technology by which uploading and analyzing documents functions is called Re
 
 - - -
 
-## 2.5 Generating and analysing images
+## 2.3 Generating and analysing images
 
 In addition to text-based tasks, UvA AI Chat can also generate images based on your descriptions. This is useful for creating illustrations for presentations, visualizing concepts, or for creative projects. To generate an image, simply ask for one in the chat's text box. As with textual prompts, the more detailed and specific your description, the better the result will fit your expectations. As always, you can ask AI to help you refine your prompt. Note that the image generator in UvA AI Chat is not yet reliable for creating images containing text.
 
@@ -260,51 +141,7 @@ Use the photo icon <Icon name="image" color="black" size={20} /> at the bottom r
 
 - - -
 
-## 2.6 Artifacts
-
-The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support collaborative work with the AI. An artifact is a separate window (with text, code, or visualizations) that both you and the AI can edit. This allows for easy collaboration as you can ask the AI to edit the artifact, and you can select pieces of text in the artifact and tell the AI to specifically edit those. Additionally, you can edit the text manually. This makes the AI more into a creative partner rather than just a text generator.
-
-### How to use artifacts
-
-1. **Activate the feature:** To begin, you must select the "Artifact Creation" feature within the UvA AI Chat interface (click the three dots in the chat window_. This signals to the AI that you are looking for a output in a separate window for further editing.
-2. **Provide a clear instruction:** In the chat box, enter an instruction that clearly defines the topic and the type of artifact you need. For example, you could prompt the AI with: "create an artifact comparing Keynesian and Neoclassical economic theories."
-3. **Review the generated output:** The AI will then produce an artifact based on your request. In the example of economic theories, the output could be an overview of the key principles, assumptions and political implications.
-4. **Collaborate on revisions:** The platform allows you to refine the artifact collaboratively. You can make direct edits in the dedicated text or code window, or you can give the AI further instructions in the chat to modify or expand a specific section of the artifact. You can also select pieces of text or code and ask AI to modify those.
-5. **Save your work:** Make sure that if you manually edit the artifact, you first save the artifact before you ask the AI to continue editing it, you can do this by clicking on the "save" icon <Icon name="Save" color="black" size={20} /> on the top right of the artifact. When you ask the AI to edit the artifact a new version will automatically be saved. Previous versions will also be saved, so you can track changes and revisit previous iterations if necessary by clicking on the arrows <Icon name="ChevronLeft" color="black" size={20} /><Icon name="ChevronRight" color="black" size={20} /> at the top left of the artifact. The completed artifact can then be downloaded for use in your research paper, presentation, or other academic projects. Do this by clicking on the arrow <Icon name="Download" color="black" size={20} /> at the top right corner of the artefact, and selecting "download as".
-
-In Artifacts, you can also build prototypes of websites, interactive apps, data visualisations, and automations that can call the language models available through UvA AI Chat. This allows you to combine the reliability of regular code with the flexible, generative capabilities of AI. For example, you can create adaptive feedback tools, personalised applications, interactive learning environments, or websites that generate and respond to content dynamically based on user input.
-
-### The Artifacts page
-
-All your artifacts are also collected on a separate page, so you can find them without searching through your chats. To open this page, click the code icon <Icon name="code" color="black" size={20} /> in the left sidebar.
-
-The page gives an overview of the artifacts from all your chats, grouped into Apps and Documents. You cannot create a new artifact here: you still do that in a chat, as described above. What the page adds is a way to open and work on your artifacts separately from the chat.
-
-Click an artifact to open it in full screen. From there you can:
-
-* **Go to the chat:** use the button in the top left corner to go to the chat that the artifact belongs to.
-* **Edit with AI:** at the bottom of the artifact, you can ask the AI to edit only that artifact, without having to go through the chat.
-* **Share:** you can also share the artifact from here.
-
-- - -
-
-## 2.7 Study Mode
-
-"Study Mode" in UvA AI Chat turns the assistant into a guiding tutor. Instead of giving answers right away, the AI first asks questions, offers hints, and waits for your response before continuing. It helps prevent you from outsourcing too much of your thinking to AI. By actively practicing reasoning and formulating your own answers, you keep training and developing your critical thinking skills. The goal is that you reason yourself and thus reach better understanding.
-
-### How to use Study Mode
-
-1. **Activate and set a learning goal:** click on the graduation cap in UvA AI Chat and switch on Study Mode. To turn it off, click the cross next to Study. Then set a learning goal by specifying what you want to learn about and mention what you already know. Examples:
-
-   * "I am preparing a seminar on the French revolution and specifically the storming of the Bastille, help me understand the causes and interpretations of the cause."
-   * "I am preparing for an exam in research skills and want to understand how to compare two groups using statistics. Explain which methods are suitable, such as the t-test, and when it is better to use another test."
-2. **Work in dialogue:** The AI asks open questions and waits for your answer. You can indicate how you want to be guided: ask for smaller steps, hints instead of answers, or feedback on your reasoning. You can also request specific forms, such as a multiple-choice question, concrete examples, or metaphors.
-3. **Adjust pace and level:** Redirect where needed: "use simpler language", "make it harder", or "go faster/slower". The AI adjusts its questions, explanations, and examples accordingly.
-4. **Conclude and record:** To consolidate your learning, finish with a recap or practice material. Examples: "Summarise in five bullet points the most important lessons from this conversation" or "Give three practice questions with short solutions." If you want to save the result or work it out further, combine Study Mode with Artefacts. This allows you to edit notes, tables, or draft texts in a separate window and retrieve them later.
-
-- - -
-
-## 2.8 Use the Speech-to-Text Function
+## 2.4 Use the Speech-to-Text Function
 
 UvA AI Chat supports voice input and text-to-speech output. Below is an overview of how to use it and how to configure the settings.
 
@@ -336,7 +173,163 @@ Under Settings → Speech → Voice, you can select a voice for text-to-speech n
 
 - - -
 
-## 2.9 Creating diagrams with *Mermaid*
+## 2.5 Internet search and the Web Scraper
+
+### Letting the AI search the internet
+
+UvA AI Chat has a 'knowledge cutoff'; its knowledge is not up-to-date. To have the AI work with recent, online information, you can enable the internet search function. To do this, click on the 'swiss army knife' icon <Icon name="tune" color="black" size={20} /> in the top right of a chat window and check 'Internet Search'. After you have activated the function, it is important that you state in your prompt that the AI should use the internet. For example, start your question with: "Search the internet for...". Please keep in mind that this functionality is still in development and does not always work flawlessly.
+
+### Use the Web Scraper tool
+
+**Web Scraper function**
+
+UvA AI Chat has access to a **`web_scrape`** tool that lets it fetch and read the content of a webpage when you provide a URL. Here's how it works.
+
+**What it does**
+
+| Feature | Description                                                                                                                                                                                 |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Input   | A full URL (e.g., `https://example.com`)                                                                                                                                                    |
+| Output  | Page content in **markdown format** (markdown is a lightweight way to format text using simple symbols so it can be easily read and converted into nicely styled documents like web pages.) |
+
+**What UvA AI Chat can do with the Web Crawler**
+
+* **Summarize** the content of a webpage
+* **Extract specific information** (e.g., dates, names, prices, policies)
+* **Answer questions** based on the live content of a page
+
+**Limitations**
+
+* Only reads **publicly accessible** pages, no login-protected content
+* Reads **static content**, dynamically loaded content (e.g., JavaScript-rendered pages) may not always be fully captured
+* Does **not** browse the web autonomously, you need to provide the URL
+* UvA AI Chat can only scrape **one page per message**
+
+**How to scrape a webpage:**
+
+To use this functionality, ask the UvA AI Chat to scrape a page for you and insert your page.
+
+"Can you scrape this page and summarize it for me: https://example.com/article"
+
+> Simply paste a URL and tell UvA AI Chat what you'd like to know from it!
+
+- - -
+
+## 2.6 Artifacts
+
+The "Artifacts" feature in UvA AI Chat is a powerful tool designed to support collaborative work with the AI. An artifact is a separate window (with text, code, or visualizations) that both you and the AI can edit. This allows for easy collaboration as you can ask the AI to edit the artifact, and you can select pieces of text in the artifact and tell the AI to specifically edit those. Additionally, you can edit the text manually. This makes the AI more into a creative partner rather than just a text generator.
+
+### How to use artifacts
+
+1. **Activate the feature:** To begin, you must select the "Artifact Creation" feature within the UvA AI Chat interface (click the three dots in the chat window). This signals to the AI that you are looking for a output in a separate window for further editing.
+2. **Provide a clear instruction:** In the chat box, enter an instruction that clearly defines the topic and the type of artifact you need. For example, you could prompt the AI with: "create an artifact comparing Keynesian and Neoclassical economic theories."
+3. **Review the generated output:** The AI will then produce an artifact based on your request. In the example of economic theories, the output could be an overview of the key principles, assumptions and political implications.
+4. **Collaborate on revisions:** The platform allows you to refine the artifact collaboratively. You can make direct edits in the dedicated text or code window, or you can give the AI further instructions in the chat to modify or expand a specific section of the artifact. You can also select pieces of text or code and ask AI to modify those.
+5. **Save your work:** Make sure that if you manually edit the artifact, you first save the artifact before you ask the AI to continue editing it, you can do this by clicking on the "save" icon <Icon name="Save" color="black" size={20} /> on the top right of the artifact. When you ask the AI to edit the artifact a new version will automatically be saved. Previous versions will also be saved, so you can track changes and revisit previous iterations if necessary by clicking on the arrows <Icon name="ChevronLeft" color="black" size={20} /><Icon name="ChevronRight" color="black" size={20} /> at the top left of the artifact. The completed artifact can then be downloaded for use in your research paper, presentation, or other academic projects. Do this by clicking on the arrow <Icon name="Download" color="black" size={20} /> at the top right corner of the artefact, and selecting "download as".
+
+In Artifacts, you can also build prototypes of websites, interactive apps, data visualisations, and automations that can call the language models available through UvA AI Chat. This allows you to combine the reliability of regular code with the flexible, generative capabilities of AI. For example, you can create adaptive feedback tools, personalised applications, interactive learning environments, or websites that generate and respond to content dynamically based on user input.
+
+### The Artifacts page
+
+All your artifacts are also collected on a separate page, so you can find them without searching through your chats. To open this page, click the code icon <Icon name="code" color="black" size={20} /> in the left sidebar.
+
+The page gives an overview of the artifacts from all your chats, grouped into Apps and Documents. You cannot create a new artifact here: you still do that in a chat, as described above. What the page adds is a way to open and work on your artifacts separately from the chat.
+
+Click an artifact to open it in full screen. From there you can:
+
+* **Go to the chat:** use the button in the top left corner to go to the chat that the artifact belongs to.
+* **Edit with AI:** at the bottom of the artifact, you can ask the AI to edit only that artifact, without having to go through the chat.
+* **Share:** you can also share the artifact from here.
+
+- - -
+
+## 2.7 Documents and files UvA AI Chat can generate
+
+UvA AI Chat can help you create different types of downloadable documents and files. This is useful when you want to turn a conversation into a reusable text, a simple webpage, a code file, a data file, or a diagram.
+
+**How to ask for a file**
+
+You do not need to know all file extensions by heart. You can describe the type of output you need in plain language. For example:
+
+> “Make this into a downloadable markdown file.”\
+> “Create a CSV table from this information.”\
+> “Generate a simple HTML page with this content.”\
+> “Write a Python script that analyses this data.”\
+> “Make a Mermaid flowchart of these steps.”
+
+For best results, mention:
+
+* what the file should contain;
+* which format you want;
+* whether it should be simple or styled;
+* and whether it is meant for reading, editing, publishing, analysis, or reuse.
+
+**As of now, UvA AI Chat can not edit existing files, only generate new ones.**
+**Good to know**
+
+Some generated files are mainly meant for reading, such as `.txt`, `.md`, `.html` or `.pdf`. Others are meant to be opened or edited in specific tools, such as `.csv` in a spreadsheet program, `.py` in a code editor, or `.mmd` in a Mermaid-compatible viewer.
+
+For code files, UvA AI Chat can generate many different programming languages. Whether the code can also be run directly depends on the available runtime environment and the libraries or tools that are supported there. Always check generated code before using it, especially in education, research, data analysis, or production environments.
+
+**To edit in pictures, upload your own from a local source. While creating your file, UvA AI Chat is unable to fetch pictures from the internet.**
+<small>
+
+**Every supported file type**
+
+| Category                 | File type               | Extension(s)                      |
+| ------------------------ | ----------------------- | --------------------------------- |
+| Documents and text       | Plain text              | `.txt`                            |
+| Documents and text       | Markdown                | `.md`                             |
+| Documents and text       | HTML                    | `.html`                           |
+| Generated code artifacts | JavaScript / TypeScript | `.js`, `.ts`, `.tsx`              |
+| Generated code artifacts | Python                  | `.py`                             |
+| Generated code artifacts | Java                    | `.java`                           |
+| Generated code artifacts | C / C++ / C#            | `.c`, `.cpp`, `.cs`               |
+| Generated code artifacts | PHP                     | `.php`                            |
+| Generated code artifacts | Ruby                    | `.rb`                             |
+| Generated code artifacts | Go                      | `.go`                             |
+| Generated code artifacts | Rust                    | `.rs`                             |
+| Generated code artifacts | Swift                   | `.swift`                          |
+| Generated code artifacts | Kotlin                  | `.kt`                             |
+| Generated code artifacts | Scala                   | `.scala`                          |
+| Generated code artifacts | R                       | `.r`                              |
+| Generated code artifacts | MATLAB                  | `.m`                              |
+| Generated code artifacts | Lua                     | `.lua`                            |
+| Generated code artifacts | Perl / Prolog           | `.pl`                             |
+| Generated code artifacts | Haskell                 | `.hs`                             |
+| Generated code artifacts | Clojure                 | `.clj`                            |
+| Generated code artifacts | Dart                    | `.dart`                           |
+| Generated code artifacts | Elixir                  | `.ex`                             |
+| Generated code artifacts | Erlang                  | `.erl`                            |
+| Generated code artifacts | F#                      | `.fs`                             |
+| Generated code artifacts | Groovy                  | `.groovy`                         |
+| Generated code artifacts | Julia                   | `.jl`                             |
+| Generated code artifacts | Nim                     | `.nim`                            |
+| Generated code artifacts | OCaml                   | `.ml`                             |
+| Generated code artifacts | Pascal                  | `.pas`                            |
+| Generated code artifacts | Racket                  | `.rkt`                            |
+| Generated code artifacts | Scheme                  | `.scm`                            |
+| Generated code artifacts | Visual Basic            | `.vb`                             |
+| Generated code artifacts | Assembly                | `.asm`                            |
+| Generated code artifacts | Fortran                 | `.f90`                            |
+| Generated code artifacts | COBOL                   | `.cob`                            |
+| Generated code artifacts | Ada                     | `.ada`                            |
+| Web and data files       | HTML                    | `.html`                           |
+| Web and data files       | CSS / Sass / Less       | `.css`, `.scss`, `.sass`, `.less` |
+| Web and data files       | JSON                    | `.json`                           |
+| Web and data files       | XML                     | `.xml`                            |
+| Web and data files       | YAML                    | `.yml`                            |
+| Web and data files       | SQL                     | `.sql`                            |
+| Diagrams                 | Mermaid                 | `.mmd`                            |
+| Chat export downloads    | Plain text              | `.txt`                            |
+| Chat export downloads    | CSV                     | `.csv`                            |
+| Chat export downloads    | PDF                     | `.pdf`                            |
+
+</small>
+
+- - -
+
+## 2.8 Creating diagrams with *Mermaid*
 
 UvA AI Chat can help you create diagrams using **Mermaid**. Mermaid is a simple text-based way to describe diagrams. This is useful for visualizing complex processes, organizing ideas, or creating schemes for presentations and reports.
 
@@ -364,38 +357,23 @@ Formulate your prompt for example like this:
 
 - - -
 
-## 2.10 Analysing .csv files and creating graphs with UvA AI Chat
+## 2.9 Study Mode
 
-UvA AI Chat can also read and analyze your .csv documents. This allows you to gain insight into annual reports, quarterly figures, survey results, and other tabular data. In the example video, a .csv file is uploaded, after which UvA AI Chat: (1) inspects the structure of the data (columns, data types, missing values), (2) runs a few basic statistical analyses (such as summaries or comparisons over time), and (3) generates visualizations such as line charts or bar charts based on the selected columns.
+"Study Mode" in UvA AI Chat turns the assistant into a guiding tutor. Instead of giving answers right away, the AI first asks questions, offers hints, and waits for your response before continuing. It helps prevent you from outsourcing too much of your thinking to AI. By actively practicing reasoning and formulating your own answers, you keep training and developing your critical thinking skills. The goal is that you reason yourself and thus reach better understanding.
 
-You can ask UvA AI Chat to write and run code (for example in Python) to perform more advanced analyses on your data and to create customized graphs. This makes it easy to explore trends, compare periods, or highlight specific variables from your dataset.
+### How to use Study Mode
 
-However, if you want to use these analyses and graphs in contexts where accuracy is critical (for example in a research project, thesis, report, or any formal publication), you must carefully check that the generated code and results are correct. You cannot automatically assume that all analyses are methodologically appropriate or free of errors. Always review the code, verify the calculations, and ensure that the chosen methods match your research question and data before using the results in important work.
+1. **Activate and set a learning goal:** click on the graduation cap in UvA AI Chat and switch on Study Mode. To turn it off, click the cross next to Study. Then set a learning goal by specifying what you want to learn about and mention what you already know. Examples:
 
-**Here is an example of what the graphs might look like:**
-
-<video
-  controls
-  preload="metadata"
-  playsInline
-  style={{ width: "100%", maxWidth: "100%", height: "auto" }}
-
->
-
-  <source
-    src="https://ai-tlc.github.io/img/uploads/data-analysis-tool.webm"
-    type="video/webm"
-  />
-  <source
-    src="https://ai-tlc.github.io/img/uploads/data-analysis-tool.mp4"
-    type="video/mp4"
-  />
-  Your browser does not support the video tag.
-</video>
+   * "I am preparing a seminar on the French revolution and specifically the storming of the Bastille, help me understand the causes and interpretations of the cause."
+   * "I am preparing for an exam in research skills and want to understand how to compare two groups using statistics. Explain which methods are suitable, such as the t-test, and when it is better to use another test."
+2. **Work in dialogue:** The AI asks open questions and waits for your answer. You can indicate how you want to be guided: ask for smaller steps, hints instead of answers, or feedback on your reasoning. You can also request specific forms, such as a multiple-choice question, concrete examples, or metaphors.
+3. **Adjust pace and level:** Redirect where needed: "use simpler language", "make it harder", or "go faster/slower". The AI adjusts its questions, explanations, and examples accordingly.
+4. **Conclude and record:** To consolidate your learning, finish with a recap or practice material. Examples: "Summarise in five bullet points the most important lessons from this conversation" or "Give three practice questions with short solutions." If you want to save the result or work it out further, combine Study Mode with Artefacts. This allows you to edit notes, tables, or draft texts in a separate window and retrieve them later.
 
 - - -
 
-## 2.11 Generative UI: interactive quizzes and follow-up questions
+## 2.10 Generative UI: interactive quizzes and follow-up questions
 
 UvA AI Chat can use **Generative UI**: it can create interactive elements directly inside the chat, instead of only responding with plain text. One useful example is the **Quiz Maker**. When you ask something like **"Quiz me on this article"**, **"Quiz me on week 3"** or **"Create a quiz about Renoir’s late period"**, UvA AI Chat can generate a structured quiz with multiple-choice or open questions.
 
@@ -414,53 +392,3 @@ Generative UI also makes UvA AI Chat more conversational. The chat can ask **fol
 In this way, Generative UI can support a more guided learning process. You can use it to move step by step through course material, practise retrieval, clarify confusing concepts and turn your own documents into active study exercises.
 
 Please keep in mind that an AI-generated quiz and its grading may contain errors or hallucinations, and do not constitute an official or representative assessment of any course or module. Use the quiz as a study aid, not as a definitive indication of what will be tested or how your work would be graded.
-
----
-
-## 2.12 Embedding a persona in Canvas
-
-
-Use these instructions to embed a UvA AI Chat persona as a chat window on a Canvas page.
-
-
-### Step 1: Retrieve the embed code
-
-1. Go to the **Personas** list in UvA AI Chat.
-2. Click the **three dots (⋮)** next to the persona you want to share.
-3. Choose **Embed Persona**.
-4. Turn the **Open for the whole organization** toggle **on**.
-   > This is important: without this setting, users outside your immediate group may not be able to see the persona.
-5. Choose the preferred embed method. The most commonly used option is **iframe code**.
-6. Copy the iframe code using the copy button.
-
-The code looks like this:
-
-```html
-<iframe src="https://aichat.uva.nl/embed/persona/[ID]"
-  width="100%" height="700"
-  style="border:0;"
-  allow="clipboard-write; microphone"></iframe>
-```
-
-### Step 2: Create a Canvas page
-
-1. In Canvas, go to **Pages** and click **+ Page** (or open an existing page).
-2. Give the page a title.
-
-### Step 3: Switch to the HTML editor
-
-There are two ways to open the HTML editor:
-
-- Click **View → HTML Editor** in the rich-text editor toolbar, **or**
-- Click the **Switch to raw HTML Editor** button below the text box.
-
-### Step 4: Paste the iframe code
-
-1. Paste the copied iframe code into the HTML text box.
-2. Save the page.
-
-
-### Result
-
-The persona appears as a fully interactive chat window on the Canvas page. Students can ask questions directly to the persona you have set up for your course or module. For example, it can assist students in understanding course content, practising concepts, or finding relevant sources within the course. The persona is available directly in the environment where students already work, without needing to switch to another platform.
-
