@@ -54,10 +54,9 @@ Dit past binnen een bredere duurzaamheidsblik: verantwoord AI-gebruik gaat niet 
 Om je geschatte energiegebruik te bekijken:
 
 1. Open **UvA AI Chat**.
-2. Klik linksonder op je **profiel-/accounticoon** <Icon name="account_circle" color="black" size={20} />.
-3. Selecteer **Settings**.
-4. Klik in het Settings-menu op **Usage**.
-5. Je ziet nu je geschatte energiegebruik, tokengebruik en modelmix.
+2. Klik linksonder op **Settings** <Icon name="Settings" color="black" size={20} />.
+3. Klik in het Settings-menu op **Usage**.
+4. Je ziet nu je geschatte energiegebruik, tokengebruik en modelmix.
 
 Met het dropdownmenu bovenaan de Usage-pagina kun je een periode selecteren, zoals **Last Hour** of **Last week**.
 
