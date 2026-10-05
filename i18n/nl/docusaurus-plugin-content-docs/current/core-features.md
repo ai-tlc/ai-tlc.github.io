@@ -54,31 +54,8 @@ Wanneer een gesprek te lang wordt, laat UvA AI Chat automatisch oudere berichten
 **Geheugen**
 UvA AI Chat kan ’s nachts nuttige informatie uit je gesprekken halen en deze in toekomstige chats opnieuw gebruiken. Je kunt je opgeslagen herinneringen bekijken, aanpassen of verwijderen via **Instellingen > Personalisatie**.
 
-### Project Knowledge: herbruikbare context in projecten
-
-In UvA AI Chat-projecten kan **Project Knowledge** helpen om nuttige informatie over verschillende projectchats heen te bewaren. In plaats van alleen te vertrouwen op verborgen of informele memory, kan belangrijke informatie worden opgeslagen als expliciete **knowledge cards**.
-
-Een knowledge card is een klein, herbruikbaar stukje informatie, zoals:
-
-| Een knowledge card kan bevatten...                  | Voorbeeld                                                                    |
-| --------------------------------------------------- | ---------------------------------------------------------------------------- |
-| Een eerder gemaakte beslissing in het project       | “De workshop is bedoeld voor eerstejaarsstudenten.”                          |
-| Een doelgroep                                       | “De tekst moet begrijpelijk zijn voor docenten zonder technische AI-kennis.” |
-| Een gewenste toon of schrijfstijl                   | “Gebruik een duidelijke, toegankelijke en didactische toon.”                 |
-| Een terugkerende randvoorwaarde                     | “Houd handleidingsteksten beknopt en praktisch.”                             |
-| Een belangrijk feit dat later onthouden moet worden | “De module is bedoeld voor zowel studenten als medewerkers.”                 |
-
-Wanneer relevant kan UvA AI Chat deze cards gebruiken in latere antwoorden. Dit helpt de AI om consistent te blijven in verschillende chats binnen hetzelfde project. Het maakt het gebruik van context ook transparanter: knowledge cards kunnen worden bekeken, aangepast, gearchiveerd of uitgesloten.
-
-Project Knowledge is nuttig omdat opgeslagen context niet automatisch perfect is. Een card kan verouderd, te algemeen of niet langer relevant zijn. De meest recente instructie die je geeft, moet altijd richting geven aan het antwoord. Als de AI lijkt te vertrouwen op oude of onjuiste context, corrigeer dit dan expliciet.
-
-Bijvoorbeeld:
-
-> Negeer de eerdere projectaanname dat deze tekst voor studenten is. Deze versie is bedoeld voor docenten.
-
-Of:
-
-> Gebruik de projectkennis over de doelgroep van de workshop, maar gebruik niet de eerder voorgestelde structuur.
+**Project Knowledge**
+In projecten kan UvA AI Chat ook herbruikbare context bewaren in de vorm van knowledge cards. In paragraaf 3.6 lees je hoe dit werkt.
 
 ### Structuur van een effectieve prompt
 
@@ -114,103 +91,7 @@ Goed prompten betekent daarom niet alleen duidelijke vragen stellen, maar ook de
 
 - - -
 
-## 2.2 Prompts: jouw verzameling instructies
-
-"Prompts" is een functie die je helpt om efficiënter te werken door het hergebruiken van effectieve prompts. Je vindt de "My prompts" sectie via het boek-icoon <Icon name="book_2" color="black" size={20} /> in de linker zijbalk van UvA AI Chat.
-
-### Gebruik van standaard prompts
-
-"Prompts" bevat een verzameling vooraf gedefinieerde prompts voor veelvoorkomende taken. Voorbeelden hiervan zijn "feedback on your writing" en de "multiple choice question generation". Deze standaardprompts zijn ontworpen door experts en bevatten al een goede structuur. Je kunt een standaardprompt selecteren en deze gemakkelijk aanpassen aan jouw specifieke behoeften om snel en effectief het gewenste resultaat te bereiken.
-
-### Eigen prompts opslaan en hergebruiken
-
-Als je merkt dat je bepaalde taken of instructies regelmatig herhaalt, kun je jouw eigen prompts opslaan in de bibliotheek. Dit is bijzonder nuttig voor complexe, terugkerende opdrachten.
-
-### Praktijkvoorbeeld van een eigen prompt opslaan
-
-Stel dat je vaak Engelse academische teksten schrijft en deze wilt laten controleren op een formele schrijfstijl. Je kunt een zeer effectieve prompt hiervoor opstellen en opslaan voor hergebruik.
-
-1. Stel een effectieve prompt op.
-2. Ga naar "Prompts" en kies de optie "Add prompt".
-3. Geef de prompt een herkenbare naam, bijvoorbeeld 'Academic English Check'.
-4. Plak jouw prompt in het tekstveld: "Analyseer de bijgevoegde Engelse tekst. Je fungeert als een ervaren redacteur voor een wetenschappelijk tijdschrift. Identificeer en corrigeer zinnen die te informeel zijn voor een wetenschappelijke publicatie. Vervang spreektaal door formele alternatieven, controleer op consistentie in terminologie en geef suggesties om de zinsstructuur te variëren voor betere leesbaarheid."
-5. Bewaar de prompt. Deze is nu beschikbaar voor eenvoudig hergebruik bij toekomstige gesprekken.
-
-Wil je een eerder opgeslagen prompts snel hergebruiken? Klik dan onder in het tekstvak van de UvA AI Chat op het boekje-icoon <Icon name="book_2" color="black" size={20} /> om een lijst van recente prompts te zien en de gewenste prompt direct in te voegen.
-
-### De AI toegang geven tot het internet
-
-UvA AI Chat heeft een 'knowledge cutoff'; de kennis is niet actueel. Om de AI met recente, online informatie te laten werken, kun je de internetzoekfunctie inschakelen. Klik hiervoor in een chatvenster rechtsboven op het 'zakmes'-icoon <Icon name="tune" color="black" size={20} /> en vink 'Internet Search' aan. Nadat je de functie hebt geactiveerd, is het belangrijk dat je in je opdracht vermeldt dat de AI het internet moet gebruiken. Begin je vraag bijvoorbeeld met: "Zoek op het internet naar...". Houd er rekening mee dat deze functionaliteit nog in ontwikkeling is en niet altijd feilloos werkt.
-
-- - -
-
-## 2.3 Skills
-
-Een skill is een set instructies waarmee je UvA AI Chat leert hoe het een bepaald soort taak moet aanpakken, zoals schrijven in een bepaalde stijl, een vaste werkwijze volgen of specifieke kennis gebruiken. Je schrijft de instructies één keer en kunt ze daarna in elke chat gebruiken. Zo hoef je dezelfde taak niet in elk nieuw gesprek opnieuw uit te leggen.
-
-Skills verschillen van opgeslagen prompts (zie 2.2). Een prompt is tekst die je zelf in de chat invoegt. Een skill blijft op de achtergrond: UvA AI Chat gebruikt de skill alleen wanneer je erom vraagt of wanneer je vraag bij de skill past.
-
-### Wanneer zijn skills handig?
-
-Skills werken het best voor taken die je vaker uitvoert en die je steeds op dezelfde manier gedaan wilt hebben.
-
-| Toepassing | Wat de skill doet |
-| --- | --- |
-| **Colleges samenvatten** | Zet collegeaantekeningen, slides of transcripten om in een studiesamenvatting met een vaste opbouw: overzicht, kernbegrippen, een uitgewerkt voorbeeld en zelftestvragen. |
-| **Cursusmededelingen schrijven** | Schrijft mededelingen voor Canvas in een vaste opbouw en toon: wat er verandert, wat studenten moeten doen en vóór wanneer. |
-
-### Hoe maak je een skill?
-
-1. **Open de Skills-instellingen:** Klik linksonder op het account-icoon <Icon name="account_circle" color="black" size={20} />, kies **Instellingen** en daarna **Skills**.
-2. **Begin een nieuwe skill:** Klik op **New skill** om een skill te schrijven op basis van een sjabloon. Heb je al een skillbestand? Klik dan op **Upload .md** om het toe te voegen.
-3. **Geef de skill een naam:** Het sjabloon begint met een korte kop tussen twee regels met drie streepjes. Achter `name:` vul je een korte naam in, bijvoorbeeld `college-samenvatting`. Gebruik kleine letters en koppeltekens, net als in het sjabloon.
-4. **Schrijf de beschrijving:** Achter `description:` beschrijf je wat de skill doet en wanneer die gebruikt moet worden. Dit is het belangrijkste onderdeel: aan de hand van de beschrijving bepaalt UvA AI Chat of de skill bij je vraag past.
-5. **Schrijf de instructies:** Vervang onder de kop de tekst `Instructions...` door wat de AI moet doen. Wees concreet, net als bij een goede prompt (zie 2.1): beschrijf de stappen, de vorm en de toon die je verwacht.
-6. **Sla op:** Klik op **Save**. De skill is nu beschikbaar in al je chats.
-
-### Praktijkvoorbeeld: een skill voor collegesamenvattingen
-
-Een student wil elk college op dezelfde manier laten samenvatten. Ze maakt daarvoor deze skill:
-
-```
----
-name: college-samenvatting
-description: Vat collegeaantekeningen, slides of transcripten samen in een gestructureerde studiesamenvatting. Gebruik deze skill wanneer de gebruiker vraagt om een college samen te vatten of studieaantekeningen te maken.
----
-
-# Collegesamenvatting
-
-1. Begin met een overzicht van 2-3 zinnen over het hoofdonderwerp van het college.
-2. Noem de kernbegrippen, elk met een definitie van één regel.
-3. Voeg een kort uitgewerkt voorbeeld toe bij alles wat technisch is.
-4. Sluit af met 3 zelftestvragen (antwoorden verborgen onderaan).
-
-Houd het korter dan één pagina en gebruik dezelfde taal als het collegemateriaal.
-```
-
-De beschrijving bestaat uit twee delen: wat de skill doet en wanneer die gebruikt moet worden. De student uploadt daarna haar slides en typt: "Vat dit college samen." Omdat deze vraag bij de beschrijving past, gebruikt UvA AI Chat de skill en krijgt ze de samenvatting in de vaste opbouw.
-
-### Een skill gebruiken in een chat
-
-Een skill kan op drie manieren worden gebruikt:
-
-| Manier | Wat er gebeurt |
-| --- | --- |
-| **Zelf kiezen met `/`** | Typ `/` in het tekstvak en kies een skill uit de lijst. Je bepaalt zelf dat de skill wordt gebruikt. |
-| **De skill noemen** | Noem de skill in je bericht, bijvoorbeeld: "Gebruik mijn skill voor collegesamenvattingen." |
-| **Automatisch** | UvA AI Chat gebruikt een skill uit zichzelf, maar alleen wanneer je vraag bij de beschrijving van de skill past. Bij andere vragen wordt de skill niet gebruikt. |
-
-Zodra een skill wordt gebruikt, blijft UvA AI Chat die volgen voor de rest van het gesprek.
-
-Wordt een skill niet automatisch opgepakt, of juist gebruikt wanneer je dat niet wilt? Scherp dan de beschrijving aan: benoem duidelijk wat de skill doet en in welke situaties die gebruikt moet worden. Bij twijfel kies je de skill zelf met `/`.
-
-### Het skillformaat
-
-Skills gebruiken het open Agent Skills-formaat. Skills die voor andere tools zijn gemaakt, werken daardoor meestal ook in UvA AI Chat. Op [agentskills.io](https://agentskills.io) vind je de volledige uitleg en voorbeelden. Lees een skillbestand van iemand anders eerst door voordat je het uploadt, zodat je weet welke instructies je de AI geeft.
-
-- - -
-
-## 2.4 Documenten als kennisbron: uploaden en analyseren
+## 2.2 Documenten als kennisbron: uploaden en analyseren
 
 Een van de krachtigste functies van UvA AI Chat is dat je je eigen documenten kunt uploaden en die als context kunt gebruiken voor je vragen. Zo kan de AI werken met de specifieke informatie die jij aanlevert, in plaats van alleen met de algemene kennisbasis. Daardoor kan de chatbot betrouwbaardere en beter onderbouwde antwoorden geven, gebaseerd op de bronnen die jij kiest.
 
@@ -220,7 +101,7 @@ Met de UvA AI Chat kun je eenvoudig documenten uploaden. Ga naar het vak voor te
 
 ### Ondersteunde bestandsformaten
 
-UvA AI Chat ondersteunt een breed scala aan veelgebruikte bestandsformaten, waaronder .PDF, .DOCX (Word), .XLS (Excel), .PPT (PowerPoint), .CSV, .TXT, .PY (Python) en .MD (Markdown), naast meer dan 30 aanvullende bestandstypen (voor de volledige lijst, raadpleeg hoofdstuk 4.6). Dit maakt het mogelijk om verschillende soorten documenten te uploaden en ermee te werken, variërend van wetenschappelijke artikelen en datasets tot platte tekst en codebestanden, direct binnen je interacties met de AI.
+UvA AI Chat ondersteunt een breed scala aan veelgebruikte bestandsformaten, waaronder .PDF, .DOCX (Word), .XLS (Excel), .PPT (PowerPoint), .CSV, .TXT, .PY (Python) en .MD (Markdown), naast meer dan 30 aanvullende bestandstypen (voor de volledige lijst, raadpleeg paragraaf 2.7). Dit maakt het mogelijk om verschillende soorten documenten te uploaden en ermee te werken, variërend van wetenschappelijke artikelen en datasets tot platte tekst en codebestanden, direct binnen je interacties met de AI.
 
 Let op: Het kan soms gebeuren dat grote, ongebruikelijke of beveiligde bestanden niet goed worden verwerkt. Als een document veel informatie bevat (bijv. 100+ pagina's), moet de AI zoeken naar een speld in een hooiberg.
 
@@ -243,7 +124,7 @@ De technologie waarmee het uploaden en analyseren van documenten werkt, wordt Re
 
 - - -
 
-## 2.5 Afbeeldingen genereren en analyseren
+## 2.3 Afbeeldingen genereren en analyseren
 
 Naast tekstuele taken kan de UvA AI Chat ook afbeeldingen genereren op basis van jouw beschrijvingen. Dit kan nuttig zijn voor het maken van illustraties voor presentaties, het visualiseren van concepten of voor creatieve projecten.
 
@@ -262,51 +143,7 @@ Gebruik het foto-icoon <Icon name="image" color="black" size={20} /> rechtsonder
 
 - - -
 
-## 2.6 Artefacten
-
-De functie 'Artefacten' in UvA AI Chat is een krachtige tool die is ontworpen om samenwerking met de AI te ondersteunen. Een artefact is een afzonderlijk venster (met tekst, code of visualisaties) dat zowel jij als de AI kunnen bewerken. Dit maakt samenwerken eenvoudig, aangezien je de AI het artefact kunt laten bewerken en je specifieke stukken tekst in het artefact kunt selecteren om de AI deze aan te laten passen. Daarnaast kun je de tekst handmatig bewerken. Dit verandert de AI meer in een creatieve partner dan in slechts een tekstgenerator.
-
-### Hoe gebruik je artefacten
-
-1. **Activeer de functie:** Om te beginnen moet u de functie 'Artifact Creation' selecteren binnen de UvA AI Chat-interface (klik op de drie puntjes). Hiermee geeft u aan de AI aan dat u een output zoekt in een apart venster voor verdere bewerking.
-2. **Geef een duidelijke opdracht:** Typ in het chatvenster een opdracht die het onderwerp en het type artefact dat je nodig hebt duidelijk definieert. Je zou de AI bijvoorbeeld kunnen vragen: "Maak een artefact waarin de Keynesiaanse en Neoklassieke economische theorieën worden vergeleken."
-3. **Bekijk de gegenereerde output:** De AI produceert vervolgens een artefact op basis van je verzoek. In het voorbeeld van de economische theorieën zou de output een overzicht kunnen zijn van de belangrijkste principes, aannames en politieke implicaties.
-4. **Werk samen aan revisies:** Het platform stelt je in staat om het artefact gezamenlijk te verfijnen. Je kunt direct bewerkingen uitvoeren in het speciale tekst- of codevenster, of je kunt de AI verdere instructies geven in de chat om een specifiek gedeelte van het artefact te wijzigen of uit te breiden. Je kunt ook stukken tekst of code selecteren en de AI vragen die aan te passen.
-5. **Sla je werk op:** Zorg ervoor dat als je het artefact handmatig bewerkt, je het eerst opslaat voordat je de AI vraagt om verder te bewerken. Dit doe je door op het 'opslaan'-icoon <Icon name="Save" color="black" size={20} /> rechtsboven in het artefact te klikken. Wanneer je de AI vraagt om het artefact te bewerken, wordt er automatisch een nieuwe versie opgeslagen. Eerdere versies worden ook bewaard, zodat je wijzigingen kunt volgen en eerdere versies opnieuw kunt bekijken indien nodig door op de pijlen <Icon name="ChevronLeft" color="black" size={20} /><Icon name="ChevronRight" color="black" size={20} /> linksboven in het artefact te klikken. Het voltooide artefact kan vervolgens worden gedownload voor gebruik in je onderzoekspaper, presentatie of andere academische projecten. Doe dit door rechtsbovenin te klikken op het pijltje naar beneden <Icon name="Download" color="black" size={20} /> en "Download as" te selecteren.
-
-In Artifacts kun je ook prototypes bouwen van websites, interactieve apps, datavisualisaties en automatiseringen die gebruik kunnen maken van de taalmodellen die beschikbaar zijn via UvA AI Chat. Zo combineer je de betrouwbaarheid van reguliere code met de flexibele, generatieve mogelijkheden van AI. Je kunt bijvoorbeeld adaptieve feedbacktools, gepersonaliseerde applicaties, interactieve leeromgevingen of websites maken die op basis van gebruikersinput dynamisch content genereren en daarop reageren.
-
-### De pagina Artefacten
-
-Al je artefacten staan ook verzameld op een aparte pagina, zodat je ze kunt terugvinden zonder door je chats te zoeken. Om deze pagina te openen, klik je op het code-icoon <Icon name="code" color="black" size={20} /> in de linker zijbalk.
-
-De pagina geeft een overzicht van de artefacten uit al je chats, verdeeld in Apps en Documents. Een nieuw artefact maken kan hier niet: dat doe je nog steeds in een chat, zoals hierboven beschreven. Wat de pagina toevoegt, is dat je je artefacten los van de chat kunt openen en bewerken.
-
-Klik op een artefact om het op volledig scherm te openen. Van daaruit kun je:
-
-* **Naar de chat gaan:** via de knop linksboven ga je naar de chat waar het artefact bij hoort.
-* **Bewerken met AI:** onderaan het artefact kun je de AI vragen om alleen dat artefact aan te passen, zonder dat dit via de chat hoeft.
-* **Delen:** je kunt het artefact vanaf hier ook delen.
-
-- - -
-
-## 2.7 Study Mode
-
-"Study Mode" in UvA AI Chat verandert de assistent in een begeleidende tutor. In plaats van meteen antwoorden te geven, stelt de AI eerst vragen, biedt hints en wacht op jouw reactie voordat het verdergaat. Het helpt voorkomen dat je denkwerk te veel uitbesteedt aan AI. Door actief te oefenen met redeneren en zelf antwoorden te formuleren, blijf je je eigen kritisch denkvermogen trainen en ontwikkelen. Het doel is dat je zelf redeneert en zo tot beter begrip komt.
-
-### Hoe gebruik je Study Mode
-
-1. **Activeren en leerdoel bepalen:** Klik op de pet in het tekstvak van UvA AI Chat en zet Study Mode aan. Uitzetten doe je door op het kruisje naast Study te klikken. Geef daarna een leerdoel door te specificeren waar je over wilt leren en benoem wat je al weet. Voorbeelden:
-
-   * "Ik bereid een seminar voor over de Franse Revolutie en specifiek de bestorming van de Bastille. Help me de oorzaken en interpretaties van de oorzaak te begrijpen."
-   * "Ik bereid me voor op een tentamen onderzoeksvaardigheden en wil begrijpen hoe ik twee groepen kan vergelijken met statistiek. Leg uit welke methoden geschikt zijn, zoals de t-toets, en wanneer je beter een andere toets gebruikt."
-2. **Werken in dialoog:** De AI stelt open vragen en wacht op jouw antwoord. Je kunt aangeven hoe je begeleid wilt worden: om kleinere stappen vragen, om hints in plaats van antwoorden, of om feedback op je redenering. Ook kun je vragen om specifieke vormen, zoals een multiplechoicevraag, een concreet voorbeeld of metaforen.
-3. **Tempo en niveau aanpassen:** Stuur bij waar nodig: "gebruik eenvoudiger taal", "maak het moeilijker", of "ga sneller/langzamer". De AI past zijn vragen en voorbeelden hierop aan.
-4. **Afronden en vastleggen:** Om wat je hebt geleerd te versterken, sluit af met een recap of oefenmateriaal. Voorbeelden: "Vat samen in vijf bulletpoints de belangrijkste punten van dit gesprek" of "Geef drie oefenvragen met korte oplossingen." Wil je het resultaat bewaren of verder uitwerken, combineer Study Mode dan met Artefacten. Zo kun je notities, tabellen of conceptteksten in een apart venster bewerken en later terughalen.
-
-- - -
-
-## 2.8 Gebruik de Spraak-naar-tekst Functie
+## 2.4 Gebruik de Spraak-naar-tekst Functie
 
 UvA AI Chat ondersteunt spraakinvoer en tekst-naar-spraak uitvoer. Hieronder vind je een overzicht van hoe je het kunt gebruiken en hoe je de instellingen kunt configureren.
 
@@ -338,7 +175,163 @@ Via Instellingen → Spraak → Stem kun je een stem kiezen voor tekst-naar-spra
 
 - - -
 
-## 2.9 Diagrammen maken met *Mermaid*
+## 2.5 Internet zoeken en de Web Scraper
+
+### De AI toegang geven tot het internet
+
+UvA AI Chat heeft een 'knowledge cutoff'; de kennis is niet actueel. Om de AI met recente, online informatie te laten werken, kun je de internetzoekfunctie inschakelen. Klik hiervoor in een chatvenster rechtsboven op het 'zakmes'-icoon <Icon name="tune" color="black" size={20} /> en vink 'Internet Search' aan. Nadat je de functie hebt geactiveerd, is het belangrijk dat je in je opdracht vermeldt dat de AI het internet moet gebruiken. Begin je vraag bijvoorbeeld met: "Zoek op het internet naar...". Houd er rekening mee dat deze functionaliteit nog in ontwikkeling is en niet altijd feilloos werkt.
+
+### Gebruik de Web Scraper-tool
+
+**Web Scraper Functie**
+
+UvA AI Chat heeft toegang tot een **`web_scrape`**-tool waarmee het de inhoud van een webpagina kan ophalen en lezen wanneer je een URL opgeeft. Zo werkt het.
+
+**Wat het doet**
+
+| Functie | Beschrijving                                                                                                                                                                                                                |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Invoer  | Een volledige URL (bijv. `https://example.com`)                                                                                                                                                                             |
+| Uitvoer | Pagina-inhoud in **markdown-formaat** (markdown is een eenvoudige manier om tekst op te maken met simpele symbolen, zodat het makkelijk leesbaar is en kan worden omgezet in mooi opgemaakte documenten zoals webpagina’s.) |
+
+**Wat UvA AI Chat met de Web Scraper kan doen**
+
+* **Samenvatten** van de inhoud van een webpagina
+* **Specifieke informatie extraheren** (bijv. datums, namen, prijzen, beleid)
+* **Vragen beantwoorden** op basis van de live inhoud van een pagina
+
+**Beperkingen**
+
+* Leest alleen **openbaar toegankelijke** pagina's, geen met inloggegevens beveiligde inhoud
+* Leest **statische inhoud**, dynamisch geladen inhoud (bijv. JavaScript-gegenereerde pagina's) wordt mogelijk niet altijd volledig weergegeven
+* Bladert **niet** zelfstandig door het web, je moet zelf een URL opgeven
+* UvA AI Chat kan slechts **één pagina per bericht** scrapen
+
+**Voorbeeldgebruik**
+
+Om deze functionaliteit te gebruiken, vraag de UvA AI Chat om een pagina voor je te scrapen en voeg jouw pagina in.
+
+"Kun je deze pagina scrapen en samenvatten: https://example.com/article"
+
+> Plak simpelweg een URL en vertel UvA AI Chat wat je erover wilt weten!
+
+- - -
+
+## 2.6 Artefacten
+
+De functie 'Artefacten' in UvA AI Chat is een krachtige tool die is ontworpen om samenwerking met de AI te ondersteunen. Een artefact is een afzonderlijk venster (met tekst, code of visualisaties) dat zowel jij als de AI kunnen bewerken. Dit maakt samenwerken eenvoudig, aangezien je de AI het artefact kunt laten bewerken en je specifieke stukken tekst in het artefact kunt selecteren om de AI deze aan te laten passen. Daarnaast kun je de tekst handmatig bewerken. Dit verandert de AI meer in een creatieve partner dan in slechts een tekstgenerator.
+
+### Hoe gebruik je artefacten
+
+1. **Activeer de functie:** Om te beginnen moet u de functie 'Artifact Creation' selecteren binnen de UvA AI Chat-interface (klik op de drie puntjes). Hiermee geeft u aan de AI aan dat u een output zoekt in een apart venster voor verdere bewerking.
+2. **Geef een duidelijke opdracht:** Typ in het chatvenster een opdracht die het onderwerp en het type artefact dat je nodig hebt duidelijk definieert. Je zou de AI bijvoorbeeld kunnen vragen: "Maak een artefact waarin de Keynesiaanse en Neoklassieke economische theorieën worden vergeleken."
+3. **Bekijk de gegenereerde output:** De AI produceert vervolgens een artefact op basis van je verzoek. In het voorbeeld van de economische theorieën zou de output een overzicht kunnen zijn van de belangrijkste principes, aannames en politieke implicaties.
+4. **Werk samen aan revisies:** Het platform stelt je in staat om het artefact gezamenlijk te verfijnen. Je kunt direct bewerkingen uitvoeren in het speciale tekst- of codevenster, of je kunt de AI verdere instructies geven in de chat om een specifiek gedeelte van het artefact te wijzigen of uit te breiden. Je kunt ook stukken tekst of code selecteren en de AI vragen die aan te passen.
+5. **Sla je werk op:** Zorg ervoor dat als je het artefact handmatig bewerkt, je het eerst opslaat voordat je de AI vraagt om verder te bewerken. Dit doe je door op het 'opslaan'-icoon <Icon name="Save" color="black" size={20} /> rechtsboven in het artefact te klikken. Wanneer je de AI vraagt om het artefact te bewerken, wordt er automatisch een nieuwe versie opgeslagen. Eerdere versies worden ook bewaard, zodat je wijzigingen kunt volgen en eerdere versies opnieuw kunt bekijken indien nodig door op de pijlen <Icon name="ChevronLeft" color="black" size={20} /><Icon name="ChevronRight" color="black" size={20} /> linksboven in het artefact te klikken. Het voltooide artefact kan vervolgens worden gedownload voor gebruik in je onderzoekspaper, presentatie of andere academische projecten. Doe dit door rechtsbovenin te klikken op het pijltje naar beneden <Icon name="Download" color="black" size={20} /> en "Download as" te selecteren.
+
+In Artifacts kun je ook prototypes bouwen van websites, interactieve apps, datavisualisaties en automatiseringen die gebruik kunnen maken van de taalmodellen die beschikbaar zijn via UvA AI Chat. Zo combineer je de betrouwbaarheid van reguliere code met de flexibele, generatieve mogelijkheden van AI. Je kunt bijvoorbeeld adaptieve feedbacktools, gepersonaliseerde applicaties, interactieve leeromgevingen of websites maken die op basis van gebruikersinput dynamisch content genereren en daarop reageren.
+
+### De pagina Artefacten
+
+Al je artefacten staan ook verzameld op een aparte pagina, zodat je ze kunt terugvinden zonder door je chats te zoeken. Om deze pagina te openen, klik je op het code-icoon <Icon name="code" color="black" size={20} /> in de linker zijbalk.
+
+De pagina geeft een overzicht van de artefacten uit al je chats, verdeeld in Apps en Documents. Een nieuw artefact maken kan hier niet: dat doe je nog steeds in een chat, zoals hierboven beschreven. Wat de pagina toevoegt, is dat je je artefacten los van de chat kunt openen en bewerken.
+
+Klik op een artefact om het op volledig scherm te openen. Van daaruit kun je:
+
+* **Naar de chat gaan:** via de knop linksboven ga je naar de chat waar het artefact bij hoort.
+* **Bewerken met AI:** onderaan het artefact kun je de AI vragen om alleen dat artefact aan te passen, zonder dat dit via de chat hoeft.
+* **Delen:** je kunt het artefact vanaf hier ook delen.
+
+- - -
+
+## 2.7 Documenten en bestanden die UvA AI Chat kan genereren
+
+UvA AI Chat kan je helpen om verschillende soorten downloadbare documenten en bestanden te maken. Dit is handig wanneer je een gesprek wilt omzetten naar een herbruikbare tekst, een eenvoudige webpagina, een codebestand, een databestand of een diagram.
+
+**Hoe je om een bestand vraagt**
+
+Je hoeft niet alle bestandsextensies uit je hoofd te kennen. Je kunt in gewone taal beschrijven welk type output je nodig hebt. Bijvoorbeeld:
+
+> “Maak hiervan een downloadbaar markdown-bestand.”\
+> “Maak een CSV-tabel van deze informatie.”\
+> “Genereer een eenvoudige HTML-pagina met deze inhoud.”\
+> “Schrijf een Python-script dat deze data analyseert.”\
+> “Maak een Mermaid-flowchart van deze stappen.”
+
+Voor het beste resultaat kun je aangeven:
+
+* wat er in het bestand moet staan;
+* welk format je wilt;
+* of het eenvoudig of opgemaakt moet zijn;
+* en of het bedoeld is om te lezen, bewerken, publiceren, analyseren of hergebruiken.
+
+**Op dit moment kan UvA AI Chat bestaande bestanden niet bewerken; het kan alleen nieuwe bestanden genereren.**
+**Goed om te weten**
+
+Sommige gegenereerde bestanden zijn vooral bedoeld om te lezen, zoals `.txt`, `.md`, `.html` of `.pdf`. Andere bestanden zijn bedoeld om te openen of bewerken in specifieke tools, zoals `.csv` in een spreadsheetprogramma, `.py` in een code-editor of `.mmd` in een Mermaid-compatibele viewer.
+
+Voor codebestanden kan UvA AI Chat veel verschillende programmeertalen genereren. Of de code ook direct kan worden uitgevoerd, hangt af van de beschikbare runtime-omgeving en de bibliotheken of tools die daar worden ondersteund. Controleer gegenereerde code altijd voordat je die gebruikt, vooral in onderwijs, onderzoek, data-analyse of productieomgevingen.
+
+**Om afbeeldingen te bewerken, upload je eigen afbeelding vanaf een lokale bron. Tijdens het maken van je bestand kan UvA AI Chat geen afbeeldingen van het internet ophalen.**
+<small>
+
+**Elk ondersteund bestandstype**
+
+| Categorie                   | Bestandstype            | Extensie(s)                       |
+| --------------------------- | ----------------------- | --------------------------------- |
+| Documenten en tekst         | Platte tekst            | `.txt`                            |
+| Documenten en tekst         | Markdown                | `.md`                             |
+| Documenten en tekst         | HTML                    | `.html`                           |
+| Gegenereerde code-artifacts | JavaScript / TypeScript | `.js`, `.ts`, `.tsx`              |
+| Gegenereerde code-artifacts | Python                  | `.py`                             |
+| Gegenereerde code-artifacts | Java                    | `.java`                           |
+| Gegenereerde code-artifacts | C / C++ / C#            | `.c`, `.cpp`, `.cs`               |
+| Gegenereerde code-artifacts | PHP                     | `.php`                            |
+| Gegenereerde code-artifacts | Ruby                    | `.rb`                             |
+| Gegenereerde code-artifacts | Go                      | `.go`                             |
+| Gegenereerde code-artifacts | Rust                    | `.rs`                             |
+| Gegenereerde code-artifacts | Swift                   | `.swift`                          |
+| Gegenereerde code-artifacts | Kotlin                  | `.kt`                             |
+| Gegenereerde code-artifacts | Scala                   | `.scala`                          |
+| Gegenereerde code-artifacts | R                       | `.r`                              |
+| Gegenereerde code-artifacts | MATLAB                  | `.m`                              |
+| Gegenereerde code-artifacts | Lua                     | `.lua`                            |
+| Gegenereerde code-artifacts | Perl / Prolog           | `.pl`                             |
+| Gegenereerde code-artifacts | Haskell                 | `.hs`                             |
+| Gegenereerde code-artifacts | Clojure                 | `.clj`                            |
+| Gegenereerde code-artifacts | Dart                    | `.dart`                           |
+| Gegenereerde code-artifacts | Elixir                  | `.ex`                             |
+| Gegenereerde code-artifacts | Erlang                  | `.erl`                            |
+| Gegenereerde code-artifacts | F#                      | `.fs`                             |
+| Gegenereerde code-artifacts | Groovy                  | `.groovy`                         |
+| Gegenereerde code-artifacts | Julia                   | `.jl`                             |
+| Gegenereerde code-artifacts | Nim                     | `.nim`                            |
+| Gegenereerde code-artifacts | OCaml                   | `.ml`                             |
+| Gegenereerde code-artifacts | Pascal                  | `.pas`                            |
+| Gegenereerde code-artifacts | Racket                  | `.rkt`                            |
+| Gegenereerde code-artifacts | Scheme                  | `.scm`                            |
+| Gegenereerde code-artifacts | Visual Basic            | `.vb`                             |
+| Gegenereerde code-artifacts | Assembly                | `.asm`                            |
+| Gegenereerde code-artifacts | Fortran                 | `.f90`                            |
+| Gegenereerde code-artifacts | COBOL                   | `.cob`                            |
+| Gegenereerde code-artifacts | Ada                     | `.ada`                            |
+| Web- en databestanden       | HTML                    | `.html`                           |
+| Web- en databestanden       | CSS / Sass / Less       | `.css`, `.scss`, `.sass`, `.less` |
+| Web- en databestanden       | JSON                    | `.json`                           |
+| Web- en databestanden       | XML                     | `.xml`                            |
+| Web- en databestanden       | YAML                    | `.yml`                            |
+| Web- en databestanden       | SQL                     | `.sql`                            |
+| Diagrammen                  | Mermaid                 | `.mmd`                            |
+| Chat-exportdownloads        | Platte tekst            | `.txt`                            |
+| Chat-exportdownloads        | CSV                     | `.csv`                            |
+| Chat-exportdownloads        | PDF                     | `.pdf`                            |
+
+</small>
+
+- - -
+
+## 2.8 Diagrammen maken met *Mermaid*
 
 UvA AI Chat kan je helpen om diagrammen te maken met behulp van **Mermaid**. Mermaid is een eenvoudige, tekstgebaseerde manier om diagrammen te beschrijven. Dit is handig voor het visualiseren van complexe processen, het organiseren van ideeën, of het maken van schema’s voor presentaties en verslagen.
 
@@ -364,26 +357,23 @@ Formuleer je prompt bijvoorbeeld zo:
 
 - - -
 
-## 2.10 .csv bestanden analyseren en grafieken maken met UvA AI Chat
+## 2.9 Study Mode
 
-UvA AI Chat kan ook je .csv‑bestanden lezen en analyseren. Dit maakt het mogelijk om inzicht te krijgen in jaarverslagen, kwartaalcijfers, enquêteresultaten en andere tabelgegevens. In de voorbeeldvideo wordt een .csv‑bestand geüpload, waarna UvA AI Chat: (1) de structuur van de data bekijkt (kolommen, datatypen, missende waarden), (2) een aantal basisanalyses uitvoert (zoals samenvattingen of vergelijkingen), en (3) visualisaties genereert, zoals lijngrafieken of staafdiagrammen op basis van de geselecteerde data.
+"Study Mode" in UvA AI Chat verandert de assistent in een begeleidende tutor. In plaats van meteen antwoorden te geven, stelt de AI eerst vragen, biedt hints en wacht op jouw reactie voordat het verdergaat. Het helpt voorkomen dat je denkwerk te veel uitbesteedt aan AI. Door actief te oefenen met redeneren en zelf antwoorden te formuleren, blijf je je eigen kritisch denkvermogen trainen en ontwikkelen. Het doel is dat je zelf redeneert en zo tot beter begrip komt.
 
-Je kunt UvA AI Chat vragen om code te schrijven en uit te voeren (bijvoorbeeld in Python) om meer geavanceerde analyses op je data uit te voeren en om aangepaste grafieken te maken. Daarmee kun je eenvoudig trends verkennen, perioden vergelijken of specifieke variabelen uit je dataset uitlichten.
+### Hoe gebruik je Study Mode
 
-Als je deze analyses en grafieken echter wilt gebruiken in situaties waar nauwkeurigheid cruciaal is (bijvoorbeeld in een onderzoeksproject, scriptie, rapport of andere formele publicatie), moet je zorgvuldig controleren of de gegenereerde code en resultaten kloppen. Je kunt er niet automatisch van uitgaan dat alle analyses methodologisch passend zijn of vrij van fouten. Controleer altijd de code, verifieer de berekeningen en kijk of de gekozen methoden aansluiten bij je onderzoeksvraag en je data voordat je de resultaten in belangrijk werk gebruikt.
+1. **Activeren en leerdoel bepalen:** Klik op de pet in het tekstvak van UvA AI Chat en zet Study Mode aan. Uitzetten doe je door op het kruisje naast Study te klikken. Geef daarna een leerdoel door te specificeren waar je over wilt leren en benoem wat je al weet. Voorbeelden:
 
-**Hieronder is een voorbeeld van hoe dat eruit zou zien:**
-
-<video controls>
-  <source
-    src="https://ai-tlc.github.io/img/uploads/data-analysis-tool.mp4"
-    type="video/mp4"
-  />
-</video>
+   * "Ik bereid een seminar voor over de Franse Revolutie en specifiek de bestorming van de Bastille. Help me de oorzaken en interpretaties van de oorzaak te begrijpen."
+   * "Ik bereid me voor op een tentamen onderzoeksvaardigheden en wil begrijpen hoe ik twee groepen kan vergelijken met statistiek. Leg uit welke methoden geschikt zijn, zoals de t-toets, en wanneer je beter een andere toets gebruikt."
+2. **Werken in dialoog:** De AI stelt open vragen en wacht op jouw antwoord. Je kunt aangeven hoe je begeleid wilt worden: om kleinere stappen vragen, om hints in plaats van antwoorden, of om feedback op je redenering. Ook kun je vragen om specifieke vormen, zoals een multiplechoicevraag, een concreet voorbeeld of metaforen.
+3. **Tempo en niveau aanpassen:** Stuur bij waar nodig: "gebruik eenvoudiger taal", "maak het moeilijker", of "ga sneller/langzamer". De AI past zijn vragen en voorbeelden hierop aan.
+4. **Afronden en vastleggen:** Om wat je hebt geleerd te versterken, sluit af met een recap of oefenmateriaal. Voorbeelden: "Vat samen in vijf bulletpoints de belangrijkste punten van dit gesprek" of "Geef drie oefenvragen met korte oplossingen." Wil je het resultaat bewaren of verder uitwerken, combineer Study Mode dan met Artefacten. Zo kun je notities, tabellen of conceptteksten in een apart venster bewerken en later terughalen.
 
 - - -
 
-## 2.11 Generative UI: interactieve quizzen en vervolgvragen
+## 2.10 Generative UI: interactieve quizzen en vervolgvragen
 
 UvA AI Chat kan nu gebruikmaken van **Generative UI**: de chat kan interactieve elementen direct in het gesprek aanmaken, in plaats van alleen te reageren met platte tekst. Een nuttig voorbeeld hiervan is de **Quiz Maker**. Wanneer je iets vraagt als **"Overhoor me over dit artikel"**, **"Quiz me over week 3"** of **"Maak een quiz over de late periode van Renoir"**, kan UvA AI Chat een gestructureerde quiz genereren met meerkeuzevragen of open vragen.
 
@@ -402,50 +392,3 @@ Generative UI maakt UvA AI Chat ook meer conversationeel. De chat kan **vervolgv
 Op deze manier kan Generative UI een meer begeleid leerproces ondersteunen. Je kunt het gebruiken om stap voor stap door cursusmateriaal heen te gaan, retrieval practice te oefenen, verwarrende concepten te verduidelijken en je eigen documenten om te zetten in actieve studieoefeningen.
 
 Houd er rekening mee dat een door AI gegenereerde quiz en de beoordeling daarvan fouten of hallucinaties kunnen bevatten, en geen officiële of representatieve toetsing vormen van een cursus of module. Gebruik de quiz als studiehulpmiddel, niet als definitieve indicatie van wat er getoetst zal worden of hoe je werk beoordeeld zou worden.
-
-
-## 2.12 Een persona embedden in Canvas
-
-Met deze instructie embed je een UvA AI Chat-persona als chatvenster in een Canvas-pagina.
-
-### Stap 1: Haal de embed-code op
-
-1. Ga naar de **Personas**-lijst in UvA AI Chat.
-2. Klik op de **drie puntjes (⋮)** naast de persona die je wilt delen.
-3. Kies **Embed Persona**.
-4. Zet de schakelaar **Open for the whole organization** op **aan**.
-   > Dit is belangrijk: zonder deze instelling kunnen gebruikers buiten jouw directe groep de persona niet zien.
-5. Kies de gewenste embed-methode. De meest gebruikte optie is **iframe code**.
-6. Kopieer de iframe-code met de kopieerknop.
-
-De code ziet er zo uit:
-
-```html
-<iframe src="https://aichat.uva.nl/embed/persona/[ID]"
-  width="100%" height="700"
-  style="border:0;"
-  allow="clipboard-write; microphone"></iframe>
-```
-
-### Stap 2: Maak een Canvas-pagina aan
-
-1. Ga in Canvas naar **Pages** en klik op **+ Page** (of open een bestaande pagina).
-2. Geef de pagina een titel.
-
-### Stap 3: Schakel over naar de HTML-editor
-
-Er zijn twee manieren om de HTML-editor te openen:
-
-- Klik op **View → HTML Editor** in de werkbalk van de rich-text editor, **of**
-- Klik op de knop **Switch to raw HTML Editor** onder het tekstvak.
-
-### Stap 4: Plak de iframe-code
-
-1. Plak de gekopieerde iframe-code in het HTML-tekstvak.
-2. Sla de pagina op.
-
-
-### Resultaat
-
-De persona verschijnt als een volledig interactief chatvenster op de Canvas-pagina. Studenten kunnen er direct vragen in stellen aan de persona die je voor jouw vak of module hebt ingericht. Denk bijvoorbeeld aan een assistent die studenten helpt bij het begrijpen van de leerstof, het oefenen met begrippen, of het vinden van de juiste bronnen binnen het vak. De persona is direct beschikbaar op de plek waar studenten al werken, zonder dat ze hoeven over te schakelen naar een andere omgeving.
-
