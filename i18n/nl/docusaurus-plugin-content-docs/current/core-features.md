@@ -54,7 +54,7 @@ Elk taalmodel kan per gesprek maar een beperkte hoeveelheid tekst verwerken: het
 
 Daarnaast houdt UvA AI Chat alleen de laatste 30 berichten van een gesprek in de actieve context. Zo blijven de antwoorden nauwkeurig en blijven energieverbruik en kosten beperkt. Oudere berichten vallen buiten de actieve context, tenzij je het gesprek laat samenvatten.
 
-UvA AI Chat geeft een melding wanneer je 30 berichten bereikt en wanneer het contextvenster voor 40% gevuld is. Je kunt het gesprek dan laten samenvatten of gewoon doorgaan. Bij een samenvatting kun je zelf aangeven wat er zeker in moet. Is het contextvenster vol, dan ga je verder in een nieuw gesprek, met of zonder samenvatting.
+UvA AI Chat geeft een melding wanneer je 30 berichten bereikt en wanneer het contextvenster voor 40% gevuld is. Je kunt het gesprek dan laten samenvatten of gewoon doorgaan. Bij een samenvatting kun je zelf aangeven wat er zeker in moet. Zodra het contextvenster vol is, kunt u in dezelfde chat verdergaan met een samenvatting of een nieuwe chat starten.
 
 **Geheugen**
 
