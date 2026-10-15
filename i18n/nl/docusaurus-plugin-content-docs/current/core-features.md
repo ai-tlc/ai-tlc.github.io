@@ -49,12 +49,19 @@ AI-antwoorden zijn sterk afhankelijk van de informatie die beschikbaar is voor h
 De verbeterde prompt geeft de AI een taak, doelgroep, lengte en focus.
 
 **Contextvenster**
-Wanneer een gesprek te lang wordt, laat UvA AI Chat automatisch oudere berichten buiten de actieve context. Bij deze lange gesprekken kan UvA AI Chat eerdere berichten automatisch samenvatten. Zo blijft de belangrijkste informatie beschikbaar, terwijl er ruimte vrijkomt in het contextvenster voor nieuwe berichten.
+
+Elk taalmodel kan per gesprek maar een beperkte hoeveelheid tekst verwerken: het contextvenster. Hoe groot dat is, verschilt per model. De hoeveelheid tekst wordt gemeten in tokens; een token is ongeveer driekwart woord, in Nederlandse tekst vaak iets minder.
+
+Daarnaast houdt UvA AI Chat alleen de laatste 30 berichten van een gesprek in de actieve context. Zo blijven de antwoorden nauwkeurig en blijven energieverbruik en kosten beperkt. Oudere berichten vallen buiten de actieve context, tenzij je het gesprek laat samenvatten.
+
+UvA AI Chat geeft een melding wanneer je 30 berichten bereikt en wanneer het contextvenster voor 40% gevuld is. Je kunt het gesprek dan laten samenvatten of gewoon doorgaan. Bij een samenvatting kun je zelf aangeven wat er zeker in moet. Is het contextvenster vol, dan ga je verder in een nieuw gesprek, met of zonder samenvatting.
 
 **Geheugen**
+
 UvA AI Chat kan ’s nachts nuttige informatie uit je gesprekken halen en deze in toekomstige chats opnieuw gebruiken. Je kunt je opgeslagen herinneringen bekijken, aanpassen of verwijderen via **Instellingen > Personalisatie**.
 
 **Project Knowledge**
+
 In projecten kan UvA AI Chat ook herbruikbare context bewaren in de vorm van knowledge cards. In paragraaf 3.6 lees je hoe dit werkt.
 
 ### Structuur van een effectieve prompt
