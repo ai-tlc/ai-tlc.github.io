@@ -54,7 +54,7 @@ Every language model can process only a limited amount of text per conversation:
 
 In addition, UvA AI Chat keeps only the last 30 messages of a conversation in the active context. This keeps responses accurate and limits energy use and costs. Older messages fall outside the active context unless you create a summary of the conversation.
 
-UvA AI Chat notifies you when you reach 30 messages and when the context window is 40% full. You can then summarize the conversation or keep chatting. When you summarize, you can specify what the summary should include. Once the context window is full, you continue in a new chat, with or without a summary.
+UvA AI Chat notifies you when you reach 30 messages and when the context window is 40% full. You can then summarize the conversation or keep chatting. When you summarize, you can specify what the summary should include. Once the context window is full, you can continue in the same chat with a summary or create a new chat.
 
 
 **Memory**
