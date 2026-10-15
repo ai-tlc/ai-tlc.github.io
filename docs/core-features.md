@@ -49,12 +49,20 @@ AI answers depend heavily on the information available to the model. If importan
 The improved prompt gives the AI a task, audience, length and focus.
 
 **Context window**
-When a conversation becomes too long, UvA AI Chat automatically leaves older messages out of the active context. In these long conversations, UvA AI Chat can automatically summarise earlier messages. This keeps the main information available while freeing up space in the context window for new messages.
+
+Every language model can process only a limited amount of text per conversation: its context window. The size of the context window varies by model. Text is measured in tokens; one token is roughly three-quarters of a word in English, and often a bit less in Dutch.
+
+In addition, UvA AI Chat keeps only the last 30 messages of a conversation in the active context. This keeps responses accurate and limits energy use and costs. Older messages fall outside the active context unless you create a summary of the conversation.
+
+UvA AI Chat notifies you when you reach 30 messages and when the context window is 40% full. You can then summarize the conversation or keep chatting. When you summarize, you can specify what the summary should include. Once the context window is full, you continue in a new chat, with or without a summary.
+
 
 **Memory**
+
 UvA AI Chat can extract useful details from your conversations overnight and re-use them in future chats. You can view, edit, or delete your memories in **Settings > Personalisation**.
 
 **Project Knowledge**
+
 In projects, UvA AI Chat can also keep reusable context in the form of knowledge cards. See section 3.6 for how this works.
 
 ### Structure of an effective prompt
