@@ -148,6 +148,7 @@ You can open the menu using the **arrow in the top-left corner of the screen**. 
 | Lines of text with a sparkle | Prompts      |
 | Code <Icon name="Code" color="black" size={20} /> | Artifacts: an overview of all your artifacts |
 | Puzzle piece <Icon name="extension" color="black" size={20} /> | Extensions   |
+| Three connected dots <Icon name="Share2" color="black" size={20} /> | ShareSquare: share and reuse assets (Part 5) |
 
 At the bottom of the menu you will find:
 

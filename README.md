@@ -25,6 +25,7 @@ The manual covers:
 - Core features and how to use them
 - Personalization and collaboration options
 - Advanced usage patterns
+- Sharing and reusing assets with ShareSquare
 - Frequently asked questions
 - Glossary of terms
 

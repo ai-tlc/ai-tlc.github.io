@@ -4,6 +4,7 @@ module.exports = {
     'core-features',
     'personalization-collaboration',
     'advanced-usage',
+    'sharesquare',
     'faq',
     'glossary',
   ],
