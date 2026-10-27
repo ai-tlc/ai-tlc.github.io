@@ -147,6 +147,7 @@ Je opent het menu via het **pijltje linksboven in het scherm**. Het menu schuift
 | Tekstregels met een sterretje | Prompts       |
 | Code <Icon name="Code" color="black" size={20} /> | Artefacten: een overzicht van al je artefacten |
 | Puzzelstukje <Icon name="extension" color="black" size={20} /> | Extensies     |
+| Drie verbonden punten <Icon name="Share2" color="black" size={20} /> | ShareSquare: assets delen en hergebruiken (Deel 5) |
 
 Onderin het menu vind je:
 
